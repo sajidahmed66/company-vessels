@@ -213,13 +213,13 @@ def get_total_pages(url):
 
 
 def scrape_country_to_database(country_code, connection):
-    """Scrape a single country and save to database"""
+    """Scraps company by country"""
     base_url = "https://magicport.ai/owners-managers"
+    additional_params = "role[]=registered_owner&role[]=commercial_manager&role[]=ism_manager&fleetType[]=General%20Cargo&fleetType[]=Tanker&fleetType[]=Container&fleetType[]=Bulk%20Carrier&fleetType[]=Bunkering&fleetType[]=Gas%20Carrier"
 
     print(f"\n=== Scraping {country_code} ===")
 
-    # Get first page URL
-    first_page_url = f"{base_url}?country[]={country_code}"
+    first_page_url = f"{base_url}?{additional_params}&country[]={country_code}"
 
     # Get total pages for this country
     total_pages = get_total_pages(first_page_url)
@@ -236,12 +236,12 @@ def scrape_country_to_database(country_code, connection):
 
         print(f"Scraping {country_code} page {page}/{total_pages}...")
 
-        # Extract company data from current page
+
         page_companies = extract_company_data_from_page(current_url)
         all_companies_data.extend(page_companies)
 
         # Add delay to be respectful
-        time.sleep(20)
+        time.sleep(10)
 
     # Prepare data for database insertion
     companies_for_db = [
@@ -296,15 +296,34 @@ def scrape_multiple_countries_to_database(countries):
 
 
 def main():
+
     print("Starting Magicport scraper with MySQL integration...")
     # Define countries to scrape
-    countries = [
-        "argentina",
-        # "%C3%A5land-islands",  # Åland Islands
-        # "albania",
-        # "algeria",
-        # Add more countries as needed
-    ]
+    countries = []
+    file_path = "countries.json"
+    try:
+        # Use 'with open' to ensure the file is properly closed after use.
+        # The 'r' mode is for reading the file.
+        with open(file_path, 'r') as f:
+            # The `json.load()` method reads from a file-like object and
+            # converts the JSON data into a Python object.
+            countries_list = json.load(f)
+
+        # Use a list comprehension to create a new list containing only the
+        # 'value' from each dictionary in the parsed list.
+        country_values = [country['value'] for country in countries_list]
+
+        # Print the final list of country values.
+        # The output will be a Python list: ['åland-islands', 'albania', ...].
+        print(country_values)
+        countries = country_values
+    except FileNotFoundError:
+        print(f"Error: The file '{file_path}' was not found.")
+    except json.JSONDecodeError:
+        print(f"Error: The file '{file_path}' contains invalid JSON.")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
 
 
     # Scrape multiple countries
