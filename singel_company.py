@@ -107,6 +107,173 @@ class MagicPortScraperPlaywright:
             self.log(f"Error establishing session: {e}", Colors.RED)
             return False
 
+    async def extract_company_info(self):
+        """Extract company information from the current page"""
+        self.log("Extracting company information...", Colors.YELLOW)
+
+        try:
+            # Get page HTML content
+            html_content = await self.page.content()
+            soup = BeautifulSoup(html_content, 'html.parser')
+
+            company_info = {
+                'company_name': None,
+                'address': None,
+                'country': None,
+                'total_vessels': None,
+                'total_dwt': None,
+                'website': None
+            }
+
+            # Extract company name from title or h1
+            title_element = soup.find('h1', class_='single__header-title')
+            if title_element:
+                company_info['company_name'] = title_element.get_text(strip=True)
+
+            # Extract vessel count using Playwright for dynamic content
+            vessel_count = await self.page.evaluate("""
+                () => {
+                    // Look for elements with data-counter attribute containing vessel count
+                    const statsCards = document.querySelectorAll('.card--stats-2');
+                    for (let card of statsCards) {
+                        const title = card.querySelector('h3');
+                        if (title && title.textContent.includes('Total Vessels')) {
+                            const counter = card.querySelector('[data-counter]');
+                            if (counter) {
+                                return counter.getAttribute('data-counter');
+                            }
+                        }
+                    }
+                    return null;
+                }
+            """)
+            if vessel_count:
+                company_info['total_vessels'] = vessel_count
+
+            # Extract DWT using Playwright
+            dwt_count = await self.page.evaluate("""
+                () => {
+                    const statsCards = document.querySelectorAll('.card--stats-2');
+                    for (let card of statsCards) {
+                        const title = card.querySelector('h3');
+                        if (title && title.textContent.includes('Total DWT')) {
+                            const counter = card.querySelector('[data-counter]');
+                            if (counter) {
+                                return counter.getAttribute('data-counter');
+                            }
+                        }
+                    }
+                    return null;
+                }
+            """)
+            if dwt_count:
+                company_info['total_dwt'] = dwt_count
+
+            # Extract website and address from contact information
+            contact_info = await self.page.evaluate("""
+                () => {
+                    const listItems = document.querySelectorAll('li.list__item');
+                    const info = { website: null, address: null };
+
+                    for (let item of listItems) {
+                        const icon = item.querySelector('svg use');
+                        const label = item.querySelector('.list__item-label');
+
+                        if (icon && label) {
+                            const iconHref = icon.getAttribute('xlink:href') || '';
+                            const text = label.textContent.trim();
+
+                            // Check for website (world icon or http text)
+                            if (iconHref.includes('world') || text.startsWith('http')) {
+                                info.website = text;
+                            }
+
+                            // Check for address (map icon)
+                            if (iconHref.includes('map')) {
+                                info.address = text;
+                            }
+                        }
+                    }
+
+                    return info;
+                }
+            """)
+
+            if contact_info['website']:
+                company_info['website'] = contact_info['website']
+            if contact_info['address']:
+                company_info['address'] = contact_info['address']
+
+            # Extract country from breadcrumb or URL
+            current_url = self.page.url
+            url_parts = current_url.split('/')
+            if 'owners-managers' in url_parts:
+                try:
+                    country_index = url_parts.index('owners-managers') + 1
+                    if country_index < len(url_parts):
+                        country_slug = url_parts[country_index]
+                        # Convert slug to proper country name
+                        country_name = country_slug.replace('-', ' ').title()
+                        company_info['country'] = country_name
+                except:
+                    pass
+
+            # # Alternative: extract from address
+            # if not company_info['country'] and company_info['address']:
+            #     address_lower = company_info['address'].lower()
+            #     # Common country patterns in addresses
+            #     country_patterns = {
+            #         'argentina': 'Argentina',
+            #         'buenos aires': 'Argentina',
+            #         'usa': 'United States',
+            #         'united states': 'United States',
+            #         'uk': 'United Kingdom',
+            #         'united kingdom': 'United Kingdom',
+            #         'germany': 'Germany',
+            #         'france': 'France',
+            #         'norway': 'Norway',
+            #         'greece': 'Greece',
+            #         'singapore': 'Singapore',
+            #         'china': 'China',
+            #         'japan': 'Japan',
+            #         'south korea': 'South Korea',
+            #         'azerbaijan': 'Azerbaijan'
+            #     }
+            #
+            #     for pattern, country in country_patterns.items():
+            #         if pattern in address_lower:
+            #             company_info['country'] = country
+            #             break
+
+            # Clean up the data
+            for key, value in company_info.items():
+                if isinstance(value, str):
+                    company_info[key] = value.strip()
+
+            # Print company information
+            self.print_company_info(company_info)
+
+            return company_info
+
+        except Exception as e:
+            self.log(f"Error extracting company info: {e}", Colors.RED)
+            return None
+
+    def print_company_info(self, company_info):
+        """Print the extracted company information in a formatted way"""
+        print("\n" + "=" * 60)
+        print(f"{Colors.GREEN}COMPANY INFORMATION{Colors.NC}")
+        print("=" * 60)
+
+        print(f"Company Name: {Colors.YELLOW}{company_info.get('company_name') or 'Not found'}{Colors.NC}")
+        print(f"Address: {Colors.YELLOW}{company_info.get('address') or 'Not found'}{Colors.NC}")
+        print(f"Country: {Colors.YELLOW}{company_info.get('country') or 'Not found'}{Colors.NC}")
+        print(f"Total Vessels: {Colors.YELLOW}{company_info.get('total_vessels') or 'Not found'}{Colors.NC}")
+        print(f"Total DWT: {Colors.YELLOW}{company_info.get('total_dwt') or 'Not found'}{Colors.NC}")
+        print(f"Website: {Colors.YELLOW}{company_info.get('website') or 'Not found'}{Colors.NC}")
+
+        print("=" * 60 + "\n")
+
     async def fetch_company_page(self):
         """Step 1: Navigate to company page and extract CSRF token and fleet route"""
         self.log("Step 1: Fetching company page...", Colors.YELLOW)
@@ -139,6 +306,9 @@ class MagicPortScraperPlaywright:
 
             # Wait a bit for any dynamic content
             await asyncio.sleep(3)
+
+            # Extract company information here
+            await self.extract_company_info()
 
             # Extract CSRF token using multiple methods
             csrf_token = None
@@ -324,7 +494,7 @@ class MagicPortScraperPlaywright:
                     for (const [key, value] of Object.entries(postData)) {
                         formData.append(key, value);
                     }
-                    
+
                     const response = await fetch(fleetRoute, {
                         method: 'POST',
                         headers: {
