@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-MagicPort Fleet Data Scraper with Playwright
-Usage: python magicport_scraper.py [company-url]
+Enhanced MagicPort Fleet Data Scraper with Database Integration
+Usage: python enhanced_scraper.py --company-id 123 --company-name "Neptune Navigators" --company-url "https://..."
 
 Installation:
-pip install playwright beautifulsoup4
+pip install playwright beautifulsoup4 mysql-connector-python  # or psycopg2 for PostgreSQL
 playwright install
 """
 
@@ -13,10 +13,13 @@ import re
 import time
 import sys
 import asyncio
+import argparse
 from datetime import datetime
 from urllib.parse import urlparse
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
+import mysql.connector  # Change to psycopg2 for PostgreSQL
+from mysql.connector import Error
 
 
 class Colors:
@@ -26,18 +29,352 @@ class Colors:
     NC = '\033[0m'
 
 
-class MagicPortScraperPlaywright:
-    def __init__(self, company_url=None, headless=True):
-        self.base_url = "https://magicport.ai"
-        self.company_url = company_url or "https://magicport.ai/owners-managers/azerbaijan/neptune-navigators-llc"
-        self.company_name = "neptune-navigators-llc"
-        self.headless = headless
+class DatabaseManager:
+    def __init__(self, db_config):
+        self.db_config = db_config
+        self.connection = None
 
-        # Extract company name from URL
+    def connect(self):
+        """Establish database connection"""
+        try:
+            self.connection = mysql.connector.connect(**self.db_config)
+            if self.connection.is_connected():
+                print(f"{Colors.GREEN}Connected to database{Colors.NC}")
+                # Auto-create tables if they don't exist
+                self.create_tables_if_not_exist()
+                return True
+        except Error as e:
+            print(f"{Colors.RED}Database connection error: {e}{Colors.NC}")
+            return False
+
+    def create_tables_if_not_exist(self):
+        """Create database tables if they don't exist"""
+        try:
+            cursor = self.connection.cursor()
+
+            # Create company_details table
+            company_details_sql = """
+                                  CREATE TABLE IF NOT EXISTS company_details \
+                                  ( \
+                                      id \
+                                      INT \
+                                      AUTO_INCREMENT \
+                                      PRIMARY \
+                                      KEY, \
+                                      company_id \
+                                      INT \
+                                      NOT \
+                                      NULL, \
+                                      company_name \
+                                      VARCHAR \
+                                  ( \
+                                      255 \
+                                  ),
+                                      company_address TEXT,
+                                      total_dwt DECIMAL \
+                                  ( \
+                                      15, \
+                                      2 \
+                                  ),
+                                      fleet_count INT,
+                                      company_website VARCHAR \
+                                  ( \
+                                      500 \
+                                  ),
+                                      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                                      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                                      INDEX idx_company_id \
+                                  ( \
+                                      company_id \
+                                  )
+                                      ) \
+                                  """
+            cursor.execute(company_details_sql)
+
+            # Create company_fleet_vessels table
+            fleet_vessels_sql = """
+                                CREATE TABLE IF NOT EXISTS company_fleet_vessels \
+                                ( \
+                                    id \
+                                    INT \
+                                    AUTO_INCREMENT \
+                                    PRIMARY \
+                                    KEY, \
+                                    company_id \
+                                    INT \
+                                    NOT \
+                                    NULL, \
+                                    vessel_imo \
+                                    BIGINT, \
+                                    vessel_mmsi \
+                                    BIGINT, \
+                                    vessel_name \
+                                    VARCHAR \
+                                ( \
+                                    255 \
+                                ),
+                                    vessel_type VARCHAR \
+                                ( \
+                                    100 \
+                                ),
+                                    registered_owner VARCHAR \
+                                ( \
+                                    255 \
+                                ),
+                                    registered_owner_company_imo BIGINT,
+                                    registered_owner_company_country_slug VARCHAR \
+                                ( \
+                                    100 \
+                                ),
+                                    registered_owner_total_distinct_vessels INT,
+                                    commercial_manager VARCHAR \
+                                ( \
+                                    255 \
+                                ),
+                                    commercial_manager_company_country_slug VARCHAR \
+                                ( \
+                                    100 \
+                                ),
+                                    commercial_manager_company_imo BIGINT,
+                                    commercial_manager_company_name_slug VARCHAR \
+                                ( \
+                                    255 \
+                                ),
+                                    commercial_manager_total_distinct_vessels INT,
+                                    core_vessel_types_key VARCHAR \
+                                ( \
+                                    100 \
+                                ),
+                                    core_vessel_types_name VARCHAR \
+                                ( \
+                                    100 \
+                                ),
+                                    dwt DECIMAL \
+                                ( \
+                                    15, \
+                                    2 \
+                                ),
+                                    flag VARCHAR \
+                                ( \
+                                    10 \
+                                ),
+                                    ism_manager VARCHAR \
+                                ( \
+                                    255 \
+                                ),
+                                    ism_manager_company_country_slug VARCHAR \
+                                ( \
+                                    100 \
+                                ),
+                                    ism_manager_company_imo BIGINT,
+                                    ism_manager_company_name_slug VARCHAR \
+                                ( \
+                                    255 \
+                                ),
+                                    ism_manager_total_distinct_vessels INT,
+                                    last_position_update VARCHAR,
+                                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                                    INDEX idx_company_id \
+                                ( \
+                                    company_id \
+                                ),
+                                    INDEX idx_vessel_imo \
+                                ( \
+                                    vessel_imo \
+                                ),
+                                    INDEX idx_vessel_mmsi \
+                                ( \
+                                    vessel_mmsi \
+                                ),
+                                    UNIQUE KEY unique_company_vessel \
+                                ( \
+                                    company_id, \
+                                    vessel_imo \
+                                )
+                                    ) \
+                                """
+            cursor.execute(fleet_vessels_sql)
+
+            self.connection.commit()
+            cursor.close()
+            print(f"{Colors.GREEN}Database tables verified/created{Colors.NC}")
+
+        except Error as e:
+            print(f"{Colors.YELLOW}Warning: Could not create tables: {e}{Colors.NC}")
+            print(f"{Colors.YELLOW}Please create tables manually using the provided schema{Colors.NC}")
+
+    def disconnect(self):
+        """Close database connection"""
+        if self.connection and self.connection.is_connected():
+            self.connection.close()
+            print(f"{Colors.YELLOW}Database connection closed{Colors.NC}")
+
+    def insert_company_details(self, company_id, company_data):
+        """Insert or update company details"""
+        try:
+            cursor = self.connection.cursor()
+
+            # Check if company details already exist
+            check_query = "SELECT id FROM company_details WHERE company_id = %s"
+            cursor.execute(check_query, (company_id,))
+            existing = cursor.fetchone()
+
+            if existing:
+                # Update existing record
+                update_query = """
+                               UPDATE company_details
+                               SET company_name    = %s, \
+                                   company_address = %s, \
+                                   total_dwt       = %s,
+                                   fleet_count     = %s, \
+                                   company_website = %s
+                               WHERE company_id = %s \
+                               """
+                cursor.execute(update_query, (
+                    company_data.get('company_name'),
+                    company_data.get('address'),
+                    company_data.get('total_dwt'),
+                    company_data.get('total_vessels'),
+                    company_data.get('website'),
+                    company_id
+                ))
+                print(f"{Colors.YELLOW}Updated existing company details for ID: {company_id}{Colors.NC}")
+            else:
+                # Insert new record
+                insert_query = """
+                               INSERT INTO company_details
+                               (company_id, company_name, company_address, total_dwt, fleet_count, company_website)
+                               VALUES (%s, %s, %s, %s, %s, %s) \
+                               """
+                cursor.execute(insert_query, (
+                    company_id,
+                    company_data.get('company_name'),
+                    company_data.get('address'),
+                    company_data.get('total_dwt'),
+                    company_data.get('total_vessels'),
+                    company_data.get('website')
+                ))
+                print(f"{Colors.GREEN}Inserted new company details for ID: {company_id}{Colors.NC}")
+
+            self.connection.commit()
+            cursor.close()
+            return True
+
+        except Error as e:
+            print(f"{Colors.RED}Error inserting company details: {e}{Colors.NC}")
+            self.connection.rollback()
+            return False
+
+    def insert_fleet_vessels(self, company_id, vessels_data):
+        """Insert fleet vessels data"""
+        try:
+            cursor = self.connection.cursor()
+
+            # Clear existing vessels for this company (optional - or use upsert logic)
+            delete_query = "DELETE FROM company_fleet_vessels WHERE company_id = %s"
+            cursor.execute(delete_query, (company_id,))
+
+            insert_query = """
+                           INSERT INTO company_fleet_vessels (company_id, vessel_imo, vessel_mmsi, vessel_name, \
+                                                              vessel_type, \
+                                                              registered_owner, registered_owner_company_imo, \
+                                                              registered_owner_company_country_slug, \
+                                                              registered_owner_total_distinct_vessels, \
+                                                              commercial_manager, \
+                                                              commercial_manager_company_country_slug, \
+                                                              commercial_manager_company_imo, \
+                                                              commercial_manager_company_name_slug, \
+                                                              commercial_manager_total_distinct_vessels, \
+                                                              core_vessel_types_key, core_vessel_types_name, dwt, flag, \
+                                                              ism_manager, ism_manager_company_country_slug, \
+                                                              ism_manager_company_imo, \
+                                                              ism_manager_company_name_slug, \
+                                                              ism_manager_total_distinct_vessels, \
+                                                              last_position_update) \
+                           VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, \
+                                   %s, %s, %s) \
+                           """
+
+            vessels_inserted = 0
+            for vessel in vessels_data:
+                # Extract clean vessel name from HTML
+                vessel_name = DatabaseManager.extract_vessel_name(vessel.get('vessel_name', ''))
+
+                # Keep original datetime string format
+                last_position_update = vessel.get('last_position_update')
+
+                cursor.execute(insert_query, (
+                    company_id,
+                    vessel.get('vessel_imo'),
+                    vessel.get('vessel_mmsi'),
+                    vessel_name,
+                    vessel.get('vessel_type'),
+                    vessel.get('registered_owner'),
+                    vessel.get('registered_owner_company_imo'),
+                    vessel.get('registered_owner_company_country_slug'),
+                    vessel.get('registered_owner_total_distinct_vessels'),
+                    vessel.get('commercial_manager'),
+                    vessel.get('commercial_manager_company_country_slug'),
+                    vessel.get('commercial_manager_company_imo'),
+                    vessel.get('commercial_manager_company_name_slug'),
+                    vessel.get('commercial_manager_total_distinct_vessels'),
+                    vessel.get('core_vessel_types_key'),
+                    vessel.get('core_vessel_types_name'),
+                    vessel.get('dwt'),
+                    vessel.get('flag'),
+                    vessel.get('ism_manager'),
+                    vessel.get('ism_manager_company_country_slug'),
+                    vessel.get('ism_manager_company_imo'),
+                    vessel.get('ism_manager_company_name_slug'),
+                    vessel.get('ism_manager_total_distinct_vessels'),
+                    ""
+                ))
+                vessels_inserted += 1
+
+            self.connection.commit()
+            cursor.close()
+            print(f"{Colors.GREEN}Inserted {vessels_inserted} vessels for company ID: {company_id}{Colors.NC}")
+            return True
+
+        except Error as e:
+            print(f"{Colors.RED}Error inserting fleet vessels: {e}{Colors.NC}")
+            self.connection.rollback()
+            return False
+
+    @staticmethod
+    def extract_vessel_name(vessel_name_html):
+        """Extract clean vessel name from HTML"""
+        if not vessel_name_html:
+            return None
+
+        soup = BeautifulSoup(vessel_name_html, 'html.parser')
+        span = soup.find('span')
+        if span:
+            return span.get_text(strip=True)
+
+        # Fallback: try to extract text from the entire HTML
+        return soup.get_text(strip=True)
+
+
+class EnhancedMagicPortScraper:
+    def __init__(self, company_id, company_name, company_url, db_config, headless=True):
+        self.company_id = company_id
+        self.company_name = company_name
+        self.company_url = company_url
+        self.headless = headless
+        self.base_url = "https://magicport.ai"
+
+        # Database manager
+        self.db_manager = DatabaseManager(db_config)
+
+        # Extract company slug from URL for file naming
         parsed_url = urlparse(self.company_url)
         path_parts = parsed_url.path.strip('/').split('/')
         if len(path_parts) >= 3:
-            self.company_name = path_parts[-1]
+            self.company_slug = path_parts[-1]
+        else:
+            self.company_slug = company_name.lower().replace(' ', '-')
 
     def log(self, message, color=Colors.NC):
         print(f"{color}{message}{Colors.NC}")
@@ -218,37 +555,13 @@ class MagicPortScraperPlaywright:
                 except:
                     pass
 
-            # # Alternative: extract from address
-            # if not company_info['country'] and company_info['address']:
-            #     address_lower = company_info['address'].lower()
-            #     # Common country patterns in addresses
-            #     country_patterns = {
-            #         'argentina': 'Argentina',
-            #         'buenos aires': 'Argentina',
-            #         'usa': 'United States',
-            #         'united states': 'United States',
-            #         'uk': 'United Kingdom',
-            #         'united kingdom': 'United Kingdom',
-            #         'germany': 'Germany',
-            #         'france': 'France',
-            #         'norway': 'Norway',
-            #         'greece': 'Greece',
-            #         'singapore': 'Singapore',
-            #         'china': 'China',
-            #         'japan': 'Japan',
-            #         'south korea': 'South Korea',
-            #         'azerbaijan': 'Azerbaijan'
-            #     }
-            #
-            #     for pattern, country in country_patterns.items():
-            #         if pattern in address_lower:
-            #             company_info['country'] = country
-            #             break
-
             # Clean up the data
             for key, value in company_info.items():
                 if isinstance(value, str):
                     company_info[key] = value.strip()
+
+            # Store as instance variable for database saving
+            self.company_info = company_info
 
             # Print company information
             self.print_company_info(company_info)
@@ -376,34 +689,9 @@ class MagicPortScraperPlaywright:
                 except:
                     pass
 
-            # If still no token, save page for debugging
+            # If still no token, continue without token
             if not csrf_token:
-                html_content = await self.page.content()
-                debug_filename = f"debug_page_{datetime.now().strftime('%Y%m%d_%H%M%S')}.html"
-                with open(debug_filename, 'w', encoding='utf-8') as f:
-                    f.write(html_content)
-
-                # Show available meta tags
-                meta_tags = await self.page.evaluate("""
-                    () => {
-                        const metas = document.querySelectorAll('meta');
-                        return Array.from(metas).slice(0, 10).map(meta => {
-                            const attrs = {};
-                            for (let attr of meta.attributes) {
-                                attrs[attr.name] = attr.value;
-                            }
-                            return attrs;
-                        });
-                    }
-                """)
-
-                self.log("No CSRF token found. Available meta tags:", Colors.YELLOW)
-                for meta in meta_tags:
-                    self.log(f"  {meta}", Colors.YELLOW)
-
-                self.log(f"Page HTML saved to {debug_filename} for debugging", Colors.YELLOW)
                 self.log("Warning: Could not extract CSRF token, continuing anyway...", Colors.YELLOW)
-                # Don't return None, continue without token
                 csrf_token = ""
 
             # Extract fleet route
@@ -483,7 +771,6 @@ class MagicPortScraperPlaywright:
                 'order[0][column]': '0',
                 'order[0][dir]': 'asc'
             }
-            print(fleet_route, csrf_token, post_data)
 
             # Make the AJAX request using page.evaluate to execute in browser context
             fleet_data = await self.page.evaluate("""
@@ -584,29 +871,15 @@ class MagicPortScraperPlaywright:
             self.log(f"Alternative approach failed: {e}", Colors.RED)
             return None
 
-    def save_data(self, data):
-        """Save the scraped data to a JSON file"""
-        if not data:
-            return None
+    async def scrape_and_save_to_database(self):
+        """Main method that scrapes data and saves to database"""
+        self.log(f"Enhanced MagicPort Scraper - Company ID: {self.company_id}", Colors.YELLOW)
+        self.log("=" * 60, Colors.YELLOW)
 
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{self.company_name}_fleet_data_{timestamp}.json"
-
-        try:
-            with open(filename, 'w', encoding='utf-8') as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-
-            self.log(f"Data saved to {filename}", Colors.GREEN)
-            return filename
-
-        except IOError as e:
-            self.log(f"Error saving data: {e}", Colors.RED)
-            return None
-
-    async def scrape(self):
-        """Main scraping method"""
-        self.log("MagicPort Fleet Data Scraper - Playwright", Colors.YELLOW)
-        self.log("===========================================", Colors.YELLOW)
+        # Connect to database
+        if not self.db_manager.connect():
+            self.log("Failed to connect to database", Colors.RED)
+            return False
 
         try:
             # Setup browser
@@ -614,72 +887,108 @@ class MagicPortScraperPlaywright:
 
             # Step 0: Establish session
             if not await self.establish_session():
-                return None
+                return False
 
-            # Step 1: Fetch company page and extract tokens
+            # Step 1: Fetch company page and extract company info + tokens
             csrf_token, fleet_route = await self.fetch_company_page()
             if not csrf_token or not fleet_route:
-                return None
+                return False
+
+            # Save company details to database
+            # (company_info is extracted in fetch_company_page method)
+            # You'll need to store it as instance variable
+            if hasattr(self, 'company_info') and self.company_info:
+                success = self.db_manager.insert_company_details(self.company_id, self.company_info)
+                if not success:
+                    self.log("Failed to save company details", Colors.RED)
 
             # Step 2: Fetch fleet data
             fleet_data = await self.fetch_fleet_data(csrf_token, fleet_route)
             if not fleet_data:
-                return None
+                return False
 
-            # Display and save data
-            print(json.dumps(fleet_data, indent=2))
-            filename = self.save_data(fleet_data)
+            # Save fleet data to database
+            if 'data' in fleet_data and fleet_data['data']:
+                success = self.db_manager.insert_fleet_vessels(self.company_id, fleet_data['data'])
+                if not success:
+                    self.log("Failed to save fleet vessels", Colors.RED)
+                    return False
 
-            self.log("Script completed successfully.", Colors.GREEN)
-            return fleet_data
+            # Also save JSON backup
+            self.save_json_backup(fleet_data)
+
+            self.log("Script completed successfully - data saved to database!", Colors.GREEN)
+            return True
+
+        except Exception as e:
+            self.log(f"Unexpected error: {e}", Colors.RED)
+            return False
 
         finally:
             # Cleanup
+            self.db_manager.disconnect()
             try:
                 await self.browser.close()
                 await self.playwright.stop()
             except:
                 pass
 
-    async def cleanup(self):
-        """Cleanup resources"""
+    def save_json_backup(self, data):
+        """Save JSON backup file"""
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"{self.company_slug}_fleet_data_{timestamp}.json"
+
         try:
-            if hasattr(self, 'browser'):
-                await self.browser.close()
-            if hasattr(self, 'playwright'):
-                await self.playwright.stop()
-        except:
-            pass
+            with open(filename, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            self.log(f"JSON backup saved to {filename}", Colors.GREEN)
+        except Exception as e:
+            self.log(f"Error saving JSON backup: {e}", Colors.RED)
 
 
-async def main():
-    """Main function"""
-    company_url = None
-    if len(sys.argv) > 1:
-        company_url = sys.argv[1]
+def main():
+    parser = argparse.ArgumentParser(description='Enhanced MagicPort Fleet Data Scraper')
+    parser.add_argument('--company-id', required=True, type=int, help='Company ID')
+    parser.add_argument('--company-name', required=True, help='Company Name')
+    parser.add_argument('--company-url', required=True, help='Company URL')
+    parser.add_argument('--visible', action='store_true', help='Run browser in visible mode')
 
-    # Option to run in non-headless mode for debugging
-    headless = True
-    if len(sys.argv) > 2 and sys.argv[2] == '--visible':
-        headless = False
+    # Database configuration arguments
+    parser.add_argument('--db-host', default='localhost', help='Database host')
+    parser.add_argument('--db-port', default=3306, type=int, help='Database port')
+    parser.add_argument('--db-name', default='magic_port', help='Database name')
+    parser.add_argument('--db-user', default='root', help='Database user')
+    parser.add_argument('--db-password', default='rootpassword', help='Database password')
 
-    scraper = MagicPortScraperPlaywright(company_url, headless=headless)
+    args = parser.parse_args()
 
-    try:
-        result = await scraper.scrape()
-        if result:
-            sys.exit(0)
-        else:
+    # Database configuration
+    db_config = {
+        'host': args.db_host,
+        'port': args.db_port,
+        'database': args.db_name,
+        'user': args.db_user,
+        'password': args.db_password
+    }
+
+    async def run_scraper():
+        scraper = EnhancedMagicPortScraper(
+            company_id=args.company_id,
+            company_name=args.company_name,
+            company_url=args.company_url,
+            db_config=db_config,
+            headless=not args.visible
+        )
+
+        try:
+            success = await scraper.scrape_and_save_to_database()
+            sys.exit(0 if success else 1)
+        except KeyboardInterrupt:
+            print(f"\n{Colors.YELLOW}Script interrupted by user{Colors.NC}")
             sys.exit(1)
-    except KeyboardInterrupt:
-        print(f"\n{Colors.YELLOW}Script interrupted by user{Colors.NC}")
-        await scraper.cleanup()
-        sys.exit(1)
-    except Exception as e:
-        print(f"{Colors.RED}Unexpected error: {e}{Colors.NC}")
-        await scraper.cleanup()
-        sys.exit(1)
+
+    asyncio.run(run_scraper())
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

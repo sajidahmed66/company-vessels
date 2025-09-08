@@ -300,7 +300,7 @@ def main():
     print("Starting Magicport scraper with MySQL integration...")
     # Define countries to scrape
     countries = []
-    file_path = "countries.json"
+    file_path = "countries1.json"
     try:
         # Use 'with open' to ensure the file is properly closed after use.
         # The 'r' mode is for reading the file.
