@@ -255,11 +255,12 @@ class DatabaseManager:
                     company_data.get('total_vessels'),
                     company_data.get('website')
                 ))
-                print(f"{Colors.GREEN}Inserted new company details for ID: {company_id}{Colors.NC}")
+                new_company_id = cursor.lastrowid
+                print(f"{Colors.GREEN}Inserted new company details for: {company_name} (ID: {new_company_id}){Colors.NC}")
 
             self.connection.commit()
             cursor.close()
-            return True
+            return new_company_id if not existing else existing[0]
 
         except Error as e:
             print(f"{Colors.RED}Error inserting company details: {e}{Colors.NC}")
@@ -430,8 +431,18 @@ class EnhancedMagicPortScraper:
         self.log("Step 0: Establishing session...", Colors.YELLOW)
 
         try:
-            # Navigate to homepage with realistic behavior
-            await self.page.goto(self.base_url, wait_until='networkidle', timeout=30000)
+            # Navigate to homepage with realistic behavior - increased timeout
+            self.log(f"Connecting to {self.base_url}...", Colors.YELLOW)
+            await self.page.goto(self.base_url, wait_until='domcontentloaded', timeout=60000)
+            
+            # Wait for page to be ready
+            await asyncio.sleep(3)
+            
+            # Try to wait for network idle with fallback
+            try:
+                await self.page.wait_for_load_state('networkidle', timeout=15000)
+            except:
+                self.log("Network idle timeout, continuing anyway...", Colors.YELLOW)
 
             # Simulate human behavior - scroll a bit
             await self.page.evaluate("window.scrollTo(0, 100)")
