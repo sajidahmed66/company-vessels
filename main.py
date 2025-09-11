@@ -1,3 +1,4 @@
+from datetime import datetime
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -215,9 +216,10 @@ def get_total_pages(url):
 def scrape_country_to_database(country_code, connection):
     """Scraps company by country"""
     base_url = "https://magicport.ai/owners-managers"
-    additional_params = "role[]=registered_owner&role[]=commercial_manager&role[]=ism_manager&fleetType[]=General%20Cargo&fleetType[]=Tanker&fleetType[]=Container&fleetType[]=Bulk%20Carrier&fleetType[]=Bunkering&fleetType[]=Gas%20Carrier"
+    # additional_params = "role[]=registered_owner&role[]=commercial_manager&role[]=ism_manager&fleetType[]=General%20Cargo&fleetType[]=Tanker&fleetType[]=Container&fleetType[]=Bulk%20Carrier&fleetType[]=Bunkering&fleetType[]=Gas%20Carrier"
+    additional_params = "role[]=registered_owner&role[]=commercial_manager&role[]=ism_manager"
 
-    print(f"\n=== Scraping {country_code} ===")
+    print(f"\n===Scraping {country_code} ===\n{datetime.now()}")
 
     first_page_url = f"{base_url}?{additional_params}&country[]={country_code}"
 
@@ -234,7 +236,7 @@ def scrape_country_to_database(country_code, connection):
         else:
             current_url = f"{first_page_url}&page={page}"
 
-        print(f"Scraping {country_code} page {page}/{total_pages}...")
+        print(f"{datetime.now()} Scraping {country_code} page {page}/{total_pages}...")
 
 
         page_companies = extract_company_data_from_page(current_url)
@@ -258,7 +260,7 @@ def scrape_country_to_database(country_code, connection):
     # Insert into database
     if companies_for_db:
         inserted_count = insert_company_data(connection, companies_for_db)
-        print(f"Successfully inserted {inserted_count} companies for {country_code}")
+        print(f"{datetime.now()} Successfully inserted {inserted_count} companies for {country_code}")
     else:
         print(f"No companies found for {country_code}")
 
