@@ -344,14 +344,51 @@ class DatabaseManager:
             self.connection.rollback()
             return False
 
+    def get_company_name(self, company_id):
+        """Get company name by company_id"""
+        try:
+            cursor = self.connection.cursor()
+            query = "SELECT name FROM vessel_companies WHERE id = %s"
+            cursor.execute(query, (company_id,))
+            result = cursor.fetchone()
+            cursor.close()
+            print(f"{Colors.GREEN}Company name: {result[0]}{Colors.NC}")
+            return result[0] if result else None
+        except Error as e:
+            print(f"{Colors.RED}Error fetching company name: {e}{Colors.NC}")
+            return None
+
+    def find_vessel_by_imo(self, vessel_imo):
+        """Find existing vessel by IMO number"""
+        try:
+            cursor = self.connection.cursor()
+            query = """
+                    SELECT id, company_id, registered_owner 
+                    FROM company_fleet_vessels 
+                    WHERE vessel_imo = %s
+                    """
+            cursor.execute(query, (vessel_imo,))
+            result = cursor.fetchone()
+            cursor.close()
+            return result if result else None
+        except Error as e:
+            print(f"{Colors.RED}Error finding vessel by IMO: {e}{Colors.NC}")
+            return None
+
     def insert_fleet_vessels(self, company_id, vessels_data):
-        """Insert fleet vessels data"""
+        """Insert fleet vessels data with duplicate handling"""
         try:
             cursor = self.connection.cursor()
 
-            # Clear existing vessels for this company (optional - or use upsert logic)
-            delete_query = "DELETE FROM company_fleet_vessels WHERE company_id = %s"
-            cursor.execute(delete_query, (company_id,))
+            # Get company name for current company_id
+            # current_company_name = self.get_company_name(company_id)
+            # if not current_company_name:
+            #     print(f"{Colors.RED}Could not find company name for ID: {company_id}{Colors.NC}")
+            #     return False
+
+            # Clear existing vessels for this company only
+            # delete_query = "DELETE FROM company_fleet_vessels WHERE company_id = %s"
+            # cursor.execute(delete_query, (company_id,))
 
             insert_query = """
                            INSERT INTO company_fleet_vessels (company_id, vessel_imo, vessel_mmsi, vessel_name, \
@@ -375,44 +412,173 @@ class DatabaseManager:
                            """
 
             vessels_inserted = 0
+            vessels_updated = 0
+            
             for vessel in vessels_data:
+                vessel_imo = vessel.get('vessel_imo')
+                if not vessel_imo:
+                    continue
+                    
+                # Check if vessel already exists by IMO
+                existing_vessel = self.find_vessel_by_imo(vessel_imo)
+                
                 # Extract clean vessel name from HTML
                 vessel_name = DatabaseManager.extract_vessel_name(vessel.get('vessel_name', ''))
-
-                # Keep original datetime string format
-                last_position_update = vessel.get('last_position_update')
-
-                cursor.execute(insert_query, (
-                    company_id,
-                    vessel.get('vessel_imo'),
-                    vessel.get('vessel_mmsi'),
-                    vessel_name,
-                    vessel.get('vessel_type'),
-                    vessel.get('registered_owner'),
-                    vessel.get('registered_owner_company_imo'),
-                    vessel.get('registered_owner_company_country_slug'),
-                    vessel.get('registered_owner_total_distinct_vessels'),
-                    vessel.get('commercial_manager'),
-                    vessel.get('commercial_manager_company_country_slug'),
-                    vessel.get('commercial_manager_company_imo'),
-                    vessel.get('commercial_manager_company_name_slug'),
-                    vessel.get('commercial_manager_total_distinct_vessels'),
-                    vessel.get('core_vessel_types_key'),
-                    vessel.get('core_vessel_types_name'),
-                    vessel.get('dwt'),
-                    vessel.get('flag'),
-                    vessel.get('ism_manager'),
-                    vessel.get('ism_manager_company_country_slug'),
-                    vessel.get('ism_manager_company_imo'),
-                    vessel.get('ism_manager_company_name_slug'),
-                    vessel.get('ism_manager_total_distinct_vessels'),
-                    ""
-                ))
-                vessels_inserted += 1
+                
+                if existing_vessel:
+                    # Vessel exists, check if company names match
+                    # existing_vessel_id, existing_company_id, registered_owner = existing_vessel
+                    registered_owner = vessel.get('registered_owner')
+                    current_company_name = self.get_company_name(company_id)
+                    # Compare current company name with registered owner
+                    if (registered_owner and current_company_name and
+                        registered_owner.lower().strip() == current_company_name.lower().strip()):
+                        # Company names match, update with current company_id
+                        update_query = """
+                                      UPDATE company_fleet_vessels 
+                                      SET company_id = %s,
+                                          vessel_mmsi = %s,
+                                          vessel_name = %s,
+                                          vessel_type = %s,
+                                          registered_owner = %s,
+                                          registered_owner_company_imo = %s,
+                                          registered_owner_company_country_slug = %s,
+                                          registered_owner_total_distinct_vessels = %s,
+                                          commercial_manager = %s,
+                                          commercial_manager_company_country_slug = %s,
+                                          commercial_manager_company_imo = %s,
+                                          commercial_manager_company_name_slug = %s,
+                                          commercial_manager_total_distinct_vessels = %s,
+                                          core_vessel_types_key = %s,
+                                          core_vessel_types_name = %s,
+                                          dwt = %s,
+                                          flag = %s,
+                                          ism_manager = %s,
+                                          ism_manager_company_country_slug = %s,
+                                          ism_manager_company_imo = %s,
+                                          ism_manager_company_name_slug = %s,
+                                          ism_manager_total_distinct_vessels = %s,
+                                          last_position_update = %s,
+                                          updated_at = NOW()
+                                      WHERE vessel_imo = %s
+                                      """
+                        cursor.execute(update_query, (
+                            company_id,
+                            vessel.get('vessel_mmsi'),
+                            vessel_name,
+                            vessel.get('vessel_type'),
+                            vessel.get('registered_owner'),
+                            vessel.get('registered_owner_company_imo'),
+                            vessel.get('registered_owner_company_country_slug'),
+                            vessel.get('registered_owner_total_distinct_vessels'),
+                            vessel.get('commercial_manager'),
+                            vessel.get('commercial_manager_company_country_slug'),
+                            vessel.get('commercial_manager_company_imo'),
+                            vessel.get('commercial_manager_company_name_slug'),
+                            vessel.get('commercial_manager_total_distinct_vessels'),
+                            vessel.get('core_vessel_types_key'),
+                            vessel.get('core_vessel_types_name'),
+                            vessel.get('dwt'),
+                            vessel.get('flag'),
+                            vessel.get('ism_manager'),
+                            vessel.get('ism_manager_company_country_slug'),
+                            vessel.get('ism_manager_company_imo'),
+                            vessel.get('ism_manager_company_name_slug'),
+                            vessel.get('ism_manager_total_distinct_vessels'),
+                            vessel.get('last_position_update'),
+                            vessel_imo
+                        ))
+                        vessels_updated += 1
+                        print(f"{Colors.YELLOW}Updated vessel IMO {vessel_imo} - company name matches registered owner{Colors.NC}")
+                    else:
+                        # Company names don't match, update other data but keep existing company_id
+                        update_query = """
+                                      UPDATE company_fleet_vessels 
+                                      SET vessel_mmsi = %s,
+                                          vessel_name = %s,
+                                          vessel_type = %s,
+                                          registered_owner = %s,
+                                          registered_owner_company_imo = %s,
+                                          registered_owner_company_country_slug = %s,
+                                          registered_owner_total_distinct_vessels = %s,
+                                          commercial_manager = %s,
+                                          commercial_manager_company_country_slug = %s,
+                                          commercial_manager_company_imo = %s,
+                                          commercial_manager_company_name_slug = %s,
+                                          commercial_manager_total_distinct_vessels = %s,
+                                          core_vessel_types_key = %s,
+                                          core_vessel_types_name = %s,
+                                          dwt = %s,
+                                          flag = %s,
+                                          ism_manager = %s,
+                                          ism_manager_company_country_slug = %s,
+                                          ism_manager_company_imo = %s,
+                                          ism_manager_company_name_slug = %s,
+                                          ism_manager_total_distinct_vessels = %s,
+                                          last_position_update = %s,
+                                          updated_at = NOW()
+                                      WHERE vessel_imo = %s
+                                      """
+                        cursor.execute(update_query, (
+                            vessel.get('vessel_mmsi'),
+                            vessel_name,
+                            vessel.get('vessel_type'),
+                            vessel.get('registered_owner'),
+                            vessel.get('registered_owner_company_imo'),
+                            vessel.get('registered_owner_company_country_slug'),
+                            vessel.get('registered_owner_total_distinct_vessels'),
+                            vessel.get('commercial_manager'),
+                            vessel.get('commercial_manager_company_country_slug'),
+                            vessel.get('commercial_manager_company_imo'),
+                            vessel.get('commercial_manager_company_name_slug'),
+                            vessel.get('commercial_manager_total_distinct_vessels'),
+                            vessel.get('core_vessel_types_key'),
+                            vessel.get('core_vessel_types_name'),
+                            vessel.get('dwt'),
+                            vessel.get('flag'),
+                            vessel.get('ism_manager'),
+                            vessel.get('ism_manager_company_country_slug'),
+                            vessel.get('ism_manager_company_imo'),
+                            vessel.get('ism_manager_company_name_slug'),
+                            vessel.get('ism_manager_total_distinct_vessels'),
+                            vessel.get('last_position_update'),
+                            vessel_imo
+                        ))
+                        vessels_updated += 1
+                        # print(f"{Colors.YELLOW}Updated vessel IMO {vessel_imo} data - kept existing company_id {existing_company_id}{Colors.NC}")
+                else:
+                    # Vessel doesn't exist, create new record
+                    cursor.execute(insert_query, (
+                        company_id,
+                        vessel.get('vessel_imo'),
+                        vessel.get('vessel_mmsi'),
+                        vessel_name,
+                        vessel.get('vessel_type'),
+                        vessel.get('registered_owner'),
+                        vessel.get('registered_owner_company_imo'),
+                        vessel.get('registered_owner_company_country_slug'),
+                        vessel.get('registered_owner_total_distinct_vessels'),
+                        vessel.get('commercial_manager'),
+                        vessel.get('commercial_manager_company_country_slug'),
+                        vessel.get('commercial_manager_company_imo'),
+                        vessel.get('commercial_manager_company_name_slug'),
+                        vessel.get('commercial_manager_total_distinct_vessels'),
+                        vessel.get('core_vessel_types_key'),
+                        vessel.get('core_vessel_types_name'),
+                        vessel.get('dwt'),
+                        vessel.get('flag'),
+                        vessel.get('ism_manager'),
+                        vessel.get('ism_manager_company_country_slug'),
+                        vessel.get('ism_manager_company_imo'),
+                        vessel.get('ism_manager_company_name_slug'),
+                        vessel.get('ism_manager_total_distinct_vessels'),
+                        vessel.get('last_position_update')
+                    ))
+                    vessels_inserted += 1
 
             self.connection.commit()
             cursor.close()
-            print(f"{Colors.GREEN}Inserted {vessels_inserted} vessels for company ID: {company_id}{Colors.NC}")
+            print(f"{Colors.GREEN}Processed vessels for company ID {company_id}: {vessels_inserted} inserted, {vessels_updated} updated{Colors.NC}")
             return True
 
         except Error as e:
