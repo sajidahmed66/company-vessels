@@ -12,6 +12,7 @@ import json
 import re
 import time
 import sys
+import os
 import asyncio
 import argparse
 from datetime import datetime
@@ -53,42 +54,106 @@ class DatabaseManager:
             cursor = self.connection.cursor()
 
             # Create company_details table
+            # company_details_sql = """
+            #                       CREATE TABLE IF NOT EXISTS vessel_companies \
+            #                       ( \
+            #                           id \
+            #                           INT \
+            #                           AUTO_INCREMENT \
+            #                           PRIMARY \
+            #                           KEY, \
+            #                           company_id \
+            #                           INT \
+            #                           NOT \
+            #                           NULL, \
+            #                           company_name \
+            #                           VARCHAR \
+            #                       ( \
+            #                           255 \
+            #                       ),
+            #                           company_address TEXT,
+            #                           total_dwt DECIMAL \
+            #                       ( \
+            #                           15, \
+            #                           2 \
+            #                       ),
+            #                           fleet_count INT,
+            #                           company_website VARCHAR \
+            #                       ( \
+            #                           500 \
+            #                       ),
+            #                           created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            #                           updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+            #                           INDEX idx_company_id \
+            #                       ( \
+            #                           company_id \
+            #                       )
+            #                           ) \
+            #                       """
+
+
+            # Create company_details table
             company_details_sql = """
-                                  CREATE TABLE IF NOT EXISTS company_details \
+                                  CREATE TABLE IF NOT EXISTS vessel_companies \
                                   ( \
                                       id \
-                                      INT \
+                                      BIGINT \
+                                      UNSIGNED \
                                       AUTO_INCREMENT \
                                       PRIMARY \
                                       KEY, \
-                                      company_id \
-                                      INT \
+                                      name \
+                                      VARCHAR \
+                                  ( \
+                                      255 \
+                                  ) \
                                       NOT \
                                       NULL, \
-                                      company_name \
+                                      country \
                                       VARCHAR \
                                   ( \
                                       255 \
                                   ),
-                                      company_address TEXT,
+                                      description TEXT,
+                                      address TEXT NOT NULL,
+                                      phone VARCHAR \
+                                  ( \
+                                      255 \
+                                  ),
+                                      email VARCHAR \
+                                  ( \
+                                      255 \
+                                  ),
+                                      website VARCHAR \
+                                  ( \
+                                      255 \
+                                  ),
+                                      established YEAR,
+                                      type VARCHAR \
+                                  ( \
+                                      255 \
+                                  ),
+                                      number_of_employees VARCHAR \
+                                  ( \
+                                      255 \
+                                  ),
                                       total_dwt DECIMAL \
                                   ( \
                                       15, \
                                       2 \
                                   ),
                                       fleet_count INT,
-                                      company_website VARCHAR \
-                                  ( \
-                                      500 \
-                                  ),
-                                      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                                      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-                                      INDEX idx_company_id \
-                                  ( \
-                                      company_id \
-                                  )
+                                      others_data JSON,
+                                      created_by BIGINT UNSIGNED,
+                                      updated_by BIGINT UNSIGNED,
+                                      deleted_by BIGINT UNSIGNED,
+                                      created_at TIMESTAMP NULL,
+                                      updated_at TIMESTAMP NULL,
+                                      deleted_at TIMESTAMP NULL
                                       ) \
+                                  COLLATE = utf8mb4_unicode_ci \
                                   """
+
             cursor.execute(company_details_sql)
 
             # Create company_fleet_vessels table
@@ -125,6 +190,10 @@ class DatabaseManager:
                                     registered_owner_company_country_slug VARCHAR \
                                 ( \
                                     100 \
+                                ),
+                                    registered_owner_company_name_slug VARCHAR \
+                                ( \
+                                    255 \
                                 ),
                                     registered_owner_total_distinct_vessels INT,
                                     commercial_manager VARCHAR \
@@ -172,7 +241,7 @@ class DatabaseManager:
                                     255 \
                                 ),
                                     ism_manager_total_distinct_vessels INT,
-                                    last_position_update VARCHAR,
+                                    last_position_update VARCHAR(255),
                                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                                     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
                                     INDEX idx_company_id \
@@ -215,42 +284,50 @@ class DatabaseManager:
         try:
             cursor = self.connection.cursor()
 
-            # Check if company details already exist
-            check_query = "SELECT id FROM company_details WHERE company_id = %s"
-            cursor.execute(check_query, (company_id,))
+            # Ensure required fields have default values
+            company_name = company_data.get('company_name') or 'Unknown Company'
+            address = company_data.get('address') or 'Address not provided'
+
+            # Check if company details already exist by name
+            check_query = "SELECT id FROM vessel_companies WHERE name = %s"
+            cursor.execute(check_query, (company_name,))
             existing = cursor.fetchone()
 
             if existing:
                 # Update existing record
                 update_query = """
-                               UPDATE company_details
-                               SET company_name    = %s, \
-                                   company_address = %s, \
-                                   total_dwt       = %s,
-                                   fleet_count     = %s, \
-                                   company_website = %s
-                               WHERE company_id = %s \
+                               UPDATE vessel_companies
+                               SET name = %s, \
+                                   country = %s, \
+                                   address = %s, \
+                                   total_dwt = %s, \
+                                   fleet_count = %s, \
+                                   website = %s, \
+                                   updated_at = NOW()
+                               WHERE name = %s \
                                """
                 cursor.execute(update_query, (
-                    company_data.get('company_name'),
-                    company_data.get('address'),
+                    company_name,
+                    company_data.get('country'),
+                    address,
                     company_data.get('total_dwt'),
                     company_data.get('total_vessels'),
                     company_data.get('website'),
-                    company_id
+                    company_name
                 ))
-                print(f"{Colors.YELLOW}Updated existing company details for ID: {company_id}{Colors.NC}")
+                print(f"{Colors.YELLOW}Updated existing company details for: {company_name}{Colors.NC}")
+                return existing[0]  # Return existing company ID
             else:
                 # Insert new record
                 insert_query = """
-                               INSERT INTO company_details
-                               (company_id, company_name, company_address, total_dwt, fleet_count, company_website)
-                               VALUES (%s, %s, %s, %s, %s, %s) \
+                               INSERT INTO vessel_companies
+                               (name, country, address, total_dwt, fleet_count, website, created_at, updated_at)
+                               VALUES (%s, %s, %s, %s, %s, %s, NOW(), NOW()) \
                                """
                 cursor.execute(insert_query, (
-                    company_id,
-                    company_data.get('company_name'),
-                    company_data.get('address'),
+                    company_name,
+                    company_data.get('country'),
+                    address,
                     company_data.get('total_dwt'),
                     company_data.get('total_vessels'),
                     company_data.get('website')
@@ -453,6 +530,7 @@ class EnhancedMagicPortScraper:
 
         except Exception as e:
             self.log(f"Error establishing session: {e}", Colors.RED)
+            self.log("This could be due to network issues or site blocking", Colors.YELLOW)
             return False
 
     async def extract_company_info(self):
@@ -905,22 +983,23 @@ class EnhancedMagicPortScraper:
             if not csrf_token or not fleet_route:
                 return False
 
-            # Save company details to database
-            # (company_info is extracted in fetch_company_page method)
-            # You'll need to store it as instance variable
+            # Save company details to database and get the actual database company ID
+            database_company_id = None
             if hasattr(self, 'company_info') and self.company_info:
-                success = self.db_manager.insert_company_details(self.company_id, self.company_info)
-                if not success:
+                database_company_id = self.db_manager.insert_company_details(self.company_id, self.company_info)
+                if not database_company_id:
                     self.log("Failed to save company details", Colors.RED)
+                    return False
 
             # Step 2: Fetch fleet data
             fleet_data = await self.fetch_fleet_data(csrf_token, fleet_route)
             if not fleet_data:
+                print("Error fetching fleet data")
                 return False
 
-            # Save fleet data to database
-            if 'data' in fleet_data and fleet_data['data']:
-                success = self.db_manager.insert_fleet_vessels(self.company_id, fleet_data['data'])
+            # Save fleet data to database using the actual database company ID
+            if 'data' in fleet_data and fleet_data['data'] and database_company_id:
+                success = self.db_manager.insert_fleet_vessels(database_company_id, fleet_data['data'])
                 if not success:
                     self.log("Failed to save fleet vessels", Colors.RED)
                     return False
@@ -947,7 +1026,12 @@ class EnhancedMagicPortScraper:
     def save_json_backup(self, data):
         """Save JSON backup file"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{self.company_slug}_fleet_data_{timestamp}.json"
+
+        # Create fleet_data directory if it doesn't exist
+        if not os.path.exists('fleet_data'):
+            os.makedirs('fleet_data')
+
+        filename = f"fleet_data/{self.company_slug}_fleet_data_{timestamp}.json"
 
         try:
             with open(filename, 'w', encoding='utf-8') as f:
@@ -975,11 +1059,11 @@ def main():
 
     # Database configuration
     db_config = {
-        'host': args.db_host,
-        'port': args.db_port,
-        'database': args.db_name,
-        'user': args.db_user,
-        'password': args.db_password
+        'host': 'localhost',
+        'port': 3306,
+        'database': 'magic_port',
+        'user': 'root',
+        'password': 'rootpassword'
     }
 
     async def run_scraper():
