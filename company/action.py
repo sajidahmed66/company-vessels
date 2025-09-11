@@ -61,11 +61,11 @@ def update_company_status(company_id, status=True):
         return False
 
 async def main():
-    batch_size = 10
+    batch_size = 1
     db_config = {
         'host': 'localhost',
         'port': 3306,
-        'database': 'magic_port',
+        'database': 'marine-db',
         'user': 'root',
         'password': 'rootpassword'
     }

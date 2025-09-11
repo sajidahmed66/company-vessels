@@ -1,0 +1,86 @@
+{
+  "url": "https://www.vesselfinder.com/vessels/details/9289984",
+  "scraped_at": "2025-09-12 00:19:52",
+  "sections": {
+    "ship_text_section": {
+      "vessel_name": "NEW SUN",
+      "vessel_type_and_imo": "General Cargo Ship, IMO 9289984",
+      "imo_number": "9289984"
+    },
+    "ship_section_data": {
+      "vessel_particulars": {
+        "IMO number": "9289984",
+        "Vessel Name": "NEW SUN",
+        "Ship Type": "General Cargo Ship",
+        "Flag": "Hong Kong",
+        "Year of Build": "2003",
+        "vessel_image_url": "https://static.vesselfinder.net/images/cool-ship2@2.png"
+      },
+      "voyage_data": {}
+    },
+    "additional_tables": {
+      "table_1": {
+        "IMO number": "9289984",
+        "Vessel Name": "NEW SUN",
+        "Ship Type": "General Cargo Ship",
+        "Flag": "Hong Kong",
+        "Year of Build": "2003"
+      },
+      "table_2": {
+        "Length Overall (m)": "49.96",
+        "Beam (m)": "13.00"
+      },
+      "table_3": {
+        "Gross Tonnage": "897"
+      },
+      "table_4": {
+        "Crude Oil (bbl)": "-",
+        "Gas (m3)": "-",
+        "Bale (m3)": "-",
+        "Fresh Water (m3)": "-"
+      },
+      "table_6": {
+        "Engine Type": "-",
+        "Fuel Type": "-"
+      },
+      "table_7": {
+        "Address Website Email": "Address",
+        "Address Website- Email-": "Address",
+        "Website": "-",
+        "Email": "-"
+      },
+      "table_9": {
+        "Website": "-",
+        "Email": "-"
+      },
+      "table_10": {
+        "ISM Manager": "-",
+        "Address- Website- Email-": "Address",
+        "Address": "-",
+        "Website": "-",
+        "Email": "-"
+      },
+      "table_11": {
+        "Address": "-",
+        "Website": "-",
+        "Email": "-"
+      },
+      "table_12": {
+        "P&I Club": "-"
+      },
+      "table_13": {
+        "Vessel": "Built",
+        "STAR LIGHT NO. 1General Cargo Ship": "2004",
+        "SATYA BERJAYAGeneral Cargo Ship": "1989",
+        "SF OMEGAGeneral Cargo Ship": "1993",
+        "HOANG GIA 07General Cargo Ship": "2004",
+        "MING ZHOU 4General Cargo Ship": "1975",
+        "MONALINDA 92General Cargo Ship": "1979",
+        "ISLA DE PLATAGeneral Cargo Ship": "1972",
+        "KANSAIGeneral Cargo Ship": "1976",
+        "AQUARIUS IIIGeneral Cargo Ship": "1981",
+        "BIMA PUTRAGeneral Cargo Ship": "1993"
+      }
+    }
+  }
+}
