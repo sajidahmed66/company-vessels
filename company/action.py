@@ -34,7 +34,7 @@ def get_company():
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE is_active = FALSE ORDER BY id DESC LIMIT 1"
+        sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE is_active = FALSE ORDER BY id ASC LIMIT 1"
         cursor.execute(sql_select_Query)
         records = cursor.fetchall()
         if connection:
@@ -61,11 +61,11 @@ def update_company_status(company_id, status=True):
         return False
 
 async def main():
-    batch_size = 1
+    batch_size =1
     db_config = {
         'host': 'localhost',
         'port': 3306,
-        'database': 'marine-db',
+        'database': 'magic_port',
         'user': 'root',
         'password': 'rootpassword'
     }
@@ -77,13 +77,13 @@ async def main():
                 print("No more companies to process")
                 break
             print(f"Processing company: {company_data[0]}")
-
+            print(f"start time {datetime.now()}")
             scraper = EnhancedMagicPortScraper(
                 company_id=company_data[0][0],
                 company_name=company_data[0][1],
                 company_url=company_data[0][2],
                 db_config=db_config,
-                headless=False,
+                headless=True,
             )
             # Run the full scraping process
             success = await scraper.scrape_and_save_to_database()
@@ -92,6 +92,8 @@ async def main():
             if success:
                 update_company_status(company_data[0][0], True)
                 print(f"Successfully processed company ID: {company_data[0]}")
+                print(f"end time {datetime.now()}")
+
             else:
                 print(f"Failed to process company ID: {company_data[0]}")
         except KeyboardInterrupt:

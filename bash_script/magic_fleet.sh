@@ -5,7 +5,7 @@
 
 # Configuration
 BASE_URL="https://magicport.ai"
-COMPANY_URL="${1:-https://magicport.ai/owners-managers/malaysia/sin-soon-hock-sdn-bhd}"
+COMPANY_URL="${1:-https://magicport.ai/owners-managers/malaysia/wilhelmsen-ship-mgmt-sdn-bhd}"
 COOKIES_FILE="magicport_cookies.txt"
 USER_AGENT="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 

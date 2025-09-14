@@ -1194,8 +1194,8 @@ class EnhancedMagicPortScraper:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
         # Create fleet_data directory if it doesn't exist
-        if not os.path.exists('../fleet_data'):
-            os.makedirs('../fleet_data')
+        if not os.path.exists('fleet_data'):
+            os.makedirs('fleet_data')
 
         filename = f"fleet_data/{self.company_slug}_fleet_data_{timestamp}.json"
 
