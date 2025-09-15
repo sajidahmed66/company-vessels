@@ -61,7 +61,7 @@ def update_company_status(company_id, status=True):
         return False
 
 async def main():
-    batch_size =1
+    batch_size =1000
     db_config = {
         'host': 'localhost',
         'port': 3306,

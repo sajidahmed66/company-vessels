@@ -9,4 +9,4 @@ wheels/
 # Virtual environments
 .venv
 /.idea
-fleet_data/
+company/fleet_data/
