@@ -15,6 +15,7 @@ import sys
 import os
 import asyncio
 import argparse
+import logging
 from datetime import datetime
 from urllib.parse import urlparse
 from playwright.async_api import async_playwright
@@ -620,6 +621,40 @@ class EnhancedMagicPortScraper:
         else:
             self.company_slug = company_name.lower().replace(' ', '-')
 
+        # Setup logging for failed companies
+        self.setup_failed_companies_logger()
+
+    def setup_failed_companies_logger(self):
+        """Setup logger for failed companies"""
+        self.failed_companies_logger = logging.getLogger('failed_companies')
+        self.failed_companies_logger.setLevel(logging.INFO)
+
+        # Create logs directory if it doesn't exist
+        if not os.path.exists('logs'):
+            os.makedirs('logs')
+
+        # Create file handler
+        log_filename = f"logs/failed_companies_{datetime.now().strftime('%Y%m%d')}.log"
+        file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
+        file_handler.setLevel(logging.INFO)
+
+        # Create formatter
+        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(formatter)
+
+        # Add handler to logger (avoid duplicates)
+        if not self.failed_companies_logger.handlers:
+            self.failed_companies_logger.addHandler(file_handler)
+
+    def log_failed_company(self, reason, current_url=None):
+        """Log failed company details to file"""
+        log_message = f"FAILED - Reason: {reason} | Company ID: {self.company_id} | Company Name: {self.company_name} | Expected URL: {self.company_url}"
+        if current_url:
+            log_message += f" | Redirected to: {current_url}"
+
+        self.failed_companies_logger.info(log_message)
+        print(f"{Colors.YELLOW}Logged failed company to file: {self.company_name}{Colors.NC}")
+
     def log(self, message, color=Colors.NC):
         print(f"{color}{message}{Colors.NC}")
 
@@ -862,10 +897,16 @@ class EnhancedMagicPortScraper:
             # Check if page loaded successfully
             current_url = self.page.url
             if current_url != self.company_url:
-                self.log("Redirection", Colors.RED)
+                self.log("Redirection detected - marking company as processed", Colors.RED)
                 self.log(f"Current URL: {current_url}", Colors.YELLOW)
                 self.log(f"Expected URL: {self.company_url}", Colors.YELLOW)
-                # update_company_status(self.company_id, status=True)
+
+                # Log failed company to file
+                self.log_failed_company("URL_REDIRECT", current_url)
+
+                # Import and call update function to mark as processed
+                from action import update_company_status
+                update_company_status(self.company_id, status=True)
                 return False
 
             self.log(f"Current URL: {current_url}", Colors.YELLOW)
@@ -876,7 +917,10 @@ class EnhancedMagicPortScraper:
 
             # Check for error pages or redirects
             if "404" in title.lower() or "not found" in title.lower():
-                self.log("Page not found - check URL", Colors.RED)
+                self.log("Page not found - marking company as processed", Colors.RED)
+                self.log_failed_company("PAGE_NOT_FOUND", current_url)
+                from action import update_company_status
+                update_company_status(self.company_id, status=True)
                 return None, None
 
             # Wait a bit for any dynamic content
@@ -1185,6 +1229,13 @@ class EnhancedMagicPortScraper:
 
         except Exception as e:
             self.log(f"Unexpected error: {e}", Colors.RED)
+            self.log_failed_company(f"UNEXPECTED_ERROR: {str(e)}")
+            # Mark as processed to avoid infinite retry
+            # try:
+            #     from action import update_company_status
+            #     update_company_status(self.company_id, status=True)
+            # except:
+            #     pass
             return False
 
         finally:

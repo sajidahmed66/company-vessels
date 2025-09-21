@@ -35,7 +35,7 @@ def get_company():
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE is_active = FALSE AND country_name = 'Vietnam' ORDER BY id ASC LIMIT 1"
+        sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE is_active = FALSE ORDER BY id ASC LIMIT 1"
         cursor.execute(sql_select_Query)
         records = cursor.fetchall()
         if connection:
