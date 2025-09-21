@@ -861,6 +861,13 @@ class EnhancedMagicPortScraper:
 
             # Check if page loaded successfully
             current_url = self.page.url
+            if current_url != self.company_url:
+                self.log("Redirection", Colors.RED)
+                self.log(f"Current URL: {current_url}", Colors.YELLOW)
+                self.log(f"Expected URL: {self.company_url}", Colors.YELLOW)
+                # update_company_status(self.company_id, status=True)
+                return False
+
             self.log(f"Current URL: {current_url}", Colors.YELLOW)
 
             # Get page title for debugging

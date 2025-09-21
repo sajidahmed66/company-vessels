@@ -31,10 +31,11 @@ def create_database_connection():
 
 def get_company():
     """Get company data from database"""
+    """from lower half got japan and china"""
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE is_active = FALSE ORDER BY id ASC LIMIT 1"
+        sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE is_active = FALSE AND country_name = 'Vietnam' ORDER BY id ASC LIMIT 1"
         cursor.execute(sql_select_Query)
         records = cursor.fetchall()
         if connection:
@@ -61,7 +62,7 @@ def update_company_status(company_id, status=True):
         return False
 
 async def main():
-    batch_size =1000
+    batch_size =1200
     db_config = {
         'host': 'localhost',
         'port': 3306,
@@ -70,7 +71,8 @@ async def main():
         'password': 'rootpassword'
     }
 
-    for _ in range(batch_size):
+    for i in range(batch_size):
+        print(f"Processing batch {i+1}")
         try:
             company_data = get_company()
             if not company_data:
