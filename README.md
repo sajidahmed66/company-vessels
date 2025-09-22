@@ -95,10 +95,12 @@ magiport-sc/
 
 - **Asynchronous web scraping** using Playwright
 - **Database integration** with MySQL
-- **Error handling** and retry mechanisms
+- **Error handling** and retry mechanisms with failed company logging
+- **Infinite loop prevention** for redirected/invalid URLs
 - **Configurable scraping parameters**
 - **JSON output** for scraped data
 - **Batch processing** capabilities
+- **Comprehensive logging** of failed companies
 
 ## Configuration
 
@@ -109,6 +111,19 @@ Make sure to configure your database connection settings in the respective Pytho
 - Company data is stored directly in the MySQL database
 - Vessel data is output as JSON files with timestamps
 - Debug information and logs are displayed in the console
+- **Failed companies** are logged to `logs/failed_companies_YYYYMMDD.log` with detailed error information
+
+### Log Files
+
+The scraper automatically creates log files for companies that fail to process:
+- **Location**: `logs/failed_companies_YYYYMMDD.log`
+- **Content**: Company ID, name, URL, failure reason, and redirect destinations
+- **Format**: Timestamped entries with structured data for easy analysis
+
+Example log entry:
+```
+2024-09-21 15:30:45 - INFO - FAILED - Reason: URL_REDIRECT | Company ID: 123 | Company Name: ABC Shipping | Expected URL: https://magicport.ai/... | Redirected to: https://magicport.ai/404
+```
 
 ## Notes
 
@@ -116,6 +131,21 @@ Make sure to configure your database connection settings in the respective Pytho
 - Requires active internet connection for web scraping
 - Some scrapers may need specific website access permissions
 - Processing time varies depending on the amount of data being scraped
+- **Automatic error handling**: Companies with invalid URLs or redirects are automatically marked as processed to prevent infinite loops
+- **Resumable processing**: The scraper can be safely interrupted and resumed without losing progress
+
+## Troubleshooting
+
+### Infinite Loop Issues
+If the scraper gets stuck on the same company repeatedly:
+- Check the `logs/failed_companies_YYYYMMDD.log` file for error details
+- Failed companies are automatically marked as processed to prevent loops
+- The scraper will continue with the next available company
+
+### Common Error Types Logged
+- **URL_REDIRECT**: Company URL redirects to a different page
+- **PAGE_NOT_FOUND**: Company page returns 404 or "not found"
+- **UNEXPECTED_ERROR**: General errors during scraping process
 ```
 
 
