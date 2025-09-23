@@ -52,6 +52,51 @@ class VesselScraper:
         text = re.sub(r'\s+', ' ', text.strip())
         return text
 
+    def flatten_json(self, nested_dict: Dict[str, Any], parent_key: str = '', separator: str = '.') -> Dict[str, Any]:
+        """
+        Flatten nested JSON object using only final property names
+        Preserves important top-level keys (url, scraped_at)
+        If duplicates exist, keeps the last one
+
+        Args:
+            nested_dict: The nested dictionary to flatten
+            parent_key: The base key for nested items
+            separator: Separator to use between keys (default: '.')
+
+        Returns:
+            Flattened dictionary with simple property names
+        """
+        flattened = {}
+
+        # Top-level keys to preserve full path
+        preserve_keys = {'url', 'scraped_at', 'error'}
+
+        for key, value in nested_dict.items():
+            if isinstance(value, dict):
+                # Recursively flatten nested dictionaries
+                flattened.update(self.flatten_json(value, key, separator))
+            elif isinstance(value, list):
+                # Handle lists
+                for i, item in enumerate(value):
+                    if isinstance(item, dict):
+                        flattened.update(self.flatten_json(item, f"{key}[{i}]", separator))
+                    else:
+                        # Use simple key for list items
+                        if key in preserve_keys or not parent_key:
+                            flattened[f"{key}[{i}]"] = item
+                        else:
+                            flattened[key] = item
+            else:
+                # For top-level important keys, keep full name
+                if key in preserve_keys or not parent_key:
+                    flattened[key] = value
+                else:
+                    # Use only the final property name
+                    # If duplicate exists, this overwrites (keeps last one)
+                    flattened[key] = value
+
+        return flattened
+
     def extract_table_data(self, table) -> Dict[str, str]:
         """Extract data from HTML table"""
         data = {}
@@ -265,6 +310,16 @@ class VesselScraper:
 
         return result
 
+    def get_flattened_data(self, url: str) -> Dict[str, Any]:
+        """
+        Scrape vessel data and return flattened dictionary
+
+        Returns:
+            Flattened dictionary with all nested data as dot-notation keys
+        """
+        scraped_data = self.scrape_vessel_data(url)
+        return self.flatten_json(scraped_data)
+
 
 def main():
     """Main function"""
@@ -281,7 +336,8 @@ def main():
     print("-" * 50)
 
     scraper = VesselScraper()
-    data = scraper.scrape_vessel_data(url)
+    # data = scraper.scrape_vessel_data(url)
+    data = scraper.get_flattened_data(url)
 
     # Output JSON
     json_output = json.dumps(data, indent=2, ensure_ascii=False)
