@@ -16,6 +16,7 @@ from typing import Dict, Any, Optional
 import sys
 import urllib.parse
 
+# todo add database connection class
 
 class VesselScraper:
     def __init__(self):
@@ -267,8 +268,9 @@ class VesselScraper:
 
 def main():
     """Main function"""
-    # Default URL
-    url = "https://www.vesselfinder.com/vessels/details/9289984"
+    # Default URL\
+    base_url = "https://www.vesselfinder.com/vessels/details/"
+    url = f"https://www.vesselfinder.com/vessels/details/9289984"
 
     # Allow custom URL from command line
     if len(sys.argv) > 1:
