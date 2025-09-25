@@ -35,7 +35,7 @@ def get_company():
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE is_active = FALSE AND id > 10501 AND id < 12362 ORDER BY id ASC LIMIT 1"
+        sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE is_active = FALSE AND id < 12362 ORDER BY id ASC LIMIT 1"
         cursor.execute(sql_select_Query)
         records = cursor.fetchall()
         if connection:
@@ -62,7 +62,7 @@ def update_company_status(company_id, status=True):
         return False
 
 async def main():
-    batch_size =1200
+    batch_size =610
     db_config = {
         'host': 'localhost',
         'port': 3306,
