@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "GOLDEN GATE SHIP MANAGEMENT",
+      "commercial_manager_company_country_slug": "india",
+      "commercial_manager_company_imo": 29112,
+      "commercial_manager_company_name_slug": "golden-gate-ship-management",
+      "commercial_manager_total_distinct_vessels": 1,
+      "core_vessel_types_key": "tanker",
+      "core_vessel_types_name": "Tanker",
+      "dwt": 47999,
+      "flag": "PA",
+      "ism_manager": "GOLDEN GATE SHIP MANAGEMENT",
+      "ism_manager_company_country_slug": "india",
+      "ism_manager_company_imo": 29112,
+      "ism_manager_company_name_slug": "golden-gate-ship-management",
+      "ism_manager_total_distinct_vessels": 1,
+      "last_position_update": "Wed, 24 Sep 2025 21:29:40 GMT",
+      "registered_owner": "AURORA SHIPOWNERS LTD",
+      "registered_owner_company_country_slug": "india",
+      "registered_owner_company_imo": 17392,
+      "registered_owner_company_name_slug": "aurora-shipowners-ltd",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 9262912,
+      "vessel_mmsi": 352001225,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/tanker/auroura-mmsi-352001225\" class=\"d-flex align-items-center text--primary\"><span><span class=\"svg-icon svg-icon-5 text--warning\" style=\"color: #d16500\" data-tippy title=\"Potential risk\"><svg class=\"icon\"><use xlink:href=\"#icon-alert\"></use></svg></span>&nbsp;AUROURA</span></a>",
+      "vessel_type": "Product Tanker",
+      "route": "https://magicport.ai/vessels/tanker/auroura-mmsi-352001225",
+      "registered_owner_page": "https://magicport.ai/vessels/tanker/auroura-mmsi-352001225",
+      "commercial_manager_page": "https://magicport.ai/vessels/tanker/auroura-mmsi-352001225",
+      "ism_manager_page": "https://magicport.ai/vessels/tanker/auroura-mmsi-352001225"
+    }
+  ]
+}

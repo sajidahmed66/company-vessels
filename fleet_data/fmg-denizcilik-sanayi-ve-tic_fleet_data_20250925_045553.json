@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "DSC MARINE SERVICES SA",
+      "commercial_manager_company_country_slug": "cameroon",
+      "commercial_manager_company_imo": 6323997,
+      "commercial_manager_company_name_slug": "dsc-marine-services-sa",
+      "commercial_manager_total_distinct_vessels": 1,
+      "core_vessel_types_key": "tanker",
+      "core_vessel_types_name": "Tanker",
+      "dwt": 15552,
+      "flag": "MH",
+      "ism_manager": "FMG DENIZCILIK SANAYI VE TIC",
+      "ism_manager_company_country_slug": "türkiye",
+      "ism_manager_company_imo": 6350961,
+      "ism_manager_company_name_slug": "fmg-denizcilik-sanayi-ve-tic",
+      "ism_manager_total_distinct_vessels": 1,
+      "last_position_update": "Wed, 24 Sep 2025 22:11:33 GMT",
+      "registered_owner": "DSC MARINE SERVICES SA",
+      "registered_owner_company_country_slug": "cameroon",
+      "registered_owner_company_imo": 6323997,
+      "registered_owner_company_name_slug": "dsc-marine-services-sa",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 9334428,
+      "vessel_mmsi": 538010078,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/tanker/sea-bazou-2-mmsi-538010078\" class=\"d-flex align-items-center text--primary\"><span>&nbsp;SEA BAZOU 2</span></a>",
+      "vessel_type": "Chemical Tanker",
+      "route": "https://magicport.ai/vessels/tanker/sea-bazou-2-mmsi-538010078",
+      "registered_owner_page": "https://magicport.ai/vessels/tanker/sea-bazou-2-mmsi-538010078",
+      "commercial_manager_page": "https://magicport.ai/vessels/tanker/sea-bazou-2-mmsi-538010078",
+      "ism_manager_page": "https://magicport.ai/vessels/tanker/sea-bazou-2-mmsi-538010078"
+    }
+  ]
+}

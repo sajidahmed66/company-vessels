@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "KEPLER TRADING LLC",
+      "commercial_manager_company_country_slug": "united-arab-emirates",
+      "commercial_manager_company_imo": 6478084,
+      "commercial_manager_company_name_slug": "kepler-trading-llc",
+      "commercial_manager_total_distinct_vessels": 1,
+      "core_vessel_types_key": "tanker",
+      "core_vessel_types_name": "Tanker",
+      "dwt": 46088,
+      "flag": "PA",
+      "ism_manager": "CROWNWELL SHIP SERVICES OPC",
+      "ism_manager_company_country_slug": "india",
+      "ism_manager_company_imo": 6230606,
+      "ism_manager_company_name_slug": "crownwell-ship-services-opc",
+      "ism_manager_total_distinct_vessels": 1,
+      "last_position_update": "Wed, 24 Sep 2025 21:27:21 GMT",
+      "registered_owner": "INFINITY SHIPS LTD",
+      "registered_owner_company_country_slug": "united-arab-emirates",
+      "registered_owner_company_imo": 6406993,
+      "registered_owner_company_name_slug": "infinity-ships-ltd",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 9359387,
+      "vessel_mmsi": 352002060,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/tanker/albatross-1-mmsi-352002060\" class=\"d-flex align-items-center text--primary\"><span>&nbsp;ALBATROSS 1</span></a>",
+      "vessel_type": "Chemical Tanker",
+      "route": "https://magicport.ai/vessels/tanker/albatross-1-mmsi-352002060",
+      "registered_owner_page": "https://magicport.ai/vessels/tanker/albatross-1-mmsi-352002060",
+      "commercial_manager_page": "https://magicport.ai/vessels/tanker/albatross-1-mmsi-352002060",
+      "ism_manager_page": "https://magicport.ai/vessels/tanker/albatross-1-mmsi-352002060"
+    }
+  ]
+}

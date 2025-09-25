@@ -1,0 +1,51 @@
+2025-09-25 03:47:27,546 - ERROR - Vessel ID: 4840, IMO: 8203933, MMSI: 445536000, Error: Failed to upsert vessel data to database
+2025-09-25 04:15:23,980 - ERROR - Vessel ID: 5218, IMO: 8918277, MMSI: 477323000, Error: Failed to upsert vessel data to database
+2025-09-25 07:33:41,105 - ERROR - Vessel ID: 7809, IMO: 9776884, MMSI: 600013037, Error: Failed to upsert vessel data to database
+2025-09-25 07:33:45,712 - ERROR - Vessel ID: 7810, IMO: 9776896, MMSI: 600013031, Error: Failed to upsert vessel data to database
+2025-09-25 07:34:20,833 - ERROR - Vessel ID: 7817, IMO: 9878400, MMSI: 900004001, Error: Failed to upsert vessel data to database
+2025-09-25 07:38:19,032 - ERROR - Vessel ID: 7868, IMO: 6618914, MMSI: 548210000, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 07:38:23,829 - ERROR - Vessel ID: 7869, IMO: 7033446, MMSI: 500660500, Error: Failed to upsert vessel data to database
+2025-09-25 07:38:28,320 - ERROR - Vessel ID: 7870, IMO: 7109465, MMSI: 400012400, Error: Failed to upsert vessel data to database
+2025-09-25 07:38:33,140 - ERROR - Vessel ID: 7871, IMO: 7210379, MMSI: 40000895, Error: Failed to upsert vessel data to database
+2025-09-25 07:38:42,495 - ERROR - Vessel ID: 7873, IMO: 7522708, MMSI: 40001730, Error: Failed to upsert vessel data to database
+2025-09-25 07:38:51,775 - ERROR - Vessel ID: 7875, IMO: 8125894, MMSI: 40004616, Error: Failed to upsert vessel data to database
+2025-09-25 07:39:24,545 - ERROR - Vessel ID: 7882, IMO: 8823769, MMSI: 40001262, Error: Failed to upsert vessel data to database
+2025-09-25 07:39:34,075 - ERROR - Vessel ID: 7884, IMO: 9011284, MMSI: 40000893, Error: Failed to upsert vessel data to database
+2025-09-25 07:39:43,492 - ERROR - Vessel ID: 7886, IMO: 9805996, MMSI: 600013144, Error: Failed to upsert vessel data to database
+2025-09-25 07:48:06,795 - ERROR - Vessel ID: 7993, IMO: 9759159, MMSI: 600011601, Error: Failed to upsert vessel data to database
+2025-09-25 07:49:37,925 - ERROR - Vessel ID: 8012, IMO: 6812687, MMSI: 584123456, Error: Failed to upsert vessel data to database
+2025-09-25 07:59:19,241 - ERROR - Vessel ID: 8137, IMO: 8748658, MMSI: 584779200, Error: Failed to upsert vessel data to database
+2025-09-25 08:01:14,557 - ERROR - Vessel ID: 8162, IMO: 8911279, MMSI: 70001823, Error: Failed to upsert vessel data to database
+2025-09-25 08:04:29,141 - ERROR - Vessel ID: 8204, IMO: 9753624, MMSI: 600012911, Error: Failed to upsert vessel data to database
+2025-09-25 08:05:50,014 - ERROR - Vessel ID: 8221, IMO: 8994788, MMSI: 125648967, Error: Failed to upsert vessel data to database
+2025-09-25 08:08:23,842 - ERROR - Vessel ID: 8254, IMO: 8617768, MMSI: 414000001, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 08:17:30,947 - ERROR - Vessel ID: 8372, IMO: 9757333, MMSI: 558800300, Error: Failed to upsert vessel data to database
+2025-09-25 08:17:35,780 - ERROR - Vessel ID: 8373, IMO: 9766633, MMSI: 600014707, Error: Failed to upsert vessel data to database
+2025-09-25 08:18:12,924 - ERROR - Vessel ID: 8381, IMO: 9746566, MMSI: 122600000, Error: Failed to upsert vessel data to database
+2025-09-25 08:21:01,990 - ERROR - Vessel ID: 8417, IMO: 9775268, MMSI: 529801000, Error: Failed to upsert vessel data to database
+2025-09-25 08:21:38,818 - ERROR - Vessel ID: 8425, IMO: 8805183, MMSI: 100003661, Error: Failed to upsert vessel data to database
+2025-09-25 08:21:43,452 - ERROR - Vessel ID: 8426, IMO: 9057850, MMSI: 6, Error: Failed to upsert vessel data to database
+2025-09-25 08:22:34,871 - ERROR - Vessel ID: 8437, IMO: 8706600, MMSI: 8086, Error: Failed to upsert vessel data to database
+2025-09-25 08:30:40,960 - ERROR - Vessel ID: 8540, IMO: 7609697, MMSI: 538002101, Error: Failed to upsert vessel data to database
+2025-09-25 09:03:48,769 - ERROR - Vessel ID: 8956, IMO: 9409962, MMSI: 466059000, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 09:04:22,786 - ERROR - Vessel ID: 8957, IMO: 9421453, MMSI: 466062000, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 09:05:00,663 - ERROR - Vessel ID: 8958, IMO: 9421465, MMSI: 466501200, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 09:05:39,330 - ERROR - Vessel ID: 8959, IMO: 9421477, MMSI: 466501220, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 09:06:08,777 - ERROR - Vessel ID: 8964, IMO: 9703435, MMSI: 466415000, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 09:06:13,285 - ERROR - Vessel ID: 8965, IMO: 9704386, MMSI: 466410000, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 09:06:26,804 - ERROR - Vessel ID: 8967, IMO: 9997309, MMSI: 466536700, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 09:07:10,938 - ERROR - Vessel ID: 8973, IMO: 9655626, MMSI: 466574830, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 09:25:16,177 - ERROR - Vessel ID: 9201, IMO: 8938344, MMSI: 273444080, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 09:28:34,939 - ERROR - Vessel ID: 9243, IMO: 9924106, MMSI: 273566292, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 10:09:42,692 - ERROR - Vessel ID: 9766, IMO: 7121449, MMSI: 273183200, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 10:09:47,299 - ERROR - Vessel ID: 9767, IMO: 7531979, MMSI: 273186200, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 10:11:50,487 - ERROR - Vessel ID: 9793, IMO: 7127390, MMSI: 512009981, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 10:32:16,634 - ERROR - Vessel ID: 10053, IMO: 8326034, MMSI: 273326700, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 10:32:35,680 - ERROR - Vessel ID: 10057, IMO: 8521880, MMSI: 273438520, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 11:19:01,494 - ERROR - Vessel ID: 10649, IMO: 5264596, MMSI: 118490684, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 11:58:44,532 - ERROR - Vessel ID: 11158, IMO: 9180279, MMSI: 511709000, Error: Failed to upsert vessel data to database
+2025-09-25 12:00:21,092 - ERROR - Vessel ID: 11179, IMO: 9101819, MMSI: 511480000, Error: Failed to upsert vessel data to database
+2025-09-25 12:47:11,911 - ERROR - Vessel ID: 11750, IMO: 9562697, MMSI: 352004301, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 12:49:44,549 - ERROR - Vessel ID: 11773, IMO: 9348534, MMSI: 565205000, Error: Scraping failed: Failed to fetch webpage
+2025-09-25 13:03:36,755 - ERROR - Vessel ID: 11938, IMO: 8126575, MMSI: 477113000, Error: Failed to upsert vessel data to database
+2025-09-25 13:56:18,229 - ERROR - Vessel ID: 12599, IMO: 8353922, MMSI: 341047000, Error: Scraping failed: Failed to fetch webpage

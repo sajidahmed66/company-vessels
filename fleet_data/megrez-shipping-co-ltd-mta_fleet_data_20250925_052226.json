@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "ARKAS DENIZCILIK VE NAKLIYAT",
+      "commercial_manager_company_country_slug": "türkiye",
+      "commercial_manager_company_imo": 4068111,
+      "commercial_manager_company_name_slug": "arkas-denizcilik-ve-nakliyat",
+      "commercial_manager_total_distinct_vessels": 57,
+      "core_vessel_types_key": "container",
+      "core_vessel_types_name": "Container",
+      "dwt": 22014,
+      "flag": "MT",
+      "ism_manager": "ARKAS DENIZCILIK VE NAKLIYAT",
+      "ism_manager_company_country_slug": "türkiye",
+      "ism_manager_company_imo": 4068111,
+      "ism_manager_company_name_slug": "arkas-denizcilik-ve-nakliyat",
+      "ism_manager_total_distinct_vessels": 57,
+      "last_position_update": "Wed, 24 Sep 2025 23:02:25 GMT",
+      "registered_owner": "MEGREZ SHIPPING CO LTD-MTA",
+      "registered_owner_company_country_slug": "türkiye",
+      "registered_owner_company_imo": 5958594,
+      "registered_owner_company_name_slug": "megrez-shipping-co-ltd-mta",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 9379349,
+      "vessel_mmsi": 215417000,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/container/michel-a-mmsi-215417000\" class=\"d-flex align-items-center text--primary\"><span><span class=\"svg-icon svg-icon-5 text--warning\" style=\"color: #d16500\" data-tippy title=\"Potential risk\"><svg class=\"icon\"><use xlink:href=\"#icon-alert\"></use></svg></span>&nbsp;MICHEL A</span></a>",
+      "vessel_type": "Container",
+      "route": "https://magicport.ai/vessels/container/michel-a-mmsi-215417000",
+      "registered_owner_page": "https://magicport.ai/vessels/container/michel-a-mmsi-215417000",
+      "commercial_manager_page": "https://magicport.ai/owners-managers/t%C3%BCrkiye/arkas-denizcilik-ve-nakliyat",
+      "ism_manager_page": "https://magicport.ai/owners-managers/t%C3%BCrkiye/arkas-denizcilik-ve-nakliyat"
+    }
+  ]
+}

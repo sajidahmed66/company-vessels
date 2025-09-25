@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "GRI DENIZCILIK SANAYI VE TIC",
+      "commercial_manager_company_country_slug": "türkiye",
+      "commercial_manager_company_imo": 6481534,
+      "commercial_manager_company_name_slug": "gri-denizcilik-sanayi-ve-tic",
+      "commercial_manager_total_distinct_vessels": 1,
+      "core_vessel_types_key": "general-cargo",
+      "core_vessel_types_name": "General Cargo",
+      "dwt": 1310,
+      "flag": "TZ",
+      "ism_manager": "GRI DENIZCILIK SANAYI VE TIC",
+      "ism_manager_company_country_slug": "türkiye",
+      "ism_manager_company_imo": 6481534,
+      "ism_manager_company_name_slug": "gri-denizcilik-sanayi-ve-tic",
+      "ism_manager_total_distinct_vessels": 1,
+      "last_position_update": "Wed, 24 Sep 2025 21:50:23 GMT",
+      "registered_owner": "INSAN HAK VE HURRIYETLERI",
+      "registered_owner_company_country_slug": "türkiye",
+      "registered_owner_company_imo": 6481551,
+      "registered_owner_company_name_slug": "insan-hak-ve-hurriyetleri",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 7615048,
+      "vessel_mmsi": 677021700,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/general-cargo/akdeniz-mmsi-677021700\" class=\"d-flex align-items-center text--primary\"><span>&nbsp;AKDENIZ</span></a>",
+      "vessel_type": "Deck Cargo",
+      "route": "https://magicport.ai/vessels/general-cargo/akdeniz-mmsi-677021700",
+      "registered_owner_page": "https://magicport.ai/vessels/general-cargo/akdeniz-mmsi-677021700",
+      "commercial_manager_page": "https://magicport.ai/vessels/general-cargo/akdeniz-mmsi-677021700",
+      "ism_manager_page": "https://magicport.ai/vessels/general-cargo/akdeniz-mmsi-677021700"
+    }
+  ]
+}

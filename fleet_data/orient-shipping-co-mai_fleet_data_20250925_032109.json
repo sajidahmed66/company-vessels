@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "ADA MARINE DENIZCILIK DIS TIC",
+      "commercial_manager_company_country_slug": "türkiye",
+      "commercial_manager_company_imo": 6420895,
+      "commercial_manager_company_name_slug": "ada-marine-denizcilik-dis-tic",
+      "commercial_manager_total_distinct_vessels": 9,
+      "core_vessel_types_key": "container",
+      "core_vessel_types_name": "Container",
+      "dwt": 18585,
+      "flag": "PW",
+      "ism_manager": "ORIENT SHIPPING CO-MAI",
+      "ism_manager_company_country_slug": "türkiye",
+      "ism_manager_company_imo": 6235448,
+      "ism_manager_company_name_slug": "orient-shipping-co-mai",
+      "ism_manager_total_distinct_vessels": 1,
+      "last_position_update": "Wed, 24 Sep 2025 20:46:31 GMT",
+      "registered_owner": "OCEAN MARITIME TRADE CO",
+      "registered_owner_company_country_slug": "liberia",
+      "registered_owner_company_imo": 6425128,
+      "registered_owner_company_name_slug": "ocean-maritime-trade-co",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 9108233,
+      "vessel_mmsi": 511101337,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/container/sidra-ahlam-mmsi-511101337\" class=\"d-flex align-items-center text--primary\"><span><span class=\"svg-icon svg-icon-5 text--warning\" style=\"color: #d16500\" data-tippy title=\"Potential risk\"><svg class=\"icon\"><use xlink:href=\"#icon-alert\"></use></svg></span>&nbsp;SIDRA AHLAM</span></a>",
+      "vessel_type": "Container",
+      "route": "https://magicport.ai/vessels/container/sidra-ahlam-mmsi-511101337",
+      "registered_owner_page": "https://magicport.ai/vessels/container/sidra-ahlam-mmsi-511101337",
+      "commercial_manager_page": "https://magicport.ai/owners-managers/t%C3%BCrkiye/ada-marine-denizcilik-dis-tic",
+      "ism_manager_page": "https://magicport.ai/owners-managers/t%C3%BCrkiye/orient-shipping-co-mai"
+    }
+  ]
+}

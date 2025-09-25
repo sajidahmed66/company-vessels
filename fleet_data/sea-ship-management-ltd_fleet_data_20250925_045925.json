@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "SEA SHIP MANAGEMENT LTD",
+      "commercial_manager_company_country_slug": "türkiye",
+      "commercial_manager_company_imo": 6354257,
+      "commercial_manager_company_name_slug": "sea-ship-management-ltd",
+      "commercial_manager_total_distinct_vessels": 1,
+      "core_vessel_types_key": "bulk-carrier",
+      "core_vessel_types_name": "Bulk Carrier",
+      "dwt": 55552,
+      "flag": "MH",
+      "ism_manager": "SEA SHIP MANAGEMENT LTD",
+      "ism_manager_company_country_slug": "türkiye",
+      "ism_manager_company_imo": 6354257,
+      "ism_manager_company_name_slug": "sea-ship-management-ltd",
+      "ism_manager_total_distinct_vessels": 1,
+      "last_position_update": "Thu, 18 Sep 2025 19:40:28 GMT",
+      "registered_owner": "BERDEN SHIPPING INC",
+      "registered_owner_company_country_slug": "türkiye",
+      "registered_owner_company_imo": 6292781,
+      "registered_owner_company_name_slug": "berden-shipping-inc",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 9278818,
+      "vessel_mmsi": 538009227,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/bulk-carrier/berden-mmsi-538009227\" class=\"d-flex align-items-center text--primary\"><span>&nbsp;BERDEN</span></a>",
+      "vessel_type": "Dry Bulk",
+      "route": "https://magicport.ai/vessels/bulk-carrier/berden-mmsi-538009227",
+      "registered_owner_page": "https://magicport.ai/vessels/bulk-carrier/berden-mmsi-538009227",
+      "commercial_manager_page": "https://magicport.ai/vessels/bulk-carrier/berden-mmsi-538009227",
+      "ism_manager_page": "https://magicport.ai/vessels/bulk-carrier/berden-mmsi-538009227"
+    }
+  ]
+}

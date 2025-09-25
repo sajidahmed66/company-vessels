@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "FORTUNA GEMI ISLET DEN VE TEK",
+      "commercial_manager_company_country_slug": "türkiye",
+      "commercial_manager_company_imo": 6222190,
+      "commercial_manager_company_name_slug": "fortuna-gemi-islet-den-ve-tek",
+      "commercial_manager_total_distinct_vessels": 1,
+      "core_vessel_types_key": "tanker",
+      "core_vessel_types_name": "Tanker",
+      "dwt": 1639,
+      "flag": "KN",
+      "ism_manager": "-",
+      "ism_manager_company_country_slug": null,
+      "ism_manager_company_imo": null,
+      "ism_manager_company_name_slug": null,
+      "ism_manager_total_distinct_vessels": null,
+      "last_position_update": "Fri, 22 Aug 2025 12:14:53 GMT",
+      "registered_owner": "POLAR MOVEMENT SHIPPING &amp; TRDG",
+      "registered_owner_company_country_slug": "türkiye",
+      "registered_owner_company_imo": 6076270,
+      "registered_owner_company_name_slug": "polar-movement-shipping-trdg",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 9062398,
+      "vessel_mmsi": 341535000,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/tanker/serdar-mmsi-341535000\" class=\"d-flex align-items-center text--primary\"><span>&nbsp;SERDAR</span></a>",
+      "vessel_type": "Chemical Tanker",
+      "route": "https://magicport.ai/vessels/tanker/serdar-mmsi-341535000",
+      "registered_owner_page": "https://magicport.ai/vessels/tanker/serdar-mmsi-341535000",
+      "commercial_manager_page": "https://magicport.ai/vessels/tanker/serdar-mmsi-341535000",
+      "ism_manager_page": ""
+    }
+  ]
+}

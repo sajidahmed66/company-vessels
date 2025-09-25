@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "FIRST FLEET SHIPPING BULGARIA",
+      "commercial_manager_company_country_slug": "türkiye",
+      "commercial_manager_company_imo": 5916990,
+      "commercial_manager_company_name_slug": "first-fleet-shipping-bulgaria",
+      "commercial_manager_total_distinct_vessels": 1,
+      "core_vessel_types_key": "general-cargo",
+      "core_vessel_types_name": "General Cargo",
+      "dwt": 32260,
+      "flag": "LR",
+      "ism_manager": "FIRST FLEET SHIPPING BULGARIA",
+      "ism_manager_company_country_slug": "türkiye",
+      "ism_manager_company_imo": 5916990,
+      "ism_manager_company_name_slug": "first-fleet-shipping-bulgaria",
+      "ism_manager_total_distinct_vessels": 1,
+      "last_position_update": "Wed, 24 Sep 2025 22:01:35 GMT",
+      "registered_owner": "PENDULUM MARINE LTD",
+      "registered_owner_company_country_slug": "marshall-islands",
+      "registered_owner_company_imo": 5917012,
+      "registered_owner_company_name_slug": "pendulum-marine-ltd",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 9196307,
+      "vessel_mmsi": 636015600,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/general-cargo/f-f-glory-mmsi-636015600\" class=\"d-flex align-items-center text--primary\"><span><span class=\"svg-icon svg-icon-5 text--warning\" style=\"color: #d16500\" data-tippy title=\"Potential risk\"><svg class=\"icon\"><use xlink:href=\"#icon-alert\"></use></svg></span>&nbsp;F. F GLORY</span></a>",
+      "vessel_type": "General Cargo",
+      "route": "https://magicport.ai/vessels/general-cargo/f-f-glory-mmsi-636015600",
+      "registered_owner_page": "https://magicport.ai/vessels/general-cargo/f-f-glory-mmsi-636015600",
+      "commercial_manager_page": "https://magicport.ai/vessels/general-cargo/f-f-glory-mmsi-636015600",
+      "ism_manager_page": "https://magicport.ai/vessels/general-cargo/f-f-glory-mmsi-636015600"
+    }
+  ]
+}

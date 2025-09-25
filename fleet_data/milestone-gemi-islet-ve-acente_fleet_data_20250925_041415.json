@@ -1,0 +1,37 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "commercial_manager": "MILESTONE GEMI ISLET VE ACENTE",
+      "commercial_manager_company_country_slug": "türkiye",
+      "commercial_manager_company_imo": 6217061,
+      "commercial_manager_company_name_slug": "milestone-gemi-islet-ve-acente",
+      "commercial_manager_total_distinct_vessels": 1,
+      "core_vessel_types_key": "general-cargo",
+      "core_vessel_types_name": "General Cargo",
+      "dwt": 6443,
+      "flag": "PA",
+      "ism_manager": "MILESTONE GEMI ISLET VE ACENTE",
+      "ism_manager_company_country_slug": "türkiye",
+      "ism_manager_company_imo": 6217061,
+      "ism_manager_company_name_slug": "milestone-gemi-islet-ve-acente",
+      "ism_manager_total_distinct_vessels": 1,
+      "last_position_update": "Wed, 24 Sep 2025 21:58:23 GMT",
+      "registered_owner": "LINHAI SHIPPING CO LTD",
+      "registered_owner_company_country_slug": "türkiye",
+      "registered_owner_company_imo": 6273742,
+      "registered_owner_company_name_slug": "linhai-shipping-co-ltd",
+      "registered_owner_total_distinct_vessels": 1,
+      "vessel_imo": 9516557,
+      "vessel_mmsi": 352001071,
+      "vessel_name": "<a href=\"https://magicport.ai/vessels/general-cargo/aya-mmsi-352001071\" class=\"d-flex align-items-center text--primary\"><span><span class=\"svg-icon svg-icon-5 text--warning\" style=\"color: #d16500\" data-tippy title=\"Potential risk\"><svg class=\"icon\"><use xlink:href=\"#icon-alert\"></use></svg></span>&nbsp;AYA</span></a>",
+      "vessel_type": "General Cargo",
+      "route": "https://magicport.ai/vessels/general-cargo/aya-mmsi-352001071",
+      "registered_owner_page": "https://magicport.ai/vessels/general-cargo/aya-mmsi-352001071",
+      "commercial_manager_page": "https://magicport.ai/vessels/general-cargo/aya-mmsi-352001071",
+      "ism_manager_page": "https://magicport.ai/vessels/general-cargo/aya-mmsi-352001071"
+    }
+  ]
+}

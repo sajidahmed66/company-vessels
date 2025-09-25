@@ -1,9 +1,11 @@
-from contextlib import nullcontext
-from operator import truediv
+from datetime import datetime
+from time import sleep
 
 import mysql.connector
 from vessel_scrap import VesselScraper
 import json
+import logging
+import os
 
 
 def create_database_connection():
@@ -25,7 +27,7 @@ def get_vessel():
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_query = "SELECT * FROM company_fleet_vessels LIMIT 1"
+        sql_query = "SELECT * FROM company_fleet_vessels WHERE is_processed = FALSE LIMIT 1"
         cursor.execute(sql_query)
         record = cursor.fetchall()
         if connection:
@@ -49,7 +51,7 @@ def create_vessel_payload(vessel_record, flattened_data):
      core_vessel_types_name, dwt, flag, ism_manager,
      ism_manager_company_country_slug, ism_manager_company_imo,
      ism_manager_company_name_slug, ism_manager_total_distinct_vessels,
-     last_position_update, created_at, updated_at) = vessel_record
+     last_position_update, created_at, updated_at, is_processed) = vessel_record
     # Create payload mapping fleet + scraped data to vessels table
     payload = {
         # From fleet data
@@ -76,6 +78,41 @@ def create_vessel_payload(vessel_record, flattened_data):
 
     return payload
 
+def setup_error_logger():
+    """Setup daily error logger for vessel parsing errors"""
+    today = datetime.now().strftime("%Y-%m-%d")
+    log_filename = f"vessel_parse_error_{today}.log"
+
+    # Create logs directory if it doesn't exist
+    os.makedirs('logs', exist_ok=True)
+    log_filepath = os.path.join('logs', log_filename)
+
+    # Configure logger
+    logger = logging.getLogger('vessel_parser')
+    logger.setLevel(logging.ERROR)
+
+    # Remove existing handlers to avoid duplicate logs
+    for handler in logger.handlers[:]:
+        logger.removeHandler(handler)
+
+    # Create file handler
+    file_handler = logging.FileHandler(log_filepath, encoding='utf-8')
+    file_handler.setLevel(logging.ERROR)
+
+    # Create formatter
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    # Add handler to logger
+    logger.addHandler(file_handler)
+
+    return logger
+
+def log_vessel_error(logger, vessel_id, vessel_imo, vessel_mmsi, error_reason):
+    """Log vessel parsing error with details"""
+    error_msg = f"Vessel ID: {vessel_id}, IMO: {vessel_imo}, MMSI: {vessel_mmsi}, Error: {error_reason}"
+    logger.error(error_msg)
+
 def parse_numeric(value):
     """Parse numeric value from string, extracting numbers and converting to float"""
     if not value:
@@ -92,7 +129,10 @@ def parse_numeric(value):
     return None
 
 def process_vessel():
-    """Process single vessel"""
+    """Process single vessel with comprehensive error handling"""
+    # Setup error logger
+    error_logger = setup_error_logger()
+
     vessel_data = get_vessel()
     if not vessel_data:
         print("No vessel found")
@@ -117,22 +157,54 @@ def process_vessel():
      core_vessel_types_name, dwt, flag, ism_manager,
      ism_manager_company_country_slug, ism_manager_company_imo,
      ism_manager_company_name_slug, ism_manager_total_distinct_vessels,
-     last_position_update, created_at, updated_at) = vessel_record
+     last_position_update, created_at, updated_at, is_processed) = vessel_record
 
     print("\n" + "="*50)
     print(f"\nProcessing vessel: {vessel_name} (IMO: {vessel_imo})")
 
-    # Scrape vessel data
-    scraper = VesselScraper()
-    url = f"https://www.vesselfinder.com/vessels/details/{vessel_imo}"
-    scraped_data = scraper.scrape_vessel_data(url)
-    flattened_data = scraper.flatten_json(scraped_data)
-    payload = create_vessel_payload(vessel_record, flattened_data)
-    result = upsert_vessel_data(payload)
-    # print("\n" + "="*50)
-    print("SCRAPED DATA (JSON OUTPUT):")
-    # print("="*50)
-    # print(json.dumps(flattened_data.get("vessel_image_url"), indent=2, ensure_ascii=False))
+    try:
+        # Scrape vessel data
+        scraper = VesselScraper()
+        url = f"https://www.vesselfinder.com/vessels/details/{vessel_imo}"
+
+        print(f"Scraping data from: {url}")
+        scraped_data = scraper.scrape_vessel_data(url)
+
+        # Check if scraping returned an error
+        if "error" in scraped_data:
+            error_reason = f"Scraping failed: {scraped_data['error']}"
+            print(f"❌ {error_reason}")
+            log_vessel_error(error_logger, id, vessel_imo, vessel_mmsi, error_reason)
+            mark_vessel_as_processed(id)
+            return
+
+        # Flatten the scraped data
+        flattened_data = scraper.flatten_json(scraped_data)
+
+        # Create payload
+        payload = create_vessel_payload(vessel_record, flattened_data)
+
+        # Attempt to upsert vessel data
+        result = upsert_vessel_data(payload)
+
+        if result:
+            print("SCRAPED DATA (JSON OUTPUT): ", payload)
+            print(f"✅ Successfully processed vessel: {vessel_name} (IMO: {vessel_imo})")
+            mark_vessel_as_processed(id)
+        else:
+            error_reason = "Failed to upsert vessel data to database"
+            print(f"❌ {error_reason}")
+            log_vessel_error(error_logger, id, vessel_imo, vessel_mmsi, error_reason)
+            mark_vessel_as_processed(id)
+
+    except Exception as e:
+        error_reason = f"Unexpected error during processing: {str(e)}"
+        print(f"❌ {error_reason}")
+        log_vessel_error(error_logger, id, vessel_imo, vessel_mmsi, error_reason)
+        # Mark as processed even on failure to prevent infinite loops
+        mark_vessel_as_processed(id)
+        print(f"⚠️ Vessel ID {id} marked as processed despite error to continue workflow")
+
 
 def create_vessels_tables_if_not_exist():
     """Create database tables if they don't exist"""
@@ -265,13 +337,40 @@ def upsert_vessel_data(payload):
         print(f"❌ Unexpected error: {e}")
         return False
 
-def upsert_vessel_table(payload):
-    """Upsert vessel data into database"""
+def mark_vessel_as_processed(vessel_id):
+    """Mark vessel as processed in company_fleet_vessels table"""
+    try:
+        connection = create_database_connection()
+        if not connection:
+            print("Failed to connect to database")
+            return False
 
+        cursor = connection.cursor()
+        update_query = "UPDATE company_fleet_vessels SET is_processed = TRUE WHERE id = %s"
+        cursor.execute(update_query, (vessel_id,))
+        connection.commit()
+
+        if cursor.rowcount > 0:
+            print(f"✅ Marked vessel ID {vessel_id} as processed")
+        else:
+            print(f"⚠️ No vessel found with ID {vessel_id}")
+
+        cursor.close()
+        connection.close()
+        return True
+
+    except mysql.connector.Error as e:
+        print(f"❌ Error marking vessel as processed: {e}")
+        return False
 
 def main():
-    batched_size = 100
-    process_vessel()
+    batch_size = 10000
     create_vessels_tables_if_not_exist()
+    for i in range(batch_size):
+        print(f"Processing batch {i + 1}")
+        print(f"start time {datetime.now()}")
+        process_vessel()
+        print(f"end time {datetime.now()}")
+        sleep(3)
 if __name__ == "__main__":
     main()

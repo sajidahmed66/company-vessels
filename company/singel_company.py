@@ -883,20 +883,28 @@ class EnhancedMagicPortScraper:
 
         try:
             # Navigate to company page with more robust settings
-            self.log(f"Navigating to: {self.company_url}", Colors.YELLOW)
+            # Normalize URL encoding to handle cases like %C3%BC vs %c3%bc
+            import urllib.parse
+            normalized_url = urllib.parse.quote(urllib.parse.unquote(self.company_url), safe=':/?#[]@!$&\'()*+,;=')
+            # Convert any uppercase hex encoding to lowercase
+            normalized_url = normalized_url.lower().replace('%c3%bc', '%c3%bc')  # Ensure lowercase encoding
+
+            self.log(f"Original URL: {self.company_url}", Colors.YELLOW)
+            self.log(f"Normalized URL: {normalized_url}", Colors.YELLOW)
 
             # Try multiple wait strategies
             try:
-                await self.page.goto(self.company_url, wait_until='domcontentloaded', timeout=60000)
+                await self.page.goto(normalized_url, wait_until='domcontentloaded', timeout=60000)
                 await self.page.wait_for_load_state('networkidle', timeout=30000)
             except Exception as e:
                 self.log(f"Network idle timeout, trying basic load: {e}", Colors.YELLOW)
-                await self.page.goto(self.company_url, wait_until='commit', timeout=60000)
+                await self.page.goto(normalized_url, wait_until='commit', timeout=60000)
                 await asyncio.sleep(5)
 
             # Check if page loaded successfully
             current_url = self.page.url
-            if current_url != self.company_url:
+            # Compare with normalized URL since that's what we navigated to
+            if current_url != normalized_url and current_url != self.company_url:
                 self.log("Redirection detected - marking company as processed", Colors.RED)
                 self.log(f"Current URL: {current_url}", Colors.YELLOW)
                 self.log(f"Expected URL: {self.company_url}", Colors.YELLOW)
