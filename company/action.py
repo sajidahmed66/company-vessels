@@ -35,7 +35,7 @@ def get_company():
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_select_Query = "SELECT id, company_name, magicport_url, country_name FROM companies_directory2 WHERE is_active = false and id <7500 DESC LIMIT 1"
+        sql_select_Query = "SELECT id, company_name, magicport_url, country_name FROM companies_directory2 WHERE is_active = false and id < 7500 LIMIT 1"
         # sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE company_name = 'MSC SHIPMANAGEMENT LTD' LIMIT 1"
         cursor.execute(sql_select_Query)
         records = cursor.fetchall()
