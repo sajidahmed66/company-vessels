@@ -7,7 +7,7 @@ Installation:
 pip install playwright beautifulsoup4 mysql-connector-python  # or psycopg2 for PostgreSQL
 playwright install
 """
-
+import urllib.parse
 import json
 import re
 import time
@@ -282,29 +282,36 @@ class DatabaseManager:
 
     def insert_company_details(self, company_id, company_data):
         """Insert or update company details"""
+        print(f"debug {company_id} {company_data}")
+        cursor = None
         try:
             cursor = self.connection.cursor()
 
             # Ensure required fields have default values
             company_name = company_data.get('company_name') or 'Unknown Company'
+            country = company_data.get('country')
             address = company_data.get('address') or 'Address not provided'
 
             # Check if company details already exist by name
-            check_query = "SELECT id FROM vessel_companies WHERE name = %s"
-            cursor.execute(check_query, (company_name,))
+            check_query = "SELECT id FROM vessel_companies WHERE name = %s AND country = %s"
+            cursor.execute(check_query, (company_name, country))
             existing = cursor.fetchone()
 
+            # Consume any remaining results to avoid the "Unread result found" error
+            cursor.fetchall()
+
             if existing:
+                print(f"result exist {existing}")
                 # Update existing record
                 update_query = """
                                UPDATE vessel_companies
-                               SET name = %s, \
-                                   country = %s, \
-                                   address = %s, \
-                                   total_dwt = %s, \
+                               SET name        = %s, \
+                                   country     = %s, \
+                                   address     = %s, \
+                                   total_dwt   = %s, \
                                    fleet_count = %s, \
-                                   website = %s, \
-                                   updated_at = NOW()
+                                   website     = %s, \
+                                   updated_at  = NOW()
                                WHERE name = %s \
                                """
                 cursor.execute(update_query, (
@@ -317,9 +324,9 @@ class DatabaseManager:
                     company_name
                 ))
                 print(f"{Colors.YELLOW}Updated existing company details for: {company_name}{Colors.NC}")
-                return existing[0]  # Return existing company ID
+                company_id_to_return = existing[0]  # Store the ID to return
             else:
-                # Insert new record
+                print(f"Creating new record for: {company_name} ")
                 insert_query = """
                                INSERT INTO vessel_companies
                                (name, country, address, total_dwt, fleet_count, website, created_at, updated_at)
@@ -333,17 +340,21 @@ class DatabaseManager:
                     company_data.get('total_vessels'),
                     company_data.get('website')
                 ))
-                new_company_id = cursor.lastrowid
-                print(f"{Colors.GREEN}Inserted new company details for: {company_name} (ID: {new_company_id}){Colors.NC}")
+                company_id_to_return = cursor.lastrowid
+                print(
+                    f"{Colors.GREEN}Inserted new company details for: {company_name} (ID: {company_id_to_return}){Colors.NC}")
 
             self.connection.commit()
-            cursor.close()
-            return new_company_id if not existing else existing[0]
+            return company_id_to_return
 
         except Error as e:
             print(f"{Colors.RED}Error inserting company details: {e}{Colors.NC}")
-            self.connection.rollback()
+            if self.connection:
+                self.connection.rollback()
             return False
+        finally:
+            if cursor:
+                cursor.close()
 
     def get_company_name(self, company_id):
         """Get company name by company_id"""
@@ -373,7 +384,7 @@ class DatabaseManager:
             cursor.close()
             return result if result else None
         except Error as e:
-            print(f"{Colors.RED}Error finding vessel by IMO: {e}{Colors.NC}")
+            print(f"{Colors.RED}Error finding vessel by IMO: {e}{Colors.NC} {vessel_imo}")
             return None
 
     def insert_fleet_vessels(self, company_id, vessels_data):
@@ -548,7 +559,7 @@ class DatabaseManager:
                         vessels_updated += 1
                         # print(f"{Colors.YELLOW}Updated vessel IMO {vessel_imo} data - kept existing company_id {existing_company_id}{Colors.NC}")
                 else:
-                    # Vessel doesn't exist, create new record
+                    # Vessel doesn't exist, create a new record
                     cursor.execute(insert_query, (
                         company_id,
                         vessel.get('vessel_imo'),
@@ -603,10 +614,11 @@ class DatabaseManager:
 
 
 class EnhancedMagicPortScraper:
-    def __init__(self, company_id, company_name, company_url, db_config, headless=True):
+    def __init__(self, company_id, company_name, company_url, country, db_config, headless=True):
         self.company_id = company_id
         self.company_name = company_name
         self.company_url = company_url
+        self.country = country
         self.headless = headless
         self.base_url = "https://magicport.ai"
 
@@ -878,13 +890,12 @@ class EnhancedMagicPortScraper:
         print("=" * 60 + "\n")
 
     async def fetch_company_page(self):
-        """Step 1: Navigate to company page and extract CSRF token and fleet route"""
+        """Step 1: Navigate to the company page and extract CSRF token and fleet route"""
         self.log("Step 1: Fetching company page...", Colors.YELLOW)
 
         try:
-            # Navigate to company page with more robust settings
+            # Navigate to the company page with more robust settings
             # Normalize URL encoding to handle cases like %C3%BC vs %c3%bc
-            import urllib.parse
             normalized_url = urllib.parse.quote(urllib.parse.unquote(self.company_url), safe=':/?#[]@!$&\'()*+,;=')
             # Convert any uppercase hex encoding to lowercase
             normalized_url = normalized_url.lower().replace('%c3%bc', '%c3%bc')  # Ensure lowercase encoding
@@ -1079,7 +1090,7 @@ class EnhancedMagicPortScraper:
                 'columns[0][search][value]': '',
                 'columns[0][search][regex]': 'false',
                 'start': '0',
-                'length': '25',
+                'length': '700',
                 'search[value]': '',
                 'search[regex]': 'false',
                 'order[0][column]': '0',
@@ -1134,15 +1145,26 @@ class EnhancedMagicPortScraper:
             return await self.try_alternative_approach(csrf_token, fleet_route)
 
     async def try_alternative_approach(self, csrf_token, fleet_route):
-        """Try alternative approach with minimal parameters"""
+        """Try an alternative approach with minimal parameters"""
         self.log("Trying minimal parameter approach...", Colors.YELLOW)
+        # todo created a log file named bot attack_redirect.error.log file and add company_name, and url.
         await asyncio.sleep(5)
 
         try:
             minimal_data = {
                 'draw': '1',
+                'columns[0][data]': '0',
+                'columns[0][name]': '',
+                'columns[0][searchable]': 'true',
+                'columns[0][orderable]': 'true',
+                'columns[0][search][value]': '',
+                'columns[0][search][regex]': 'false',
                 'start': '0',
-                'length': '10'
+                'length': '700',
+                'search[value]': '',
+                'search[regex]': 'false',
+                'order[0][column]': '0',
+                'order[0][dir]': 'asc'
             }
 
             fleet_data = await self.page.evaluate("""
@@ -1190,7 +1212,6 @@ class EnhancedMagicPortScraper:
         self.log(f"Enhanced MagicPort Scraper - Company ID: {self.company_id}", Colors.YELLOW)
         self.log("=" * 60, Colors.YELLOW)
 
-        # Connect to database
         if not self.db_manager.connect():
             self.log("Failed to connect to database", Colors.RED)
             return False
@@ -1203,12 +1224,12 @@ class EnhancedMagicPortScraper:
             if not await self.establish_session():
                 return False
 
-            # Step 1: Fetch company page and extract company info + tokens
+            # Step 1: Fetch the company page and extract company info and tokens
             csrf_token, fleet_route = await self.fetch_company_page()
             if not csrf_token or not fleet_route:
                 return False
 
-            # Save company details to database and get the actual database company ID
+            # Save company details to a database and get the actual database company ID
             database_company_id = None
             if hasattr(self, 'company_info') and self.company_info:
                 database_company_id = self.db_manager.insert_company_details(self.company_id, self.company_info)
@@ -1224,6 +1245,7 @@ class EnhancedMagicPortScraper:
 
             # Save fleet data to database using the actual database company ID
             if 'data' in fleet_data and fleet_data['data'] and database_company_id:
+                print(f"Saving fleet data to database {fleet_data['recordsTotal']} and vessels in company is {self.company_info.get('total_vessels')}" )
                 success = self.db_manager.insert_fleet_vessels(database_company_id, fleet_data['data'])
                 if not success:
                     self.log("Failed to save fleet vessels", Colors.RED)

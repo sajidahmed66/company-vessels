@@ -19,7 +19,7 @@ def create_database_connection():
     try:
         connection = mysql.connector.connect(
             host='localhost',  # Change as needed
-            database='magic_port',  # Change to your database name
+            database='magic_port_updated',  # Change to your database name
             user='root',  # Change to your username
             password='rootpassword'  # Change to your password
         )
@@ -35,7 +35,8 @@ def get_company():
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE is_active = FALSE AND id < 12362 ORDER BY id ASC LIMIT 1"
+        sql_select_Query = "SELECT id, company_name, magicport_url, country_name FROM companies_directory2 WHERE is_active = false and id <7500 DESC LIMIT 1"
+        # sql_select_Query = "SELECT id, company_name, magicport_url FROM companies_directory WHERE company_name = 'MSC SHIPMANAGEMENT LTD' LIMIT 1"
         cursor.execute(sql_select_Query)
         records = cursor.fetchall()
         if connection:
@@ -47,11 +48,11 @@ def get_company():
         return None
 
 def update_company_status(company_id, status=True):
-    """Update company status after processing"""
+    print(f"Update company status after processing")
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_update = "UPDATE companies_directory SET is_active = %s WHERE id = %s"
+        sql_update = "UPDATE companies_directory2 SET is_active = %s WHERE id = %s"
         cursor.execute(sql_update, (status, company_id))
         connection.commit()
         cursor.close()
@@ -62,11 +63,11 @@ def update_company_status(company_id, status=True):
         return False
 
 async def main():
-    batch_size =610
+    batch_size =1000
     db_config = {
         'host': 'localhost',
         'port': 3306,
-        'database': 'magic_port',
+        'database': 'magic_port_updated',
         'user': 'root',
         'password': 'rootpassword'
     }
@@ -84,6 +85,7 @@ async def main():
                 company_id=company_data[0][0],
                 company_name=company_data[0][1],
                 company_url=company_data[0][2],
+                country=company_data[0][3],
                 db_config=db_config,
                 headless=True,
             )
@@ -92,6 +94,7 @@ async def main():
 
             # Update company status
             if success:
+                print("Successfully saved company")
                 update_company_status(company_data[0][0], True)
                 print(f"Successfully processed company ID: {company_data[0]}")
                 print(f"end time {datetime.now()}")
