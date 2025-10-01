@@ -6,14 +6,15 @@ from vessel_scrap import VesselScraper
 import json
 import logging
 import os
-
+import html
+import re
 
 def create_database_connection():
     """Create MySQL database connection"""
     try:
         connection = mysql.connector.connect(
             host='localhost',
-            database='magic_port',
+            database='magic_port_updated',
             user='root',
             password='rootpassword'
         )
@@ -27,7 +28,8 @@ def get_vessel():
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_query = "SELECT * FROM company_fleet_vessels WHERE is_processed = FALSE LIMIT 1"
+        sql_query = "SELECT * FROM company_fleet_vessels WHERE is_processed = FALSE AND id > 60000 LIMIT 1"
+
         cursor.execute(sql_query)
         record = cursor.fetchall()
         if connection:
@@ -39,7 +41,7 @@ def get_vessel():
         return None
 
 def create_vessel_payload(vessel_record, flattened_data):
-    """Create vessel payload for vessels table from fleet data and scraped data"""
+    """Create vessel payload for vessel table from fleet data and scraped data"""
 
     # Unpack vessel record from company_fleet_vessels
     (id, company_id, vessel_imo, vessel_mmsi, vessel_name, vessel_type,
@@ -52,22 +54,38 @@ def create_vessel_payload(vessel_record, flattened_data):
      ism_manager_company_country_slug, ism_manager_company_imo,
      ism_manager_company_name_slug, ism_manager_total_distinct_vessels,
      last_position_update, created_at, updated_at, is_processed) = vessel_record
+    # Get company ID by looking up the registered owner name in vessel_companies table
+    # Use registered_owner_company_country_slug as country if available
+    owner_country = registered_owner_company_country_slug if registered_owner_company_country_slug else None
+    owner_company_id = get_company_id_or_create(registered_owner, owner_country)
+
+    # Get manager company ID by looking up the manager name
+    manager_name = commercial_manager or ism_manager
+    # Use appropriate country based on which manager is being used
+    if commercial_manager:
+        manager_country = commercial_manager_company_country_slug
+    else:
+        manager_country = ism_manager_company_country_slug if ism_manager else None
+
+    manager_company_id = get_company_id_or_create(manager_name, manager_country)
+
     # Create payload mapping fleet + scraped data to vessels table
     payload = {
-        # From fleet data
-        'company_id': company_id,
+        # From fleet data - using registered_owner to lookup company_id from vessel_companies
+        'company_id': owner_company_id,
         'imo': vessel_imo,
         'mmsi': str(vessel_mmsi) if vessel_mmsi else None,
         'name': vessel_name,
         'owner': registered_owner,
-        'manager': commercial_manager or ism_manager,  # Prefer commercial, fallback to ism
+        'manager': manager_name,  # Manager company name
+        'manager_company_id': manager_company_id,  # Manager company ID from vessel_companies table
         'flag': flag,
         'type_name': vessel_type,
         'deadweight_tonnage': int(dwt) if dwt else None,
 
         # From scraped data (flattened) - using actual VesselFinder field names
         'image_url': flattened_data.get('vessel_image_url'),
-        'built': flattened_data.get('Year of Build'),
+        'built': parse_year(flattened_data.get('Year of Build')),
         'length': parse_numeric(flattened_data.get('Length Overall (m)')),  # ✅ Available
         'beam': parse_numeric(flattened_data.get('Beam (m)')),  # ✅ Available
         'maxdraught': None,  # ❌ Not available in this vessel's data
@@ -108,10 +126,169 @@ def setup_error_logger():
 
     return logger
 
+def setup_company_logger():
+    """Setup daily logger for new company creation"""
+    today = datetime.now().strftime("%Y-%m-%d")
+    log_filename = f"new-company-{today}.log"
+
+    # Create logs directory if it doesn't exist
+    os.makedirs('logs', exist_ok=True)
+    log_filepath = os.path.join('logs', log_filename)
+
+    # Configure logger
+    logger = logging.getLogger('company_creator')
+    logger.setLevel(logging.INFO)
+
+    # Remove existing handlers to avoid duplicate logs
+    for handler in logger.handlers[:]:
+        logger.removeHandler(handler)
+
+    # Create file handler
+    file_handler = logging.FileHandler(log_filepath, encoding='utf-8')
+    file_handler.setLevel(logging.INFO)
+
+    # Create formatter
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    # Add handler to logger
+    logger.addHandler(file_handler)
+
+    return logger
+
 def log_vessel_error(logger, vessel_id, vessel_imo, vessel_mmsi, error_reason):
     """Log vessel parsing error with details"""
     error_msg = f"Vessel ID: {vessel_id}, IMO: {vessel_imo}, MMSI: {vessel_mmsi}, Error: {error_reason}"
     logger.error(error_msg)
+
+def decode_html_entities(text):
+    """Decode HTML entities like &amp; to & etc."""
+    if not text:
+        return text
+    return html.unescape(text)
+
+def create_company_entry(company_name, country=None):
+    """Create a new company entry in vessel_companies table"""
+    try:
+        connection = create_database_connection()
+        if not connection:
+            return None
+
+        cursor = connection.cursor()
+
+        # Capitalize the first letter of country if provided
+        formatted_country = country.capitalize() if country else None
+
+        # Insert new company with name and country
+        insert_query = """
+            INSERT INTO vessel_companies (name, country, address, created_at, updated_at)
+            VALUES (%s, %s, %s, NOW(), NOW())
+        """
+
+        # Use formatted country if provided, otherwise NULL
+        # Use empty string for address as it's NOT NULL
+        cursor.execute(insert_query, (company_name, formatted_country, ''))
+        connection.commit()
+
+        # Get the inserted company ID
+        company_id = cursor.lastrowid
+
+        cursor.close()
+        connection.close()
+
+        # Log the new company creation
+        company_logger = setup_company_logger()
+        log_msg = f"Created new company - ID: {company_id}, Name: '{company_name}', Country: '{formatted_country}'"
+        company_logger.info(log_msg)
+
+        print(f"✅ Created new company: '{company_name}' with ID: {company_id}")
+        return company_id
+
+    except mysql.connector.Error as e:
+        print(f"❌ Error creating company entry: {e}")
+        return None
+
+def get_company_id_or_create(company_name, country=None):
+    """Get company ID from vessel_companies table by matching name, create if not found"""
+    if not company_name:
+        return None
+
+    # Decode HTML entities before matching
+    decoded_name = decode_html_entities(company_name)
+
+    try:
+        connection = create_database_connection()
+        if not connection:
+            return None
+
+        cursor = connection.cursor()
+
+        # First try exact match with decoded name
+        query = "SELECT id FROM vessel_companies WHERE name = %s"
+        cursor.execute(query, (decoded_name,))
+        result = cursor.fetchone()
+
+        if not result:
+            # Try case-insensitive match with decoded name
+            query = "SELECT id FROM vessel_companies WHERE LOWER(name) = LOWER(%s)"
+            cursor.execute(query, (decoded_name,))
+            result = cursor.fetchone()
+
+        if not result:
+            # Try exact match with original name (fallback)
+            query = "SELECT id FROM vessel_companies WHERE name = %s"
+            cursor.execute(query, (company_name,))
+            result = cursor.fetchone()
+
+        if not result:
+            # Try case-insensitive match with original name (fallback)
+            query = "SELECT id FROM vessel_companies WHERE LOWER(name) = LOWER(%s)"
+            cursor.execute(query, (company_name,))
+            result = cursor.fetchone()
+
+        cursor.close()
+        connection.close()
+
+        # If no company found, create a new entry
+        if not result:
+            print(f"🔄 Company '{company_name}' not found, creating new entry...")
+            return create_company_entry(decoded_name, country)
+
+        return result[0]
+
+    except mysql.connector.Error as e:
+        print(f"Error getting company ID: {e}")
+        return None
+
+def get_manager_company_id(manager_name):
+    """Get manager company ID from vessel_companies table by matching name"""
+    return get_company_id_or_create(manager_name)
+
+def parse_year(value):
+    """Parse year value, ensuring it's within MySQL YEAR type range (1901-2155)"""
+    if not value:
+        return None
+
+    # Try to extract year from various formats (including historical years)
+    year_match = re.search(r'\b(1[8-9]|20|21)\d{2}\b', str(value))
+    if year_match:
+        try:
+            year = int(year_match.group())
+            # MySQL YEAR type accepts 1901-2155, but we want to preserve historical data
+            if 1800 <= year <= 2155:
+                if year < 1901:
+                    print(f"⚠️  Historical year {year} (before 1901) - MySQL YEAR limitation, setting to NULL")
+                    print(f"💡 Consider changing 'built' column to SMALLINT to store historical years")
+                    return None
+                return year
+            else:
+                print(f"⚠️  Year {year} out of valid range (1800-2155), setting to NULL")
+                return None
+        except ValueError:
+            pass
+
+    print(f"⚠️  Could not parse year from '{value}', setting to NULL")
+    return None
 
 def parse_numeric(value):
     """Parse numeric value from string, extracting numbers and converting to float"""
@@ -129,7 +306,7 @@ def parse_numeric(value):
     return None
 
 def process_vessel():
-    """Process single vessel with comprehensive error handling"""
+    """Process a single vessel with comprehensive error handling"""
     # Setup error logger
     error_logger = setup_error_logger()
 
@@ -204,7 +381,6 @@ def process_vessel():
         # Mark as processed even on failure to prevent infinite loops
         mark_vessel_as_processed(id)
         print(f"⚠️ Vessel ID {id} marked as processed despite error to continue workflow")
-
 
 def create_vessels_tables_if_not_exist():
     """Create database tables if they don't exist"""
@@ -287,12 +463,12 @@ def upsert_vessel_data(payload):
         # Create upsert query using ON DUPLICATE KEY UPDATE
         upsert_query = """
             INSERT INTO vessels (
-                company_id, imo, mmsi, name, owner, manager, flag, type_name,
+                company_id, imo, mmsi, name, owner, manager, manager_company_id, flag, type_name,
                 deadweight_tonnage, image_url, built, length, beam, gross_tonnage,
                 status, draught, created_at, updated_at
             ) VALUES (
                 %(company_id)s, %(imo)s, %(mmsi)s, %(name)s, %(owner)s, %(manager)s,
-                %(flag)s, %(type_name)s, %(deadweight_tonnage)s, %(image_url)s,
+                %(manager_company_id)s, %(flag)s, %(type_name)s, %(deadweight_tonnage)s, %(image_url)s,
                 %(built)s, %(length)s, %(beam)s, %(gross_tonnage)s, %(status)s,
                 %(draught)s, NOW(), NOW()
             )
@@ -302,6 +478,7 @@ def upsert_vessel_data(payload):
                 name = VALUES(name),
                 owner = VALUES(owner),
                 manager = VALUES(manager),
+                manager_company_id = VALUES(manager_company_id),
                 flag = VALUES(flag),
                 type_name = VALUES(type_name),
                 deadweight_tonnage = VALUES(deadweight_tonnage),
@@ -364,7 +541,7 @@ def mark_vessel_as_processed(vessel_id):
         return False
 
 def main():
-    batch_size = 10000
+    batch_size = 20000
     create_vessels_tables_if_not_exist()
     for i in range(batch_size):
         print(f"Processing batch {i + 1}")
