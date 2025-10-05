@@ -13,7 +13,7 @@ def create_database_connection():
     try:
         connection = mysql.connector.connect(
             host='localhost',  # Change as needed
-            database='magic_port',  # Change to your database name
+            database='magic_port_updated',  # Change to your database name
             user='root',  # Change to your username
             password='rootpassword'  # Change to your password
         )
@@ -28,7 +28,7 @@ def create_table_if_not_exists(connection):
     cursor = connection.cursor()
 
     create_table_query = """
-                         CREATE TABLE IF NOT EXISTS companies_directory \
+                         CREATE TABLE IF NOT EXISTS companies_directory2 \
                          ( \
                              id \
                              INT \
@@ -83,7 +83,7 @@ def insert_company_data(connection, companies_data):
     cursor = connection.cursor()
 
     insert_query = """
-                   INSERT INTO companies_directory
+                   INSERT INTO companies_directory2
                        (company_name, country_name, fleet_size, company_title, magicport_url)
                    VALUES (%s, %s, %s, %s, %s) \
                    """
@@ -221,7 +221,7 @@ def scrape_country_to_database(country_code, connection):
 
     print(f"\n===Scraping {country_code} ===\n{datetime.now()}")
 
-    first_page_url = f"{base_url}?{additional_params}&country[]={country_code}"
+    first_page_url = f"{base_url}?{additional_params}&country[]={country_code}&sort_by=company_name"
 
     # Get total pages for this country
     total_pages = get_total_pages(first_page_url)
@@ -243,7 +243,7 @@ def scrape_country_to_database(country_code, connection):
         all_companies_data.extend(page_companies)
 
         # Add delay to be respectful
-        time.sleep(10)
+        time.sleep(3)
 
     # Prepare data for database insertion
     companies_for_db = [

@@ -1,0 +1,376 @@
+{
+  "corrections": [
+    {
+      "vessel_id": 50030,
+      "imo": 9514901,
+      "field": "company_id",
+      "old_value": 26093,
+      "new_value": 36954,
+      "company_name": "TIANJIN TIANHE INT'L LOGISTICS"
+    },
+    {
+      "vessel_id": 51439,
+      "imo": 9183506,
+      "field": "manager_company_id",
+      "old_value": 26730,
+      "new_value": 46974,
+      "company_name": "YANTAI BOHAI FERRY INT'L SHIP"
+    },
+    {
+      "vessel_id": 52446,
+      "imo": 9666041,
+      "field": "company_id",
+      "old_value": 27166,
+      "new_value": 36678,
+      "company_name": "SPRING RAINBOW SHIPPING INT'L"
+    },
+    {
+      "vessel_id": 52447,
+      "imo": 9666053,
+      "field": "company_id",
+      "old_value": 27167,
+      "new_value": 47740,
+      "company_name": "SPRING MELODY SHIPPING INT'L"
+    },
+    {
+      "vessel_id": 52616,
+      "imo": 9514896,
+      "field": "company_id",
+      "old_value": 27234,
+      "new_value": 37194,
+      "company_name": "TIANJIN TIANQIN INT'L LOGISTIC"
+    },
+    {
+      "vessel_id": 53503,
+      "imo": 8355607,
+      "field": "manager_company_id",
+      "old_value": 27636,
+      "new_value": 41606,
+      "company_name": "TIAN CHEN INT'L SHIPPING"
+    },
+    {
+      "vessel_id": 53562,
+      "imo": 9288382,
+      "field": "company_id",
+      "old_value": 27651,
+      "new_value": 47831,
+      "company_name": "HK SEA STAR INT'L ENERGY CO"
+    },
+    {
+      "vessel_id": 53562,
+      "imo": 9288382,
+      "field": "manager_company_id",
+      "old_value": 27651,
+      "new_value": 47831,
+      "company_name": "HK SEA STAR INT'L ENERGY CO"
+    },
+    {
+      "vessel_id": 59688,
+      "imo": 9163570,
+      "field": "company_id",
+      "old_value": 29304,
+      "new_value": 42705,
+      "company_name": "LANGUEDOC-ROUSSILLON D'INVEST"
+    },
+    {
+      "vessel_id": 59989,
+      "imo": 9610157,
+      "field": "company_id",
+      "old_value": 29414,
+      "new_value": 45917,
+      "company_name": "AS NATALIE' SCHIFFFAHRTS"
+    },
+    {
+      "vessel_id": 59989,
+      "imo": 9610157,
+      "field": "manager_company_id",
+      "old_value": 29414,
+      "new_value": 45917,
+      "company_name": "AS NATALIE' SCHIFFFAHRTS"
+    },
+    {
+      "vessel_id": 60292,
+      "imo": 9240548,
+      "field": "company_id",
+      "old_value": 29642,
+      "new_value": 40870,
+      "company_name": "MARGA' JENS U WALLER GMBH & CO"
+    },
+    {
+      "vessel_id": 60822,
+      "imo": 9681106,
+      "field": "company_id",
+      "old_value": 30009,
+      "new_value": 37304,
+      "company_name": "CMC ANCUD' GMBH & CO KG"
+    },
+    {
+      "vessel_id": 60822,
+      "imo": 9681106,
+      "field": "manager_company_id",
+      "old_value": 30009,
+      "new_value": 37304,
+      "company_name": "CMC ANCUD' GMBH & CO KG"
+    },
+    {
+      "vessel_id": 60952,
+      "imo": 9001825,
+      "field": "company_id",
+      "old_value": 30099,
+      "new_value": 46189,
+      "company_name": "JONGLEUR' GMBH & CO KG"
+    },
+    {
+      "vessel_id": 60952,
+      "imo": 9001825,
+      "field": "manager_company_id",
+      "old_value": 30099,
+      "new_value": 46189,
+      "company_name": "JONGLEUR' GMBH & CO KG"
+    },
+    {
+      "vessel_id": 61004,
+      "imo": 1029053,
+      "field": "company_id",
+      "old_value": 30133,
+      "new_value": 45645,
+      "company_name": "HELGA G'"
+    },
+    {
+      "vessel_id": 61046,
+      "imo": 9101730,
+      "field": "company_id",
+      "old_value": 30159,
+      "new_value": 38884,
+      "company_name": "PARTENREEDEREI MS 'SPLITTNES'"
+    },
+    {
+      "vessel_id": 61103,
+      "imo": 9736183,
+      "field": "company_id",
+      "old_value": 30199,
+      "new_value": 38415,
+      "company_name": "MICK' GMBH & CO KG"
+    },
+    {
+      "vessel_id": 61104,
+      "imo": 9736195,
+      "field": "company_id",
+      "old_value": 30200,
+      "new_value": 36609,
+      "company_name": "KEITH' GMBH & CO KG"
+    },
+    {
+      "vessel_id": 61684,
+      "imo": 9398280,
+      "field": "company_id",
+      "old_value": 30608,
+      "new_value": 41389,
+      "company_name": "CRUDE INVESTMENTS INT'L INC"
+    },
+    {
+      "vessel_id": 65237,
+      "imo": 9993975,
+      "field": "company_id",
+      "old_value": 33825,
+      "new_value": 42039,
+      "company_name": "BYD XI'AN MARITIME HK CO LTD"
+    },
+    {
+      "vessel_id": 66295,
+      "imo": 8358518,
+      "field": "company_id",
+      "old_value": 34612,
+      "new_value": 39724,
+      "company_name": "JI'AN HAISHUN SHIPPING CO LTD"
+    },
+    {
+      "vessel_id": 66295,
+      "imo": 8358518,
+      "field": "manager_company_id",
+      "old_value": 34612,
+      "new_value": 39724,
+      "company_name": "JI'AN HAISHUN SHIPPING CO LTD"
+    },
+    {
+      "vessel_id": 69806,
+      "imo": 9626558,
+      "field": "company_id",
+      "old_value": 35045,
+      "new_value": 40545,
+      "company_name": "HSINCHU'S REFO SHIPPING LTD"
+    },
+    {
+      "vessel_id": 70396,
+      "imo": 9017575,
+      "field": "company_id",
+      "old_value": 35171,
+      "new_value": 47556,
+      "company_name": "DUAL AKTE' SRL"
+    },
+    {
+      "vessel_id": 71072,
+      "imo": 9000302,
+      "field": "company_id",
+      "old_value": 35362,
+      "new_value": 47230,
+      "company_name": "4BROTHER'S SHIPPING LTD"
+    },
+    {
+      "vessel_id": 71354,
+      "imo": 9376701,
+      "field": "manager_company_id",
+      "old_value": 35460,
+      "new_value": 43144,
+      "company_name": "CLDN MALTA LTD"
+    }
+  ],
+  "missing_companies": [
+    {
+      "vessel_id": 1,
+      "imo": 9289984,
+      "field": "manager/manager_company_id",
+      "company_name": "FUK SANG SHIPPING SA"
+    },
+    {
+      "vessel_id": 12,
+      "imo": 9405887,
+      "field": "manager/manager_company_id",
+      "company_name": "FORESIGHT SHIPPING LTD SA"
+    },
+    {
+      "vessel_id": 258,
+      "imo": 9066916,
+      "field": "manager/manager_company_id",
+      "company_name": "PROGRESS PETROLEUM SDN BHD"
+    },
+    {
+      "vessel_id": 278,
+      "imo": 9146156,
+      "field": "manager/manager_company_id",
+      "company_name": "ATIFA TOWAGE & TRANSPORT SDN"
+    },
+    {
+      "vessel_id": 300,
+      "imo": 9753404,
+      "field": "manager/manager_company_id",
+      "company_name": "MARCAP LLC"
+    },
+    {
+      "vessel_id": 321,
+      "imo": 9632375,
+      "field": "manager/manager_company_id",
+      "company_name": "PELICAN OFFSHORE SERVICES PTE"
+    },
+    {
+      "vessel_id": 448,
+      "imo": 9541629,
+      "field": "manager/manager_company_id",
+      "company_name": "BAYCORP SHIP MANAGEMENT"
+    },
+    {
+      "vessel_id": 602,
+      "imo": 8674302,
+      "field": "manager/manager_company_id",
+      "company_name": "EGALITE MARITIME PTE LTD"
+    },
+    {
+      "vessel_id": 621,
+      "imo": 9188520,
+      "field": "manager/manager_company_id",
+      "company_name": "OCEAN ARMADA RESOURCES SDN BHD"
+    },
+    {
+      "vessel_id": 726,
+      "imo": 9520613,
+      "field": "manager/manager_company_id",
+      "company_name": "MARITIME WASP LLC"
+    },
+    {
+      "vessel_id": 780,
+      "imo": 8816340,
+      "field": "manager/manager_company_id",
+      "company_name": "WHITE COAST SHIPPING INC"
+    },
+    {
+      "vessel_id": 1073,
+      "imo": 9617791,
+      "field": "manager/manager_company_id",
+      "company_name": "COASTAL OFFSHORE LABUAN PTE"
+    },
+    {
+      "vessel_id": 1106,
+      "imo": 8936669,
+      "field": "manager/manager_company_id",
+      "company_name": "NAVIGARE INTERNATIONAL INC"
+    },
+    {
+      "vessel_id": 1143,
+      "imo": 8968337,
+      "field": "manager/manager_company_id",
+      "company_name": "PERFORADORA INDUSTRIAL"
+    },
+    {
+      "vessel_id": 1148,
+      "imo": 8301096,
+      "field": "manager/manager_company_id",
+      "company_name": "CONDUX SA DE CV"
+    },
+    {
+      "vessel_id": 1238,
+      "imo": 7717004,
+      "field": "manager/manager_company_id",
+      "company_name": "MEXICO MARITIME MANAGEMENT"
+    },
+    {
+      "vessel_id": 1336,
+      "imo": 9593103,
+      "field": "manager/manager_company_id",
+      "company_name": "SAS ASCENSION"
+    },
+    {
+      "vessel_id": 1338,
+      "imo": 9382011,
+      "field": "manager/manager_company_id",
+      "company_name": "NBC MARITIME LTD"
+    },
+    {
+      "vessel_id": 1339,
+      "imo": 9412232,
+      "field": "manager/manager_company_id",
+      "company_name": "STARBOARD ADVISORS SARL"
+    },
+    {
+      "vessel_id": 1483,
+      "imo": 9204996,
+      "field": "manager/manager_company_id",
+      "company_name": "BLUE SEA FISHING CO PTY LTD"
+    },
+    {
+      "vessel_id": 1690,
+      "imo": 9714173,
+      "field": "manager/manager_company_id",
+      "company_name": "ONE OCEAN GROUP PTY LTD"
+    },
+    {
+      "vessel_id": 1747,
+      "imo": 9754434,
+      "field": "manager/manager_company_id",
+      "company_name": "SIF W BV"
+    },
+    {
+      "vessel_id": 1843,
+      "imo": 9837872,
+      "field": "manager/manager_company_id",
+      "company_name": "FURETANK CHARTERING AB"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "total_processed": 309,
+    "company_id_corrections": 20,
+    "manager_company_id_corrections": 8,
+    "needs_manual_review": 23,
+    "errors": 0
+  }
+}

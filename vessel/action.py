@@ -28,7 +28,7 @@ def get_vessel():
     try:
         connection = create_database_connection()
         cursor = connection.cursor()
-        sql_query = "SELECT * FROM company_fleet_vessels WHERE is_processed = FALSE AND id > 60000 LIMIT 1"
+        sql_query = "SELECT * FROM company_fleet_vessels WHERE is_processed = FALSE AND id < 60000 LIMIT 1"
 
         cursor.execute(sql_query)
         record = cursor.fetchall()

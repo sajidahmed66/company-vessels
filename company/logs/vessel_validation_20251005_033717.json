@@ -1,0 +1,499 @@
+{
+  "corrections": [],
+  "missing_companies": [
+    {
+      "vessel_id": 1,
+      "imo": 9289984,
+      "field": "manager/manager_company_id",
+      "company_name": "FUK SANG SHIPPING SA"
+    },
+    {
+      "vessel_id": 3,
+      "imo": 8639742,
+      "field": "manager/manager_company_id",
+      "company_name": "DREDGING &amp; MARITIME MANAGEMENT"
+    },
+    {
+      "vessel_id": 7,
+      "imo": 9122356,
+      "field": "manager/manager_company_id",
+      "company_name": "DREDGING &amp; MARITIME MANAGEMENT"
+    },
+    {
+      "vessel_id": 12,
+      "imo": 9405887,
+      "field": "manager/manager_company_id",
+      "company_name": "FORESIGHT SHIPPING LTD SA"
+    },
+    {
+      "vessel_id": 205,
+      "imo": 1130151,
+      "field": "owner/company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 205,
+      "imo": 1130151,
+      "field": "manager/manager_company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 206,
+      "imo": 7903043,
+      "field": "owner/company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 206,
+      "imo": 7903043,
+      "field": "manager/manager_company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 207,
+      "imo": 8980098,
+      "field": "owner/company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 207,
+      "imo": 8980098,
+      "field": "manager/manager_company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 208,
+      "imo": 8980103,
+      "field": "owner/company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 208,
+      "imo": 8980103,
+      "field": "manager/manager_company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 209,
+      "imo": 9822504,
+      "field": "owner/company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 209,
+      "imo": 9822504,
+      "field": "manager/manager_company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 210,
+      "imo": 9841976,
+      "field": "owner/company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 210,
+      "imo": 9841976,
+      "field": "manager/manager_company_id",
+      "company_name": "SEE SONG &amp; SONS SDN BHD"
+    },
+    {
+      "vessel_id": 249,
+      "imo": 8704262,
+      "field": "owner/company_id",
+      "company_name": "STRAITS BUNKER &amp; TRADING SDN"
+    },
+    {
+      "vessel_id": 249,
+      "imo": 8704262,
+      "field": "manager/manager_company_id",
+      "company_name": "STRAITS BUNKER &amp; TRADING SDN"
+    },
+    {
+      "vessel_id": 250,
+      "imo": 9062219,
+      "field": "owner/company_id",
+      "company_name": "STRAITS BUNKER &amp; TRADING SDN"
+    },
+    {
+      "vessel_id": 250,
+      "imo": 9062219,
+      "field": "manager/manager_company_id",
+      "company_name": "STRAITS BUNKER &amp; TRADING SDN"
+    },
+    {
+      "vessel_id": 251,
+      "imo": 9306859,
+      "field": "owner/company_id",
+      "company_name": "STRAITS BUNKER &amp; TRADING SDN"
+    },
+    {
+      "vessel_id": 251,
+      "imo": 9306859,
+      "field": "manager/manager_company_id",
+      "company_name": "STRAITS BUNKER &amp; TRADING SDN"
+    },
+    {
+      "vessel_id": 258,
+      "imo": 9066916,
+      "field": "manager/manager_company_id",
+      "company_name": "PROGRESS PETROLEUM SDN BHD"
+    },
+    {
+      "vessel_id": 278,
+      "imo": 9146156,
+      "field": "manager/manager_company_id",
+      "company_name": "ATIFA TOWAGE &amp; TRANSPORT SDN"
+    },
+    {
+      "vessel_id": 300,
+      "imo": 9753404,
+      "field": "manager/manager_company_id",
+      "company_name": "MARCAP LLC"
+    },
+    {
+      "vessel_id": 321,
+      "imo": 9632375,
+      "field": "manager/manager_company_id",
+      "company_name": "PELICAN OFFSHORE SERVICES PTE"
+    },
+    {
+      "vessel_id": 416,
+      "imo": 9854997,
+      "field": "owner/company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 416,
+      "imo": 9854997,
+      "field": "manager/manager_company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 417,
+      "imo": 9869801,
+      "field": "owner/company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 417,
+      "imo": 9869801,
+      "field": "manager/manager_company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 429,
+      "imo": 9667552,
+      "field": "owner/company_id",
+      "company_name": "HIGH SEAS MARINE &amp; INDUSTRIAL"
+    },
+    {
+      "vessel_id": 436,
+      "imo": 9692882,
+      "field": "owner/company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 436,
+      "imo": 9692882,
+      "field": "manager/manager_company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 437,
+      "imo": 9770268,
+      "field": "owner/company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 437,
+      "imo": 9770268,
+      "field": "manager/manager_company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 438,
+      "imo": 9869784,
+      "field": "owner/company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 438,
+      "imo": 9869784,
+      "field": "manager/manager_company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 439,
+      "imo": 9930026,
+      "field": "owner/company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 439,
+      "imo": 9930026,
+      "field": "manager/manager_company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 440,
+      "imo": 9971329,
+      "field": "owner/company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 440,
+      "imo": 9971329,
+      "field": "manager/manager_company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 441,
+      "imo": 9973767,
+      "field": "owner/company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 441,
+      "imo": 9973767,
+      "field": "manager/manager_company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 442,
+      "imo": 9983712,
+      "field": "owner/company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 442,
+      "imo": 9983712,
+      "field": "manager/manager_company_id",
+      "company_name": "ALKAHFI LESTARI OIL &amp; GAS"
+    },
+    {
+      "vessel_id": 446,
+      "imo": 9559133,
+      "field": "owner/company_id",
+      "company_name": "SHIPS &amp; BOATS OIL SERVICES"
+    },
+    {
+      "vessel_id": 446,
+      "imo": 9559133,
+      "field": "manager/manager_company_id",
+      "company_name": "SHIPS &amp; BOATS OIL SERVICES"
+    },
+    {
+      "vessel_id": 448,
+      "imo": 9541629,
+      "field": "manager/manager_company_id",
+      "company_name": "BAYCORP SHIP MANAGEMENT"
+    },
+    {
+      "vessel_id": 495,
+      "imo": 9375020,
+      "field": "owner/company_id",
+      "company_name": "CLASSIC MARINE &amp; SERVICES SDN"
+    },
+    {
+      "vessel_id": 495,
+      "imo": 9375020,
+      "field": "manager/manager_company_id",
+      "company_name": "CLASSIC MARINE &amp; SERVICES SDN"
+    },
+    {
+      "vessel_id": 496,
+      "imo": 9380609,
+      "field": "manager/manager_company_id",
+      "company_name": "CLASSIC MARINE &amp; SERVICES SDN"
+    },
+    {
+      "vessel_id": 497,
+      "imo": 9543146,
+      "field": "manager/manager_company_id",
+      "company_name": "CLASSIC MARINE &amp; SERVICES SDN"
+    },
+    {
+      "vessel_id": 498,
+      "imo": 9549097,
+      "field": "manager/manager_company_id",
+      "company_name": "CLASSIC MARINE &amp; SERVICES SDN"
+    },
+    {
+      "vessel_id": 499,
+      "imo": 9549114,
+      "field": "manager/manager_company_id",
+      "company_name": "CLASSIC MARINE &amp; SERVICES SDN"
+    },
+    {
+      "vessel_id": 502,
+      "imo": 9717838,
+      "field": "owner/company_id",
+      "company_name": "NAUTILUS TUG &amp; TOWAGE SDN BHD"
+    },
+    {
+      "vessel_id": 503,
+      "imo": 9717840,
+      "field": "owner/company_id",
+      "company_name": "NAUTILUS TUG &amp; TOWAGE SDN BHD"
+    },
+    {
+      "vessel_id": 504,
+      "imo": 9717852,
+      "field": "owner/company_id",
+      "company_name": "NAUTILUS TUG &amp; TOWAGE SDN BHD"
+    },
+    {
+      "vessel_id": 505,
+      "imo": 9717864,
+      "field": "owner/company_id",
+      "company_name": "NAUTILUS TUG &amp; TOWAGE SDN BHD"
+    },
+    {
+      "vessel_id": 506,
+      "imo": 9717876,
+      "field": "owner/company_id",
+      "company_name": "NAUTILUS TUG &amp; TOWAGE SDN BHD"
+    },
+    {
+      "vessel_id": 571,
+      "imo": 7915759,
+      "field": "owner/company_id",
+      "company_name": "AL SAHIL &amp; AL RAMILI SHIPPING"
+    },
+    {
+      "vessel_id": 571,
+      "imo": 7915759,
+      "field": "manager/manager_company_id",
+      "company_name": "AL SAHIL &amp; AL RAMILI SHIPPING"
+    },
+    {
+      "vessel_id": 572,
+      "imo": 7915785,
+      "field": "owner/company_id",
+      "company_name": "AL SAHIL &amp; AL RAMILI SHIPPING"
+    },
+    {
+      "vessel_id": 572,
+      "imo": 7915785,
+      "field": "manager/manager_company_id",
+      "company_name": "AL SAHIL &amp; AL RAMILI SHIPPING"
+    },
+    {
+      "vessel_id": 602,
+      "imo": 8674302,
+      "field": "manager/manager_company_id",
+      "company_name": "EGALITE MARITIME PTE LTD"
+    },
+    {
+      "vessel_id": 604,
+      "imo": 9298088,
+      "field": "manager/manager_company_id",
+      "company_name": "Y&amp;Y MARITIME MANAGEMENT"
+    },
+    {
+      "vessel_id": 605,
+      "imo": 9363340,
+      "field": "manager/manager_company_id",
+      "company_name": "Y&amp;Y MARITIME MANAGEMENT"
+    },
+    {
+      "vessel_id": 615,
+      "imo": 9900540,
+      "field": "manager/manager_company_id",
+      "company_name": "GREAT OCEAN SUPPLY &amp; SERVICES"
+    },
+    {
+      "vessel_id": 616,
+      "imo": 9971111,
+      "field": "manager/manager_company_id",
+      "company_name": "GREAT OCEAN SUPPLY &amp; SERVICES"
+    },
+    {
+      "vessel_id": 621,
+      "imo": 9188520,
+      "field": "manager/manager_company_id",
+      "company_name": "OCEAN ARMADA RESOURCES SDN BHD"
+    },
+    {
+      "vessel_id": 700,
+      "imo": 8352318,
+      "field": "owner/company_id",
+      "company_name": "L&amp;L CHARTER LTD"
+    },
+    {
+      "vessel_id": 700,
+      "imo": 8352318,
+      "field": "manager/manager_company_id",
+      "company_name": "L&amp;L CHARTER LTD"
+    },
+    {
+      "vessel_id": 701,
+      "imo": 9922304,
+      "field": "owner/company_id",
+      "company_name": "L&amp;L CHARTER LTD"
+    },
+    {
+      "vessel_id": 701,
+      "imo": 9922304,
+      "field": "manager/manager_company_id",
+      "company_name": "L&amp;L CHARTER LTD"
+    },
+    {
+      "vessel_id": 726,
+      "imo": 9520613,
+      "field": "manager/manager_company_id",
+      "company_name": "MARITIME WASP LLC"
+    },
+    {
+      "vessel_id": 735,
+      "imo": 8202850,
+      "field": "owner/company_id",
+      "company_name": "TORONTO SHIPPING &amp; MARITIME"
+    },
+    {
+      "vessel_id": 735,
+      "imo": 8202850,
+      "field": "manager/manager_company_id",
+      "company_name": "HIGH SEAS SHIPPING &amp; MARINE"
+    },
+    {
+      "vessel_id": 736,
+      "imo": 9100528,
+      "field": "owner/company_id",
+      "company_name": "TORONTO SHIPPING &amp; MARITIME"
+    },
+    {
+      "vessel_id": 736,
+      "imo": 9100528,
+      "field": "manager/manager_company_id",
+      "company_name": "HIGH SEAS SHIPPING &amp; MARINE"
+    },
+    {
+      "vessel_id": 780,
+      "imo": 8816340,
+      "field": "manager/manager_company_id",
+      "company_name": "WHITE COAST SHIPPING INC"
+    },
+    {
+      "vessel_id": 812,
+      "imo": 9505364,
+      "field": "manager/manager_company_id",
+      "company_name": "DREDGING &amp; MARITIME MANAGEMENT"
+    },
+    {
+      "vessel_id": 815,
+      "imo": 9372248,
+      "field": "manager/manager_company_id",
+      "company_name": "DREDGING &amp; MARITIME MANAGEMENT"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "total_processed": 1000,
+    "company_id_corrections": 0,
+    "manager_company_id_corrections": 0,
+    "needs_manual_review": 55,
+    "errors": 0
+  }
+}

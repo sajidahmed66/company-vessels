@@ -1,0 +1,160 @@
+{
+  "corrections": [
+    {
+      "vessel_id": 1501,
+      "imo": 9148805,
+      "field": "manager_company_id",
+      "old_value": null,
+      "new_value": 2328,
+      "company_name": "ALFA SHIP MANAGERS PTE LTD"
+    }
+  ],
+  "missing_companies": [
+    {
+      "vessel_id": 1,
+      "imo": 9289984,
+      "field": "manager/manager_company_id",
+      "company_name": "FUK SANG SHIPPING SA"
+    },
+    {
+      "vessel_id": 12,
+      "imo": 9405887,
+      "field": "manager/manager_company_id",
+      "company_name": "FORESIGHT SHIPPING LTD SA"
+    },
+    {
+      "vessel_id": 258,
+      "imo": 9066916,
+      "field": "manager/manager_company_id",
+      "company_name": "PROGRESS PETROLEUM SDN BHD"
+    },
+    {
+      "vessel_id": 278,
+      "imo": 9146156,
+      "field": "manager/manager_company_id",
+      "company_name": "ATIFA TOWAGE & TRANSPORT SDN"
+    },
+    {
+      "vessel_id": 300,
+      "imo": 9753404,
+      "field": "manager/manager_company_id",
+      "company_name": "MARCAP LLC"
+    },
+    {
+      "vessel_id": 321,
+      "imo": 9632375,
+      "field": "manager/manager_company_id",
+      "company_name": "PELICAN OFFSHORE SERVICES PTE"
+    },
+    {
+      "vessel_id": 448,
+      "imo": 9541629,
+      "field": "manager/manager_company_id",
+      "company_name": "BAYCORP SHIP MANAGEMENT"
+    },
+    {
+      "vessel_id": 602,
+      "imo": 8674302,
+      "field": "manager/manager_company_id",
+      "company_name": "EGALITE MARITIME PTE LTD"
+    },
+    {
+      "vessel_id": 621,
+      "imo": 9188520,
+      "field": "manager/manager_company_id",
+      "company_name": "OCEAN ARMADA RESOURCES SDN BHD"
+    },
+    {
+      "vessel_id": 726,
+      "imo": 9520613,
+      "field": "manager/manager_company_id",
+      "company_name": "MARITIME WASP LLC"
+    },
+    {
+      "vessel_id": 780,
+      "imo": 8816340,
+      "field": "manager/manager_company_id",
+      "company_name": "WHITE COAST SHIPPING INC"
+    },
+    {
+      "vessel_id": 1073,
+      "imo": 9617791,
+      "field": "manager/manager_company_id",
+      "company_name": "COASTAL OFFSHORE LABUAN PTE"
+    },
+    {
+      "vessel_id": 1106,
+      "imo": 8936669,
+      "field": "manager/manager_company_id",
+      "company_name": "NAVIGARE INTERNATIONAL INC"
+    },
+    {
+      "vessel_id": 1143,
+      "imo": 8968337,
+      "field": "manager/manager_company_id",
+      "company_name": "PERFORADORA INDUSTRIAL"
+    },
+    {
+      "vessel_id": 1148,
+      "imo": 8301096,
+      "field": "manager/manager_company_id",
+      "company_name": "CONDUX SA DE CV"
+    },
+    {
+      "vessel_id": 1238,
+      "imo": 7717004,
+      "field": "manager/manager_company_id",
+      "company_name": "MEXICO MARITIME MANAGEMENT"
+    },
+    {
+      "vessel_id": 1336,
+      "imo": 9593103,
+      "field": "manager/manager_company_id",
+      "company_name": "SAS ASCENSION"
+    },
+    {
+      "vessel_id": 1338,
+      "imo": 9382011,
+      "field": "manager/manager_company_id",
+      "company_name": "NBC MARITIME LTD"
+    },
+    {
+      "vessel_id": 1339,
+      "imo": 9412232,
+      "field": "manager/manager_company_id",
+      "company_name": "STARBOARD ADVISORS SARL"
+    },
+    {
+      "vessel_id": 1483,
+      "imo": 9204996,
+      "field": "manager/manager_company_id",
+      "company_name": "BLUE SEA FISHING CO PTY LTD"
+    },
+    {
+      "vessel_id": 1690,
+      "imo": 9714173,
+      "field": "manager/manager_company_id",
+      "company_name": "ONE OCEAN GROUP PTY LTD"
+    },
+    {
+      "vessel_id": 1747,
+      "imo": 9754434,
+      "field": "manager/manager_company_id",
+      "company_name": "SIF W BV"
+    },
+    {
+      "vessel_id": 1843,
+      "imo": 9837872,
+      "field": "manager/manager_company_id",
+      "company_name": "FURETANK CHARTERING AB"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "total_processed": 1000,
+    "company_id_corrections": 0,
+    "manager_company_id_corrections": 1,
+    "needs_manual_review": 23,
+    "errors": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "corrections": [],
+  "missing_companies": [],
+  "errors": [],
+  "summary": {
+    "total_processed": 0,
+    "company_id_corrections": 0,
+    "manager_company_id_corrections": 0,
+    "needs_manual_review": 0,
+    "errors": 0
+  }
+}
