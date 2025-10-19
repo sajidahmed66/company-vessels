@@ -1,0 +1,80 @@
+{
+  "port_name": "ABADAN",
+  "country": "Iran",
+  "unlocode": "IRABD",
+  "coordinates": "30.34º, 48.27º",
+  "depths": {
+    "channel_depth": "9.4m - 10m",
+    "anchorage_depth": "9.4m - 10m",
+    "cargo_pier_depth": "9.4m - 10m",
+    "oil_depth": null,
+    "offshore_max_vessel_draft": "4.02"
+  },
+  "port_characteristics": {
+    "harbour_type": "River Natural",
+    "harbour_size": "Medium"
+  },
+  "restrictions": {
+    "Tide Entrance": true,
+    "Swell Entrance Restriction": false,
+    "Ice Entrance Restriction": false,
+    "Other Entrance Restriction": true,
+    "Overhead Limitations": false
+  },
+  "port_equipment": {
+    "Crane": {
+      "Fixed": false,
+      "Mobile": true,
+      "Floating": true
+    },
+    "Lift Capacity": {
+      "0-24 Mts": true,
+      "25-49 Mts": false,
+      "50-100 Mts": false,
+      "101+ Mts": true
+    },
+    "Service": {
+      "Longshore": true,
+      "Electrical": false,
+      "Steam": false,
+      "Navigation Equipment": false,
+      "Electrical Repair": false
+    },
+    "Other": {
+      "Repair code:": "Limited",
+      "Drydock type:": "Small",
+      "Railway type:": "Small"
+    }
+  },
+  "navigation": {
+    "Good Hold Ground": false,
+    "Turning Area": true,
+    "Eta Message": true,
+    "Pilotage Compulsory": true,
+    "Pilotage Available": true,
+    "Pilotage Advisability": true,
+    "Local Assist": false,
+    "Tug Salvage": false,
+    "Tug Assistance": true,
+    "Wharves": true,
+    "Anchor": false,
+    "Med Mooring": false,
+    "Beach Mooring": false,
+    "Ice Mooring": false
+  },
+  "communication": {
+    "Phone Comm": true,
+    "Fax Comm": true,
+    "Radio Comm": true,
+    "Vhf Comm": false,
+    "Air Comm": true,
+    "Rail Comm": false,
+    "Quarantine Pratique": true,
+    "Quarantine - Sanitation": true,
+    "Other Quarantines": false,
+    "First Port of Entry": true,
+    "US Representative": false
+  },
+  "scraped_at": "2025-10-20T02:09:40.144210",
+  "source_url": "https://magicport.ai/ports/iran/abadan-port-irabd"
+}
