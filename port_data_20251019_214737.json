@@ -1,0 +1,80 @@
+{
+  "port_name": "SHANGHAI",
+  "country": "China",
+  "unlocode": "CNSHG",
+  "port_information": {
+    "coordinates": "31.37º, 121.61º",
+    "port_usage": {
+      "cargo": 79.27,
+      "tanker": 8.94,
+      "passenger": 0.88
+    }
+  },
+  "restrictions": {
+    "Tide Entrance": true,
+    "Swell Entrance Restriction": true,
+    "Ice Entrance Restriction": true,
+    "Other Entrance Restriction": true,
+    "Overhead Limitations": true
+  },
+  "port_equipment": {
+    "Crane": {
+      "Fixed": true,
+      "Mobile": true,
+      "Floating": true
+    },
+    "Lift Capacity": {
+      "0-24 Mts": true,
+      "25-49 Mts": true,
+      "50-100 Mts": true,
+      "101+ Mts": true
+    },
+    "Service": {
+      "Longshore": true,
+      "Electrical": true,
+      "Steam": true,
+      "Navigation Equipment": true,
+      "Electrical Repair": true
+    }
+  },
+  "navigation": {
+    "Tide Entrance": true,
+    "Swell Entrance Restriction": true,
+    "Ice Entrance Restriction": true,
+    "Other Entrance Restriction": true,
+    "Overhead Limitations": true
+  },
+  "communication": {
+    "Phone Comm": true,
+    "Fax Comm": true,
+    "Radio Comm": true,
+    "Vhf Comm": true,
+    "Air Comm": true,
+    "Rail Comm": true,
+    "Quarantine Pratique": true,
+    "Quarantine - Sanitation": true,
+    "Other Quarantines": true,
+    "First Port of Entry": true,
+    "US Representative": true
+  },
+  "depths": {
+    "Channel Depth": null,
+    "Anchorage Depth": null,
+    "Cargo Pier Depth": null,
+    "Oil Depth": null,
+    "Offshore Maximum Vessel Draft (m)": null
+  },
+  "port_characteristics": {
+    "Harbour Type": null,
+    "Harbour Size": null
+  },
+  "service_providers": {
+    "ship_agents": [],
+    "service_providers": [],
+    "suppliers": [],
+    "shipyards": []
+  },
+  "nearby_ports": [],
+  "scraped_at": "2025-10-19T21:47:37.335175",
+  "source_url": "https://magicport.ai/ports/china/shanghai-port-cnshg"
+}

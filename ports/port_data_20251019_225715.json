@@ -1,0 +1,13 @@
+{
+  "port_name": "ABADAN",
+  "country": "Iran",
+  "unlocode": "IRABD",
+  "port_information": {
+    "coordinates": "30.34º, 48.27º",
+    "port_usage": {
+      "cargo": 88.89
+    }
+  },
+  "scraped_at": "2025-10-19T22:57:15.235998",
+  "source_url": "https://magicport.ai/ports/iran/abadan-port-irabd"
+}

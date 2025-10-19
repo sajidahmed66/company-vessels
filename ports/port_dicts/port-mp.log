@@ -1,0 +1,1731 @@
+[2025-10-16 20:01:05] Starting MagicPort scraper from page 1
+[2025-10-16 20:01:05] Database connection established
+[2025-10-16 20:01:05] Database connection established
+[2025-10-16 20:01:05] Database table verified/created successfully
+[2025-10-16 20:01:05] Determining total pages...
+[2025-10-16 20:01:06] Found 342 total pages (from page links)
+[2025-10-16 20:01:06] Scraping pages 1 to 100 of 342
+[2025-10-16 20:01:06] Scraping page 1: https://magicport.ai/ports?sort_type=asc&page=1
+[2025-10-16 20:01:08] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:08] Extracted 15 ports from page 1
+[2025-10-16 20:01:08] Database connection established
+[2025-10-16 20:01:08] [Batch 1] Page 1 completed: 15 records inserted
+[2025-10-16 20:01:11] Scraping page 2: https://magicport.ai/ports?sort_type=asc&page=2
+[2025-10-16 20:01:12] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:12] Extracted 15 ports from page 2
+[2025-10-16 20:01:12] Database connection established
+[2025-10-16 20:01:12] [Batch 1] Page 2 completed: 15 records inserted
+[2025-10-16 20:01:15] Scraping page 3: https://magicport.ai/ports?sort_type=asc&page=3
+[2025-10-16 20:01:17] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:17] Extracted 15 ports from page 3
+[2025-10-16 20:01:17] Database connection established
+[2025-10-16 20:01:17] [Batch 1] Page 3 completed: 15 records inserted
+[2025-10-16 20:01:20] Scraping page 4: https://magicport.ai/ports?sort_type=asc&page=4
+[2025-10-16 20:01:21] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:21] Extracted 15 ports from page 4
+[2025-10-16 20:01:21] Database connection established
+[2025-10-16 20:01:21] [Batch 1] Page 4 completed: 15 records inserted
+[2025-10-16 20:01:24] Scraping page 5: https://magicport.ai/ports?sort_type=asc&page=5
+[2025-10-16 20:01:25] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:25] Extracted 15 ports from page 5
+[2025-10-16 20:01:26] Database connection established
+[2025-10-16 20:01:26] [Batch 1] Page 5 completed: 15 records inserted
+[2025-10-16 20:01:29] Scraping page 6: https://magicport.ai/ports?sort_type=asc&page=6
+[2025-10-16 20:01:30] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:30] Extracted 15 ports from page 6
+[2025-10-16 20:01:30] Database connection established
+[2025-10-16 20:01:30] [Batch 1] Page 6 completed: 15 records inserted
+[2025-10-16 20:01:33] Scraping page 7: https://magicport.ai/ports?sort_type=asc&page=7
+[2025-10-16 20:01:39] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:39] Extracted 15 ports from page 7
+[2025-10-16 20:01:39] Database connection established
+[2025-10-16 20:01:39] [Batch 1] Page 7 completed: 15 records inserted
+[2025-10-16 20:01:42] Scraping page 8: https://magicport.ai/ports?sort_type=asc&page=8
+[2025-10-16 20:01:43] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:43] Extracted 15 ports from page 8
+[2025-10-16 20:01:43] Database connection established
+[2025-10-16 20:01:43] [Batch 1] Page 8 completed: 15 records inserted
+[2025-10-16 20:01:46] Scraping page 9: https://magicport.ai/ports?sort_type=asc&page=9
+[2025-10-16 20:01:48] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:48] Extracted 15 ports from page 9
+[2025-10-16 20:01:48] Database connection established
+[2025-10-16 20:01:48] [Batch 1] Page 9 completed: 15 records inserted
+[2025-10-16 20:01:51] Scraping page 10: https://magicport.ai/ports?sort_type=asc&page=10
+[2025-10-16 20:01:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:53] Extracted 15 ports from page 10
+[2025-10-16 20:01:53] Database connection established
+[2025-10-16 20:01:53] [Batch 1] Page 10 completed: 15 records inserted
+[2025-10-16 20:01:56] Scraping page 11: https://magicport.ai/ports?sort_type=asc&page=11
+[2025-10-16 20:01:57] Found 15 port elements using selector: .card__content
+[2025-10-16 20:01:57] Extracted 15 ports from page 11
+[2025-10-16 20:01:57] Database connection established
+[2025-10-16 20:01:57] [Batch 2] Page 11 completed: 15 records inserted
+[2025-10-16 20:02:00] Scraping page 12: https://magicport.ai/ports?sort_type=asc&page=12
+[2025-10-16 20:02:02] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:02] Extracted 15 ports from page 12
+[2025-10-16 20:02:02] Database connection established
+[2025-10-16 20:02:02] [Batch 2] Page 12 completed: 15 records inserted
+[2025-10-16 20:02:05] Scraping page 13: https://magicport.ai/ports?sort_type=asc&page=13
+[2025-10-16 20:02:06] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:06] Extracted 15 ports from page 13
+[2025-10-16 20:02:06] Database connection established
+[2025-10-16 20:02:06] [Batch 2] Page 13 completed: 15 records inserted
+[2025-10-16 20:02:09] Scraping page 14: https://magicport.ai/ports?sort_type=asc&page=14
+[2025-10-16 20:02:11] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:11] Extracted 15 ports from page 14
+[2025-10-16 20:02:11] Database connection established
+[2025-10-16 20:02:11] [Batch 2] Page 14 completed: 15 records inserted
+[2025-10-16 20:02:14] Scraping page 15: https://magicport.ai/ports?sort_type=asc&page=15
+[2025-10-16 20:02:19] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:19] Extracted 15 ports from page 15
+[2025-10-16 20:02:19] Database connection established
+[2025-10-16 20:02:19] [Batch 2] Page 15 completed: 15 records inserted
+[2025-10-16 20:02:22] Scraping page 16: https://magicport.ai/ports?sort_type=asc&page=16
+[2025-10-16 20:02:23] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:23] Extracted 15 ports from page 16
+[2025-10-16 20:02:23] Database connection established
+[2025-10-16 20:02:23] [Batch 2] Page 16 completed: 15 records inserted
+[2025-10-16 20:02:26] Scraping page 17: https://magicport.ai/ports?sort_type=asc&page=17
+[2025-10-16 20:02:28] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:28] Extracted 15 ports from page 17
+[2025-10-16 20:02:28] Database connection established
+[2025-10-16 20:02:28] [Batch 2] Page 17 completed: 15 records inserted
+[2025-10-16 20:02:31] Scraping page 18: https://magicport.ai/ports?sort_type=asc&page=18
+[2025-10-16 20:02:32] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:32] Extracted 15 ports from page 18
+[2025-10-16 20:02:32] Database connection established
+[2025-10-16 20:02:32] [Batch 2] Page 18 completed: 15 records inserted
+[2025-10-16 20:02:35] Scraping page 19: https://magicport.ai/ports?sort_type=asc&page=19
+[2025-10-16 20:02:37] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:37] Extracted 15 ports from page 19
+[2025-10-16 20:02:37] Database connection established
+[2025-10-16 20:02:37] [Batch 2] Page 19 completed: 15 records inserted
+[2025-10-16 20:02:40] Scraping page 20: https://magicport.ai/ports?sort_type=asc&page=20
+[2025-10-16 20:02:45] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:45] Extracted 15 ports from page 20
+[2025-10-16 20:02:45] Database connection established
+[2025-10-16 20:02:45] [Batch 2] Page 20 completed: 15 records inserted
+[2025-10-16 20:02:48] Scraping page 21: https://magicport.ai/ports?sort_type=asc&page=21
+[2025-10-16 20:02:49] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:49] Extracted 15 ports from page 21
+[2025-10-16 20:02:49] Database connection established
+[2025-10-16 20:02:49] [Batch 3] Page 21 completed: 15 records inserted
+[2025-10-16 20:02:52] Scraping page 22: https://magicport.ai/ports?sort_type=asc&page=22
+[2025-10-16 20:02:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:53] Extracted 15 ports from page 22
+[2025-10-16 20:02:53] Database connection established
+[2025-10-16 20:02:53] [Batch 3] Page 22 completed: 15 records inserted
+[2025-10-16 20:02:56] Scraping page 23: https://magicport.ai/ports?sort_type=asc&page=23
+[2025-10-16 20:02:57] Found 15 port elements using selector: .card__content
+[2025-10-16 20:02:57] Extracted 15 ports from page 23
+[2025-10-16 20:02:57] Database connection established
+[2025-10-16 20:02:57] [Batch 3] Page 23 completed: 15 records inserted
+[2025-10-16 20:03:00] Scraping page 24: https://magicport.ai/ports?sort_type=asc&page=24
+[2025-10-16 20:03:02] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:02] Extracted 15 ports from page 24
+[2025-10-16 20:03:02] Database connection established
+[2025-10-16 20:03:02] [Batch 3] Page 24 completed: 15 records inserted
+[2025-10-16 20:03:05] Scraping page 25: https://magicport.ai/ports?sort_type=asc&page=25
+[2025-10-16 20:03:06] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:06] Extracted 15 ports from page 25
+[2025-10-16 20:03:06] Database connection established
+[2025-10-16 20:03:06] [Batch 3] Page 25 completed: 15 records inserted
+[2025-10-16 20:03:09] Scraping page 26: https://magicport.ai/ports?sort_type=asc&page=26
+[2025-10-16 20:03:11] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:11] Extracted 15 ports from page 26
+[2025-10-16 20:03:11] Database connection established
+[2025-10-16 20:03:11] [Batch 3] Page 26 completed: 15 records inserted
+[2025-10-16 20:03:14] Scraping page 27: https://magicport.ai/ports?sort_type=asc&page=27
+[2025-10-16 20:03:15] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:15] Extracted 15 ports from page 27
+[2025-10-16 20:03:15] Database connection established
+[2025-10-16 20:03:15] [Batch 3] Page 27 completed: 15 records inserted
+[2025-10-16 20:03:18] Scraping page 28: https://magicport.ai/ports?sort_type=asc&page=28
+[2025-10-16 20:03:19] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:19] Extracted 15 ports from page 28
+[2025-10-16 20:03:19] Database connection established
+[2025-10-16 20:03:19] [Batch 3] Page 28 completed: 15 records inserted
+[2025-10-16 20:03:22] Scraping page 29: https://magicport.ai/ports?sort_type=asc&page=29
+[2025-10-16 20:03:24] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:24] Extracted 15 ports from page 29
+[2025-10-16 20:03:24] Database connection established
+[2025-10-16 20:03:24] [Batch 3] Page 29 completed: 15 records inserted
+[2025-10-16 20:03:27] Scraping page 30: https://magicport.ai/ports?sort_type=asc&page=30
+[2025-10-16 20:03:28] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:28] Extracted 15 ports from page 30
+[2025-10-16 20:03:28] Database connection established
+[2025-10-16 20:03:28] [Batch 3] Page 30 completed: 15 records inserted
+[2025-10-16 20:03:31] Scraping page 31: https://magicport.ai/ports?sort_type=asc&page=31
+[2025-10-16 20:03:32] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:32] Extracted 15 ports from page 31
+[2025-10-16 20:03:32] Database connection established
+[2025-10-16 20:03:32] [Batch 4] Page 31 completed: 15 records inserted
+[2025-10-16 20:03:35] Scraping page 32: https://magicport.ai/ports?sort_type=asc&page=32
+[2025-10-16 20:03:37] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:37] Extracted 15 ports from page 32
+[2025-10-16 20:03:37] Database connection established
+[2025-10-16 20:03:37] [Batch 4] Page 32 completed: 15 records inserted
+[2025-10-16 20:03:40] Scraping page 33: https://magicport.ai/ports?sort_type=asc&page=33
+[2025-10-16 20:03:41] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:41] Extracted 15 ports from page 33
+[2025-10-16 20:03:41] Database connection established
+[2025-10-16 20:03:41] [Batch 4] Page 33 completed: 15 records inserted
+[2025-10-16 20:03:44] Scraping page 34: https://magicport.ai/ports?sort_type=asc&page=34
+[2025-10-16 20:03:46] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:46] Extracted 15 ports from page 34
+[2025-10-16 20:03:46] Database connection established
+[2025-10-16 20:03:46] [Batch 4] Page 34 completed: 15 records inserted
+[2025-10-16 20:03:49] Scraping page 35: https://magicport.ai/ports?sort_type=asc&page=35
+[2025-10-16 20:03:55] Found 15 port elements using selector: .card__content
+[2025-10-16 20:03:55] Extracted 15 ports from page 35
+[2025-10-16 20:03:55] Database connection established
+[2025-10-16 20:03:55] [Batch 4] Page 35 completed: 15 records inserted
+[2025-10-16 20:03:58] Scraping page 36: https://magicport.ai/ports?sort_type=asc&page=36
+[2025-10-16 20:04:00] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:00] Extracted 15 ports from page 36
+[2025-10-16 20:04:00] Database connection established
+[2025-10-16 20:04:00] [Batch 4] Page 36 completed: 15 records inserted
+[2025-10-16 20:04:03] Scraping page 37: https://magicport.ai/ports?sort_type=asc&page=37
+[2025-10-16 20:04:04] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:04] Extracted 15 ports from page 37
+[2025-10-16 20:04:04] Database connection established
+[2025-10-16 20:04:04] [Batch 4] Page 37 completed: 15 records inserted
+[2025-10-16 20:04:07] Scraping page 38: https://magicport.ai/ports?sort_type=asc&page=38
+[2025-10-16 20:04:08] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:08] Extracted 15 ports from page 38
+[2025-10-16 20:04:08] Database connection established
+[2025-10-16 20:04:08] [Batch 4] Page 38 completed: 15 records inserted
+[2025-10-16 20:04:11] Scraping page 39: https://magicport.ai/ports?sort_type=asc&page=39
+[2025-10-16 20:04:13] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:13] Extracted 15 ports from page 39
+[2025-10-16 20:04:13] Database connection established
+[2025-10-16 20:04:13] [Batch 4] Page 39 completed: 15 records inserted
+[2025-10-16 20:04:16] Scraping page 40: https://magicport.ai/ports?sort_type=asc&page=40
+[2025-10-16 20:04:17] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:17] Extracted 15 ports from page 40
+[2025-10-16 20:04:17] Database connection established
+[2025-10-16 20:04:17] [Batch 4] Page 40 completed: 15 records inserted
+[2025-10-16 20:04:20] Scraping page 41: https://magicport.ai/ports?sort_type=asc&page=41
+[2025-10-16 20:04:21] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:21] Extracted 15 ports from page 41
+[2025-10-16 20:04:21] Database connection established
+[2025-10-16 20:04:21] [Batch 5] Page 41 completed: 15 records inserted
+[2025-10-16 20:04:24] Scraping page 42: https://magicport.ai/ports?sort_type=asc&page=42
+[2025-10-16 20:04:26] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:26] Extracted 15 ports from page 42
+[2025-10-16 20:04:26] Database connection established
+[2025-10-16 20:04:26] [Batch 5] Page 42 completed: 15 records inserted
+[2025-10-16 20:04:29] Scraping page 43: https://magicport.ai/ports?sort_type=asc&page=43
+[2025-10-16 20:04:30] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:30] Extracted 15 ports from page 43
+[2025-10-16 20:04:30] Database connection established
+[2025-10-16 20:04:30] [Batch 5] Page 43 completed: 15 records inserted
+[2025-10-16 20:04:33] Scraping page 44: https://magicport.ai/ports?sort_type=asc&page=44
+[2025-10-16 20:04:35] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:35] Extracted 15 ports from page 44
+[2025-10-16 20:04:35] Database connection established
+[2025-10-16 20:04:35] [Batch 5] Page 44 completed: 15 records inserted
+[2025-10-16 20:04:38] Scraping page 45: https://magicport.ai/ports?sort_type=asc&page=45
+[2025-10-16 20:04:39] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:39] Extracted 15 ports from page 45
+[2025-10-16 20:04:39] Database connection established
+[2025-10-16 20:04:39] [Batch 5] Page 45 completed: 15 records inserted
+[2025-10-16 20:04:42] Scraping page 46: https://magicport.ai/ports?sort_type=asc&page=46
+[2025-10-16 20:04:43] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:43] Extracted 15 ports from page 46
+[2025-10-16 20:04:43] Database connection established
+[2025-10-16 20:04:43] [Batch 5] Page 46 completed: 15 records inserted
+[2025-10-16 20:04:46] Scraping page 47: https://magicport.ai/ports?sort_type=asc&page=47
+[2025-10-16 20:04:52] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:52] Extracted 15 ports from page 47
+[2025-10-16 20:04:52] Database connection established
+[2025-10-16 20:04:52] [Batch 5] Page 47 completed: 15 records inserted
+[2025-10-16 20:04:55] Scraping page 48: https://magicport.ai/ports?sort_type=asc&page=48
+[2025-10-16 20:04:56] Found 15 port elements using selector: .card__content
+[2025-10-16 20:04:56] Extracted 15 ports from page 48
+[2025-10-16 20:04:56] Database connection established
+[2025-10-16 20:04:56] [Batch 5] Page 48 completed: 15 records inserted
+[2025-10-16 20:04:59] Scraping page 49: https://magicport.ai/ports?sort_type=asc&page=49
+[2025-10-16 20:05:01] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:01] Extracted 15 ports from page 49
+[2025-10-16 20:05:01] Database connection established
+[2025-10-16 20:05:01] [Batch 5] Page 49 completed: 15 records inserted
+[2025-10-16 20:05:04] Scraping page 50: https://magicport.ai/ports?sort_type=asc&page=50
+[2025-10-16 20:05:09] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:09] Extracted 15 ports from page 50
+[2025-10-16 20:05:09] Database connection established
+[2025-10-16 20:05:09] [Batch 5] Page 50 completed: 15 records inserted
+[2025-10-16 20:05:12] Scraping page 51: https://magicport.ai/ports?sort_type=asc&page=51
+[2025-10-16 20:05:14] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:14] Extracted 15 ports from page 51
+[2025-10-16 20:05:14] Database connection established
+[2025-10-16 20:05:14] [Batch 6] Page 51 completed: 15 records inserted
+[2025-10-16 20:05:17] Scraping page 52: https://magicport.ai/ports?sort_type=asc&page=52
+[2025-10-16 20:05:23] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:23] Extracted 15 ports from page 52
+[2025-10-16 20:05:23] Database connection established
+[2025-10-16 20:05:23] [Batch 6] Page 52 completed: 15 records inserted
+[2025-10-16 20:05:26] Scraping page 53: https://magicport.ai/ports?sort_type=asc&page=53
+[2025-10-16 20:05:27] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:27] Extracted 15 ports from page 53
+[2025-10-16 20:05:27] Database connection established
+[2025-10-16 20:05:27] [Batch 6] Page 53 completed: 15 records inserted
+[2025-10-16 20:05:30] Scraping page 54: https://magicport.ai/ports?sort_type=asc&page=54
+[2025-10-16 20:05:32] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:32] Extracted 15 ports from page 54
+[2025-10-16 20:05:32] Database connection established
+[2025-10-16 20:05:32] [Batch 6] Page 54 completed: 15 records inserted
+[2025-10-16 20:05:35] Scraping page 55: https://magicport.ai/ports?sort_type=asc&page=55
+[2025-10-16 20:05:36] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:36] Extracted 15 ports from page 55
+[2025-10-16 20:05:36] Database connection established
+[2025-10-16 20:05:36] [Batch 6] Page 55 completed: 15 records inserted
+[2025-10-16 20:05:39] Scraping page 56: https://magicport.ai/ports?sort_type=asc&page=56
+[2025-10-16 20:05:40] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:40] Extracted 15 ports from page 56
+[2025-10-16 20:05:40] Database connection established
+[2025-10-16 20:05:40] [Batch 6] Page 56 completed: 15 records inserted
+[2025-10-16 20:05:43] Scraping page 57: https://magicport.ai/ports?sort_type=asc&page=57
+[2025-10-16 20:05:45] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:45] Extracted 15 ports from page 57
+[2025-10-16 20:05:45] Database connection established
+[2025-10-16 20:05:45] [Batch 6] Page 57 completed: 15 records inserted
+[2025-10-16 20:05:48] Scraping page 58: https://magicport.ai/ports?sort_type=asc&page=58
+[2025-10-16 20:05:50] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:50] Extracted 15 ports from page 58
+[2025-10-16 20:05:50] Database connection established
+[2025-10-16 20:05:50] [Batch 6] Page 58 completed: 15 records inserted
+[2025-10-16 20:05:53] Scraping page 59: https://magicport.ai/ports?sort_type=asc&page=59
+[2025-10-16 20:05:54] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:54] Extracted 15 ports from page 59
+[2025-10-16 20:05:54] Database connection established
+[2025-10-16 20:05:54] [Batch 6] Page 59 completed: 15 records inserted
+[2025-10-16 20:05:57] Scraping page 60: https://magicport.ai/ports?sort_type=asc&page=60
+[2025-10-16 20:05:58] Found 15 port elements using selector: .card__content
+[2025-10-16 20:05:58] Extracted 15 ports from page 60
+[2025-10-16 20:05:58] Database connection established
+[2025-10-16 20:05:58] [Batch 6] Page 60 completed: 15 records inserted
+[2025-10-16 20:06:01] Scraping page 61: https://magicport.ai/ports?sort_type=asc&page=61
+[2025-10-16 20:06:07] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:07] Extracted 15 ports from page 61
+[2025-10-16 20:06:07] Database connection established
+[2025-10-16 20:06:07] [Batch 7] Page 61 completed: 15 records inserted
+[2025-10-16 20:06:10] Scraping page 62: https://magicport.ai/ports?sort_type=asc&page=62
+[2025-10-16 20:06:11] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:11] Extracted 15 ports from page 62
+[2025-10-16 20:06:11] Database connection established
+[2025-10-16 20:06:11] [Batch 7] Page 62 completed: 15 records inserted
+[2025-10-16 20:06:14] Scraping page 63: https://magicport.ai/ports?sort_type=asc&page=63
+[2025-10-16 20:06:16] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:16] Extracted 15 ports from page 63
+[2025-10-16 20:06:16] Database connection established
+[2025-10-16 20:06:16] [Batch 7] Page 63 completed: 15 records inserted
+[2025-10-16 20:06:19] Scraping page 64: https://magicport.ai/ports?sort_type=asc&page=64
+[2025-10-16 20:06:21] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:21] Extracted 15 ports from page 64
+[2025-10-16 20:06:21] Database connection established
+[2025-10-16 20:06:21] [Batch 7] Page 64 completed: 15 records inserted
+[2025-10-16 20:06:24] Scraping page 65: https://magicport.ai/ports?sort_type=asc&page=65
+[2025-10-16 20:06:25] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:25] Extracted 15 ports from page 65
+[2025-10-16 20:06:25] Database connection established
+[2025-10-16 20:06:25] [Batch 7] Page 65 completed: 15 records inserted
+[2025-10-16 20:06:28] Scraping page 66: https://magicport.ai/ports?sort_type=asc&page=66
+[2025-10-16 20:06:33] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:33] Extracted 15 ports from page 66
+[2025-10-16 20:06:33] Database connection established
+[2025-10-16 20:06:33] [Batch 7] Page 66 completed: 15 records inserted
+[2025-10-16 20:06:36] Scraping page 67: https://magicport.ai/ports?sort_type=asc&page=67
+[2025-10-16 20:06:37] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:37] Extracted 15 ports from page 67
+[2025-10-16 20:06:37] Database connection established
+[2025-10-16 20:06:37] [Batch 7] Page 67 completed: 15 records inserted
+[2025-10-16 20:06:40] Scraping page 68: https://magicport.ai/ports?sort_type=asc&page=68
+[2025-10-16 20:06:42] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:42] Extracted 15 ports from page 68
+[2025-10-16 20:06:42] Database connection established
+[2025-10-16 20:06:42] [Batch 7] Page 68 completed: 15 records inserted
+[2025-10-16 20:06:45] Scraping page 69: https://magicport.ai/ports?sort_type=asc&page=69
+[2025-10-16 20:06:46] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:46] Extracted 15 ports from page 69
+[2025-10-16 20:06:46] Database connection established
+[2025-10-16 20:06:46] [Batch 7] Page 69 completed: 15 records inserted
+[2025-10-16 20:06:49] Scraping page 70: https://magicport.ai/ports?sort_type=asc&page=70
+[2025-10-16 20:06:51] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:51] Extracted 15 ports from page 70
+[2025-10-16 20:06:51] Database connection established
+[2025-10-16 20:06:51] [Batch 7] Page 70 completed: 15 records inserted
+[2025-10-16 20:06:54] Scraping page 71: https://magicport.ai/ports?sort_type=asc&page=71
+[2025-10-16 20:06:55] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:55] Extracted 15 ports from page 71
+[2025-10-16 20:06:55] Database connection established
+[2025-10-16 20:06:55] [Batch 8] Page 71 completed: 15 records inserted
+[2025-10-16 20:06:58] Scraping page 72: https://magicport.ai/ports?sort_type=asc&page=72
+[2025-10-16 20:06:59] Found 15 port elements using selector: .card__content
+[2025-10-16 20:06:59] Extracted 15 ports from page 72
+[2025-10-16 20:06:59] Database connection established
+[2025-10-16 20:06:59] [Batch 8] Page 72 completed: 15 records inserted
+[2025-10-16 20:07:02] Scraping page 73: https://magicport.ai/ports?sort_type=asc&page=73
+[2025-10-16 20:07:04] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:04] Extracted 15 ports from page 73
+[2025-10-16 20:07:04] Database connection established
+[2025-10-16 20:07:04] [Batch 8] Page 73 completed: 15 records inserted
+[2025-10-16 20:07:07] Scraping page 74: https://magicport.ai/ports?sort_type=asc&page=74
+[2025-10-16 20:07:13] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:13] Extracted 15 ports from page 74
+[2025-10-16 20:07:13] Database connection established
+[2025-10-16 20:07:13] [Batch 8] Page 74 completed: 15 records inserted
+[2025-10-16 20:07:16] Scraping page 75: https://magicport.ai/ports?sort_type=asc&page=75
+[2025-10-16 20:07:18] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:18] Extracted 15 ports from page 75
+[2025-10-16 20:07:18] Database connection established
+[2025-10-16 20:07:18] [Batch 8] Page 75 completed: 15 records inserted
+[2025-10-16 20:07:21] Scraping page 76: https://magicport.ai/ports?sort_type=asc&page=76
+[2025-10-16 20:07:22] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:23] Extracted 15 ports from page 76
+[2025-10-16 20:07:23] Database connection established
+[2025-10-16 20:07:23] [Batch 8] Page 76 completed: 15 records inserted
+[2025-10-16 20:07:26] Scraping page 77: https://magicport.ai/ports?sort_type=asc&page=77
+[2025-10-16 20:07:27] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:27] Extracted 15 ports from page 77
+[2025-10-16 20:07:27] Database connection established
+[2025-10-16 20:07:27] [Batch 8] Page 77 completed: 15 records inserted
+[2025-10-16 20:07:30] Scraping page 78: https://magicport.ai/ports?sort_type=asc&page=78
+[2025-10-16 20:07:32] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:32] Extracted 15 ports from page 78
+[2025-10-16 20:07:32] Database connection established
+[2025-10-16 20:07:32] [Batch 8] Page 78 completed: 15 records inserted
+[2025-10-16 20:07:35] Scraping page 79: https://magicport.ai/ports?sort_type=asc&page=79
+[2025-10-16 20:07:36] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:36] Extracted 15 ports from page 79
+[2025-10-16 20:07:36] Database connection established
+[2025-10-16 20:07:36] [Batch 8] Page 79 completed: 15 records inserted
+[2025-10-16 20:07:39] Scraping page 80: https://magicport.ai/ports?sort_type=asc&page=80
+[2025-10-16 20:07:41] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:41] Extracted 15 ports from page 80
+[2025-10-16 20:07:41] Database connection established
+[2025-10-16 20:07:41] [Batch 8] Page 80 completed: 15 records inserted
+[2025-10-16 20:07:44] Scraping page 81: https://magicport.ai/ports?sort_type=asc&page=81
+[2025-10-16 20:07:45] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:45] Extracted 15 ports from page 81
+[2025-10-16 20:07:45] Database connection established
+[2025-10-16 20:07:45] [Batch 9] Page 81 completed: 15 records inserted
+[2025-10-16 20:07:48] Scraping page 82: https://magicport.ai/ports?sort_type=asc&page=82
+[2025-10-16 20:07:50] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:50] Extracted 15 ports from page 82
+[2025-10-16 20:07:50] Database connection established
+[2025-10-16 20:07:50] [Batch 9] Page 82 completed: 15 records inserted
+[2025-10-16 20:07:53] Scraping page 83: https://magicport.ai/ports?sort_type=asc&page=83
+[2025-10-16 20:07:54] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:54] Extracted 15 ports from page 83
+[2025-10-16 20:07:54] Database connection established
+[2025-10-16 20:07:54] [Batch 9] Page 83 completed: 15 records inserted
+[2025-10-16 20:07:57] Scraping page 84: https://magicport.ai/ports?sort_type=asc&page=84
+[2025-10-16 20:07:58] Found 15 port elements using selector: .card__content
+[2025-10-16 20:07:58] Extracted 15 ports from page 84
+[2025-10-16 20:07:58] Database connection established
+[2025-10-16 20:07:58] [Batch 9] Page 84 completed: 15 records inserted
+[2025-10-16 20:08:01] Scraping page 85: https://magicport.ai/ports?sort_type=asc&page=85
+[2025-10-16 20:08:03] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:03] Extracted 15 ports from page 85
+[2025-10-16 20:08:03] Database connection established
+[2025-10-16 20:08:03] [Batch 9] Page 85 completed: 15 records inserted
+[2025-10-16 20:08:06] Scraping page 86: https://magicport.ai/ports?sort_type=asc&page=86
+[2025-10-16 20:08:07] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:07] Extracted 15 ports from page 86
+[2025-10-16 20:08:07] Database connection established
+[2025-10-16 20:08:08] [Batch 9] Page 86 completed: 15 records inserted
+[2025-10-16 20:08:11] Scraping page 87: https://magicport.ai/ports?sort_type=asc&page=87
+[2025-10-16 20:08:12] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:12] Extracted 15 ports from page 87
+[2025-10-16 20:08:12] Database connection established
+[2025-10-16 20:08:12] [Batch 9] Page 87 completed: 15 records inserted
+[2025-10-16 20:08:15] Scraping page 88: https://magicport.ai/ports?sort_type=asc&page=88
+[2025-10-16 20:08:16] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:16] Extracted 15 ports from page 88
+[2025-10-16 20:08:16] Database connection established
+[2025-10-16 20:08:16] [Batch 9] Page 88 completed: 15 records inserted
+[2025-10-16 20:08:19] Scraping page 89: https://magicport.ai/ports?sort_type=asc&page=89
+[2025-10-16 20:08:20] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:20] Extracted 15 ports from page 89
+[2025-10-16 20:08:20] Database connection established
+[2025-10-16 20:08:20] [Batch 9] Page 89 completed: 15 records inserted
+[2025-10-16 20:08:23] Scraping page 90: https://magicport.ai/ports?sort_type=asc&page=90
+[2025-10-16 20:08:24] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:24] Extracted 15 ports from page 90
+[2025-10-16 20:08:24] Database connection established
+[2025-10-16 20:08:24] [Batch 9] Page 90 completed: 15 records inserted
+[2025-10-16 20:08:27] Scraping page 91: https://magicport.ai/ports?sort_type=asc&page=91
+[2025-10-16 20:08:29] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:29] Extracted 15 ports from page 91
+[2025-10-16 20:08:29] Database connection established
+[2025-10-16 20:08:29] [Batch 10] Page 91 completed: 15 records inserted
+[2025-10-16 20:08:32] Scraping page 92: https://magicport.ai/ports?sort_type=asc&page=92
+[2025-10-16 20:08:33] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:33] Extracted 15 ports from page 92
+[2025-10-16 20:08:33] Database connection established
+[2025-10-16 20:08:33] [Batch 10] Page 92 completed: 15 records inserted
+[2025-10-16 20:08:36] Scraping page 93: https://magicport.ai/ports?sort_type=asc&page=93
+[2025-10-16 20:08:38] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:38] Extracted 15 ports from page 93
+[2025-10-16 20:08:38] Database connection established
+[2025-10-16 20:08:38] [Batch 10] Page 93 completed: 15 records inserted
+[2025-10-16 20:08:41] Scraping page 94: https://magicport.ai/ports?sort_type=asc&page=94
+[2025-10-16 20:08:42] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:42] Extracted 15 ports from page 94
+[2025-10-16 20:08:42] Database connection established
+[2025-10-16 20:08:42] [Batch 10] Page 94 completed: 15 records inserted
+[2025-10-16 20:08:45] Scraping page 95: https://magicport.ai/ports?sort_type=asc&page=95
+[2025-10-16 20:08:50] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:50] Extracted 15 ports from page 95
+[2025-10-16 20:08:50] Database connection established
+[2025-10-16 20:08:50] [Batch 10] Page 95 completed: 15 records inserted
+[2025-10-16 20:08:53] Scraping page 96: https://magicport.ai/ports?sort_type=asc&page=96
+[2025-10-16 20:08:55] Found 15 port elements using selector: .card__content
+[2025-10-16 20:08:55] Extracted 15 ports from page 96
+[2025-10-16 20:08:55] Database connection established
+[2025-10-16 20:08:55] [Batch 10] Page 96 completed: 15 records inserted
+[2025-10-16 20:08:58] Scraping page 97: https://magicport.ai/ports?sort_type=asc&page=97
+[2025-10-16 20:09:04] Found 15 port elements using selector: .card__content
+[2025-10-16 20:09:04] Extracted 15 ports from page 97
+[2025-10-16 20:09:04] Database connection established
+[2025-10-16 20:09:04] [Batch 10] Page 97 completed: 15 records inserted
+[2025-10-16 20:09:07] Scraping page 98: https://magicport.ai/ports?sort_type=asc&page=98
+[2025-10-16 20:09:08] Found 15 port elements using selector: .card__content
+[2025-10-16 20:09:08] Extracted 15 ports from page 98
+[2025-10-16 20:09:08] Database connection established
+[2025-10-16 20:09:08] [Batch 10] Page 98 completed: 15 records inserted
+[2025-10-16 20:09:11] Scraping page 99: https://magicport.ai/ports?sort_type=asc&page=99
+[2025-10-16 20:09:13] Found 15 port elements using selector: .card__content
+[2025-10-16 20:09:13] Extracted 15 ports from page 99
+[2025-10-16 20:09:13] Database connection established
+[2025-10-16 20:09:13] [Batch 10] Page 99 completed: 15 records inserted
+[2025-10-16 20:09:16] Scraping page 100: https://magicport.ai/ports?sort_type=asc&page=100
+[2025-10-16 20:09:17] Found 15 port elements using selector: .card__content
+[2025-10-16 20:09:17] Extracted 15 ports from page 100
+[2025-10-16 20:09:17] Database connection established
+[2025-10-16 20:09:17] [Batch 10] Page 100 completed: 15 records inserted
+[2025-10-16 20:09:17] Scraping completed. Total records inserted: 1500
+[2025-10-16 20:25:16] Starting MagicPort scraper from page 100
+[2025-10-16 20:25:16] Database connection established
+[2025-10-16 20:25:16] Database connection established
+[2025-10-16 20:25:16] Database table verified/created successfully
+[2025-10-16 20:25:16] Determining total pages...
+[2025-10-16 20:25:17] Found 342 total pages (from page links)
+[2025-10-16 20:25:17] Scraping pages 100 to 342 of 342
+[2025-10-16 20:25:17] Scraping page 100: https://magicport.ai/ports?sort_type=asc&page=100
+[2025-10-16 20:25:18] Found 15 port elements using selector: .card__content
+[2025-10-16 20:25:18] Extracted 15 ports from page 100
+[2025-10-16 20:25:18] Database connection established
+[2025-10-16 20:25:18] [Batch 1] Page 100 completed: 15 records inserted
+[2025-10-16 20:25:21] Scraping page 101: https://magicport.ai/ports?sort_type=asc&page=101
+[2025-10-16 20:25:22] Found 15 port elements using selector: .card__content
+[2025-10-16 20:25:22] Extracted 15 ports from page 101
+[2025-10-16 20:25:22] Database connection established
+[2025-10-16 20:25:22] [Batch 1] Page 101 completed: 15 records inserted
+[2025-10-16 20:25:25] Scraping page 102: https://magicport.ai/ports?sort_type=asc&page=102
+[2025-10-16 20:25:32] Found 15 port elements using selector: .card__content
+[2025-10-16 20:25:32] Extracted 15 ports from page 102
+[2025-10-16 20:25:32] Database connection established
+[2025-10-16 20:25:32] [Batch 1] Page 102 completed: 15 records inserted
+[2025-10-16 20:25:35] Scraping page 103: https://magicport.ai/ports?sort_type=asc&page=103
+[2025-10-16 20:25:36] Found 15 port elements using selector: .card__content
+[2025-10-16 20:25:36] Extracted 15 ports from page 103
+[2025-10-16 20:25:36] Database connection established
+[2025-10-16 20:25:36] [Batch 1] Page 103 completed: 15 records inserted
+[2025-10-16 20:25:39] Scraping page 104: https://magicport.ai/ports?sort_type=asc&page=104
+[2025-10-16 20:25:41] Found 15 port elements using selector: .card__content
+[2025-10-16 20:25:41] Extracted 15 ports from page 104
+[2025-10-16 20:25:41] Database connection established
+[2025-10-16 20:25:41] [Batch 1] Page 104 completed: 15 records inserted
+[2025-10-16 20:25:44] Scraping page 105: https://magicport.ai/ports?sort_type=asc&page=105
+[2025-10-16 20:25:45] Found 15 port elements using selector: .card__content
+[2025-10-16 20:25:45] Extracted 15 ports from page 105
+[2025-10-16 20:25:45] Database connection established
+[2025-10-16 20:25:45] [Batch 1] Page 105 completed: 15 records inserted
+[2025-10-16 20:25:48] Scraping page 106: https://magicport.ai/ports?sort_type=asc&page=106
+[2025-10-16 20:25:50] Found 15 port elements using selector: .card__content
+[2025-10-16 20:25:50] Extracted 15 ports from page 106
+[2025-10-16 20:25:50] Database connection established
+[2025-10-16 20:25:50] [Batch 1] Page 106 completed: 15 records inserted
+[2025-10-16 20:25:53] Scraping page 107: https://magicport.ai/ports?sort_type=asc&page=107
+[2025-10-16 20:25:54] Found 15 port elements using selector: .card__content
+[2025-10-16 20:25:55] Extracted 15 ports from page 107
+[2025-10-16 20:25:55] Database connection established
+[2025-10-16 20:25:55] [Batch 1] Page 107 completed: 15 records inserted
+[2025-10-16 20:25:58] Scraping page 108: https://magicport.ai/ports?sort_type=asc&page=108
+[2025-10-16 20:25:59] Found 15 port elements using selector: .card__content
+[2025-10-16 20:25:59] Extracted 15 ports from page 108
+[2025-10-16 20:25:59] Database connection established
+[2025-10-16 20:25:59] [Batch 1] Page 108 completed: 15 records inserted
+[2025-10-16 20:26:02] Scraping page 109: https://magicport.ai/ports?sort_type=asc&page=109
+[2025-10-16 20:26:03] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:03] Extracted 15 ports from page 109
+[2025-10-16 20:26:03] Database connection established
+[2025-10-16 20:26:03] [Batch 1] Page 109 completed: 15 records inserted
+[2025-10-16 20:26:06] Scraping page 110: https://magicport.ai/ports?sort_type=asc&page=110
+[2025-10-16 20:26:08] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:08] Extracted 15 ports from page 110
+[2025-10-16 20:26:08] Database connection established
+[2025-10-16 20:26:08] [Batch 2] Page 110 completed: 15 records inserted
+[2025-10-16 20:26:11] Scraping page 111: https://magicport.ai/ports?sort_type=asc&page=111
+[2025-10-16 20:26:12] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:12] Extracted 15 ports from page 111
+[2025-10-16 20:26:12] Database connection established
+[2025-10-16 20:26:12] [Batch 2] Page 111 completed: 15 records inserted
+[2025-10-16 20:26:15] Scraping page 112: https://magicport.ai/ports?sort_type=asc&page=112
+[2025-10-16 20:26:17] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:17] Extracted 15 ports from page 112
+[2025-10-16 20:26:17] Database connection established
+[2025-10-16 20:26:17] [Batch 2] Page 112 completed: 15 records inserted
+[2025-10-16 20:26:20] Scraping page 113: https://magicport.ai/ports?sort_type=asc&page=113
+[2025-10-16 20:26:21] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:21] Extracted 15 ports from page 113
+[2025-10-16 20:26:21] Database connection established
+[2025-10-16 20:26:21] [Batch 2] Page 113 completed: 15 records inserted
+[2025-10-16 20:26:24] Scraping page 114: https://magicport.ai/ports?sort_type=asc&page=114
+[2025-10-16 20:26:26] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:26] Extracted 15 ports from page 114
+[2025-10-16 20:26:26] Database connection established
+[2025-10-16 20:26:26] [Batch 2] Page 114 completed: 15 records inserted
+[2025-10-16 20:26:29] Scraping page 115: https://magicport.ai/ports?sort_type=asc&page=115
+[2025-10-16 20:26:36] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:36] Extracted 15 ports from page 115
+[2025-10-16 20:26:36] Database connection established
+[2025-10-16 20:26:36] [Batch 2] Page 115 completed: 15 records inserted
+[2025-10-16 20:26:39] Scraping page 116: https://magicport.ai/ports?sort_type=asc&page=116
+[2025-10-16 20:26:41] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:41] Extracted 15 ports from page 116
+[2025-10-16 20:26:41] Database connection established
+[2025-10-16 20:26:41] [Batch 2] Page 116 completed: 15 records inserted
+[2025-10-16 20:26:44] Scraping page 117: https://magicport.ai/ports?sort_type=asc&page=117
+[2025-10-16 20:26:45] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:45] Extracted 15 ports from page 117
+[2025-10-16 20:26:45] Database connection established
+[2025-10-16 20:26:45] [Batch 2] Page 117 completed: 15 records inserted
+[2025-10-16 20:26:48] Scraping page 118: https://magicport.ai/ports?sort_type=asc&page=118
+[2025-10-16 20:26:49] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:49] Extracted 15 ports from page 118
+[2025-10-16 20:26:49] Database connection established
+[2025-10-16 20:26:49] [Batch 2] Page 118 completed: 15 records inserted
+[2025-10-16 20:26:52] Scraping page 119: https://magicport.ai/ports?sort_type=asc&page=119
+[2025-10-16 20:26:54] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:54] Extracted 15 ports from page 119
+[2025-10-16 20:26:54] Database connection established
+[2025-10-16 20:26:54] [Batch 2] Page 119 completed: 15 records inserted
+[2025-10-16 20:26:57] Scraping page 120: https://magicport.ai/ports?sort_type=asc&page=120
+[2025-10-16 20:26:58] Found 15 port elements using selector: .card__content
+[2025-10-16 20:26:58] Extracted 15 ports from page 120
+[2025-10-16 20:26:58] Database connection established
+[2025-10-16 20:26:58] [Batch 3] Page 120 completed: 15 records inserted
+[2025-10-16 20:27:01] Scraping page 121: https://magicport.ai/ports?sort_type=asc&page=121
+[2025-10-16 20:27:03] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:03] Extracted 15 ports from page 121
+[2025-10-16 20:27:03] Database connection established
+[2025-10-16 20:27:03] [Batch 3] Page 121 completed: 15 records inserted
+[2025-10-16 20:27:06] Scraping page 122: https://magicport.ai/ports?sort_type=asc&page=122
+[2025-10-16 20:27:07] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:07] Extracted 15 ports from page 122
+[2025-10-16 20:27:07] Database connection established
+[2025-10-16 20:27:07] [Batch 3] Page 122 completed: 15 records inserted
+[2025-10-16 20:27:10] Scraping page 123: https://magicport.ai/ports?sort_type=asc&page=123
+[2025-10-16 20:27:12] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:12] Extracted 15 ports from page 123
+[2025-10-16 20:27:12] Database connection established
+[2025-10-16 20:27:12] [Batch 3] Page 123 completed: 15 records inserted
+[2025-10-16 20:27:15] Scraping page 124: https://magicport.ai/ports?sort_type=asc&page=124
+[2025-10-16 20:27:16] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:16] Extracted 15 ports from page 124
+[2025-10-16 20:27:16] Database connection established
+[2025-10-16 20:27:16] [Batch 3] Page 124 completed: 15 records inserted
+[2025-10-16 20:27:19] Scraping page 125: https://magicport.ai/ports?sort_type=asc&page=125
+[2025-10-16 20:27:20] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:20] Extracted 15 ports from page 125
+[2025-10-16 20:27:20] Database connection established
+[2025-10-16 20:27:20] [Batch 3] Page 125 completed: 15 records inserted
+[2025-10-16 20:27:23] Scraping page 126: https://magicport.ai/ports?sort_type=asc&page=126
+[2025-10-16 20:27:25] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:25] Extracted 15 ports from page 126
+[2025-10-16 20:27:25] Database connection established
+[2025-10-16 20:27:25] [Batch 3] Page 126 completed: 15 records inserted
+[2025-10-16 20:27:28] Scraping page 127: https://magicport.ai/ports?sort_type=asc&page=127
+[2025-10-16 20:27:29] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:29] Extracted 15 ports from page 127
+[2025-10-16 20:27:29] Database connection established
+[2025-10-16 20:27:29] [Batch 3] Page 127 completed: 15 records inserted
+[2025-10-16 20:27:32] Scraping page 128: https://magicport.ai/ports?sort_type=asc&page=128
+[2025-10-16 20:27:34] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:34] Extracted 15 ports from page 128
+[2025-10-16 20:27:34] Database connection established
+[2025-10-16 20:27:34] [Batch 3] Page 128 completed: 15 records inserted
+[2025-10-16 20:27:37] Scraping page 129: https://magicport.ai/ports?sort_type=asc&page=129
+[2025-10-16 20:27:42] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:42] Extracted 15 ports from page 129
+[2025-10-16 20:27:42] Database connection established
+[2025-10-16 20:27:42] [Batch 3] Page 129 completed: 15 records inserted
+[2025-10-16 20:27:45] Scraping page 130: https://magicport.ai/ports?sort_type=asc&page=130
+[2025-10-16 20:27:47] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:47] Extracted 15 ports from page 130
+[2025-10-16 20:27:47] Database connection established
+[2025-10-16 20:27:47] [Batch 4] Page 130 completed: 15 records inserted
+[2025-10-16 20:27:50] Scraping page 131: https://magicport.ai/ports?sort_type=asc&page=131
+[2025-10-16 20:27:51] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:51] Extracted 15 ports from page 131
+[2025-10-16 20:27:51] Database connection established
+[2025-10-16 20:27:51] [Batch 4] Page 131 completed: 15 records inserted
+[2025-10-16 20:27:54] Scraping page 132: https://magicport.ai/ports?sort_type=asc&page=132
+[2025-10-16 20:27:56] Found 15 port elements using selector: .card__content
+[2025-10-16 20:27:56] Extracted 15 ports from page 132
+[2025-10-16 20:27:56] Database connection established
+[2025-10-16 20:27:56] [Batch 4] Page 132 completed: 15 records inserted
+[2025-10-16 20:27:59] Scraping page 133: https://magicport.ai/ports?sort_type=asc&page=133
+[2025-10-16 20:28:00] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:00] Extracted 15 ports from page 133
+[2025-10-16 20:28:00] Database connection established
+[2025-10-16 20:28:00] [Batch 4] Page 133 completed: 15 records inserted
+[2025-10-16 20:28:03] Scraping page 134: https://magicport.ai/ports?sort_type=asc&page=134
+[2025-10-16 20:28:04] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:04] Extracted 15 ports from page 134
+[2025-10-16 20:28:04] Database connection established
+[2025-10-16 20:28:04] [Batch 4] Page 134 completed: 15 records inserted
+[2025-10-16 20:28:07] Scraping page 135: https://magicport.ai/ports?sort_type=asc&page=135
+[2025-10-16 20:28:13] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:13] Extracted 15 ports from page 135
+[2025-10-16 20:28:13] Database connection established
+[2025-10-16 20:28:13] [Batch 4] Page 135 completed: 15 records inserted
+[2025-10-16 20:28:16] Scraping page 136: https://magicport.ai/ports?sort_type=asc&page=136
+[2025-10-16 20:28:18] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:18] Extracted 15 ports from page 136
+[2025-10-16 20:28:18] Database connection established
+[2025-10-16 20:28:18] [Batch 4] Page 136 completed: 15 records inserted
+[2025-10-16 20:28:21] Scraping page 137: https://magicport.ai/ports?sort_type=asc&page=137
+[2025-10-16 20:28:22] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:22] Extracted 15 ports from page 137
+[2025-10-16 20:28:22] Database connection established
+[2025-10-16 20:28:22] [Batch 4] Page 137 completed: 15 records inserted
+[2025-10-16 20:28:25] Scraping page 138: https://magicport.ai/ports?sort_type=asc&page=138
+[2025-10-16 20:28:26] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:26] Extracted 15 ports from page 138
+[2025-10-16 20:28:26] Database connection established
+[2025-10-16 20:28:26] [Batch 4] Page 138 completed: 15 records inserted
+[2025-10-16 20:28:29] Scraping page 139: https://magicport.ai/ports?sort_type=asc&page=139
+[2025-10-16 20:28:31] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:31] Extracted 15 ports from page 139
+[2025-10-16 20:28:31] Database connection established
+[2025-10-16 20:28:31] [Batch 4] Page 139 completed: 15 records inserted
+[2025-10-16 20:28:34] Scraping page 140: https://magicport.ai/ports?sort_type=asc&page=140
+[2025-10-16 20:28:40] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:40] Extracted 15 ports from page 140
+[2025-10-16 20:28:40] Database connection established
+[2025-10-16 20:28:40] [Batch 5] Page 140 completed: 15 records inserted
+[2025-10-16 20:28:43] Scraping page 141: https://magicport.ai/ports?sort_type=asc&page=141
+[2025-10-16 20:28:44] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:44] Extracted 15 ports from page 141
+[2025-10-16 20:28:44] Database connection established
+[2025-10-16 20:28:44] [Batch 5] Page 141 completed: 15 records inserted
+[2025-10-16 20:28:47] Scraping page 142: https://magicport.ai/ports?sort_type=asc&page=142
+[2025-10-16 20:28:48] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:48] Extracted 15 ports from page 142
+[2025-10-16 20:28:48] Database connection established
+[2025-10-16 20:28:48] [Batch 5] Page 142 completed: 15 records inserted
+[2025-10-16 20:28:51] Scraping page 143: https://magicport.ai/ports?sort_type=asc&page=143
+[2025-10-16 20:28:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:53] Extracted 15 ports from page 143
+[2025-10-16 20:28:53] Database connection established
+[2025-10-16 20:28:53] [Batch 5] Page 143 completed: 15 records inserted
+[2025-10-16 20:28:56] Scraping page 144: https://magicport.ai/ports?sort_type=asc&page=144
+[2025-10-16 20:28:57] Found 15 port elements using selector: .card__content
+[2025-10-16 20:28:57] Extracted 15 ports from page 144
+[2025-10-16 20:28:57] Database connection established
+[2025-10-16 20:28:57] [Batch 5] Page 144 completed: 15 records inserted
+[2025-10-16 20:29:00] Scraping page 145: https://magicport.ai/ports?sort_type=asc&page=145
+[2025-10-16 20:29:02] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:02] Extracted 15 ports from page 145
+[2025-10-16 20:29:02] Database connection established
+[2025-10-16 20:29:02] [Batch 5] Page 145 completed: 15 records inserted
+[2025-10-16 20:29:05] Scraping page 146: https://magicport.ai/ports?sort_type=asc&page=146
+[2025-10-16 20:29:06] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:06] Extracted 15 ports from page 146
+[2025-10-16 20:29:06] Database connection established
+[2025-10-16 20:29:06] [Batch 5] Page 146 completed: 15 records inserted
+[2025-10-16 20:29:09] Scraping page 147: https://magicport.ai/ports?sort_type=asc&page=147
+[2025-10-16 20:29:10] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:10] Extracted 15 ports from page 147
+[2025-10-16 20:29:10] Database connection established
+[2025-10-16 20:29:10] [Batch 5] Page 147 completed: 15 records inserted
+[2025-10-16 20:29:13] Scraping page 148: https://magicport.ai/ports?sort_type=asc&page=148
+[2025-10-16 20:29:15] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:15] Extracted 15 ports from page 148
+[2025-10-16 20:29:15] Database connection established
+[2025-10-16 20:29:15] [Batch 5] Page 148 completed: 15 records inserted
+[2025-10-16 20:29:18] Scraping page 149: https://magicport.ai/ports?sort_type=asc&page=149
+[2025-10-16 20:29:19] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:19] Extracted 15 ports from page 149
+[2025-10-16 20:29:19] Database connection established
+[2025-10-16 20:29:19] [Batch 5] Page 149 completed: 15 records inserted
+[2025-10-16 20:29:22] Scraping page 150: https://magicport.ai/ports?sort_type=asc&page=150
+[2025-10-16 20:29:24] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:24] Extracted 15 ports from page 150
+[2025-10-16 20:29:24] Database connection established
+[2025-10-16 20:29:24] [Batch 6] Page 150 completed: 15 records inserted
+[2025-10-16 20:29:27] Scraping page 151: https://magicport.ai/ports?sort_type=asc&page=151
+[2025-10-16 20:29:28] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:28] Extracted 15 ports from page 151
+[2025-10-16 20:29:28] Database connection established
+[2025-10-16 20:29:28] [Batch 6] Page 151 completed: 15 records inserted
+[2025-10-16 20:29:31] Scraping page 152: https://magicport.ai/ports?sort_type=asc&page=152
+[2025-10-16 20:29:32] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:32] Extracted 15 ports from page 152
+[2025-10-16 20:29:32] Database connection established
+[2025-10-16 20:29:32] [Batch 6] Page 152 completed: 15 records inserted
+[2025-10-16 20:29:35] Scraping page 153: https://magicport.ai/ports?sort_type=asc&page=153
+[2025-10-16 20:29:40] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:40] Extracted 15 ports from page 153
+[2025-10-16 20:29:40] Database connection established
+[2025-10-16 20:29:40] [Batch 6] Page 153 completed: 15 records inserted
+[2025-10-16 20:29:43] Scraping page 154: https://magicport.ai/ports?sort_type=asc&page=154
+[2025-10-16 20:29:45] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:45] Extracted 15 ports from page 154
+[2025-10-16 20:29:45] Database connection established
+[2025-10-16 20:29:45] [Batch 6] Page 154 completed: 15 records inserted
+[2025-10-16 20:29:48] Scraping page 155: https://magicport.ai/ports?sort_type=asc&page=155
+[2025-10-16 20:29:49] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:49] Extracted 15 ports from page 155
+[2025-10-16 20:29:49] Database connection established
+[2025-10-16 20:29:49] [Batch 6] Page 155 completed: 15 records inserted
+[2025-10-16 20:29:52] Scraping page 156: https://magicport.ai/ports?sort_type=asc&page=156
+[2025-10-16 20:29:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:53] Extracted 15 ports from page 156
+[2025-10-16 20:29:53] Database connection established
+[2025-10-16 20:29:53] [Batch 6] Page 156 completed: 15 records inserted
+[2025-10-16 20:29:56] Scraping page 157: https://magicport.ai/ports?sort_type=asc&page=157
+[2025-10-16 20:29:58] Found 15 port elements using selector: .card__content
+[2025-10-16 20:29:58] Extracted 15 ports from page 157
+[2025-10-16 20:29:58] Database connection established
+[2025-10-16 20:29:58] [Batch 6] Page 157 completed: 15 records inserted
+[2025-10-16 20:30:01] Scraping page 158: https://magicport.ai/ports?sort_type=asc&page=158
+[2025-10-16 20:30:02] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:02] Extracted 15 ports from page 158
+[2025-10-16 20:30:02] Database connection established
+[2025-10-16 20:30:02] [Batch 6] Page 158 completed: 15 records inserted
+[2025-10-16 20:30:05] Scraping page 159: https://magicport.ai/ports?sort_type=asc&page=159
+[2025-10-16 20:30:07] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:07] Extracted 15 ports from page 159
+[2025-10-16 20:30:07] Database connection established
+[2025-10-16 20:30:07] [Batch 6] Page 159 completed: 15 records inserted
+[2025-10-16 20:30:10] Scraping page 160: https://magicport.ai/ports?sort_type=asc&page=160
+[2025-10-16 20:30:11] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:11] Extracted 15 ports from page 160
+[2025-10-16 20:30:11] Database connection established
+[2025-10-16 20:30:11] [Batch 7] Page 160 completed: 15 records inserted
+[2025-10-16 20:30:14] Scraping page 161: https://magicport.ai/ports?sort_type=asc&page=161
+[2025-10-16 20:30:16] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:16] Extracted 15 ports from page 161
+[2025-10-16 20:30:16] Database connection established
+[2025-10-16 20:30:16] [Batch 7] Page 161 completed: 15 records inserted
+[2025-10-16 20:30:19] Scraping page 162: https://magicport.ai/ports?sort_type=asc&page=162
+[2025-10-16 20:30:20] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:20] Extracted 15 ports from page 162
+[2025-10-16 20:30:20] Database connection established
+[2025-10-16 20:30:20] [Batch 7] Page 162 completed: 15 records inserted
+[2025-10-16 20:30:23] Scraping page 163: https://magicport.ai/ports?sort_type=asc&page=163
+[2025-10-16 20:30:25] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:25] Extracted 15 ports from page 163
+[2025-10-16 20:30:25] Database connection established
+[2025-10-16 20:30:25] [Batch 7] Page 163 completed: 15 records inserted
+[2025-10-16 20:30:28] Scraping page 164: https://magicport.ai/ports?sort_type=asc&page=164
+[2025-10-16 20:30:29] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:29] Extracted 15 ports from page 164
+[2025-10-16 20:30:29] Database connection established
+[2025-10-16 20:30:29] [Batch 7] Page 164 completed: 15 records inserted
+[2025-10-16 20:30:32] Scraping page 165: https://magicport.ai/ports?sort_type=asc&page=165
+[2025-10-16 20:30:33] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:33] Extracted 15 ports from page 165
+[2025-10-16 20:30:33] Database connection established
+[2025-10-16 20:30:34] [Batch 7] Page 165 completed: 15 records inserted
+[2025-10-16 20:30:37] Scraping page 166: https://magicport.ai/ports?sort_type=asc&page=166
+[2025-10-16 20:30:38] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:38] Extracted 15 ports from page 166
+[2025-10-16 20:30:38] Database connection established
+[2025-10-16 20:30:38] [Batch 7] Page 166 completed: 15 records inserted
+[2025-10-16 20:30:41] Scraping page 167: https://magicport.ai/ports?sort_type=asc&page=167
+[2025-10-16 20:30:42] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:42] Extracted 15 ports from page 167
+[2025-10-16 20:30:42] Database connection established
+[2025-10-16 20:30:42] [Batch 7] Page 167 completed: 15 records inserted
+[2025-10-16 20:30:45] Scraping page 168: https://magicport.ai/ports?sort_type=asc&page=168
+[2025-10-16 20:30:47] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:47] Extracted 15 ports from page 168
+[2025-10-16 20:30:47] Database connection established
+[2025-10-16 20:30:47] [Batch 7] Page 168 completed: 15 records inserted
+[2025-10-16 20:30:50] Scraping page 169: https://magicport.ai/ports?sort_type=asc&page=169
+[2025-10-16 20:30:51] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:51] Extracted 15 ports from page 169
+[2025-10-16 20:30:51] Database connection established
+[2025-10-16 20:30:51] [Batch 7] Page 169 completed: 15 records inserted
+[2025-10-16 20:30:54] Scraping page 170: https://magicport.ai/ports?sort_type=asc&page=170
+[2025-10-16 20:30:56] Found 15 port elements using selector: .card__content
+[2025-10-16 20:30:56] Extracted 15 ports from page 170
+[2025-10-16 20:30:56] Database connection established
+[2025-10-16 20:30:56] [Batch 8] Page 170 completed: 15 records inserted
+[2025-10-16 20:30:59] Scraping page 171: https://magicport.ai/ports?sort_type=asc&page=171
+[2025-10-16 20:31:01] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:01] Extracted 15 ports from page 171
+[2025-10-16 20:31:01] Database connection established
+[2025-10-16 20:31:01] [Batch 8] Page 171 completed: 15 records inserted
+[2025-10-16 20:31:04] Scraping page 172: https://magicport.ai/ports?sort_type=asc&page=172
+[2025-10-16 20:31:05] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:05] Extracted 15 ports from page 172
+[2025-10-16 20:31:05] Database connection established
+[2025-10-16 20:31:05] [Batch 8] Page 172 completed: 15 records inserted
+[2025-10-16 20:31:08] Scraping page 173: https://magicport.ai/ports?sort_type=asc&page=173
+[2025-10-16 20:31:09] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:09] Extracted 15 ports from page 173
+[2025-10-16 20:31:09] Database connection established
+[2025-10-16 20:31:09] [Batch 8] Page 173 completed: 15 records inserted
+[2025-10-16 20:31:12] Scraping page 174: https://magicport.ai/ports?sort_type=asc&page=174
+[2025-10-16 20:31:14] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:14] Extracted 15 ports from page 174
+[2025-10-16 20:31:14] Database connection established
+[2025-10-16 20:31:14] [Batch 8] Page 174 completed: 15 records inserted
+[2025-10-16 20:31:17] Scraping page 175: https://magicport.ai/ports?sort_type=asc&page=175
+[2025-10-16 20:31:22] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:22] Extracted 15 ports from page 175
+[2025-10-16 20:31:22] Database connection established
+[2025-10-16 20:31:22] [Batch 8] Page 175 completed: 15 records inserted
+[2025-10-16 20:31:25] Scraping page 176: https://magicport.ai/ports?sort_type=asc&page=176
+[2025-10-16 20:31:27] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:27] Extracted 15 ports from page 176
+[2025-10-16 20:31:27] Database connection established
+[2025-10-16 20:31:27] [Batch 8] Page 176 completed: 15 records inserted
+[2025-10-16 20:31:30] Scraping page 177: https://magicport.ai/ports?sort_type=asc&page=177
+[2025-10-16 20:31:35] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:35] Extracted 15 ports from page 177
+[2025-10-16 20:31:35] Database connection established
+[2025-10-16 20:31:35] [Batch 8] Page 177 completed: 15 records inserted
+[2025-10-16 20:31:38] Scraping page 178: https://magicport.ai/ports?sort_type=asc&page=178
+[2025-10-16 20:31:39] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:39] Extracted 15 ports from page 178
+[2025-10-16 20:31:39] Database connection established
+[2025-10-16 20:31:39] [Batch 8] Page 178 completed: 15 records inserted
+[2025-10-16 20:31:42] Scraping page 179: https://magicport.ai/ports?sort_type=asc&page=179
+[2025-10-16 20:31:43] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:43] Extracted 15 ports from page 179
+[2025-10-16 20:31:43] Database connection established
+[2025-10-16 20:31:43] [Batch 8] Page 179 completed: 15 records inserted
+[2025-10-16 20:31:46] Scraping page 180: https://magicport.ai/ports?sort_type=asc&page=180
+[2025-10-16 20:31:48] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:48] Extracted 15 ports from page 180
+[2025-10-16 20:31:48] Database connection established
+[2025-10-16 20:31:48] [Batch 9] Page 180 completed: 15 records inserted
+[2025-10-16 20:31:51] Scraping page 181: https://magicport.ai/ports?sort_type=asc&page=181
+[2025-10-16 20:31:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:53] Extracted 15 ports from page 181
+[2025-10-16 20:31:53] Database connection established
+[2025-10-16 20:31:53] [Batch 9] Page 181 completed: 15 records inserted
+[2025-10-16 20:31:56] Scraping page 182: https://magicport.ai/ports?sort_type=asc&page=182
+[2025-10-16 20:31:57] Found 15 port elements using selector: .card__content
+[2025-10-16 20:31:57] Extracted 15 ports from page 182
+[2025-10-16 20:31:57] Database connection established
+[2025-10-16 20:31:57] [Batch 9] Page 182 completed: 15 records inserted
+[2025-10-16 20:32:00] Scraping page 183: https://magicport.ai/ports?sort_type=asc&page=183
+[2025-10-16 20:32:02] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:02] Extracted 15 ports from page 183
+[2025-10-16 20:32:02] Database connection established
+[2025-10-16 20:32:02] [Batch 9] Page 183 completed: 15 records inserted
+[2025-10-16 20:32:05] Scraping page 184: https://magicport.ai/ports?sort_type=asc&page=184
+[2025-10-16 20:32:06] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:06] Extracted 15 ports from page 184
+[2025-10-16 20:32:06] Database connection established
+[2025-10-16 20:32:06] [Batch 9] Page 184 completed: 15 records inserted
+[2025-10-16 20:32:09] Scraping page 185: https://magicport.ai/ports?sort_type=asc&page=185
+[2025-10-16 20:32:11] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:11] Extracted 15 ports from page 185
+[2025-10-16 20:32:11] Database connection established
+[2025-10-16 20:32:11] [Batch 9] Page 185 completed: 15 records inserted
+[2025-10-16 20:32:14] Scraping page 186: https://magicport.ai/ports?sort_type=asc&page=186
+[2025-10-16 20:32:15] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:15] Extracted 15 ports from page 186
+[2025-10-16 20:32:15] Database connection established
+[2025-10-16 20:32:15] [Batch 9] Page 186 completed: 15 records inserted
+[2025-10-16 20:32:18] Scraping page 187: https://magicport.ai/ports?sort_type=asc&page=187
+[2025-10-16 20:32:19] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:19] Extracted 15 ports from page 187
+[2025-10-16 20:32:19] Database connection established
+[2025-10-16 20:32:19] [Batch 9] Page 187 completed: 15 records inserted
+[2025-10-16 20:32:22] Scraping page 188: https://magicport.ai/ports?sort_type=asc&page=188
+[2025-10-16 20:32:24] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:24] Extracted 15 ports from page 188
+[2025-10-16 20:32:24] Database connection established
+[2025-10-16 20:32:24] [Batch 9] Page 188 completed: 15 records inserted
+[2025-10-16 20:32:27] Scraping page 189: https://magicport.ai/ports?sort_type=asc&page=189
+[2025-10-16 20:32:33] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:33] Extracted 15 ports from page 189
+[2025-10-16 20:32:33] Database connection established
+[2025-10-16 20:32:33] [Batch 9] Page 189 completed: 15 records inserted
+[2025-10-16 20:32:36] Scraping page 190: https://magicport.ai/ports?sort_type=asc&page=190
+[2025-10-16 20:32:37] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:37] Extracted 15 ports from page 190
+[2025-10-16 20:32:37] Database connection established
+[2025-10-16 20:32:37] [Batch 10] Page 190 completed: 15 records inserted
+[2025-10-16 20:32:40] Scraping page 191: https://magicport.ai/ports?sort_type=asc&page=191
+[2025-10-16 20:32:42] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:42] Extracted 15 ports from page 191
+[2025-10-16 20:32:42] Database connection established
+[2025-10-16 20:32:42] [Batch 10] Page 191 completed: 15 records inserted
+[2025-10-16 20:32:45] Scraping page 192: https://magicport.ai/ports?sort_type=asc&page=192
+[2025-10-16 20:32:46] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:46] Extracted 15 ports from page 192
+[2025-10-16 20:32:46] Database connection established
+[2025-10-16 20:32:46] [Batch 10] Page 192 completed: 15 records inserted
+[2025-10-16 20:32:49] Scraping page 193: https://magicport.ai/ports?sort_type=asc&page=193
+[2025-10-16 20:32:50] Found 15 port elements using selector: .card__content
+[2025-10-16 20:32:50] Extracted 15 ports from page 193
+[2025-10-16 20:32:50] Database connection established
+[2025-10-16 20:32:50] [Batch 10] Page 193 completed: 15 records inserted
+[2025-10-16 20:32:53] Scraping page 194: https://magicport.ai/ports?sort_type=asc&page=194
+[2025-10-16 20:33:00] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:00] Extracted 15 ports from page 194
+[2025-10-16 20:33:00] Database connection established
+[2025-10-16 20:33:00] [Batch 10] Page 194 completed: 15 records inserted
+[2025-10-16 20:33:03] Scraping page 195: https://magicport.ai/ports?sort_type=asc&page=195
+[2025-10-16 20:33:04] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:04] Extracted 15 ports from page 195
+[2025-10-16 20:33:04] Database connection established
+[2025-10-16 20:33:04] [Batch 10] Page 195 completed: 15 records inserted
+[2025-10-16 20:33:07] Scraping page 196: https://magicport.ai/ports?sort_type=asc&page=196
+[2025-10-16 20:33:08] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:08] Extracted 15 ports from page 196
+[2025-10-16 20:33:08] Database connection established
+[2025-10-16 20:33:08] [Batch 10] Page 196 completed: 15 records inserted
+[2025-10-16 20:33:11] Scraping page 197: https://magicport.ai/ports?sort_type=asc&page=197
+[2025-10-16 20:33:13] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:13] Extracted 15 ports from page 197
+[2025-10-16 20:33:13] Database connection established
+[2025-10-16 20:33:13] [Batch 10] Page 197 completed: 15 records inserted
+[2025-10-16 20:33:16] Scraping page 198: https://magicport.ai/ports?sort_type=asc&page=198
+[2025-10-16 20:33:17] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:17] Extracted 15 ports from page 198
+[2025-10-16 20:33:17] Database connection established
+[2025-10-16 20:33:17] [Batch 10] Page 198 completed: 15 records inserted
+[2025-10-16 20:33:20] Scraping page 199: https://magicport.ai/ports?sort_type=asc&page=199
+[2025-10-16 20:33:21] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:21] Extracted 15 ports from page 199
+[2025-10-16 20:33:21] Database connection established
+[2025-10-16 20:33:21] [Batch 10] Page 199 completed: 15 records inserted
+[2025-10-16 20:33:24] Scraping page 200: https://magicport.ai/ports?sort_type=asc&page=200
+[2025-10-16 20:33:30] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:30] Extracted 15 ports from page 200
+[2025-10-16 20:33:30] Database connection established
+[2025-10-16 20:33:30] [Batch 11] Page 200 completed: 15 records inserted
+[2025-10-16 20:33:33] Scraping page 201: https://magicport.ai/ports?sort_type=asc&page=201
+[2025-10-16 20:33:35] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:35] Extracted 15 ports from page 201
+[2025-10-16 20:33:35] Database connection established
+[2025-10-16 20:33:35] [Batch 11] Page 201 completed: 15 records inserted
+[2025-10-16 20:33:38] Scraping page 202: https://magicport.ai/ports?sort_type=asc&page=202
+[2025-10-16 20:33:39] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:39] Extracted 15 ports from page 202
+[2025-10-16 20:33:39] Database connection established
+[2025-10-16 20:33:39] [Batch 11] Page 202 completed: 15 records inserted
+[2025-10-16 20:33:42] Scraping page 203: https://magicport.ai/ports?sort_type=asc&page=203
+[2025-10-16 20:33:44] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:44] Extracted 15 ports from page 203
+[2025-10-16 20:33:44] Database connection established
+[2025-10-16 20:33:44] [Batch 11] Page 203 completed: 15 records inserted
+[2025-10-16 20:33:47] Scraping page 204: https://magicport.ai/ports?sort_type=asc&page=204
+[2025-10-16 20:33:48] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:48] Extracted 15 ports from page 204
+[2025-10-16 20:33:48] Database connection established
+[2025-10-16 20:33:48] [Batch 11] Page 204 completed: 15 records inserted
+[2025-10-16 20:33:51] Scraping page 205: https://magicport.ai/ports?sort_type=asc&page=205
+[2025-10-16 20:33:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:53] Extracted 15 ports from page 205
+[2025-10-16 20:33:53] Database connection established
+[2025-10-16 20:33:53] [Batch 11] Page 205 completed: 15 records inserted
+[2025-10-16 20:33:56] Scraping page 206: https://magicport.ai/ports?sort_type=asc&page=206
+[2025-10-16 20:33:57] Found 15 port elements using selector: .card__content
+[2025-10-16 20:33:57] Extracted 15 ports from page 206
+[2025-10-16 20:33:57] Database connection established
+[2025-10-16 20:33:57] [Batch 11] Page 206 completed: 15 records inserted
+[2025-10-16 20:34:00] Scraping page 207: https://magicport.ai/ports?sort_type=asc&page=207
+[2025-10-16 20:34:02] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:02] Extracted 15 ports from page 207
+[2025-10-16 20:34:02] Database connection established
+[2025-10-16 20:34:02] [Batch 11] Page 207 completed: 15 records inserted
+[2025-10-16 20:34:05] Scraping page 208: https://magicport.ai/ports?sort_type=asc&page=208
+[2025-10-16 20:34:06] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:06] Extracted 15 ports from page 208
+[2025-10-16 20:34:06] Database connection established
+[2025-10-16 20:34:06] [Batch 11] Page 208 completed: 15 records inserted
+[2025-10-16 20:34:09] Scraping page 209: https://magicport.ai/ports?sort_type=asc&page=209
+[2025-10-16 20:34:12] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:12] Extracted 15 ports from page 209
+[2025-10-16 20:34:12] Database connection established
+[2025-10-16 20:34:12] [Batch 11] Page 209 completed: 15 records inserted
+[2025-10-16 20:34:15] Scraping page 210: https://magicport.ai/ports?sort_type=asc&page=210
+[2025-10-16 20:34:17] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:17] Extracted 15 ports from page 210
+[2025-10-16 20:34:17] Database connection established
+[2025-10-16 20:34:17] [Batch 12] Page 210 completed: 15 records inserted
+[2025-10-16 20:34:20] Scraping page 211: https://magicport.ai/ports?sort_type=asc&page=211
+[2025-10-16 20:34:21] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:21] Extracted 15 ports from page 211
+[2025-10-16 20:34:21] Database connection established
+[2025-10-16 20:34:21] [Batch 12] Page 211 completed: 15 records inserted
+[2025-10-16 20:34:24] Scraping page 212: https://magicport.ai/ports?sort_type=asc&page=212
+[2025-10-16 20:34:26] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:26] Extracted 15 ports from page 212
+[2025-10-16 20:34:26] Database connection established
+[2025-10-16 20:34:26] [Batch 12] Page 212 completed: 15 records inserted
+[2025-10-16 20:34:29] Scraping page 213: https://magicport.ai/ports?sort_type=asc&page=213
+[2025-10-16 20:34:30] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:30] Extracted 15 ports from page 213
+[2025-10-16 20:34:30] Database connection established
+[2025-10-16 20:34:30] [Batch 12] Page 213 completed: 15 records inserted
+[2025-10-16 20:34:33] Scraping page 214: https://magicport.ai/ports?sort_type=asc&page=214
+[2025-10-16 20:34:34] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:34] Extracted 15 ports from page 214
+[2025-10-16 20:34:34] Database connection established
+[2025-10-16 20:34:34] [Batch 12] Page 214 completed: 15 records inserted
+[2025-10-16 20:34:37] Scraping page 215: https://magicport.ai/ports?sort_type=asc&page=215
+[2025-10-16 20:34:39] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:39] Extracted 15 ports from page 215
+[2025-10-16 20:34:39] Database connection established
+[2025-10-16 20:34:39] [Batch 12] Page 215 completed: 15 records inserted
+[2025-10-16 20:34:42] Scraping page 216: https://magicport.ai/ports?sort_type=asc&page=216
+[2025-10-16 20:34:48] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:48] Extracted 15 ports from page 216
+[2025-10-16 20:34:48] Database connection established
+[2025-10-16 20:34:48] [Batch 12] Page 216 completed: 15 records inserted
+[2025-10-16 20:34:51] Scraping page 217: https://magicport.ai/ports?sort_type=asc&page=217
+[2025-10-16 20:34:52] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:52] Extracted 15 ports from page 217
+[2025-10-16 20:34:52] Database connection established
+[2025-10-16 20:34:52] [Batch 12] Page 217 completed: 15 records inserted
+[2025-10-16 20:34:55] Scraping page 218: https://magicport.ai/ports?sort_type=asc&page=218
+[2025-10-16 20:34:57] Found 15 port elements using selector: .card__content
+[2025-10-16 20:34:57] Extracted 15 ports from page 218
+[2025-10-16 20:34:57] Database connection established
+[2025-10-16 20:34:57] [Batch 12] Page 218 completed: 15 records inserted
+[2025-10-16 20:35:00] Scraping page 219: https://magicport.ai/ports?sort_type=asc&page=219
+[2025-10-16 20:35:01] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:01] Extracted 15 ports from page 219
+[2025-10-16 20:35:01] Database connection established
+[2025-10-16 20:35:01] [Batch 12] Page 219 completed: 15 records inserted
+[2025-10-16 20:35:04] Scraping page 220: https://magicport.ai/ports?sort_type=asc&page=220
+[2025-10-16 20:35:05] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:05] Extracted 15 ports from page 220
+[2025-10-16 20:35:05] Database connection established
+[2025-10-16 20:35:05] [Batch 13] Page 220 completed: 15 records inserted
+[2025-10-16 20:35:08] Scraping page 221: https://magicport.ai/ports?sort_type=asc&page=221
+[2025-10-16 20:35:10] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:10] Extracted 15 ports from page 221
+[2025-10-16 20:35:10] Database connection established
+[2025-10-16 20:35:10] [Batch 13] Page 221 completed: 15 records inserted
+[2025-10-16 20:35:13] Scraping page 222: https://magicport.ai/ports?sort_type=asc&page=222
+[2025-10-16 20:35:14] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:14] Extracted 15 ports from page 222
+[2025-10-16 20:35:14] Database connection established
+[2025-10-16 20:35:14] [Batch 13] Page 222 completed: 15 records inserted
+[2025-10-16 20:35:17] Scraping page 223: https://magicport.ai/ports?sort_type=asc&page=223
+[2025-10-16 20:35:18] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:18] Extracted 15 ports from page 223
+[2025-10-16 20:35:18] Database connection established
+[2025-10-16 20:35:18] [Batch 13] Page 223 completed: 15 records inserted
+[2025-10-16 20:35:21] Scraping page 224: https://magicport.ai/ports?sort_type=asc&page=224
+[2025-10-16 20:35:23] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:23] Extracted 15 ports from page 224
+[2025-10-16 20:35:23] Database connection established
+[2025-10-16 20:35:23] [Batch 13] Page 224 completed: 15 records inserted
+[2025-10-16 20:35:26] Scraping page 225: https://magicport.ai/ports?sort_type=asc&page=225
+[2025-10-16 20:35:31] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:31] Extracted 15 ports from page 225
+[2025-10-16 20:35:31] Database connection established
+[2025-10-16 20:35:31] [Batch 13] Page 225 completed: 15 records inserted
+[2025-10-16 20:35:34] Scraping page 226: https://magicport.ai/ports?sort_type=asc&page=226
+[2025-10-16 20:35:35] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:35] Extracted 15 ports from page 226
+[2025-10-16 20:35:35] Database connection established
+[2025-10-16 20:35:35] [Batch 13] Page 226 completed: 15 records inserted
+[2025-10-16 20:35:38] Scraping page 227: https://magicport.ai/ports?sort_type=asc&page=227
+[2025-10-16 20:35:39] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:39] Extracted 15 ports from page 227
+[2025-10-16 20:35:39] Database connection established
+[2025-10-16 20:35:39] [Batch 13] Page 227 completed: 15 records inserted
+[2025-10-16 20:35:42] Scraping page 228: https://magicport.ai/ports?sort_type=asc&page=228
+[2025-10-16 20:35:51] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:51] Extracted 15 ports from page 228
+[2025-10-16 20:35:51] Database connection established
+[2025-10-16 20:35:51] [Batch 13] Page 228 completed: 15 records inserted
+[2025-10-16 20:35:54] Scraping page 229: https://magicport.ai/ports?sort_type=asc&page=229
+[2025-10-16 20:35:59] Found 15 port elements using selector: .card__content
+[2025-10-16 20:35:59] Extracted 15 ports from page 229
+[2025-10-16 20:35:59] Database connection established
+[2025-10-16 20:35:59] [Batch 13] Page 229 completed: 15 records inserted
+[2025-10-16 20:36:02] Scraping page 230: https://magicport.ai/ports?sort_type=asc&page=230
+[2025-10-16 20:36:03] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:03] Extracted 15 ports from page 230
+[2025-10-16 20:36:03] Database connection established
+[2025-10-16 20:36:03] [Batch 14] Page 230 completed: 15 records inserted
+[2025-10-16 20:36:06] Scraping page 231: https://magicport.ai/ports?sort_type=asc&page=231
+[2025-10-16 20:36:07] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:07] Extracted 15 ports from page 231
+[2025-10-16 20:36:07] Database connection established
+[2025-10-16 20:36:07] [Batch 14] Page 231 completed: 15 records inserted
+[2025-10-16 20:36:10] Scraping page 232: https://magicport.ai/ports?sort_type=asc&page=232
+[2025-10-16 20:36:12] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:12] Extracted 15 ports from page 232
+[2025-10-16 20:36:12] Database connection established
+[2025-10-16 20:36:12] [Batch 14] Page 232 completed: 15 records inserted
+[2025-10-16 20:36:15] Scraping page 233: https://magicport.ai/ports?sort_type=asc&page=233
+[2025-10-16 20:36:21] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:21] Extracted 15 ports from page 233
+[2025-10-16 20:36:21] Database connection established
+[2025-10-16 20:36:21] [Batch 14] Page 233 completed: 15 records inserted
+[2025-10-16 20:36:24] Scraping page 234: https://magicport.ai/ports?sort_type=asc&page=234
+[2025-10-16 20:36:25] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:25] Extracted 15 ports from page 234
+[2025-10-16 20:36:25] Database connection established
+[2025-10-16 20:36:25] [Batch 14] Page 234 completed: 15 records inserted
+[2025-10-16 20:36:28] Scraping page 235: https://magicport.ai/ports?sort_type=asc&page=235
+[2025-10-16 20:36:30] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:30] Extracted 15 ports from page 235
+[2025-10-16 20:36:30] Database connection established
+[2025-10-16 20:36:30] [Batch 14] Page 235 completed: 15 records inserted
+[2025-10-16 20:36:33] Scraping page 236: https://magicport.ai/ports?sort_type=asc&page=236
+[2025-10-16 20:36:38] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:38] Extracted 15 ports from page 236
+[2025-10-16 20:36:38] Database connection established
+[2025-10-16 20:36:38] [Batch 14] Page 236 completed: 15 records inserted
+[2025-10-16 20:36:41] Scraping page 237: https://magicport.ai/ports?sort_type=asc&page=237
+[2025-10-16 20:36:42] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:42] Extracted 15 ports from page 237
+[2025-10-16 20:36:42] Database connection established
+[2025-10-16 20:36:42] [Batch 14] Page 237 completed: 15 records inserted
+[2025-10-16 20:36:45] Scraping page 238: https://magicport.ai/ports?sort_type=asc&page=238
+[2025-10-16 20:36:47] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:47] Extracted 15 ports from page 238
+[2025-10-16 20:36:47] Database connection established
+[2025-10-16 20:36:47] [Batch 14] Page 238 completed: 15 records inserted
+[2025-10-16 20:36:50] Scraping page 239: https://magicport.ai/ports?sort_type=asc&page=239
+[2025-10-16 20:36:54] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:54] Extracted 15 ports from page 239
+[2025-10-16 20:36:54] Database connection established
+[2025-10-16 20:36:54] [Batch 14] Page 239 completed: 15 records inserted
+[2025-10-16 20:36:57] Scraping page 240: https://magicport.ai/ports?sort_type=asc&page=240
+[2025-10-16 20:36:58] Found 15 port elements using selector: .card__content
+[2025-10-16 20:36:58] Extracted 15 ports from page 240
+[2025-10-16 20:36:58] Database connection established
+[2025-10-16 20:36:58] [Batch 15] Page 240 completed: 15 records inserted
+[2025-10-16 20:37:01] Scraping page 241: https://magicport.ai/ports?sort_type=asc&page=241
+[2025-10-16 20:37:03] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:03] Extracted 15 ports from page 241
+[2025-10-16 20:37:03] Database connection established
+[2025-10-16 20:37:03] [Batch 15] Page 241 completed: 15 records inserted
+[2025-10-16 20:37:06] Scraping page 242: https://magicport.ai/ports?sort_type=asc&page=242
+[2025-10-16 20:37:08] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:08] Extracted 15 ports from page 242
+[2025-10-16 20:37:08] Database connection established
+[2025-10-16 20:37:08] [Batch 15] Page 242 completed: 15 records inserted
+[2025-10-16 20:37:11] Scraping page 243: https://magicport.ai/ports?sort_type=asc&page=243
+[2025-10-16 20:37:12] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:12] Extracted 15 ports from page 243
+[2025-10-16 20:37:12] Database connection established
+[2025-10-16 20:37:12] [Batch 15] Page 243 completed: 15 records inserted
+[2025-10-16 20:37:15] Scraping page 244: https://magicport.ai/ports?sort_type=asc&page=244
+[2025-10-16 20:37:16] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:16] Extracted 15 ports from page 244
+[2025-10-16 20:37:16] Database connection established
+[2025-10-16 20:37:16] [Batch 15] Page 244 completed: 15 records inserted
+[2025-10-16 20:37:19] Scraping page 245: https://magicport.ai/ports?sort_type=asc&page=245
+[2025-10-16 20:37:21] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:21] Extracted 15 ports from page 245
+[2025-10-16 20:37:21] Database connection established
+[2025-10-16 20:37:21] [Batch 15] Page 245 completed: 15 records inserted
+[2025-10-16 20:37:24] Scraping page 246: https://magicport.ai/ports?sort_type=asc&page=246
+[2025-10-16 20:37:25] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:25] Extracted 15 ports from page 246
+[2025-10-16 20:37:25] Database connection established
+[2025-10-16 20:37:25] [Batch 15] Page 246 completed: 15 records inserted
+[2025-10-16 20:37:28] Scraping page 247: https://magicport.ai/ports?sort_type=asc&page=247
+[2025-10-16 20:37:30] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:30] Extracted 15 ports from page 247
+[2025-10-16 20:37:30] Database connection established
+[2025-10-16 20:37:30] [Batch 15] Page 247 completed: 15 records inserted
+[2025-10-16 20:37:33] Scraping page 248: https://magicport.ai/ports?sort_type=asc&page=248
+[2025-10-16 20:37:34] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:34] Extracted 15 ports from page 248
+[2025-10-16 20:37:34] Database connection established
+[2025-10-16 20:37:34] [Batch 15] Page 248 completed: 15 records inserted
+[2025-10-16 20:37:37] Scraping page 249: https://magicport.ai/ports?sort_type=asc&page=249
+[2025-10-16 20:37:39] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:39] Extracted 15 ports from page 249
+[2025-10-16 20:37:39] Database connection established
+[2025-10-16 20:37:39] [Batch 15] Page 249 completed: 15 records inserted
+[2025-10-16 20:37:42] Scraping page 250: https://magicport.ai/ports?sort_type=asc&page=250
+[2025-10-16 20:37:48] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:48] Extracted 15 ports from page 250
+[2025-10-16 20:37:48] Database connection established
+[2025-10-16 20:37:48] [Batch 16] Page 250 completed: 15 records inserted
+[2025-10-16 20:37:51] Scraping page 251: https://magicport.ai/ports?sort_type=asc&page=251
+[2025-10-16 20:37:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:53] Extracted 15 ports from page 251
+[2025-10-16 20:37:53] Database connection established
+[2025-10-16 20:37:53] [Batch 16] Page 251 completed: 15 records inserted
+[2025-10-16 20:37:56] Scraping page 252: https://magicport.ai/ports?sort_type=asc&page=252
+[2025-10-16 20:37:57] Found 15 port elements using selector: .card__content
+[2025-10-16 20:37:57] Extracted 15 ports from page 252
+[2025-10-16 20:37:57] Database connection established
+[2025-10-16 20:37:57] [Batch 16] Page 252 completed: 15 records inserted
+[2025-10-16 20:38:00] Scraping page 253: https://magicport.ai/ports?sort_type=asc&page=253
+[2025-10-16 20:38:01] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:01] Extracted 15 ports from page 253
+[2025-10-16 20:38:01] Database connection established
+[2025-10-16 20:38:01] [Batch 16] Page 253 completed: 15 records inserted
+[2025-10-16 20:38:04] Scraping page 254: https://magicport.ai/ports?sort_type=asc&page=254
+[2025-10-16 20:38:06] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:06] Extracted 15 ports from page 254
+[2025-10-16 20:38:06] Database connection established
+[2025-10-16 20:38:06] [Batch 16] Page 254 completed: 15 records inserted
+[2025-10-16 20:38:09] Scraping page 255: https://magicport.ai/ports?sort_type=asc&page=255
+[2025-10-16 20:38:10] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:10] Extracted 15 ports from page 255
+[2025-10-16 20:38:10] Database connection established
+[2025-10-16 20:38:10] [Batch 16] Page 255 completed: 15 records inserted
+[2025-10-16 20:38:13] Scraping page 256: https://magicport.ai/ports?sort_type=asc&page=256
+[2025-10-16 20:38:15] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:15] Extracted 15 ports from page 256
+[2025-10-16 20:38:15] Database connection established
+[2025-10-16 20:38:15] [Batch 16] Page 256 completed: 15 records inserted
+[2025-10-16 20:38:18] Scraping page 257: https://magicport.ai/ports?sort_type=asc&page=257
+[2025-10-16 20:38:19] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:19] Extracted 15 ports from page 257
+[2025-10-16 20:38:19] Database connection established
+[2025-10-16 20:38:19] [Batch 16] Page 257 completed: 15 records inserted
+[2025-10-16 20:38:22] Scraping page 258: https://magicport.ai/ports?sort_type=asc&page=258
+[2025-10-16 20:38:28] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:28] Extracted 15 ports from page 258
+[2025-10-16 20:38:28] Database connection established
+[2025-10-16 20:38:28] [Batch 16] Page 258 completed: 15 records inserted
+[2025-10-16 20:38:31] Scraping page 259: https://magicport.ai/ports?sort_type=asc&page=259
+[2025-10-16 20:38:33] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:33] Extracted 15 ports from page 259
+[2025-10-16 20:38:33] Database connection established
+[2025-10-16 20:38:33] [Batch 16] Page 259 completed: 15 records inserted
+[2025-10-16 20:38:36] Scraping page 260: https://magicport.ai/ports?sort_type=asc&page=260
+[2025-10-16 20:38:37] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:37] Extracted 15 ports from page 260
+[2025-10-16 20:38:37] Database connection established
+[2025-10-16 20:38:37] [Batch 17] Page 260 completed: 15 records inserted
+[2025-10-16 20:38:40] Scraping page 261: https://magicport.ai/ports?sort_type=asc&page=261
+[2025-10-16 20:38:41] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:41] Extracted 15 ports from page 261
+[2025-10-16 20:38:41] Database connection established
+[2025-10-16 20:38:41] [Batch 17] Page 261 completed: 15 records inserted
+[2025-10-16 20:38:44] Scraping page 262: https://magicport.ai/ports?sort_type=asc&page=262
+[2025-10-16 20:38:49] Found 15 port elements using selector: .card__content
+[2025-10-16 20:38:49] Extracted 15 ports from page 262
+[2025-10-16 20:38:49] Database connection established
+[2025-10-16 20:38:50] [Batch 17] Page 262 completed: 15 records inserted
+[2025-10-16 20:38:53] Scraping page 263: https://magicport.ai/ports?sort_type=asc&page=263
+[2025-10-16 20:39:01] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:01] Extracted 15 ports from page 263
+[2025-10-16 20:39:01] Database connection established
+[2025-10-16 20:39:01] [Batch 17] Page 263 completed: 15 records inserted
+[2025-10-16 20:39:04] Scraping page 264: https://magicport.ai/ports?sort_type=asc&page=264
+[2025-10-16 20:39:05] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:05] Extracted 15 ports from page 264
+[2025-10-16 20:39:05] Database connection established
+[2025-10-16 20:39:05] [Batch 17] Page 264 completed: 15 records inserted
+[2025-10-16 20:39:08] Scraping page 265: https://magicport.ai/ports?sort_type=asc&page=265
+[2025-10-16 20:39:09] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:09] Extracted 15 ports from page 265
+[2025-10-16 20:39:09] Database connection established
+[2025-10-16 20:39:10] [Batch 17] Page 265 completed: 15 records inserted
+[2025-10-16 20:39:13] Scraping page 266: https://magicport.ai/ports?sort_type=asc&page=266
+[2025-10-16 20:39:14] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:14] Extracted 15 ports from page 266
+[2025-10-16 20:39:14] Database connection established
+[2025-10-16 20:39:14] [Batch 17] Page 266 completed: 15 records inserted
+[2025-10-16 20:39:17] Scraping page 267: https://magicport.ai/ports?sort_type=asc&page=267
+[2025-10-16 20:39:19] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:19] Extracted 15 ports from page 267
+[2025-10-16 20:39:19] Database connection established
+[2025-10-16 20:39:19] [Batch 17] Page 267 completed: 15 records inserted
+[2025-10-16 20:39:22] Scraping page 268: https://magicport.ai/ports?sort_type=asc&page=268
+[2025-10-16 20:39:23] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:23] Extracted 15 ports from page 268
+[2025-10-16 20:39:23] Database connection established
+[2025-10-16 20:39:23] [Batch 17] Page 268 completed: 15 records inserted
+[2025-10-16 20:39:26] Scraping page 269: https://magicport.ai/ports?sort_type=asc&page=269
+[2025-10-16 20:39:28] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:28] Extracted 15 ports from page 269
+[2025-10-16 20:39:28] Database connection established
+[2025-10-16 20:39:28] [Batch 17] Page 269 completed: 15 records inserted
+[2025-10-16 20:39:31] Scraping page 270: https://magicport.ai/ports?sort_type=asc&page=270
+[2025-10-16 20:39:36] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:36] Extracted 15 ports from page 270
+[2025-10-16 20:39:36] Database connection established
+[2025-10-16 20:39:36] [Batch 18] Page 270 completed: 15 records inserted
+[2025-10-16 20:39:39] Scraping page 271: https://magicport.ai/ports?sort_type=asc&page=271
+[2025-10-16 20:39:40] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:40] Extracted 15 ports from page 271
+[2025-10-16 20:39:40] Database connection established
+[2025-10-16 20:39:40] [Batch 18] Page 271 completed: 15 records inserted
+[2025-10-16 20:39:43] Scraping page 272: https://magicport.ai/ports?sort_type=asc&page=272
+[2025-10-16 20:39:45] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:45] Extracted 15 ports from page 272
+[2025-10-16 20:39:45] Database connection established
+[2025-10-16 20:39:45] [Batch 18] Page 272 completed: 15 records inserted
+[2025-10-16 20:39:48] Scraping page 273: https://magicport.ai/ports?sort_type=asc&page=273
+[2025-10-16 20:39:49] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:49] Extracted 15 ports from page 273
+[2025-10-16 20:39:49] Database connection established
+[2025-10-16 20:39:49] [Batch 18] Page 273 completed: 15 records inserted
+[2025-10-16 20:39:52] Scraping page 274: https://magicport.ai/ports?sort_type=asc&page=274
+[2025-10-16 20:39:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:53] Extracted 15 ports from page 274
+[2025-10-16 20:39:53] Database connection established
+[2025-10-16 20:39:53] [Batch 18] Page 274 completed: 15 records inserted
+[2025-10-16 20:39:56] Scraping page 275: https://magicport.ai/ports?sort_type=asc&page=275
+[2025-10-16 20:39:58] Found 15 port elements using selector: .card__content
+[2025-10-16 20:39:58] Extracted 15 ports from page 275
+[2025-10-16 20:39:58] Database connection established
+[2025-10-16 20:39:58] [Batch 18] Page 275 completed: 15 records inserted
+[2025-10-16 20:40:01] Scraping page 276: https://magicport.ai/ports?sort_type=asc&page=276
+[2025-10-16 20:40:02] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:02] Extracted 15 ports from page 276
+[2025-10-16 20:40:02] Database connection established
+[2025-10-16 20:40:02] [Batch 18] Page 276 completed: 15 records inserted
+[2025-10-16 20:40:05] Scraping page 277: https://magicport.ai/ports?sort_type=asc&page=277
+[2025-10-16 20:40:07] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:07] Extracted 15 ports from page 277
+[2025-10-16 20:40:07] Database connection established
+[2025-10-16 20:40:07] [Batch 18] Page 277 completed: 15 records inserted
+[2025-10-16 20:40:10] Scraping page 278: https://magicport.ai/ports?sort_type=asc&page=278
+[2025-10-16 20:40:12] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:12] Extracted 15 ports from page 278
+[2025-10-16 20:40:12] Database connection established
+[2025-10-16 20:40:12] [Batch 18] Page 278 completed: 15 records inserted
+[2025-10-16 20:40:15] Scraping page 279: https://magicport.ai/ports?sort_type=asc&page=279
+[2025-10-16 20:40:16] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:16] Extracted 15 ports from page 279
+[2025-10-16 20:40:16] Database connection established
+[2025-10-16 20:40:16] [Batch 18] Page 279 completed: 15 records inserted
+[2025-10-16 20:40:19] Scraping page 280: https://magicport.ai/ports?sort_type=asc&page=280
+[2025-10-16 20:40:20] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:20] Extracted 15 ports from page 280
+[2025-10-16 20:40:20] Database connection established
+[2025-10-16 20:40:20] [Batch 19] Page 280 completed: 15 records inserted
+[2025-10-16 20:40:23] Scraping page 281: https://magicport.ai/ports?sort_type=asc&page=281
+[2025-10-16 20:40:25] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:25] Extracted 15 ports from page 281
+[2025-10-16 20:40:25] Database connection established
+[2025-10-16 20:40:25] [Batch 19] Page 281 completed: 15 records inserted
+[2025-10-16 20:40:28] Scraping page 282: https://magicport.ai/ports?sort_type=asc&page=282
+[2025-10-16 20:40:29] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:29] Extracted 15 ports from page 282
+[2025-10-16 20:40:29] Database connection established
+[2025-10-16 20:40:29] [Batch 19] Page 282 completed: 15 records inserted
+[2025-10-16 20:40:32] Scraping page 283: https://magicport.ai/ports?sort_type=asc&page=283
+[2025-10-16 20:40:33] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:33] Extracted 15 ports from page 283
+[2025-10-16 20:40:33] Database connection established
+[2025-10-16 20:40:33] [Batch 19] Page 283 completed: 15 records inserted
+[2025-10-16 20:40:36] Scraping page 284: https://magicport.ai/ports?sort_type=asc&page=284
+[2025-10-16 20:40:38] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:38] Extracted 15 ports from page 284
+[2025-10-16 20:40:38] Database connection established
+[2025-10-16 20:40:38] [Batch 19] Page 284 completed: 15 records inserted
+[2025-10-16 20:40:41] Scraping page 285: https://magicport.ai/ports?sort_type=asc&page=285
+[2025-10-16 20:40:42] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:42] Extracted 15 ports from page 285
+[2025-10-16 20:40:42] Database connection established
+[2025-10-16 20:40:42] [Batch 19] Page 285 completed: 15 records inserted
+[2025-10-16 20:40:45] Scraping page 286: https://magicport.ai/ports?sort_type=asc&page=286
+[2025-10-16 20:40:51] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:51] Extracted 15 ports from page 286
+[2025-10-16 20:40:51] Database connection established
+[2025-10-16 20:40:51] [Batch 19] Page 286 completed: 15 records inserted
+[2025-10-16 20:40:54] Scraping page 287: https://magicport.ai/ports?sort_type=asc&page=287
+[2025-10-16 20:40:55] Found 15 port elements using selector: .card__content
+[2025-10-16 20:40:55] Extracted 15 ports from page 287
+[2025-10-16 20:40:55] Database connection established
+[2025-10-16 20:40:55] [Batch 19] Page 287 completed: 15 records inserted
+[2025-10-16 20:40:58] Scraping page 288: https://magicport.ai/ports?sort_type=asc&page=288
+[2025-10-16 20:41:00] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:00] Extracted 15 ports from page 288
+[2025-10-16 20:41:00] Database connection established
+[2025-10-16 20:41:00] [Batch 19] Page 288 completed: 15 records inserted
+[2025-10-16 20:41:03] Scraping page 289: https://magicport.ai/ports?sort_type=asc&page=289
+[2025-10-16 20:41:04] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:04] Extracted 15 ports from page 289
+[2025-10-16 20:41:04] Database connection established
+[2025-10-16 20:41:04] [Batch 19] Page 289 completed: 15 records inserted
+[2025-10-16 20:41:07] Scraping page 290: https://magicport.ai/ports?sort_type=asc&page=290
+[2025-10-16 20:41:09] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:09] Extracted 15 ports from page 290
+[2025-10-16 20:41:09] Database connection established
+[2025-10-16 20:41:09] [Batch 20] Page 290 completed: 15 records inserted
+[2025-10-16 20:41:12] Scraping page 291: https://magicport.ai/ports?sort_type=asc&page=291
+[2025-10-16 20:41:13] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:13] Extracted 15 ports from page 291
+[2025-10-16 20:41:13] Database connection established
+[2025-10-16 20:41:13] [Batch 20] Page 291 completed: 15 records inserted
+[2025-10-16 20:41:16] Scraping page 292: https://magicport.ai/ports?sort_type=asc&page=292
+[2025-10-16 20:41:17] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:17] Extracted 15 ports from page 292
+[2025-10-16 20:41:17] Database connection established
+[2025-10-16 20:41:17] [Batch 20] Page 292 completed: 15 records inserted
+[2025-10-16 20:41:20] Scraping page 293: https://magicport.ai/ports?sort_type=asc&page=293
+[2025-10-16 20:41:22] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:22] Extracted 15 ports from page 293
+[2025-10-16 20:41:22] Database connection established
+[2025-10-16 20:41:22] [Batch 20] Page 293 completed: 15 records inserted
+[2025-10-16 20:41:25] Scraping page 294: https://magicport.ai/ports?sort_type=asc&page=294
+[2025-10-16 20:41:26] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:26] Extracted 15 ports from page 294
+[2025-10-16 20:41:26] Database connection established
+[2025-10-16 20:41:26] [Batch 20] Page 294 completed: 15 records inserted
+[2025-10-16 20:41:29] Scraping page 295: https://magicport.ai/ports?sort_type=asc&page=295
+[2025-10-16 20:41:30] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:30] Extracted 15 ports from page 295
+[2025-10-16 20:41:30] Database connection established
+[2025-10-16 20:41:30] [Batch 20] Page 295 completed: 15 records inserted
+[2025-10-16 20:41:33] Scraping page 296: https://magicport.ai/ports?sort_type=asc&page=296
+[2025-10-16 20:41:35] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:35] Extracted 15 ports from page 296
+[2025-10-16 20:41:35] Database connection established
+[2025-10-16 20:41:35] [Batch 20] Page 296 completed: 15 records inserted
+[2025-10-16 20:41:38] Scraping page 297: https://magicport.ai/ports?sort_type=asc&page=297
+[2025-10-16 20:41:39] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:39] Extracted 15 ports from page 297
+[2025-10-16 20:41:39] Database connection established
+[2025-10-16 20:41:39] [Batch 20] Page 297 completed: 15 records inserted
+[2025-10-16 20:41:42] Scraping page 298: https://magicport.ai/ports?sort_type=asc&page=298
+[2025-10-16 20:41:49] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:49] Extracted 15 ports from page 298
+[2025-10-16 20:41:49] Database connection established
+[2025-10-16 20:41:49] [Batch 20] Page 298 completed: 15 records inserted
+[2025-10-16 20:41:52] Scraping page 299: https://magicport.ai/ports?sort_type=asc&page=299
+[2025-10-16 20:41:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:53] Extracted 15 ports from page 299
+[2025-10-16 20:41:53] Database connection established
+[2025-10-16 20:41:53] [Batch 20] Page 299 completed: 15 records inserted
+[2025-10-16 20:41:56] Scraping page 300: https://magicport.ai/ports?sort_type=asc&page=300
+[2025-10-16 20:41:58] Found 15 port elements using selector: .card__content
+[2025-10-16 20:41:58] Extracted 15 ports from page 300
+[2025-10-16 20:41:58] Database connection established
+[2025-10-16 20:41:58] [Batch 21] Page 300 completed: 15 records inserted
+[2025-10-16 20:42:01] Scraping page 301: https://magicport.ai/ports?sort_type=asc&page=301
+[2025-10-16 20:42:06] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:06] Extracted 15 ports from page 301
+[2025-10-16 20:42:06] Database connection established
+[2025-10-16 20:42:06] [Batch 21] Page 301 completed: 15 records inserted
+[2025-10-16 20:42:09] Scraping page 302: https://magicport.ai/ports?sort_type=asc&page=302
+[2025-10-16 20:42:15] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:15] Extracted 15 ports from page 302
+[2025-10-16 20:42:15] Database connection established
+[2025-10-16 20:42:15] [Batch 21] Page 302 completed: 15 records inserted
+[2025-10-16 20:42:18] Scraping page 303: https://magicport.ai/ports?sort_type=asc&page=303
+[2025-10-16 20:42:19] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:19] Extracted 15 ports from page 303
+[2025-10-16 20:42:19] Database connection established
+[2025-10-16 20:42:19] [Batch 21] Page 303 completed: 15 records inserted
+[2025-10-16 20:42:22] Scraping page 304: https://magicport.ai/ports?sort_type=asc&page=304
+[2025-10-16 20:42:27] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:27] Extracted 15 ports from page 304
+[2025-10-16 20:42:27] Database connection established
+[2025-10-16 20:42:27] [Batch 21] Page 304 completed: 15 records inserted
+[2025-10-16 20:42:30] Scraping page 305: https://magicport.ai/ports?sort_type=asc&page=305
+[2025-10-16 20:42:31] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:31] Extracted 15 ports from page 305
+[2025-10-16 20:42:31] Database connection established
+[2025-10-16 20:42:31] [Batch 21] Page 305 completed: 15 records inserted
+[2025-10-16 20:42:34] Scraping page 306: https://magicport.ai/ports?sort_type=asc&page=306
+[2025-10-16 20:42:36] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:36] Extracted 15 ports from page 306
+[2025-10-16 20:42:36] Database connection established
+[2025-10-16 20:42:36] [Batch 21] Page 306 completed: 15 records inserted
+[2025-10-16 20:42:39] Scraping page 307: https://magicport.ai/ports?sort_type=asc&page=307
+[2025-10-16 20:42:40] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:40] Extracted 15 ports from page 307
+[2025-10-16 20:42:40] Database connection established
+[2025-10-16 20:42:40] [Batch 21] Page 307 completed: 15 records inserted
+[2025-10-16 20:42:43] Scraping page 308: https://magicport.ai/ports?sort_type=asc&page=308
+[2025-10-16 20:42:45] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:45] Extracted 15 ports from page 308
+[2025-10-16 20:42:45] Database connection established
+[2025-10-16 20:42:45] [Batch 21] Page 308 completed: 15 records inserted
+[2025-10-16 20:42:48] Scraping page 309: https://magicport.ai/ports?sort_type=asc&page=309
+[2025-10-16 20:42:49] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:49] Extracted 15 ports from page 309
+[2025-10-16 20:42:49] Database connection established
+[2025-10-16 20:42:49] [Batch 21] Page 309 completed: 15 records inserted
+[2025-10-16 20:42:52] Scraping page 310: https://magicport.ai/ports?sort_type=asc&page=310
+[2025-10-16 20:42:53] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:53] Extracted 15 ports from page 310
+[2025-10-16 20:42:53] Database connection established
+[2025-10-16 20:42:53] [Batch 22] Page 310 completed: 15 records inserted
+[2025-10-16 20:42:56] Scraping page 311: https://magicport.ai/ports?sort_type=asc&page=311
+[2025-10-16 20:42:58] Found 15 port elements using selector: .card__content
+[2025-10-16 20:42:58] Extracted 15 ports from page 311
+[2025-10-16 20:42:58] Database connection established
+[2025-10-16 20:42:58] [Batch 22] Page 311 completed: 15 records inserted
+[2025-10-16 20:43:01] Scraping page 312: https://magicport.ai/ports?sort_type=asc&page=312
+[2025-10-16 20:43:06] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:06] Extracted 15 ports from page 312
+[2025-10-16 20:43:06] Database connection established
+[2025-10-16 20:43:06] [Batch 22] Page 312 completed: 15 records inserted
+[2025-10-16 20:43:09] Scraping page 313: https://magicport.ai/ports?sort_type=asc&page=313
+[2025-10-16 20:43:10] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:10] Extracted 15 ports from page 313
+[2025-10-16 20:43:10] Database connection established
+[2025-10-16 20:43:10] [Batch 22] Page 313 completed: 15 records inserted
+[2025-10-16 20:43:13] Scraping page 314: https://magicport.ai/ports?sort_type=asc&page=314
+[2025-10-16 20:43:19] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:19] Extracted 15 ports from page 314
+[2025-10-16 20:43:19] Database connection established
+[2025-10-16 20:43:19] [Batch 22] Page 314 completed: 15 records inserted
+[2025-10-16 20:43:22] Scraping page 315: https://magicport.ai/ports?sort_type=asc&page=315
+[2025-10-16 20:43:24] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:24] Extracted 15 ports from page 315
+[2025-10-16 20:43:24] Database connection established
+[2025-10-16 20:43:24] [Batch 22] Page 315 completed: 15 records inserted
+[2025-10-16 20:43:27] Scraping page 316: https://magicport.ai/ports?sort_type=asc&page=316
+[2025-10-16 20:43:28] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:28] Extracted 15 ports from page 316
+[2025-10-16 20:43:28] Database connection established
+[2025-10-16 20:43:28] [Batch 22] Page 316 completed: 15 records inserted
+[2025-10-16 20:43:31] Scraping page 317: https://magicport.ai/ports?sort_type=asc&page=317
+[2025-10-16 20:43:33] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:33] Extracted 15 ports from page 317
+[2025-10-16 20:43:33] Database connection established
+[2025-10-16 20:43:33] [Batch 22] Page 317 completed: 15 records inserted
+[2025-10-16 20:43:36] Scraping page 318: https://magicport.ai/ports?sort_type=asc&page=318
+[2025-10-16 20:43:37] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:37] Extracted 15 ports from page 318
+[2025-10-16 20:43:37] Database connection established
+[2025-10-16 20:43:37] [Batch 22] Page 318 completed: 15 records inserted
+[2025-10-16 20:43:40] Scraping page 319: https://magicport.ai/ports?sort_type=asc&page=319
+[2025-10-16 20:43:41] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:41] Extracted 15 ports from page 319
+[2025-10-16 20:43:41] Database connection established
+[2025-10-16 20:43:41] [Batch 22] Page 319 completed: 15 records inserted
+[2025-10-16 20:43:44] Scraping page 320: https://magicport.ai/ports?sort_type=asc&page=320
+[2025-10-16 20:43:46] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:46] Extracted 15 ports from page 320
+[2025-10-16 20:43:46] Database connection established
+[2025-10-16 20:43:46] [Batch 23] Page 320 completed: 15 records inserted
+[2025-10-16 20:43:49] Scraping page 321: https://magicport.ai/ports?sort_type=asc&page=321
+[2025-10-16 20:43:50] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:50] Extracted 15 ports from page 321
+[2025-10-16 20:43:50] Database connection established
+[2025-10-16 20:43:50] [Batch 23] Page 321 completed: 15 records inserted
+[2025-10-16 20:43:53] Scraping page 322: https://magicport.ai/ports?sort_type=asc&page=322
+[2025-10-16 20:43:54] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:54] Extracted 15 ports from page 322
+[2025-10-16 20:43:54] Database connection established
+[2025-10-16 20:43:54] [Batch 23] Page 322 completed: 15 records inserted
+[2025-10-16 20:43:57] Scraping page 323: https://magicport.ai/ports?sort_type=asc&page=323
+[2025-10-16 20:43:58] Found 15 port elements using selector: .card__content
+[2025-10-16 20:43:58] Extracted 15 ports from page 323
+[2025-10-16 20:43:58] Database connection established
+[2025-10-16 20:43:58] [Batch 23] Page 323 completed: 15 records inserted
+[2025-10-16 20:44:01] Scraping page 324: https://magicport.ai/ports?sort_type=asc&page=324
+[2025-10-16 20:44:03] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:03] Extracted 15 ports from page 324
+[2025-10-16 20:44:03] Database connection established
+[2025-10-16 20:44:03] [Batch 23] Page 324 completed: 15 records inserted
+[2025-10-16 20:44:06] Scraping page 325: https://magicport.ai/ports?sort_type=asc&page=325
+[2025-10-16 20:44:08] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:08] Extracted 15 ports from page 325
+[2025-10-16 20:44:08] Database connection established
+[2025-10-16 20:44:08] [Batch 23] Page 325 completed: 15 records inserted
+[2025-10-16 20:44:11] Scraping page 326: https://magicport.ai/ports?sort_type=asc&page=326
+[2025-10-16 20:44:12] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:12] Extracted 15 ports from page 326
+[2025-10-16 20:44:12] Database connection established
+[2025-10-16 20:44:12] [Batch 23] Page 326 completed: 15 records inserted
+[2025-10-16 20:44:15] Scraping page 327: https://magicport.ai/ports?sort_type=asc&page=327
+[2025-10-16 20:44:16] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:16] Extracted 15 ports from page 327
+[2025-10-16 20:44:16] Database connection established
+[2025-10-16 20:44:16] [Batch 23] Page 327 completed: 15 records inserted
+[2025-10-16 20:44:19] Scraping page 328: https://magicport.ai/ports?sort_type=asc&page=328
+[2025-10-16 20:44:24] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:24] Extracted 15 ports from page 328
+[2025-10-16 20:44:24] Database connection established
+[2025-10-16 20:44:24] [Batch 23] Page 328 completed: 15 records inserted
+[2025-10-16 20:44:27] Scraping page 329: https://magicport.ai/ports?sort_type=asc&page=329
+[2025-10-16 20:44:29] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:29] Extracted 15 ports from page 329
+[2025-10-16 20:44:29] Database connection established
+[2025-10-16 20:44:29] [Batch 23] Page 329 completed: 15 records inserted
+[2025-10-16 20:44:32] Scraping page 330: https://magicport.ai/ports?sort_type=asc&page=330
+[2025-10-16 20:44:33] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:33] Extracted 15 ports from page 330
+[2025-10-16 20:44:33] Database connection established
+[2025-10-16 20:44:33] [Batch 24] Page 330 completed: 15 records inserted
+[2025-10-16 20:44:36] Scraping page 331: https://magicport.ai/ports?sort_type=asc&page=331
+[2025-10-16 20:44:37] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:37] Extracted 15 ports from page 331
+[2025-10-16 20:44:37] Database connection established
+[2025-10-16 20:44:37] [Batch 24] Page 331 completed: 15 records inserted
+[2025-10-16 20:44:40] Scraping page 332: https://magicport.ai/ports?sort_type=asc&page=332
+[2025-10-16 20:44:41] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:41] Extracted 15 ports from page 332
+[2025-10-16 20:44:41] Database connection established
+[2025-10-16 20:44:42] [Batch 24] Page 332 completed: 15 records inserted
+[2025-10-16 20:44:45] Scraping page 333: https://magicport.ai/ports?sort_type=asc&page=333
+[2025-10-16 20:44:46] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:46] Extracted 15 ports from page 333
+[2025-10-16 20:44:46] Database connection established
+[2025-10-16 20:44:46] [Batch 24] Page 333 completed: 15 records inserted
+[2025-10-16 20:44:49] Scraping page 334: https://magicport.ai/ports?sort_type=asc&page=334
+[2025-10-16 20:44:50] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:50] Extracted 15 ports from page 334
+[2025-10-16 20:44:50] Database connection established
+[2025-10-16 20:44:50] [Batch 24] Page 334 completed: 15 records inserted
+[2025-10-16 20:44:53] Scraping page 335: https://magicport.ai/ports?sort_type=asc&page=335
+[2025-10-16 20:44:55] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:55] Extracted 15 ports from page 335
+[2025-10-16 20:44:55] Database connection established
+[2025-10-16 20:44:55] [Batch 24] Page 335 completed: 15 records inserted
+[2025-10-16 20:44:58] Scraping page 336: https://magicport.ai/ports?sort_type=asc&page=336
+[2025-10-16 20:44:59] Found 15 port elements using selector: .card__content
+[2025-10-16 20:44:59] Extracted 15 ports from page 336
+[2025-10-16 20:44:59] Database connection established
+[2025-10-16 20:44:59] [Batch 24] Page 336 completed: 15 records inserted
+[2025-10-16 20:45:02] Scraping page 337: https://magicport.ai/ports?sort_type=asc&page=337
+[2025-10-16 20:45:04] Found 15 port elements using selector: .card__content
+[2025-10-16 20:45:04] Extracted 15 ports from page 337
+[2025-10-16 20:45:04] Database connection established
+[2025-10-16 20:45:04] [Batch 24] Page 337 completed: 15 records inserted
+[2025-10-16 20:45:07] Scraping page 338: https://magicport.ai/ports?sort_type=asc&page=338
+[2025-10-16 20:45:08] Found 15 port elements using selector: .card__content
+[2025-10-16 20:45:08] Extracted 15 ports from page 338
+[2025-10-16 20:45:08] Database connection established
+[2025-10-16 20:45:08] [Batch 24] Page 338 completed: 15 records inserted
+[2025-10-16 20:45:11] Scraping page 339: https://magicport.ai/ports?sort_type=asc&page=339
+[2025-10-16 20:45:13] Found 15 port elements using selector: .card__content
+[2025-10-16 20:45:13] Extracted 15 ports from page 339
+[2025-10-16 20:45:13] Database connection established
+[2025-10-16 20:45:13] [Batch 24] Page 339 completed: 15 records inserted
+[2025-10-16 20:45:16] Scraping page 340: https://magicport.ai/ports?sort_type=asc&page=340
+[2025-10-16 20:45:17] Found 15 port elements using selector: .card__content
+[2025-10-16 20:45:17] Extracted 15 ports from page 340
+[2025-10-16 20:45:17] Database connection established
+[2025-10-16 20:45:17] [Batch 25] Page 340 completed: 15 records inserted
+[2025-10-16 20:45:20] Scraping page 341: https://magicport.ai/ports?sort_type=asc&page=341
+[2025-10-16 20:45:22] Found 15 port elements using selector: .card__content
+[2025-10-16 20:45:22] Extracted 15 ports from page 341
+[2025-10-16 20:45:22] Database connection established
+[2025-10-16 20:45:22] [Batch 25] Page 341 completed: 15 records inserted
+[2025-10-16 20:45:25] Scraping page 342: https://magicport.ai/ports?sort_type=asc&page=342
+[2025-10-16 20:45:26] Found 6 port elements using selector: .card__content
+[2025-10-16 20:45:26] Extracted 6 ports from page 342
+[2025-10-16 20:45:26] Database connection established
+[2025-10-16 20:45:26] [Batch 25] Page 342 completed: 6 records inserted
+[2025-10-16 20:45:26] Scraping completed. Total records inserted: 3636
