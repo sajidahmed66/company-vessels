@@ -1,80 +1,79 @@
 {
-  "port_name": "ABADAN",
-  "country": "Iran",
-  "unlocode": "IRABD",
-  "coordinates": "30.34º, 48.27º",
+  "port_name": "ANNABA",
+  "country": "Algeria",
+  "unlocode": "DZAAE",
+  "coordinates": "36.90º, 7.77º",
   "depths": {
-    "channel_depth": "9.4m - 10m",
-    "anchorage_depth": "9.4m - 10m",
-    "cargo_pier_depth": "9.4m - 10m",
+    "channel_depth": "12.5m - 13.7m",
+    "anchorage_depth": "20.1m - 21.3m",
+    "cargo_pier_depth": "12.5m - 13.7m",
     "oil_depth": null,
-    "offshore_max_vessel_draft": "4.02"
+    "offshore_max_vessel_draft": "13"
   },
   "port_characteristics": {
-    "harbour_type": "River Natural",
+    "harbour_type": "Coastal Breakwater",
     "harbour_size": "Medium"
   },
   "restrictions": {
-    "Tide Entrance": true,
-    "Swell Entrance Restriction": false,
+    "Tide Entrance": false,
+    "Swell Entrance Restriction": true,
     "Ice Entrance Restriction": false,
-    "Other Entrance Restriction": true,
+    "Other Entrance Restriction": false,
     "Overhead Limitations": false
   },
   "port_equipment": {
     "Crane": {
-      "Fixed": false,
+      "Fixed": true,
       "Mobile": true,
       "Floating": true
     },
     "Lift Capacity": {
       "0-24 Mts": true,
-      "25-49 Mts": false,
-      "50-100 Mts": false,
+      "25-49 Mts": true,
+      "50-100 Mts": true,
       "101+ Mts": true
     },
     "Service": {
       "Longshore": true,
-      "Electrical": false,
+      "Electrical": true,
       "Steam": false,
       "Navigation Equipment": false,
       "Electrical Repair": false
     },
     "Other": {
       "Repair code:": "Limited",
-      "Drydock type:": "Small",
-      "Railway type:": "Small"
+      "Railway type:": "Medium"
     }
   },
   "navigation": {
-    "Good Hold Ground": false,
-    "Turning Area": true,
+    "Good Hold Ground": true,
+    "Turning Area": false,
     "Eta Message": true,
     "Pilotage Compulsory": true,
     "Pilotage Available": true,
     "Pilotage Advisability": true,
     "Local Assist": false,
-    "Tug Salvage": false,
+    "Tug Salvage": true,
     "Tug Assistance": true,
     "Wharves": true,
-    "Anchor": false,
-    "Med Mooring": false,
+    "Anchor": true,
+    "Med Mooring": true,
     "Beach Mooring": false,
     "Ice Mooring": false
   },
   "communication": {
-    "Phone Comm": true,
-    "Fax Comm": true,
+    "Phone Comm": false,
+    "Fax Comm": false,
     "Radio Comm": true,
-    "Vhf Comm": false,
+    "Vhf Comm": true,
     "Air Comm": true,
-    "Rail Comm": false,
+    "Rail Comm": true,
     "Quarantine Pratique": true,
     "Quarantine - Sanitation": true,
     "Other Quarantines": false,
     "First Port of Entry": true,
     "US Representative": false
   },
-  "scraped_at": "2025-10-20T02:09:40.144210",
-  "source_url": "https://magicport.ai/ports/iran/abadan-port-irabd"
+  "scraped_at": "2025-10-20T02:32:36.286265",
+  "source_url": "https://magicport.ai/ports/algeria/annaba-port-dzaae"
 }

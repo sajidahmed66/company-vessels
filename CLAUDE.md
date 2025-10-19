@@ -73,7 +73,7 @@ python company/company_validate.py
 
 **Port Data Scraping:**
 ```bash
-python ports/all_ports.py
+python ports/vessel_finder_port.py
 ```
 
 **ETA Data Extraction:**

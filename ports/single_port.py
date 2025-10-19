@@ -7,7 +7,7 @@ from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 
 
-class MagicPortScraper:
+class SinglePortScrapper:
     """Scraper for MagicPort port pages with vessel data extraction"""
 
     def __init__(self, port_url, headless=True):
@@ -578,76 +578,3 @@ class MagicPortScraper:
         print("="*50)
         print(json.dumps(data, indent=2, ensure_ascii=False))
         print("="*50)
-
-
-async def main():
-    """Main function for standalone execution"""
-    # Start time logging
-    start_time = datetime.now()
-    print(f"🚀 MagicPort Port Scraper Started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
-
-    # Static URL for testing
-    # port_url = "https://magicport.ai/ports/china/shanghai-port-cnshg"
-    port_url = "https://magicport.ai/ports/iran/abadan-port-irabd"
-
-    print(f"📍 Target URL: {port_url}")
-    print("-" * 50)
-
-    # Create scraper instance
-    scraper = MagicPortScraper(
-        port_url=port_url,
-        headless=True
-    )
-
-    # Run scraping process
-    result = await scraper.scrape()
-
-    if result:
-        # End time logging
-        end_time = datetime.now()
-        duration = end_time - start_time
-        print(f"\n✅ Scraping completed successfully!")
-        print(f"⏱️  End time: {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
-        print(f"⏱️  Total duration: {duration.total_seconds():.2f} seconds")
-        print("-" * 50)
-
-        # Print JSON output
-        scraper.print_json_output()
-
-        # Save to file with format country_port_name_unlocode.json in ports directory
-        if result.get("country") and result.get("port_name") and result.get("unlocode"):
-            # Clean up the strings for filename
-            country = re.sub(r'[^\w\s-]', '', result["country"]).strip().replace(' ', '_')
-            port_name = re.sub(r'[^\w\s-]', '', result["port_name"]).strip().replace(' ', '_')
-            unlocode = re.sub(r'[^\w\s-]', '', result["unlocode"]).strip()
-
-            filename = f"ports_data/{country}_{port_name}_{unlocode}.json"
-        else:
-            # Fallback to timestamp if required data is missing
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"ports/port_data_{timestamp}.json"
-
-        try:
-            # Ensure the ports directory exists
-            os.makedirs('ports_data', exist_ok=True)
-
-            with open(filename, 'w', encoding='utf-8') as f:
-                json.dump(result, f, indent=2, ensure_ascii=False)
-            print(f"\n💾 Data also saved to: {filename}")
-        except Exception as e:
-            print(f"❌ Error saving to file: {e}")
-
-        return 0
-    else:
-        # End time logging for failed case
-        end_time = datetime.now()
-        duration = end_time - start_time
-        print(f"\n❌ Scraping failed!")
-        print(f"⏱️  End time: {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
-        print(f"⏱️  Total duration: {duration.total_seconds():.2f} seconds")
-        return 1
-
-
-if __name__ == "__main__":
-    exit_code = asyncio.run(main())
-    exit(exit_code)
