@@ -11,3 +11,4 @@ wheels/
 /.idea
 company/fleet_data/
 ports/port_dicts/mc-port-data/*
+ports/ports_data/

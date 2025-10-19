@@ -1,8 +1,8 @@
 {
-  "port_name": "ALGER",
-  "country": "Algeria",
-  "unlocode": "DZALG",
-  "coordinates": "36.77º, 3.07º",
+  "port_name": "'AQABA",
+  "country": "Jordan",
+  "unlocode": "JOAQB",
+  "coordinates": "29.54º, 35.01º",
   "depths": {
     "channel_depth": null,
     "anchorage_depth": null,
@@ -70,6 +70,6 @@
     "First Port of Entry": false,
     "US Representative": false
   },
-  "scraped_at": "2025-10-20T02:32:30.947774",
-  "source_url": "https://magicport.ai/ports/algeria/alger-port-dzalg"
+  "scraped_at": "2025-10-20T03:07:36.919564",
+  "source_url": "https://magicport.ai/ports/jordan/%27aqaba-port-joaqb"
 }
