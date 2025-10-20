@@ -1,0 +1,47 @@
+{
+  "Any type": "-1",
+  "Cargo": {
+    "All Cargo Vessels": "4",
+    "Bulk carrier": "401",
+    "General Cargo": "402",
+    "Container Ship": "403",
+    "Reefer": "404",
+    "Ro-Ro": "405",
+    "Vehicles Carrier": "406",
+    "Cement Carrier": "407",
+    "Wood Chips Carrier": "408",
+    "Urea Carrier": "409",
+    "Aggregates Carrier": "410",
+    "Limestone Carrier": "411",
+    "Landing Craft": "412",
+    "Livestock Carrier": "413",
+    "Heavy Load Carrier": "414"
+  },
+  "Tankers": {
+    "All Tankers": "6",
+    "Crude Oil Tanker": "601",
+    "Oil Products Tanker": "602",
+    "Chemical/Oil Tanker": "603",
+    "LNG Tanker": "604",
+    "LPG Tanker": "605",
+    "Asphalt/Bitumen": "606",
+    "Bunkering Tanker": "607",
+    "FSO/FPSO": "608",
+    "Other Tanker": "609"
+  },
+  "Passenger/Cruise": {
+    "All Passenger/Cruise Ships": "3",
+    "Cruise Ship": "301",
+    "Passenger/Cargo Ship": "302",
+    "Passenger/Ro-Ro Ship": "303",
+    "Passenger Ship": "304"
+  },
+  "Other": {
+    "Fishing ships": "5",
+    "Yachts/Sailing Vessels": "8",
+    "Military": "7",
+    "Tugs": "2",
+    "Other type/ Auxiliary": "0",
+    "Unknown": "1"
+  }
+}

@@ -12,3 +12,5 @@ wheels/
 company/fleet_data/
 ports/port_dicts/mc-port-data/*
 ports/ports_data/
+ports_data/
+vessel/vessel_dict/vessel_data
