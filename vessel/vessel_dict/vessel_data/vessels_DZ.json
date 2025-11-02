@@ -1,0 +1,4418 @@
+[
+  {
+    "url": "/vessels/details/9761243",
+    "name": "TESSALA",
+    "type": "LNG Tanker",
+    "imo": "9761243"
+  },
+  {
+    "url": "/vessels/details/9761267",
+    "name": "OUGARTA",
+    "type": "LNG Tanker",
+    "imo": "9761267"
+  },
+  {
+    "url": "/vessels/details/9827889",
+    "name": "BADJI MOKHTAR III",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "9827889"
+  },
+  {
+    "url": "/vessels/details/9432361",
+    "name": "AZAO",
+    "type": "Bulk Carrier",
+    "imo": "9432361"
+  },
+  {
+    "url": "/vessels/details/9861483",
+    "name": "IN ECKER",
+    "type": "Chemical/Oil Products Tanker",
+    "imo": "9861483"
+  },
+  {
+    "url": "/vessels/details/9537044",
+    "name": "RHOURD EL FARES",
+    "type": "LPG Tanker",
+    "imo": "9537044"
+  },
+  {
+    "url": "/vessels/details/9537032",
+    "name": "BERGA II",
+    "type": "LPG Tanker",
+    "imo": "9537032"
+  },
+  {
+    "url": "/vessels/details/9109768",
+    "name": "TARIQ IBN ZIYAD",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "9109768"
+  },
+  {
+    "url": "/vessels/details/9265419",
+    "name": "TASSILI II",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "9265419"
+  },
+  {
+    "url": "/vessels/details/9265421",
+    "name": "EL DJAZAIR II",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "9265421"
+  },
+  {
+    "url": "/vessels/details/9760615",
+    "name": "TAMANRASSET",
+    "type": "Container Ship",
+    "imo": "9760615"
+  },
+  {
+    "url": "/vessels/details/9845063",
+    "name": "DJANET",
+    "type": "Container Ship",
+    "imo": "9845063"
+  },
+  {
+    "url": "/vessels/details/9845051",
+    "name": "CIRTA",
+    "type": "Container Ship",
+    "imo": "9845051"
+  },
+  {
+    "url": "/vessels/details/9320855",
+    "name": "RHOURD EL ADRA",
+    "type": "LPG Tanker",
+    "imo": "9320855"
+  },
+  {
+    "url": "/vessels/details/9337793",
+    "name": "RHOURD EL HAMRA",
+    "type": "LPG Tanker",
+    "imo": "9337793"
+  },
+  {
+    "url": "/vessels/details/9853577",
+    "name": "HASSI TOUAREG",
+    "type": "LPG Tanker",
+    "imo": "9853577"
+  },
+  {
+    "url": "/vessels/details/9809045",
+    "name": "HASSI BERKINE",
+    "type": "LPG Tanker",
+    "imo": "9809045"
+  },
+  {
+    "url": "/vessels/details/9697325",
+    "name": "TIN ZIREN",
+    "type": "General Cargo Ship",
+    "imo": "9697325"
+  },
+  {
+    "url": "/vessels/details/9697337",
+    "name": "TIMGAD",
+    "type": "General Cargo Ship",
+    "imo": "9697337"
+  },
+  {
+    "url": "/vessels/details/9459125",
+    "name": "TAHAT",
+    "type": "Container Ship",
+    "imo": "9459125"
+  },
+  {
+    "url": "/vessels/details/9685085",
+    "name": "TITTERI",
+    "type": "General Cargo Ship",
+    "imo": "9685085"
+  },
+  {
+    "url": "/vessels/details/9626716",
+    "name": "CONSTANTINE",
+    "type": "General Cargo Ship",
+    "imo": "9626716"
+  },
+  {
+    "url": "/vessels/details/9646455",
+    "name": "KHERRATA",
+    "type": "General Cargo Ship",
+    "imo": "9646455"
+  },
+  {
+    "url": "/vessels/details/9557795",
+    "name": "SEDRATA",
+    "type": "General Cargo Ship",
+    "imo": "9557795"
+  },
+  {
+    "url": "/vessels/details/9557783",
+    "name": "STIDIA",
+    "type": "General Cargo Ship",
+    "imo": "9557783"
+  },
+  {
+    "url": "/vessels/details/9557800",
+    "name": "SAOURA",
+    "type": "General Cargo Ship",
+    "imo": "9557800"
+  },
+  {
+    "url": "/vessels/details/9393230",
+    "name": "GOURAYA",
+    "type": "General Cargo Ship",
+    "imo": "9393230"
+  },
+  {
+    "url": "/vessels/details/9265380",
+    "name": "AIN ZEFT",
+    "type": "Bitumen Tanker",
+    "imo": "9265380"
+  },
+  {
+    "url": "/vessels/details/9265392",
+    "name": "RAS TOMB",
+    "type": "Bitumen Tanker",
+    "imo": "9265392"
+  },
+  {
+    "url": "/vessels/details/9883912",
+    "name": "MT TOLGA",
+    "type": "Oil Products Tanker",
+    "imo": "9883912"
+  },
+  {
+    "url": "/vessels/details/9587568",
+    "name": "EL-MOUSSANID",
+    "type": "Salvage Ship",
+    "imo": "9587568"
+  },
+  {
+    "url": "/vessels/details/9587556",
+    "name": "EL MOUSIF",
+    "type": "Salvage Ship",
+    "imo": "9587556"
+  },
+  {
+    "url": "/vessels/details/9587491",
+    "name": "EL MOUNDJID",
+    "type": "Salvage Ship",
+    "imo": "9587491"
+  },
+  {
+    "url": "/vessels/details/9912127",
+    "name": "KENADSA",
+    "type": "Oil Products Tanker",
+    "imo": "9912127"
+  },
+  {
+    "url": "/vessels/details/9912115",
+    "name": "EL GOUFI",
+    "type": "Oil Products Tanker",
+    "imo": "9912115"
+  },
+  {
+    "url": "/vessels/details/9775907",
+    "name": "EL-MELLAH",
+    "type": "Training Ship",
+    "imo": "9775907"
+  },
+  {
+    "url": "/vessels/details/7606267",
+    "name": "EL KENNAR",
+    "type": "Oil Products Tanker",
+    "imo": "7606267"
+  },
+  {
+    "url": "/vessels/details/7606279",
+    "name": "EL KOUACHI",
+    "type": "Oil Products Tanker",
+    "imo": "7606279"
+  },
+  {
+    "url": "/vessels/details/9811488",
+    "name": "SOUK AHRAS",
+    "type": "Crane Ship",
+    "imo": "9811488"
+  },
+  {
+    "url": "/vessels/details/7815856",
+    "name": "BELGHIMOUS",
+    "type": "Bunkering Tanker",
+    "imo": "7815856"
+  },
+  {
+    "url": "/vessels/details/7647429",
+    "name": "BERRICHE",
+    "type": "Bunkering Tanker",
+    "imo": "7647429"
+  },
+  {
+    "url": "/vessels/details/7647431",
+    "name": "BORDJ MENAIEL",
+    "type": "Bunkering Tanker",
+    "imo": "7647431"
+  },
+  {
+    "url": "/vessels/details/9827102",
+    "name": "IGILGILI II",
+    "type": "Tug",
+    "imo": "9827102"
+  },
+  {
+    "url": "/vessels/details/9559999",
+    "name": "BELKACEM GRINE",
+    "type": "Training Ship",
+    "imo": "9559999"
+  },
+  {
+    "url": "/vessels/details/9829239",
+    "name": "IGILGILI I",
+    "type": "Tug",
+    "imo": "9829239"
+  },
+  {
+    "url": "/vessels/details/9615705",
+    "name": "EL DJEDID 2",
+    "type": "Tug",
+    "imo": "9615705"
+  },
+  {
+    "url": "/vessels/details/9615690",
+    "name": "OUED EL KEBIR",
+    "type": "Tug",
+    "imo": "9615690"
+  },
+  {
+    "url": "/vessels/details/9622071",
+    "name": "EL DJEDID 1",
+    "type": "Tug",
+    "imo": "9622071"
+  },
+  {
+    "url": "/vessels/details/9615717",
+    "name": "SI EL-HAOUES",
+    "type": "Tug",
+    "imo": "9615717"
+  },
+  {
+    "url": "/vessels/details/8130461",
+    "name": "MAZAFRAN 6",
+    "type": "Tug",
+    "imo": "8130461"
+  },
+  {
+    "url": "/vessels/details/8130459",
+    "name": "MAZAFRAN 5",
+    "type": "Tug",
+    "imo": "8130459"
+  },
+  {
+    "url": "/vessels/details/8130447",
+    "name": "MAZAFRAN4",
+    "type": "Tug",
+    "imo": "8130447"
+  },
+  {
+    "url": "/vessels/details/1112018",
+    "name": "ECHAHID ABANE RAMDAN",
+    "type": "Fishing Vessel",
+    "imo": "1112018"
+  },
+  {
+    "url": "/vessels/details/9833462",
+    "name": "BABOR 1",
+    "type": "Tug",
+    "imo": "9833462"
+  },
+  {
+    "url": "/vessels/details/1054838",
+    "name": "ZMALET AL EMIR ABK",
+    "type": "Fishing Vessel",
+    "imo": "1054838"
+  },
+  {
+    "url": "/vessels/details/8434984",
+    "name": "HADJ SOUFI MOHAMED",
+    "type": "Fishing Vessel",
+    "imo": "8434984"
+  },
+  {
+    "url": "/vessels/details/9593373",
+    "name": "ZABANA AHMED I",
+    "type": "Tug",
+    "imo": "9593373"
+  },
+  {
+    "url": "/vessels/details/9593385",
+    "name": "ZABANA AHMED II",
+    "type": "Tug",
+    "imo": "9593385"
+  },
+  {
+    "url": "/vessels/details/9819193",
+    "name": "CAP BOUGAROUN",
+    "type": "Tug",
+    "imo": "9819193"
+  },
+  {
+    "url": "/vessels/details/9817858",
+    "name": "MEZGHRANE",
+    "type": "Tug",
+    "imo": "9817858"
+  },
+  {
+    "url": "/vessels/details/9817872",
+    "name": "REZI OMAR",
+    "type": "Tug",
+    "imo": "9817872"
+  },
+  {
+    "url": "/vessels/details/9817860",
+    "name": "RAS TENES",
+    "type": "Tug",
+    "imo": "9817860"
+  },
+  {
+    "url": "/vessels/details/9332365",
+    "name": "CAP SIGLI",
+    "type": "Tug",
+    "imo": "9332365"
+  },
+  {
+    "url": "/vessels/details/7230587",
+    "name": "TAFNA 1",
+    "type": "Tug",
+    "imo": "7230587"
+  },
+  {
+    "url": "/vessels/details/9907598",
+    "name": "AHMED SALIM",
+    "type": "Fishing Vessel",
+    "imo": "9907598"
+  },
+  {
+    "url": "/vessels/details/7921526",
+    "name": "EL IDRISSI",
+    "type": "Research Vessel",
+    "imo": "7921526"
+  },
+  {
+    "url": "/vessels/details/9934785",
+    "name": "EL BACHIR",
+    "type": "Fishing Vessel",
+    "imo": "9934785"
+  },
+  {
+    "url": "/vessels/details/9829605",
+    "name": "CAP DE FER",
+    "type": "Tug",
+    "imo": "9829605"
+  },
+  {
+    "url": "/vessels/details/1053482",
+    "name": "RAIAMARI",
+    "type": "Fishing Vessel",
+    "imo": "1053482"
+  },
+  {
+    "url": "/vessels/details/1055961",
+    "name": "OUM ELKHEIR 27",
+    "type": "Fishing Vessel",
+    "imo": "1055961"
+  },
+  {
+    "url": "/vessels/details/9278363",
+    "name": "SIDI ABDERRAHMANE",
+    "type": "Tug",
+    "imo": "9278363"
+  },
+  {
+    "url": "/vessels/details/9278399",
+    "name": "RIGHA 2",
+    "type": "Tug",
+    "imo": "9278399"
+  },
+  {
+    "url": "/vessels/details/9366782",
+    "name": "SKIKDA",
+    "type": "Tug",
+    "imo": "9366782"
+  },
+  {
+    "url": "/vessels/details/9907079",
+    "name": "AHMED ROBAINE II",
+    "type": "Fishing Vessel",
+    "imo": "9907079"
+  },
+  {
+    "url": "/vessels/details/9971185",
+    "name": "WAFID ZINE EDDINE",
+    "type": "Fishing Vessel",
+    "imo": "9971185"
+  },
+  {
+    "url": "/vessels/details/9969637",
+    "name": "LES FRERES BENAMANE",
+    "type": "Fishing Vessel",
+    "imo": "9969637"
+  },
+  {
+    "url": "/vessels/details/9964807",
+    "name": "EL HADJ OMAR",
+    "type": "Fishing Vessel",
+    "imo": "9964807"
+  },
+  {
+    "url": "/vessels/details/9280316",
+    "name": "CHOULOU",
+    "type": "Tug",
+    "imo": "9280316"
+  },
+  {
+    "url": "/vessels/details/9276846",
+    "name": "CAP CARBON",
+    "type": "Tug",
+    "imo": "9276846"
+  },
+  {
+    "url": "/vessels/details/9280299",
+    "name": "MUSTAPHA BEN BOULAID 2",
+    "type": "Tug",
+    "imo": "9280299"
+  },
+  {
+    "url": "/vessels/details/1104853",
+    "name": "EL ATI ALLAH II",
+    "type": "Fishing Vessel",
+    "imo": "1104853"
+  },
+  {
+    "url": "/vessels/details/8402553",
+    "name": "TOUFIK",
+    "type": "Fishing Support Vessel",
+    "imo": "8402553"
+  },
+  {
+    "url": "/vessels/details/8688573",
+    "name": "YOUNES1",
+    "type": "Fishing Vessel",
+    "imo": "8688573"
+  },
+  {
+    "url": "/vessels/details/8688585",
+    "name": "YOUNES II",
+    "type": "Fishing Vessel",
+    "imo": "8688585"
+  },
+  {
+    "url": "/vessels/details/8465787",
+    "name": "OUALD EL KHECHAI",
+    "type": "Fishing Vessel",
+    "imo": "8465787"
+  },
+  {
+    "url": "/vessels/details/9623037",
+    "name": "BADJI MOKHTAR II",
+    "type": "Passenger Ship",
+    "imo": "9623037"
+  },
+  {
+    "url": "/vessels/details/9623049",
+    "name": "SERAIDI",
+    "type": "Passenger Ship",
+    "imo": "9623049"
+  },
+  {
+    "url": "/vessels/details/8584296",
+    "name": "RIADH",
+    "type": "Fishing Vessel",
+    "imo": "8584296"
+  },
+  {
+    "url": "/vessels/details/8130497",
+    "name": "ISSER 3",
+    "type": "Tug",
+    "imo": "8130497"
+  },
+  {
+    "url": "/vessels/details/8130473",
+    "name": "ISSER 1",
+    "type": "Tug",
+    "imo": "8130473"
+  },
+  {
+    "url": "/vessels/details/9865594",
+    "name": "AHMED ROBAINE",
+    "type": "Fishing Vessel",
+    "imo": "9865594"
+  },
+  {
+    "url": "/vessels/details/9907603",
+    "name": "SERAJ",
+    "type": "Fishing Vessel",
+    "imo": "9907603"
+  },
+  {
+    "url": "/vessels/details/9393838",
+    "name": "LALA KHEDIDJA",
+    "type": "Water Tanker",
+    "imo": "9393838"
+  },
+  {
+    "url": "/vessels/details/8687892",
+    "name": "ELMAJDE",
+    "type": "Fishing Vessel",
+    "imo": "8687892"
+  },
+  {
+    "url": "/vessels/details/9380544",
+    "name": "ALICIA BEY",
+    "type": "Fishing Vessel",
+    "imo": "9380544"
+  },
+  {
+    "url": "/vessels/details/8211083",
+    "name": "M. S. BENYAHIA",
+    "type": "Fishing Support Vessel",
+    "imo": "8211083"
+  },
+  {
+    "url": "/vessels/details/8687787",
+    "name": "E.MOSTEFA BENBOULAID",
+    "type": "Fishing Vessel",
+    "imo": "8687787"
+  },
+  {
+    "url": "/vessels/details/8783804",
+    "name": "AL MAJED",
+    "type": "Fishing Vessel",
+    "imo": "8783804"
+  },
+  {
+    "url": "/vessels/details/7110531",
+    "name": "CHELIFF 4",
+    "type": "Tug",
+    "imo": "7110531"
+  },
+  {
+    "url": "/vessels/details/9805233",
+    "name": "BORHANE",
+    "type": "Fishing Vessel",
+    "imo": "9805233"
+  },
+  {
+    "url": "/vessels/details/9432816",
+    "name": "MECTA",
+    "type": "Tug",
+    "imo": "9432816"
+  },
+  {
+    "url": "/vessels/details/8940335",
+    "name": "HADJ SAID",
+    "type": "Fishing Vessel",
+    "imo": "8940335"
+  },
+  {
+    "url": "/vessels/details/8799176",
+    "name": "FEL ABDELKADER",
+    "type": "Fishing Vessel",
+    "imo": "8799176"
+  },
+  {
+    "url": "/vessels/details/7106152",
+    "name": "RHUMMEL 4",
+    "type": "Tug",
+    "imo": "7106152"
+  },
+  {
+    "url": "/vessels/details/605126911",
+    "name": "EL MOUNKID 11",
+    "type": "SAR",
+    "imo": "605126911"
+  },
+  {
+    "url": "/vessels/details/605086015",
+    "name": "AL MAHROUSSA",
+    "type": "Unknown",
+    "imo": "605086015"
+  },
+  {
+    "url": "/vessels/details/605076411",
+    "name": "OUED SABOUNE 02",
+    "type": "Pilot",
+    "imo": "605076411"
+  },
+  {
+    "url": "/vessels/details/605076000",
+    "name": "LA SOUMMAM",
+    "type": "Other type",
+    "imo": "605076000"
+  },
+  {
+    "url": "/vessels/details/605066142",
+    "name": "FEL ABDELKADER",
+    "type": "Fishing vessel",
+    "imo": "605066142"
+  },
+  {
+    "url": "/vessels/details/605066435",
+    "name": "TAGHEST",
+    "type": "Dredging or UW ops",
+    "imo": "605066435"
+  },
+  {
+    "url": "/vessels/details/605066563",
+    "name": "EL MARSA EL KABIR",
+    "type": "Fishing vessel",
+    "imo": "605066563"
+  },
+  {
+    "url": "/vessels/details/605026426",
+    "name": "TASMANIT1",
+    "type": "Pilot",
+    "imo": "605026426"
+  },
+  {
+    "url": "/vessels/details/605066391",
+    "name": "MOHAMMED II",
+    "type": "Fishing vessel",
+    "imo": "605066391"
+  },
+  {
+    "url": "/vessels/details/4908511",
+    "name": "NAVY922",
+    "type": "Other type",
+    "imo": "4908511"
+  },
+  {
+    "url": "/vessels/details/605086016",
+    "name": "MAZEGHANNA",
+    "type": "Unknown",
+    "imo": "605086016"
+  },
+  {
+    "url": "/vessels/details/605126440",
+    "name": "MILITARY.",
+    "type": "Unknown",
+    "imo": "605126440"
+  },
+  {
+    "url": "/vessels/details/605066601",
+    "name": "SERAJ",
+    "type": "Fishing vessel",
+    "imo": "605066601"
+  },
+  {
+    "url": "/vessels/details/605022809",
+    "name": "SIDI SLIMANE II",
+    "type": "Fishing vessel",
+    "imo": "605022809"
+  },
+  {
+    "url": "/vessels/details/605200049",
+    "name": "6052-49-48",
+    "type": "Unknown",
+    "imo": "605200049"
+  },
+  {
+    "url": "/vessels/details/605010003",
+    "name": "LUCHENGYU60501-3-99",
+    "type": "Unknown",
+    "imo": "605010003"
+  },
+  {
+    "url": "/vessels/details/605200045",
+    "name": "6052-45-62",
+    "type": "Unknown",
+    "imo": "605200045"
+  },
+  {
+    "url": "/vessels/details/605690017",
+    "name": "60569-17-92",
+    "type": "Unknown",
+    "imo": "605690017"
+  },
+  {
+    "url": "/vessels/details/605182576",
+    "name": "LUJIAOYU60518-76-80",
+    "type": "Unknown",
+    "imo": "605182576"
+  },
+  {
+    "url": "/vessels/details/7205465",
+    "name": "TESSALA II",
+    "type": "Tug",
+    "imo": "7205465"
+  },
+  {
+    "url": "/vessels/details/605060014",
+    "name": "LULONGYU60506-14-91",
+    "type": "Unknown",
+    "imo": "605060014"
+  },
+  {
+    "url": "/vessels/details/8130411",
+    "name": "MAZAFRAN 1",
+    "type": "Tug",
+    "imo": "8130411"
+  },
+  {
+    "url": "/vessels/details/605200018",
+    "name": "6052-18-69",
+    "type": "Unknown",
+    "imo": "605200018"
+  },
+  {
+    "url": "/vessels/details/605690037",
+    "name": "60569-37-95",
+    "type": "Unknown",
+    "imo": "605690037"
+  },
+  {
+    "url": "/vessels/details/605182587",
+    "name": "LUJIAOYU60518-87-99",
+    "type": "Unknown",
+    "imo": "605182587"
+  },
+  {
+    "url": "/vessels/details/605880025",
+    "name": "FUWANG60588-25-01",
+    "type": "Unknown",
+    "imo": "605880025"
+  },
+  {
+    "url": "/vessels/details/605791015",
+    "name": "LURONGYU57910-15 90",
+    "type": "Unknown",
+    "imo": "605791015"
+  },
+  {
+    "url": "/vessels/details/605200073",
+    "name": "6052-73-86",
+    "type": "Unknown",
+    "imo": "605200073"
+  },
+  {
+    "url": "/vessels/details/8130435",
+    "name": "MAZAFRAN 3",
+    "type": "Tug",
+    "imo": "8130435"
+  },
+  {
+    "url": "/vessels/details/605060016",
+    "name": "LULONGYU60506-16-95",
+    "type": "Unknown",
+    "imo": "605060016"
+  },
+  {
+    "url": "/vessels/details/605010012",
+    "name": "LUCHENGYU60501-1273",
+    "type": "Unknown",
+    "imo": "605010012"
+  },
+  {
+    "url": "/vessels/details/605507001",
+    "name": "05507-1-59",
+    "type": "Unknown",
+    "imo": "605507001"
+  },
+  {
+    "url": "/vessels/details/605230051",
+    "name": "60523-51-98",
+    "type": "Unknown",
+    "imo": "605230051"
+  },
+  {
+    "url": "/vessels/details/605826602",
+    "name": "LURONGYU58266-2 50",
+    "type": "Unknown",
+    "imo": "605826602"
+  },
+  {
+    "url": "/vessels/details/605261818",
+    "name": "60526-18-50",
+    "type": "Unknown",
+    "imo": "605261818"
+  },
+  {
+    "url": "/vessels/details/7046728",
+    "name": "CHELIFF 6",
+    "type": "Tug",
+    "imo": "7046728"
+  },
+  {
+    "url": "/vessels/details/605996119",
+    "name": "05996-1197.1V",
+    "type": "Unknown",
+    "imo": "605996119"
+  },
+  {
+    "url": "/vessels/details/605790002",
+    "name": "60579-2-91",
+    "type": "Unknown",
+    "imo": "605790002"
+  },
+  {
+    "url": "/vessels/details/605310057",
+    "name": "60531-57-63",
+    "type": "Unknown",
+    "imo": "605310057"
+  },
+  {
+    "url": "/vessels/details/605880058",
+    "name": "FUWANG60588-58-15",
+    "type": "Unknown",
+    "imo": "605880058"
+  },
+  {
+    "url": "/vessels/details/605880055",
+    "name": "FUWANG60588-55-98",
+    "type": "Unknown",
+    "imo": "605880055"
+  },
+  {
+    "url": "/vessels/details/605287301",
+    "name": "52873-01-70",
+    "type": "Unknown",
+    "imo": "605287301"
+  },
+  {
+    "url": "/vessels/details/605940007",
+    "name": "60594-7-96",
+    "type": "Unknown",
+    "imo": "605940007"
+  },
+  {
+    "url": "/vessels/details/605885027",
+    "name": "FUDINGYU05885-27 90",
+    "type": "Unknown",
+    "imo": "605885027"
+  },
+  {
+    "url": "/vessels/details/9278313",
+    "name": "TASSINA 1",
+    "type": "Tug",
+    "imo": "9278313"
+  },
+  {
+    "url": "/vessels/details/605182588",
+    "name": "LUJIAOYU60518-88-85",
+    "type": "Unknown",
+    "imo": "605182588"
+  },
+  {
+    "url": "/vessels/details/605359035",
+    "name": "ZHEDAIYU05359-35 10",
+    "type": "Unknown",
+    "imo": "605359035"
+  },
+  {
+    "url": "/vessels/details/605066410",
+    "name": "DAHRA",
+    "type": "Pilot",
+    "imo": "605066410"
+  },
+  {
+    "url": "/vessels/details/605200026",
+    "name": "6052-26-43",
+    "type": "Unknown",
+    "imo": "605200026"
+  },
+  {
+    "url": "/vessels/details/605200031",
+    "name": "6052-31-34",
+    "type": "Unknown",
+    "imo": "605200031"
+  },
+  {
+    "url": "/vessels/details/605298022",
+    "name": "SUGANYU05298-228.1V",
+    "type": "Unknown",
+    "imo": "605298022"
+  },
+  {
+    "url": "/vessels/details/605532301",
+    "name": "LUCHENGYU60553-1-81",
+    "type": "Unknown",
+    "imo": "605532301"
+  },
+  {
+    "url": "/vessels/details/605126913",
+    "name": "EL MOUNKID 13",
+    "type": "SAR",
+    "imo": "605126913"
+  },
+  {
+    "url": "/vessels/details/4509169",
+    "name": "EL MOUDERRIB 5",
+    "type": "Training Ship",
+    "imo": "4509169"
+  },
+  {
+    "url": "/vessels/details/605690040",
+    "name": "60569-40-99",
+    "type": "Unknown",
+    "imo": "605690040"
+  },
+  {
+    "url": "/vessels/details/605116715",
+    "name": "TIDJELABINE",
+    "type": "Dredging or UW ops",
+    "imo": "605116715"
+  },
+  {
+    "url": "/vessels/details/7108813",
+    "name": "CHELIFF 7",
+    "type": "Tug",
+    "imo": "7108813"
+  },
+  {
+    "url": "/vessels/details/605086017",
+    "name": "AL BAHDJA",
+    "type": "Pilot",
+    "imo": "605086017"
+  },
+  {
+    "url": "/vessels/details/605299006",
+    "name": "05299-F-46",
+    "type": "Fishing vessel",
+    "imo": "605299006"
+  },
+  {
+    "url": "/vessels/details/605828130",
+    "name": "05828-130-96",
+    "type": "Unknown",
+    "imo": "605828130"
+  },
+  {
+    "url": "/vessels/details/605182589",
+    "name": "LUJIAOYU60518-89-97",
+    "type": "Unknown",
+    "imo": "605182589"
+  },
+  {
+    "url": "/vessels/details/8535829",
+    "name": "AFTIS II",
+    "type": "Fishing Vessel",
+    "imo": "8535829"
+  },
+  {
+    "url": "/vessels/details/7331850",
+    "name": "ECH CHIHEB",
+    "type": "Fishing Vessel",
+    "imo": "7331850"
+  },
+  {
+    "url": "/vessels/details/605690022",
+    "name": "60569-22-76",
+    "type": "Unknown",
+    "imo": "605690022"
+  },
+  {
+    "url": "/vessels/details/605299008",
+    "name": "05299-H-48",
+    "type": "Fishing vessel",
+    "imo": "605299008"
+  },
+  {
+    "url": "/vessels/details/605261919",
+    "name": "60526-19-93",
+    "type": "Unknown",
+    "imo": "605261919"
+  },
+  {
+    "url": "/vessels/details/605996118",
+    "name": "05996-1187.6V",
+    "type": "Unknown",
+    "imo": "605996118"
+  },
+  {
+    "url": "/vessels/details/605010011",
+    "name": "LUCHENGYU60501-1186",
+    "type": "Unknown",
+    "imo": "605010011"
+  },
+  {
+    "url": "/vessels/details/605182582",
+    "name": "LUJIAOYU60518-82-99",
+    "type": "Unknown",
+    "imo": "605182582"
+  },
+  {
+    "url": "/vessels/details/605916801",
+    "name": "59168-01-58",
+    "type": "Unknown",
+    "imo": "605916801"
+  },
+  {
+    "url": "/vessels/details/4509183",
+    "name": "EL MOUDERRIB 7",
+    "type": "Training Ship",
+    "imo": "4509183"
+  },
+  {
+    "url": "/vessels/details/605584299",
+    "name": "LULONGYU60506-11-97",
+    "type": "Unknown",
+    "imo": "605584299"
+  },
+  {
+    "url": "/vessels/details/7111327",
+    "name": "CHELIFF 1",
+    "type": "Tug",
+    "imo": "7111327"
+  },
+  {
+    "url": "/vessels/details/605578803",
+    "name": "55788-03-96",
+    "type": "Unknown",
+    "imo": "605578803"
+  },
+  {
+    "url": "/vessels/details/605182596",
+    "name": "LUJIAOYU60518-96-99",
+    "type": "Unknown",
+    "imo": "605182596"
+  },
+  {
+    "url": "/vessels/details/605650020",
+    "name": "60565-20-99",
+    "type": "Unknown",
+    "imo": "605650020"
+  },
+  {
+    "url": "/vessels/details/605287304",
+    "name": "52873-04-80",
+    "type": "Unknown",
+    "imo": "605287304"
+  },
+  {
+    "url": "/vessels/details/605940012",
+    "name": "60594-12-82",
+    "type": "Unknown",
+    "imo": "605940012"
+  },
+  {
+    "url": "/vessels/details/605662307",
+    "name": "LURONGYU60566-7 80",
+    "type": "Unknown",
+    "imo": "605662307"
+  },
+  {
+    "url": "/vessels/details/605036118",
+    "name": "BRAHAM",
+    "type": "Other type",
+    "imo": "605036118"
+  },
+  {
+    "url": "/vessels/details/605662302",
+    "name": "LURONGYU60566-2 80",
+    "type": "Unknown",
+    "imo": "605662302"
+  },
+  {
+    "url": "/vessels/details/605820004",
+    "name": "-60582-04-99",
+    "type": "Unknown",
+    "imo": "605820004"
+  },
+  {
+    "url": "/vessels/details/8130526",
+    "name": "ISSER 6",
+    "type": "Tug",
+    "imo": "8130526"
+  },
+  {
+    "url": "/vessels/details/8308202",
+    "name": "KRISTEL",
+    "type": "Motor Hopper",
+    "imo": "8308202"
+  },
+  {
+    "url": "/vessels/details/7237133",
+    "name": "EL JABBAR",
+    "type": "Fishing Vessel",
+    "imo": "7237133"
+  },
+  {
+    "url": "/vessels/details/605880054",
+    "name": "FUWANG60588-54-82",
+    "type": "Unknown",
+    "imo": "605880054"
+  },
+  {
+    "url": "/vessels/details/605880001",
+    "name": "FUWANG60588-01-84",
+    "type": "Unknown",
+    "imo": "605880001"
+  },
+  {
+    "url": "/vessels/details/9098799",
+    "name": "ADEL",
+    "type": "Fishing Vessel",
+    "imo": "9098799"
+  },
+  {
+    "url": "/vessels/details/605532412",
+    "name": "60553-12-75",
+    "type": "Unknown",
+    "imo": "605532412"
+  },
+  {
+    "url": "/vessels/details/605532310",
+    "name": "LUCHENGYU60553-10-",
+    "type": "Unknown",
+    "imo": "605532310"
+  },
+  {
+    "url": "/vessels/details/9278375",
+    "name": "TASSINA 2",
+    "type": "Tug",
+    "imo": "9278375"
+  },
+  {
+    "url": "/vessels/details/605690016",
+    "name": "60569-16-95",
+    "type": "Unknown",
+    "imo": "605690016"
+  },
+  {
+    "url": "/vessels/details/605970028",
+    "name": "LUCHENGYU60597-2899",
+    "type": "Unknown",
+    "imo": "605970028"
+  },
+  {
+    "url": "/vessels/details/605550033",
+    "name": "555-33-55",
+    "type": "Unknown",
+    "imo": "605550033"
+  },
+  {
+    "url": "/vessels/details/605182573",
+    "name": "LUJIAOYU60518-73-89",
+    "type": "Unknown",
+    "imo": "605182573"
+  },
+  {
+    "url": "/vessels/details/605182591",
+    "name": "LUJIAOYU60518-91-99",
+    "type": "Unknown",
+    "imo": "605182591"
+  },
+  {
+    "url": "/vessels/details/605016031",
+    "name": "60501631-69",
+    "type": "Unknown",
+    "imo": "605016031"
+  },
+  {
+    "url": "/vessels/details/605200070",
+    "name": "6052-70-86",
+    "type": "Unknown",
+    "imo": "605200070"
+  },
+  {
+    "url": "/vessels/details/605800003",
+    "name": "LIUHENG58-3-49",
+    "type": "Unknown",
+    "imo": "605800003"
+  },
+  {
+    "url": "/vessels/details/7325928",
+    "name": "EL BADR",
+    "type": "Fishing Vessel",
+    "imo": "7325928"
+  },
+  {
+    "url": "/vessels/details/605126927",
+    "name": "EL-MOUNKID 21",
+    "type": "SAR",
+    "imo": "605126927"
+  },
+  {
+    "url": "/vessels/details/8537671",
+    "name": "HABIB ALLAH I",
+    "type": "Fishing Vessel",
+    "imo": "8537671"
+  },
+  {
+    "url": "/vessels/details/605790004",
+    "name": "60579-04-94",
+    "type": "Unknown",
+    "imo": "605790004"
+  },
+  {
+    "url": "/vessels/details/605298005",
+    "name": "SUGANYU05298-058.2V",
+    "type": "Unknown",
+    "imo": "605298005"
+  },
+  {
+    "url": "/vessels/details/7046833",
+    "name": "RHUMMEL 1",
+    "type": "Tug",
+    "imo": "7046833"
+  },
+  {
+    "url": "/vessels/details/4509157",
+    "name": "EL MOUDERRIB 4",
+    "type": "Training Ship",
+    "imo": "4509157"
+  },
+  {
+    "url": "/vessels/details/605200041",
+    "name": "6052-41-44",
+    "type": "Unknown",
+    "imo": "605200041"
+  },
+  {
+    "url": "/vessels/details/605200021",
+    "name": "6052-21-60",
+    "type": "Unknown",
+    "imo": "605200021"
+  },
+  {
+    "url": "/vessels/details/605826621",
+    "name": "ZHEDAIYU58266-21 90",
+    "type": "Unknown",
+    "imo": "605826621"
+  },
+  {
+    "url": "/vessels/details/605091260",
+    "name": "ELMOUNKID25",
+    "type": "SAR",
+    "imo": "605091260"
+  },
+  {
+    "url": "/vessels/details/605885014",
+    "name": "MINFUDINGYU05885-14",
+    "type": "Unknown",
+    "imo": "605885014"
+  },
+  {
+    "url": "/vessels/details/605880049",
+    "name": "FUWANG60588-49-92",
+    "type": "Unknown",
+    "imo": "605880049"
+  },
+  {
+    "url": "/vessels/details/605182599",
+    "name": "LUJIAOYU60518-99-63",
+    "type": "Unknown",
+    "imo": "605182599"
+  },
+  {
+    "url": "/vessels/details/605690010",
+    "name": "60569-10-82",
+    "type": "Unknown",
+    "imo": "605690010"
+  },
+  {
+    "url": "/vessels/details/605970038",
+    "name": "LUCHENGYU60597-3899",
+    "type": "Unknown",
+    "imo": "605970038"
+  },
+  {
+    "url": "/vessels/details/605790011",
+    "name": "60579-11-99",
+    "type": "Unknown",
+    "imo": "605790011"
+  },
+  {
+    "url": "/vessels/details/605866777",
+    "name": "0",
+    "type": "Other type",
+    "imo": "605866777"
+  },
+  {
+    "url": "/vessels/details/605996117",
+    "name": "05996-1177.9V",
+    "type": "Unknown",
+    "imo": "605996117"
+  },
+  {
+    "url": "/vessels/details/8542509",
+    "name": "SIDI SLIMANE",
+    "type": "Fishing Vessel",
+    "imo": "8542509"
+  },
+  {
+    "url": "/vessels/details/605532305",
+    "name": "LUCHENGYU60553-5-53",
+    "type": "Unknown",
+    "imo": "605532305"
+  },
+  {
+    "url": "/vessels/details/605820002",
+    "name": "-60582-02-99",
+    "type": "Unknown",
+    "imo": "605820002"
+  },
+  {
+    "url": "/vessels/details/605200013",
+    "name": "6052-13-79",
+    "type": "Unknown",
+    "imo": "605200013"
+  },
+  {
+    "url": "/vessels/details/605923657",
+    "name": "4059-22-71",
+    "type": "Unknown",
+    "imo": "605923657"
+  },
+  {
+    "url": "/vessels/details/605650013",
+    "name": "60565-13-82",
+    "type": "Unknown",
+    "imo": "605650013"
+  },
+  {
+    "url": "/vessels/details/605880053",
+    "name": "FUWANG60588-53-81",
+    "type": "Unknown",
+    "imo": "605880053"
+  },
+  {
+    "url": "/vessels/details/605660016",
+    "name": "SHUNHANG-24-37",
+    "type": "Unknown",
+    "imo": "605660016"
+  },
+  {
+    "url": "/vessels/details/605662303",
+    "name": "LURONGYU60566-3 80",
+    "type": "Unknown",
+    "imo": "605662303"
+  },
+  {
+    "url": "/vessels/details/605880023",
+    "name": "FUWANG60588-23-96",
+    "type": "Unknown",
+    "imo": "605880023"
+  },
+  {
+    "url": "/vessels/details/8130485",
+    "name": "ISSER 2",
+    "type": "Tug",
+    "imo": "8130485"
+  },
+  {
+    "url": "/vessels/details/605662321",
+    "name": "LURONGYU60566-21 40",
+    "type": "Unknown",
+    "imo": "605662321"
+  },
+  {
+    "url": "/vessels/details/605662337",
+    "name": "LURONGYU60566-37-7V7",
+    "type": "Unknown",
+    "imo": "605662337"
+  },
+  {
+    "url": "/vessels/details/605790008",
+    "name": "60579-08-99",
+    "type": "Unknown",
+    "imo": "605790008"
+  },
+  {
+    "url": "/vessels/details/605690031",
+    "name": "60569-31-76",
+    "type": "Unknown",
+    "imo": "605690031"
+  },
+  {
+    "url": "/vessels/details/605880027",
+    "name": "FUWANG60588-27-99",
+    "type": "Unknown",
+    "imo": "605880027"
+  },
+  {
+    "url": "/vessels/details/605650015",
+    "name": "60565-15-77",
+    "type": "Unknown",
+    "imo": "605650015"
+  },
+  {
+    "url": "/vessels/details/605298011",
+    "name": "SUGANYU05298-117.4V",
+    "type": "Unknown",
+    "imo": "605298011"
+  },
+  {
+    "url": "/vessels/details/605773908",
+    "name": "13976057739-8-98",
+    "type": "Unknown",
+    "imo": "605773908"
+  },
+  {
+    "url": "/vessels/details/605200074",
+    "name": "6052-74-81",
+    "type": "Unknown",
+    "imo": "605200074"
+  },
+  {
+    "url": "/vessels/details/605111113",
+    "name": "60511111113-92",
+    "type": "Unknown",
+    "imo": "605111113"
+  },
+  {
+    "url": "/vessels/details/605182583",
+    "name": "LUJIAOYU60518-83-99",
+    "type": "Unknown",
+    "imo": "605182583"
+  },
+  {
+    "url": "/vessels/details/605060011",
+    "name": "LULONGYU60506-11-94",
+    "type": "Unknown",
+    "imo": "605060011"
+  },
+  {
+    "url": "/vessels/details/9168714",
+    "name": "NIL I",
+    "type": "Tug",
+    "imo": "9168714"
+  },
+  {
+    "url": "/vessels/details/605970039",
+    "name": "LUCHENGYU60597-3999",
+    "type": "Unknown",
+    "imo": "605970039"
+  },
+  {
+    "url": "/vessels/details/605880047",
+    "name": "FUWANG60588-47-80",
+    "type": "Unknown",
+    "imo": "605880047"
+  },
+  {
+    "url": "/vessels/details/605690033",
+    "name": "60569-33-82",
+    "type": "Unknown",
+    "imo": "605690033"
+  },
+  {
+    "url": "/vessels/details/605077227",
+    "name": "CHAHID HASNI SAIDI",
+    "type": "Fishing vessel",
+    "imo": "605077227"
+  },
+  {
+    "url": "/vessels/details/605126926",
+    "name": "EL MOUNKID 20",
+    "type": "SAR",
+    "imo": "605126926"
+  },
+  {
+    "url": "/vessels/details/605200050",
+    "name": "6052-50-97",
+    "type": "Unknown",
+    "imo": "605200050"
+  },
+  {
+    "url": "/vessels/details/605310052",
+    "name": "60531-52-01",
+    "type": "Unknown",
+    "imo": "605310052"
+  },
+  {
+    "url": "/vessels/details/605790010",
+    "name": "60579-10-93",
+    "type": "Unknown",
+    "imo": "605790010"
+  },
+  {
+    "url": "/vessels/details/605552001",
+    "name": "55520-01-48",
+    "type": "Unknown",
+    "imo": "605552001"
+  },
+  {
+    "url": "/vessels/details/7235616",
+    "name": "EL BATAL",
+    "type": "Fishing Vessel",
+    "imo": "7235616"
+  },
+  {
+    "url": "/vessels/details/605690008",
+    "name": "60569-8-90",
+    "type": "Unknown",
+    "imo": "605690008"
+  },
+  {
+    "url": "/vessels/details/605022591",
+    "name": "EL KADER",
+    "type": "Fishing vessel",
+    "imo": "605022591"
+  },
+  {
+    "url": "/vessels/details/7218060",
+    "name": "EN NAJAH",
+    "type": "Fishing Vessel",
+    "imo": "7218060"
+  },
+  {
+    "url": "/vessels/details/605077353",
+    "name": "EL CHOROUK",
+    "type": "Fishing vessel",
+    "imo": "605077353"
+  },
+  {
+    "url": "/vessels/details/605200047",
+    "name": "6052-47-99",
+    "type": "Unknown",
+    "imo": "605200047"
+  },
+  {
+    "url": "/vessels/details/605066497",
+    "name": "FISHING BOY A",
+    "type": "Unknown",
+    "imo": "605066497"
+  },
+  {
+    "url": "/vessels/details/9822530",
+    "name": "TIDJELABINE",
+    "type": "Motor Hopper",
+    "imo": "9822530"
+  },
+  {
+    "url": "/vessels/details/605200003",
+    "name": "6052-3-56",
+    "type": "Unknown",
+    "imo": "605200003"
+  },
+  {
+    "url": "/vessels/details/9098804",
+    "name": "RANIA",
+    "type": "Fishing Vessel",
+    "imo": "9098804"
+  },
+  {
+    "url": "/vessels/details/605126910",
+    "name": "EL MOUNKID 10",
+    "type": "SAR",
+    "imo": "605126910"
+  },
+  {
+    "url": "/vessels/details/605200075",
+    "name": "6052-75-78",
+    "type": "Unknown",
+    "imo": "605200075"
+  },
+  {
+    "url": "/vessels/details/605200001",
+    "name": "6052-1-73",
+    "type": "Unknown",
+    "imo": "605200001"
+  },
+  {
+    "url": "/vessels/details/605532414",
+    "name": "60553-14-76",
+    "type": "Unknown",
+    "imo": "605532414"
+  },
+  {
+    "url": "/vessels/details/605200056",
+    "name": "6052-56-68",
+    "type": "Unknown",
+    "imo": "605200056"
+  },
+  {
+    "url": "/vessels/details/605880003",
+    "name": "FUWANG60588-03-86",
+    "type": "Unknown",
+    "imo": "605880003"
+  },
+  {
+    "url": "/vessels/details/4509121",
+    "name": "EL MOUDERRIB 1",
+    "type": "Training Ship",
+    "imo": "4509121"
+  },
+  {
+    "url": "/vessels/details/605182575",
+    "name": "LUJIAOYU60518-75-99",
+    "type": "Unknown",
+    "imo": "605182575"
+  },
+  {
+    "url": "/vessels/details/605790012",
+    "name": "60579-12-98",
+    "type": "Unknown",
+    "imo": "605790012"
+  },
+  {
+    "url": "/vessels/details/605880046",
+    "name": "FUWANG60588-46-64",
+    "type": "Unknown",
+    "imo": "605880046"
+  },
+  {
+    "url": "/vessels/details/605970032",
+    "name": "LUCHENGYU60597-3277",
+    "type": "Unknown",
+    "imo": "605970032"
+  },
+  {
+    "url": "/vessels/details/7206782",
+    "name": "SEYBOUSE 1",
+    "type": "Tug",
+    "imo": "7206782"
+  },
+  {
+    "url": "/vessels/details/4509133",
+    "name": "EL MOUDERRIB 2",
+    "type": "Training Ship",
+    "imo": "4509133"
+  },
+  {
+    "url": "/vessels/details/605662325",
+    "name": "LURONGYU60566-25 30",
+    "type": "Unknown",
+    "imo": "605662325"
+  },
+  {
+    "url": "/vessels/details/605298009",
+    "name": "SUGANYU05298-098.3V",
+    "type": "Unknown",
+    "imo": "605298009"
+  },
+  {
+    "url": "/vessels/details/605182578",
+    "name": "LUJIAOYU60518-78-98",
+    "type": "Unknown",
+    "imo": "605182578"
+  },
+  {
+    "url": "/vessels/details/605200022",
+    "name": "6052-22-53",
+    "type": "Unknown",
+    "imo": "605200022"
+  },
+  {
+    "url": "/vessels/details/605202772",
+    "name": "SURI YANMARINE 55",
+    "type": "Passenger ship",
+    "imo": "605202772"
+  },
+  {
+    "url": "/vessels/details/605773905",
+    "name": "13976057739-5-07",
+    "type": "Unknown",
+    "imo": "605773905"
+  },
+  {
+    "url": "/vessels/details/605200020",
+    "name": "6052-20-79",
+    "type": "Unknown",
+    "imo": "605200020"
+  },
+  {
+    "url": "/vessels/details/605400895",
+    "name": "J.Q.H",
+    "type": "Passenger ship",
+    "imo": "605400895"
+  },
+  {
+    "url": "/vessels/details/605200054",
+    "name": "6052-54-59",
+    "type": "Unknown",
+    "imo": "605200054"
+  },
+  {
+    "url": "/vessels/details/605125100",
+    "name": "LUJIAOYU60518-100",
+    "type": "Unknown",
+    "imo": "605125100"
+  },
+  {
+    "url": "/vessels/details/605940010",
+    "name": "60594-10-88",
+    "type": "Unknown",
+    "imo": "605940010"
+  },
+  {
+    "url": "/vessels/details/605790007",
+    "name": "60579-07-95",
+    "type": "Unknown",
+    "imo": "605790007"
+  },
+  {
+    "url": "/vessels/details/605588004",
+    "name": "ZHECANGYU05588-4-92",
+    "type": "Unknown",
+    "imo": "605588004"
+  },
+  {
+    "url": "/vessels/details/1082304",
+    "name": "ECRN MERS EL KEBIR B503-01",
+    "type": "Work/Repair Vessel",
+    "imo": "1082304"
+  },
+  {
+    "url": "/vessels/details/605662336",
+    "name": "LURONGYU60566-36-",
+    "type": "Unknown",
+    "imo": "605662336"
+  },
+  {
+    "url": "/vessels/details/605041500",
+    "name": "EL MOUNKID 8",
+    "type": "Other type",
+    "imo": "605041500"
+  },
+  {
+    "url": "/vessels/details/605821379",
+    "name": "ZHELIN21379-6-64",
+    "type": "Unknown",
+    "imo": "605821379"
+  },
+  {
+    "url": "/vessels/details/9407639",
+    "name": "RAS EL-MA",
+    "type": "Tug",
+    "imo": "9407639"
+  },
+  {
+    "url": "/vessels/details/605826623",
+    "name": "ZHEDAIYU58266-23 30",
+    "type": "Unknown",
+    "imo": "605826623"
+  },
+  {
+    "url": "/vessels/details/605200030",
+    "name": "6052-30 30",
+    "type": "Unknown",
+    "imo": "605200030"
+  },
+  {
+    "url": "/vessels/details/605182595",
+    "name": "LUJIAOYU60518-95-95",
+    "type": "Unknown",
+    "imo": "605182595"
+  },
+  {
+    "url": "/vessels/details/605690012",
+    "name": "60569-12-81",
+    "type": "Unknown",
+    "imo": "605690012"
+  },
+  {
+    "url": "/vessels/details/605182571",
+    "name": "LUJIAOYU60518-71-43",
+    "type": "Unknown",
+    "imo": "605182571"
+  },
+  {
+    "url": "/vessels/details/8687804",
+    "name": "BENI LOUMA",
+    "type": "Fishing Vessel",
+    "imo": "8687804"
+  },
+  {
+    "url": "/vessels/details/8130514",
+    "name": "ISSER 5",
+    "type": "Tug",
+    "imo": "8130514"
+  },
+  {
+    "url": "/vessels/details/605690036",
+    "name": "60569-36-76",
+    "type": "Unknown",
+    "imo": "605690036"
+  },
+  {
+    "url": "/vessels/details/605295108",
+    "name": "SUGANYU02951-08",
+    "type": "Unknown",
+    "imo": "605295108"
+  },
+  {
+    "url": "/vessels/details/605806668",
+    "name": "1UEHAOYU51211",
+    "type": "Fishing vessel",
+    "imo": "605806668"
+  },
+  {
+    "url": "/vessels/details/7046510",
+    "name": "RHUMMEL 2",
+    "type": "Tug",
+    "imo": "7046510"
+  },
+  {
+    "url": "/vessels/details/605970022",
+    "name": "LUCHENGYU60597-2295",
+    "type": "Unknown",
+    "imo": "605970022"
+  },
+  {
+    "url": "/vessels/details/9280328",
+    "name": "CHIBA 2",
+    "type": "Tug",
+    "imo": "9280328"
+  },
+  {
+    "url": "/vessels/details/605662327",
+    "name": "LURONGYU60566-27-",
+    "type": "Unknown",
+    "imo": "605662327"
+  },
+  {
+    "url": "/vessels/details/605200078",
+    "name": "6052-78-95",
+    "type": "Unknown",
+    "imo": "605200078"
+  },
+  {
+    "url": "/vessels/details/605650011",
+    "name": "60565-11-99",
+    "type": "Unknown",
+    "imo": "605650011"
+  },
+  {
+    "url": "/vessels/details/7331862",
+    "name": "EL KAOUKEB",
+    "type": "Fishing Vessel",
+    "imo": "7331862"
+  },
+  {
+    "url": "/vessels/details/605880004",
+    "name": "FUWANG60588-4-48",
+    "type": "Unknown",
+    "imo": "605880004"
+  },
+  {
+    "url": "/vessels/details/605996108",
+    "name": "05996-1087.4V",
+    "type": "Unknown",
+    "imo": "605996108"
+  },
+  {
+    "url": "/vessels/details/605359034",
+    "name": "ZHEDAIYU05359-34 60",
+    "type": "Unknown",
+    "imo": "605359034"
+  },
+  {
+    "url": "/vessels/details/605060015",
+    "name": "LULONGYU60506-15-97",
+    "type": "Unknown",
+    "imo": "605060015"
+  },
+  {
+    "url": "/vessels/details/605588015",
+    "name": "ZHECANGYU05588-15",
+    "type": "Unknown",
+    "imo": "605588015"
+  },
+  {
+    "url": "/vessels/details/605880056",
+    "name": "FUWANG60588-56-84",
+    "type": "Unknown",
+    "imo": "605880056"
+  },
+  {
+    "url": "/vessels/details/605508003",
+    "name": "05508-3-60",
+    "type": "Unknown",
+    "imo": "605508003"
+  },
+  {
+    "url": "/vessels/details/605234586",
+    "name": "ZHE PU YU 34583-6",
+    "type": "Unknown",
+    "imo": "605234586"
+  },
+  {
+    "url": "/vessels/details/9822528",
+    "name": "TAGHEST",
+    "type": "Motor Hopper",
+    "imo": "9822528"
+  },
+  {
+    "url": "/vessels/details/605200042",
+    "name": "6052-42-83",
+    "type": "Unknown",
+    "imo": "605200042"
+  },
+  {
+    "url": "/vessels/details/8463416",
+    "name": "MADINET BENI-SAF",
+    "type": "Fishing Vessel",
+    "imo": "8463416"
+  },
+  {
+    "url": "/vessels/details/605320006",
+    "name": "LUJIAOYU60532-6-73",
+    "type": "Unknown",
+    "imo": "605320006"
+  },
+  {
+    "url": "/vessels/details/605690019",
+    "name": "60569-19-87",
+    "type": "Unknown",
+    "imo": "605690019"
+  },
+  {
+    "url": "/vessels/details/605996109",
+    "name": "05996-1097.5V",
+    "type": "Unknown",
+    "imo": "605996109"
+  },
+  {
+    "url": "/vessels/details/605690032",
+    "name": "60569-32-99",
+    "type": "Unknown",
+    "imo": "605690032"
+  },
+  {
+    "url": "/vessels/details/7219052",
+    "name": "SEYBOUSE 3",
+    "type": "Tug",
+    "imo": "7219052"
+  },
+  {
+    "url": "/vessels/details/605552003",
+    "name": "55520-0396",
+    "type": "Unknown",
+    "imo": "605552003"
+  },
+  {
+    "url": "/vessels/details/605588007",
+    "name": "ZHECANGYU05588-7-99",
+    "type": "Unknown",
+    "imo": "605588007"
+  },
+  {
+    "url": "/vessels/details/605880045",
+    "name": "FUWANG60588-45-73",
+    "type": "Unknown",
+    "imo": "605880045"
+  },
+  {
+    "url": "/vessels/details/605660002",
+    "name": "MINPINGYU60566-2-99",
+    "type": "Unknown",
+    "imo": "605660002"
+  },
+  {
+    "url": "/vessels/details/605880044",
+    "name": "FUWANG60588-44-97",
+    "type": "Unknown",
+    "imo": "605880044"
+  },
+  {
+    "url": "/vessels/details/605820007",
+    "name": "-60582-07",
+    "type": "Unknown",
+    "imo": "605820007"
+  },
+  {
+    "url": "/vessels/details/605996116",
+    "name": "05996-1168.1V",
+    "type": "Unknown",
+    "imo": "605996116"
+  },
+  {
+    "url": "/vessels/details/605662332",
+    "name": "LURONGYU60566-32-71",
+    "type": "Unknown",
+    "imo": "605662332"
+  },
+  {
+    "url": "/vessels/details/605182590",
+    "name": "LUJIAOYU60518-90-99",
+    "type": "Unknown",
+    "imo": "605182590"
+  },
+  {
+    "url": "/vessels/details/605147006",
+    "name": "NET05147-6 40",
+    "type": "Unknown",
+    "imo": "605147006"
+  },
+  {
+    "url": "/vessels/details/605091230",
+    "name": "EL-MOUNKID 22",
+    "type": "Unknown",
+    "imo": "605091230"
+  },
+  {
+    "url": "/vessels/details/9280304",
+    "name": "CHIBA 1",
+    "type": "Tug",
+    "imo": "9280304"
+  },
+  {
+    "url": "/vessels/details/605588010",
+    "name": "ZHECANGYU05588-10",
+    "type": "Unknown",
+    "imo": "605588010"
+  },
+  {
+    "url": "/vessels/details/605208005",
+    "name": "ZHEXIANGYU05208-526",
+    "type": "Unknown",
+    "imo": "605208005"
+  },
+  {
+    "url": "/vessels/details/605970029",
+    "name": "LUCHENGYU60597-2980",
+    "type": "Unknown",
+    "imo": "605970029"
+  },
+  {
+    "url": "/vessels/details/605182597",
+    "name": "LUJIAOYU60518-97-83",
+    "type": "Unknown",
+    "imo": "605182597"
+  },
+  {
+    "url": "/vessels/details/605330009",
+    "name": "TIELONG60533-09-38",
+    "type": "Unknown",
+    "imo": "605330009"
+  },
+  {
+    "url": "/vessels/details/605820012",
+    "name": "-60582-12-86",
+    "type": "Unknown",
+    "imo": "605820012"
+  },
+  {
+    "url": "/vessels/details/605588001",
+    "name": "ZHECANGYU05588-1-86",
+    "type": "Unknown",
+    "imo": "605588001"
+  },
+  {
+    "url": "/vessels/details/605690025",
+    "name": "60569-25-82",
+    "type": "Unknown",
+    "imo": "605690025"
+  },
+  {
+    "url": "/vessels/details/605532315",
+    "name": "LUCHENGYU60553-15-",
+    "type": "Unknown",
+    "imo": "605532315"
+  },
+  {
+    "url": "/vessels/details/605662305",
+    "name": "LURONGYU60566-5 70",
+    "type": "Unknown",
+    "imo": "605662305"
+  },
+  {
+    "url": "/vessels/details/605662322",
+    "name": "LURONGYU60566-22 50",
+    "type": "Unknown",
+    "imo": "605662322"
+  },
+  {
+    "url": "/vessels/details/605298013",
+    "name": "SUGANYU05298-137.7V",
+    "type": "Unknown",
+    "imo": "605298013"
+  },
+  {
+    "url": "/vessels/details/605996101",
+    "name": "05996-1018.1V",
+    "type": "Unknown",
+    "imo": "605996101"
+  },
+  {
+    "url": "/vessels/details/605126924",
+    "name": "EL-MOUNKID 18",
+    "type": "SAR",
+    "imo": "605126924"
+  },
+  {
+    "url": "/vessels/details/7218034",
+    "name": "EN NASR",
+    "type": "Fishing Vessel",
+    "imo": "7218034"
+  },
+  {
+    "url": "/vessels/details/605770112",
+    "name": "LURONGYU57701-12 50",
+    "type": "Unknown",
+    "imo": "605770112"
+  },
+  {
+    "url": "/vessels/details/605650002",
+    "name": "60565-2-92",
+    "type": "Unknown",
+    "imo": "605650002"
+  },
+  {
+    "url": "/vessels/details/605790006",
+    "name": "60579-06-96",
+    "type": "Unknown",
+    "imo": "605790006"
+  },
+  {
+    "url": "/vessels/details/605330008",
+    "name": "TIELONG60533-08-82",
+    "type": "Unknown",
+    "imo": "605330008"
+  },
+  {
+    "url": "/vessels/details/605690001",
+    "name": "60569-01-99",
+    "type": "Unknown",
+    "imo": "605690001"
+  },
+  {
+    "url": "/vessels/details/605690039",
+    "name": "60569-39-98",
+    "type": "Unknown",
+    "imo": "605690039"
+  },
+  {
+    "url": "/vessels/details/605690004",
+    "name": "60569-4-93",
+    "type": "Unknown",
+    "imo": "605690004"
+  },
+  {
+    "url": "/vessels/details/605200006",
+    "name": "6052-6-81",
+    "type": "Unknown",
+    "imo": "605200006"
+  },
+  {
+    "url": "/vessels/details/605650008",
+    "name": "60565-8-95",
+    "type": "Unknown",
+    "imo": "605650008"
+  },
+  {
+    "url": "/vessels/details/605690009",
+    "name": "60569-9-98",
+    "type": "Unknown",
+    "imo": "605690009"
+  },
+  {
+    "url": "/vessels/details/605791010",
+    "name": "LURONGYU57910-10 60",
+    "type": "Unknown",
+    "imo": "605791010"
+  },
+  {
+    "url": "/vessels/details/7363308",
+    "name": "ER RAAD",
+    "type": "Fishing Vessel",
+    "imo": "7363308"
+  },
+  {
+    "url": "/vessels/details/9168726",
+    "name": "NIL II",
+    "type": "Tug",
+    "imo": "9168726"
+  },
+  {
+    "url": "/vessels/details/8532671",
+    "name": "EL AHBAB",
+    "type": "Fishing Vessel",
+    "imo": "8532671"
+  },
+  {
+    "url": "/vessels/details/605106080",
+    "name": "EL MOUNKID 27",
+    "type": "Unknown",
+    "imo": "605106080"
+  },
+  {
+    "url": "/vessels/details/605830007",
+    "name": "TIELONG60583-007-23",
+    "type": "Unknown",
+    "imo": "605830007"
+  },
+  {
+    "url": "/vessels/details/1082316",
+    "name": "ECRN MERS EL KEBIR B503-02",
+    "type": "Work/Repair Vessel",
+    "imo": "1082316"
+  },
+  {
+    "url": "/vessels/details/605200008",
+    "name": "6052-8-77",
+    "type": "Unknown",
+    "imo": "605200008"
+  },
+  {
+    "url": "/vessels/details/605060013",
+    "name": "LULONGYU60506-13-95",
+    "type": "Unknown",
+    "imo": "605060013"
+  },
+  {
+    "url": "/vessels/details/605773906",
+    "name": "13976057739-6-59",
+    "type": "Unknown",
+    "imo": "605773906"
+  },
+  {
+    "url": "/vessels/details/605182593",
+    "name": "LUJIAOYU60518-93-85",
+    "type": "Unknown",
+    "imo": "605182593"
+  },
+  {
+    "url": "/vessels/details/605126912",
+    "name": "EL M0UNKID 12",
+    "type": "SAR",
+    "imo": "605126912"
+  },
+  {
+    "url": "/vessels/details/9817286",
+    "name": "OUED MEKERRA",
+    "type": "Utility Vessel",
+    "imo": "9817286"
+  },
+  {
+    "url": "/vessels/details/605660025",
+    "name": "SHUNHANG-25-02",
+    "type": "Unknown",
+    "imo": "605660025"
+  },
+  {
+    "url": "/vessels/details/605532309",
+    "name": "LUCHENGYU60553-9-87",
+    "type": "Unknown",
+    "imo": "605532309"
+  },
+  {
+    "url": "/vessels/details/605650016",
+    "name": "60565-16-99",
+    "type": "Unknown",
+    "imo": "605650016"
+  },
+  {
+    "url": "/vessels/details/605200033",
+    "name": "6052-33-64",
+    "type": "Unknown",
+    "imo": "605200033"
+  },
+  {
+    "url": "/vessels/details/7111339",
+    "name": "CHELIFF 2",
+    "type": "Tug",
+    "imo": "7111339"
+  },
+  {
+    "url": "/vessels/details/605200005",
+    "name": "6052-5-46",
+    "type": "Unknown",
+    "imo": "605200005"
+  },
+  {
+    "url": "/vessels/details/605016032",
+    "name": "60501632-79",
+    "type": "Unknown",
+    "imo": "605016032"
+  },
+  {
+    "url": "/vessels/details/605970024",
+    "name": "LUCHENGYU60597-2476",
+    "type": "Unknown",
+    "imo": "605970024"
+  },
+  {
+    "url": "/vessels/details/605880013",
+    "name": "FUWANG60588-13-64",
+    "type": "Unknown",
+    "imo": "605880013"
+  },
+  {
+    "url": "/vessels/details/605298020",
+    "name": "SUGANYU05298-208.1V",
+    "type": "Unknown",
+    "imo": "605298020"
+  },
+  {
+    "url": "/vessels/details/7237121",
+    "name": "EL AMINE",
+    "type": "Fishing Vessel",
+    "imo": "7237121"
+  },
+  {
+    "url": "/vessels/details/605820008",
+    "name": "-60582-08-99",
+    "type": "Unknown",
+    "imo": "605820008"
+  },
+  {
+    "url": "/vessels/details/8589674",
+    "name": "MEFTAHI",
+    "type": "Fishing Vessel",
+    "imo": "8589674"
+  },
+  {
+    "url": "/vessels/details/605126925",
+    "name": "EL MOUNKID 19",
+    "type": "Pilot",
+    "imo": "605126925"
+  },
+  {
+    "url": "/vessels/details/605101742",
+    "name": "WOR.CHONNATHI 555",
+    "type": "Passenger ship",
+    "imo": "605101742"
+  },
+  {
+    "url": "/vessels/details/605200048",
+    "name": "6052-48-58",
+    "type": "Unknown",
+    "imo": "605200048"
+  },
+  {
+    "url": "/vessels/details/605650017",
+    "name": "60565-17-99",
+    "type": "Unknown",
+    "imo": "605650017"
+  },
+  {
+    "url": "/vessels/details/605298015",
+    "name": "SUGANYU05298-158.1V",
+    "type": "Unknown",
+    "imo": "605298015"
+  },
+  {
+    "url": "/vessels/details/7363293",
+    "name": "EL ASSIFA",
+    "type": "Fishing Vessel",
+    "imo": "7363293"
+  },
+  {
+    "url": "/vessels/details/605091240",
+    "name": "EL-MOUNKID 23",
+    "type": "Unknown",
+    "imo": "605091240"
+  },
+  {
+    "url": "/vessels/details/605690027",
+    "name": "60569-27-76",
+    "type": "Unknown",
+    "imo": "605690027"
+  },
+  {
+    "url": "/vessels/details/605532413",
+    "name": "60553-13-99",
+    "type": "Unknown",
+    "imo": "605532413"
+  },
+  {
+    "url": "/vessels/details/7046429",
+    "name": "CHELIFF 5",
+    "type": "Tug",
+    "imo": "7046429"
+  },
+  {
+    "url": "/vessels/details/605650012",
+    "name": "60565-12-99",
+    "type": "Unknown",
+    "imo": "605650012"
+  },
+  {
+    "url": "/vessels/details/605287302",
+    "name": "52873-02-95",
+    "type": "Unknown",
+    "imo": "605287302"
+  },
+  {
+    "url": "/vessels/details/605200053",
+    "name": "6052-53-79",
+    "type": "Unknown",
+    "imo": "605200053"
+  },
+  {
+    "url": "/vessels/details/605310056",
+    "name": "60531-56-64",
+    "type": "Unknown",
+    "imo": "605310056"
+  },
+  {
+    "url": "/vessels/details/605041400",
+    "name": "EL MOUNKID 7",
+    "type": "SAR",
+    "imo": "605041400"
+  },
+  {
+    "url": "/vessels/details/605200043",
+    "name": "6052-43-75",
+    "type": "Unknown",
+    "imo": "605200043"
+  },
+  {
+    "url": "/vessels/details/605147001",
+    "name": "NET05147-1-69",
+    "type": "Unknown",
+    "imo": "605147001"
+  },
+  {
+    "url": "/vessels/details/605200037",
+    "name": "6052-37-86",
+    "type": "Unknown",
+    "imo": "605200037"
+  },
+  {
+    "url": "/vessels/details/605010015",
+    "name": "LUCHENGYU60501-1525",
+    "type": "Unknown",
+    "imo": "605010015"
+  },
+  {
+    "url": "/vessels/details/605588008",
+    "name": "ZHECANGYU05588-8-98",
+    "type": "Unknown",
+    "imo": "605588008"
+  },
+  {
+    "url": "/vessels/details/605970036",
+    "name": "LUCHENGYU60597-3699",
+    "type": "Unknown",
+    "imo": "605970036"
+  },
+  {
+    "url": "/vessels/details/605880052",
+    "name": "FUWANG60588-52-82",
+    "type": "Unknown",
+    "imo": "605880052"
+  },
+  {
+    "url": "/vessels/details/605200071",
+    "name": "6052-71-84",
+    "type": "Unknown",
+    "imo": "605200071"
+  },
+  {
+    "url": "/vessels/details/605650003",
+    "name": "60565-3-99",
+    "type": "Unknown",
+    "imo": "605650003"
+  },
+  {
+    "url": "/vessels/details/605310059",
+    "name": "60531-59-58",
+    "type": "Unknown",
+    "imo": "605310059"
+  },
+  {
+    "url": "/vessels/details/605662334",
+    "name": "LURONGYU60566-34-26",
+    "type": "Unknown",
+    "imo": "605662334"
+  },
+  {
+    "url": "/vessels/details/605650009",
+    "name": "60565-9-79",
+    "type": "Unknown",
+    "imo": "605650009"
+  },
+  {
+    "url": "/vessels/details/605659913",
+    "name": "EZHEDAIYU04130W-11",
+    "type": "Unknown",
+    "imo": "605659913"
+  },
+  {
+    "url": "/vessels/details/605945607",
+    "name": "59456-07-78",
+    "type": "Unknown",
+    "imo": "605945607"
+  },
+  {
+    "url": "/vessels/details/605298025",
+    "name": "SUGANYU05298-257.5V",
+    "type": "Unknown",
+    "imo": "605298025"
+  },
+  {
+    "url": "/vessels/details/605773903",
+    "name": "13976057739-3-30",
+    "type": "Unknown",
+    "imo": "605773903"
+  },
+  {
+    "url": "/vessels/details/605916808",
+    "name": "59168-8-02",
+    "type": "Unknown",
+    "imo": "605916808"
+  },
+  {
+    "url": "/vessels/details/9278404",
+    "name": "TASSINA 4",
+    "type": "Tug",
+    "imo": "9278404"
+  },
+  {
+    "url": "/vessels/details/605662335",
+    "name": "LURONGYU60566-35-61",
+    "type": "Unknown",
+    "imo": "605662335"
+  },
+  {
+    "url": "/vessels/details/605662317",
+    "name": "LURONGYU60566-17 90",
+    "type": "Unknown",
+    "imo": "605662317"
+  },
+  {
+    "url": "/vessels/details/605200065",
+    "name": "6052-65-07",
+    "type": "Unknown",
+    "imo": "605200065"
+  },
+  {
+    "url": "/vessels/details/605662310",
+    "name": "LURONGYU60566-10 90",
+    "type": "Unknown",
+    "imo": "605662310"
+  },
+  {
+    "url": "/vessels/details/8332631",
+    "name": "KADI MILIANI",
+    "type": "Motor Hopper",
+    "imo": "8332631"
+  },
+  {
+    "url": "/vessels/details/605690021",
+    "name": "60569-21-77",
+    "type": "Unknown",
+    "imo": "605690021"
+  },
+  {
+    "url": "/vessels/details/605200055",
+    "name": "6052-55-57",
+    "type": "Unknown",
+    "imo": "605200055"
+  },
+  {
+    "url": "/vessels/details/4509171",
+    "name": "EL MOUDERRIB 6",
+    "type": "Training Ship",
+    "imo": "4509171"
+  },
+  {
+    "url": "/vessels/details/605790005",
+    "name": "60579-05-95",
+    "type": "Unknown",
+    "imo": "605790005"
+  },
+  {
+    "url": "/vessels/details/605200011",
+    "name": "6052-11-45",
+    "type": "Unknown",
+    "imo": "605200011"
+  },
+  {
+    "url": "/vessels/details/1082328",
+    "name": "ECRN MERS EL KEBIR B503-03",
+    "type": "Work/Repair Vessel",
+    "imo": "1082328"
+  },
+  {
+    "url": "/vessels/details/605200032",
+    "name": "6052-32-33",
+    "type": "Unknown",
+    "imo": "605200032"
+  },
+  {
+    "url": "/vessels/details/8693279",
+    "name": "EL KADER",
+    "type": "Fishing Vessel",
+    "imo": "8693279"
+  },
+  {
+    "url": "/vessels/details/9278387",
+    "name": "TASSINA 3",
+    "type": "Tug",
+    "imo": "9278387"
+  },
+  {
+    "url": "/vessels/details/605690034",
+    "name": "60569-34-70",
+    "type": "Unknown",
+    "imo": "605690034"
+  },
+  {
+    "url": "/vessels/details/605970031",
+    "name": "LUCHENGYU60597-3199",
+    "type": "Unknown",
+    "imo": "605970031"
+  },
+  {
+    "url": "/vessels/details/605660030",
+    "name": "SHUNHANG-30-41",
+    "type": "Unknown",
+    "imo": "605660030"
+  },
+  {
+    "url": "/vessels/details/605033288",
+    "name": "EL MOUDJAHID TIZAAMA",
+    "type": "Unknown",
+    "imo": "605033288"
+  },
+  {
+    "url": "/vessels/details/9379832",
+    "name": "HAMBOUN",
+    "type": "Fishing Vessel",
+    "imo": "9379832"
+  },
+  {
+    "url": "/vessels/details/605826624",
+    "name": "ZHEDAIYU58266-24 10",
+    "type": "Unknown",
+    "imo": "605826624"
+  },
+  {
+    "url": "/vessels/details/605532304",
+    "name": "LUCHENGYU60553-4-91",
+    "type": "Unknown",
+    "imo": "605532304"
+  },
+  {
+    "url": "/vessels/details/605690018",
+    "name": "60569-18-87",
+    "type": "Unknown",
+    "imo": "605690018"
+  },
+  {
+    "url": "/vessels/details/7211414",
+    "name": "SEYBOUSE 2",
+    "type": "Tug",
+    "imo": "7211414"
+  },
+  {
+    "url": "/vessels/details/605880059",
+    "name": "FUWANG60588-59-28",
+    "type": "Unknown",
+    "imo": "605880059"
+  },
+  {
+    "url": "/vessels/details/605200044",
+    "name": "6052-44-73",
+    "type": "Unknown",
+    "imo": "605200044"
+  },
+  {
+    "url": "/vessels/details/4509145",
+    "name": "EL MOUDERRIB 3",
+    "type": "Training Ship",
+    "imo": "4509145"
+  },
+  {
+    "url": "/vessels/details/605182586",
+    "name": "LUJIAOYU60518-86-94",
+    "type": "Unknown",
+    "imo": "605182586"
+  },
+  {
+    "url": "/vessels/details/605970037",
+    "name": "LUCHENGYU60597-3774",
+    "type": "Unknown",
+    "imo": "605970037"
+  },
+  {
+    "url": "/vessels/details/605200004",
+    "name": "6052-4-99",
+    "type": "Unknown",
+    "imo": "605200004"
+  },
+  {
+    "url": "/vessels/details/605287303",
+    "name": "52873-03-73",
+    "type": "Unknown",
+    "imo": "605287303"
+  },
+  {
+    "url": "/vessels/details/605091250",
+    "name": "EL-MOUNKID 24",
+    "type": "HSC",
+    "imo": "605091250"
+  },
+  {
+    "url": "/vessels/details/605690007",
+    "name": "60569-7-96",
+    "type": "Unknown",
+    "imo": "605690007"
+  },
+  {
+    "url": "/vessels/details/605200083",
+    "name": "6052-83-92",
+    "type": "Unknown",
+    "imo": "605200083"
+  },
+  {
+    "url": "/vessels/details/605690026",
+    "name": "60569-26-82",
+    "type": "Unknown",
+    "imo": "605690026"
+  },
+  {
+    "url": "/vessels/details/605532306",
+    "name": "LUCHENGYU60553-6-77",
+    "type": "Unknown",
+    "imo": "605532306"
+  },
+  {
+    "url": "/vessels/details/8698683",
+    "name": "NEPTUNE VI",
+    "type": "Fishing Vessel",
+    "imo": "8698683"
+  },
+  {
+    "url": "/vessels/details/605885023",
+    "name": "FUDINGYU05885-23 70",
+    "type": "Unknown",
+    "imo": "605885023"
+  },
+  {
+    "url": "/vessels/details/605640006",
+    "name": "SQY5640-6 94",
+    "type": "Unknown",
+    "imo": "605640006"
+  },
+  {
+    "url": "/vessels/details/605298028",
+    "name": "SUGANYU05298-288.1V",
+    "type": "Unknown",
+    "imo": "605298028"
+  },
+  {
+    "url": "/vessels/details/605321716",
+    "name": "SUQIYU03217-16",
+    "type": "Unknown",
+    "imo": "605321716"
+  },
+  {
+    "url": "/vessels/details/605507003",
+    "name": "05507-3-66",
+    "type": "Unknown",
+    "imo": "605507003"
+  },
+  {
+    "url": "/vessels/details/7721017",
+    "name": "MORDJANE",
+    "type": "Offshore Support Vessel",
+    "imo": "7721017"
+  },
+  {
+    "url": "/vessels/details/605770114",
+    "name": "LURONGYU57701-14 40",
+    "type": "Unknown",
+    "imo": "605770114"
+  },
+  {
+    "url": "/vessels/details/605690006",
+    "name": "60569-6-75",
+    "type": "Unknown",
+    "imo": "605690006"
+  },
+  {
+    "url": "/vessels/details/605662333",
+    "name": "LURONGYU60566-33-81",
+    "type": "Unknown",
+    "imo": "605662333"
+  },
+  {
+    "url": "/vessels/details/605820011",
+    "name": "-60582-11-99",
+    "type": "Unknown",
+    "imo": "605820011"
+  },
+  {
+    "url": "/vessels/details/605970021",
+    "name": "LUCHENGYU60597-2197",
+    "type": "Unknown",
+    "imo": "605970021"
+  },
+  {
+    "url": "/vessels/details/605690013",
+    "name": "60569-13-94",
+    "type": "Unknown",
+    "imo": "605690013"
+  },
+  {
+    "url": "/vessels/details/605690020",
+    "name": "60569-20-81",
+    "type": "Unknown",
+    "imo": "605690020"
+  },
+  {
+    "url": "/vessels/details/7110373",
+    "name": "SOUMMAM-2",
+    "type": "Tug",
+    "imo": "7110373"
+  },
+  {
+    "url": "/vessels/details/605820010",
+    "name": "-60582-10-99",
+    "type": "Unknown",
+    "imo": "605820010"
+  },
+  {
+    "url": "/vessels/details/605970025",
+    "name": "LUCHENGYU60597-2542",
+    "type": "Unknown",
+    "imo": "605970025"
+  },
+  {
+    "url": "/vessels/details/605298021",
+    "name": "SUGANYU05298-217.7V",
+    "type": "Unknown",
+    "imo": "605298021"
+  },
+  {
+    "url": "/vessels/details/605126915",
+    "name": "NAVY921",
+    "type": "Resolution 18 ship",
+    "imo": "605126915"
+  },
+  {
+    "url": "/vessels/details/7031993",
+    "name": "FILLAOUCENE I",
+    "type": "Fishing Vessel",
+    "imo": "7031993"
+  },
+  {
+    "url": "/vessels/details/605880011",
+    "name": "FUWANG60588-11-74",
+    "type": "Unknown",
+    "imo": "605880011"
+  },
+  {
+    "url": "/vessels/details/605999885",
+    "name": "605999884-49",
+    "type": "Unknown",
+    "imo": "605999885"
+  },
+  {
+    "url": "/vessels/details/605298003",
+    "name": "SUGANYU05298-037.9V",
+    "type": "Unknown",
+    "imo": "605298003"
+  },
+  {
+    "url": "/vessels/details/605880007",
+    "name": "FUWANG60588-7-44",
+    "type": "Unknown",
+    "imo": "605880007"
+  },
+  {
+    "url": "/vessels/details/605588013",
+    "name": "ZHECANGYU05588-13",
+    "type": "Unknown",
+    "imo": "605588013"
+  },
+  {
+    "url": "/vessels/details/605880042",
+    "name": "FUWANG60588-42-99",
+    "type": "Unknown",
+    "imo": "605880042"
+  },
+  {
+    "url": "/vessels/details/605885018",
+    "name": "MINFUDINGYU05885-18",
+    "type": "Unknown",
+    "imo": "605885018"
+  },
+  {
+    "url": "/vessels/details/605066265",
+    "name": "BENI LOUMA",
+    "type": "Fishing vessel",
+    "imo": "605066265"
+  },
+  {
+    "url": "/vessels/details/605298004",
+    "name": "SUGANYU05298-048.2V",
+    "type": "Unknown",
+    "imo": "605298004"
+  },
+  {
+    "url": "/vessels/details/605200012",
+    "name": "6052-12-75",
+    "type": "Unknown",
+    "imo": "605200012"
+  },
+  {
+    "url": "/vessels/details/8463648",
+    "name": "OKBA",
+    "type": "Fishing Vessel",
+    "imo": "8463648"
+  },
+  {
+    "url": "/vessels/details/605401419",
+    "name": "BLULABEL",
+    "type": "Pleasure craft",
+    "imo": "605401419"
+  },
+  {
+    "url": "/vessels/details/7325916",
+    "name": "EL KOUTB",
+    "type": "Fishing Vessel",
+    "imo": "7325916"
+  },
+  {
+    "url": "/vessels/details/605880041",
+    "name": "FUWANG60588-41-84",
+    "type": "Unknown",
+    "imo": "605880041"
+  },
+  {
+    "url": "/vessels/details/605182598",
+    "name": "LUJIAOYU60518-98-88",
+    "type": "Unknown",
+    "imo": "605182598"
+  },
+  {
+    "url": "/vessels/details/605010013",
+    "name": "LUCHENGYU60501-1382",
+    "type": "Unknown",
+    "imo": "605010013"
+  },
+  {
+    "url": "/vessels/details/605121563",
+    "name": "LG21563-60-99",
+    "type": "Unknown",
+    "imo": "605121563"
+  },
+  {
+    "url": "/vessels/details/605940011",
+    "name": "60594-11-85",
+    "type": "Unknown",
+    "imo": "605940011"
+  },
+  {
+    "url": "/vessels/details/605160002",
+    "name": "60516-2-84",
+    "type": "Unknown",
+    "imo": "605160002"
+  },
+  {
+    "url": "/vessels/details/605200010",
+    "name": "6052-10-60",
+    "type": "Unknown",
+    "imo": "605200010"
+  },
+  {
+    "url": "/vessels/details/605885020",
+    "name": "MINFUDINGYU05885-20",
+    "type": "Unknown",
+    "imo": "605885020"
+  },
+  {
+    "url": "/vessels/details/605550001",
+    "name": "555-1 90",
+    "type": "Unknown",
+    "imo": "605550001"
+  },
+  {
+    "url": "/vessels/details/605940005",
+    "name": "60594-5-83",
+    "type": "Unknown",
+    "imo": "605940005"
+  },
+  {
+    "url": "/vessels/details/605200046",
+    "name": "6052-46-55",
+    "type": "Unknown",
+    "imo": "605200046"
+  },
+  {
+    "url": "/vessels/details/605520008",
+    "name": "60552-08-01",
+    "type": "Unknown",
+    "imo": "605520008"
+  },
+  {
+    "url": "/vessels/details/605532302",
+    "name": "LUCHENGYU60553-2-90",
+    "type": "Unknown",
+    "imo": "605532302"
+  },
+  {
+    "url": "/vessels/details/605359031",
+    "name": "ZHEDAIYU05359-31 90",
+    "type": "Unknown",
+    "imo": "605359031"
+  },
+  {
+    "url": "/vessels/details/605880048",
+    "name": "FUWANG60588-48-44",
+    "type": "Unknown",
+    "imo": "605880048"
+  },
+  {
+    "url": "/vessels/details/605826620",
+    "name": "ZHEDAIYU06068W-1 30",
+    "type": "Unknown",
+    "imo": "605826620"
+  },
+  {
+    "url": "/vessels/details/605380004",
+    "name": "MINZHAOYU60538-4 30",
+    "type": "Unknown",
+    "imo": "605380004"
+  },
+  {
+    "url": "/vessels/details/605200025",
+    "name": "6052-2570",
+    "type": "Unknown",
+    "imo": "605200025"
+  },
+  {
+    "url": "/vessels/details/605970035",
+    "name": "LUCHENGYU60597-3594",
+    "type": "Unknown",
+    "imo": "605970035"
+  },
+  {
+    "url": "/vessels/details/605200023",
+    "name": "6052-23-13",
+    "type": "Unknown",
+    "imo": "605200023"
+  },
+  {
+    "url": "/vessels/details/7235604",
+    "name": "EL JALIL",
+    "type": "Fishing Vessel",
+    "imo": "7235604"
+  },
+  {
+    "url": "/vessels/details/605996105",
+    "name": "05996-1057.8V",
+    "type": "Unknown",
+    "imo": "605996105"
+  },
+  {
+    "url": "/vessels/details/605770111",
+    "name": "LURONGYU57701-11 90",
+    "type": "Unknown",
+    "imo": "605770111"
+  },
+  {
+    "url": "/vessels/details/605126923",
+    "name": "ELMOUNKID 17",
+    "type": "SAR",
+    "imo": "605126923"
+  },
+  {
+    "url": "/vessels/details/605200062",
+    "name": "6052-62-71",
+    "type": "Unknown",
+    "imo": "605200062"
+  },
+  {
+    "url": "/vessels/details/605200081",
+    "name": "6052-81-86",
+    "type": "Unknown",
+    "imo": "605200081"
+  },
+  {
+    "url": "/vessels/details/605210002",
+    "name": "ZHEXIANGYU05210-299",
+    "type": "Unknown",
+    "imo": "605210002"
+  },
+  {
+    "url": "/vessels/details/9098816",
+    "name": "HAJ ABDULLAH",
+    "type": "Fishing Vessel",
+    "imo": "9098816"
+  },
+  {
+    "url": "/vessels/details/7106140",
+    "name": "RHUMMEL 3",
+    "type": "Tug",
+    "imo": "7106140"
+  },
+  {
+    "url": "/vessels/details/605359033",
+    "name": "ZHEDAIYU05359-33 90",
+    "type": "Unknown",
+    "imo": "605359033"
+  },
+  {
+    "url": "/vessels/details/605690035",
+    "name": "60569-35-79",
+    "type": "Unknown",
+    "imo": "605690035"
+  },
+  {
+    "url": "/vessels/details/605310060",
+    "name": "60531-60-67",
+    "type": "Unknown",
+    "imo": "605310060"
+  },
+  {
+    "url": "/vessels/details/605650005",
+    "name": "60565-5-65",
+    "type": "Unknown",
+    "imo": "605650005"
+  },
+  {
+    "url": "/vessels/details/605320008",
+    "name": "LUJIAOYU60532-8-97",
+    "type": "Unknown",
+    "imo": "605320008"
+  },
+  {
+    "url": "/vessels/details/1103407",
+    "name": "EL MOUDJAHID TIZA AMAR",
+    "type": "Fishing Vessel",
+    "imo": "1103407"
+  },
+  {
+    "url": "/vessels/details/605532416",
+    "name": "60553-16-73",
+    "type": "Unknown",
+    "imo": "605532416"
+  },
+  {
+    "url": "/vessels/details/605662306",
+    "name": "LURONGYU60566-6 90",
+    "type": "Unknown",
+    "imo": "605662306"
+  },
+  {
+    "url": "/vessels/details/7111341",
+    "name": "CHELIFF 3",
+    "type": "Tug",
+    "imo": "7111341"
+  },
+  {
+    "url": "/vessels/details/605660005",
+    "name": "MINPINGYU60566-5-71",
+    "type": "Unknown",
+    "imo": "605660005"
+  },
+  {
+    "url": "/vessels/details/605041200",
+    "name": "EL MOUNKID 5",
+    "type": "Unknown",
+    "imo": "605041200"
+  },
+  {
+    "url": "/vessels/details/605662315",
+    "name": "LURONGYU60566-15 60",
+    "type": "Unknown",
+    "imo": "605662315"
+  },
+  {
+    "url": "/vessels/details/605660001",
+    "name": "MINPINGYU60566-1-99",
+    "type": "Unknown",
+    "imo": "605660001"
+  },
+  {
+    "url": "/vessels/details/605200077",
+    "name": "6052-77-78",
+    "type": "Unknown",
+    "imo": "605200077"
+  },
+  {
+    "url": "/vessels/details/605507004",
+    "name": "05507-4-62",
+    "type": "Unknown",
+    "imo": "605507004"
+  },
+  {
+    "url": "/vessels/details/605662309",
+    "name": "LURONGYU60566-9 80",
+    "type": "Unknown",
+    "imo": "605662309"
+  },
+  {
+    "url": "/vessels/details/605289478",
+    "name": "82693-01-95",
+    "type": "Unknown",
+    "imo": "605289478"
+  },
+  {
+    "url": "/vessels/details/605200064",
+    "name": "6052-64-95",
+    "type": "Unknown",
+    "imo": "605200064"
+  },
+  {
+    "url": "/vessels/details/605693330",
+    "name": "00056-04-33",
+    "type": "Unknown",
+    "imo": "605693330"
+  },
+  {
+    "url": "/vessels/details/7313420",
+    "name": "EL JAMIL",
+    "type": "Fishing Vessel",
+    "imo": "7313420"
+  },
+  {
+    "url": "/vessels/details/605662330",
+    "name": "LURONGYU60566-307.5",
+    "type": "Unknown",
+    "imo": "605662330"
+  },
+  {
+    "url": "/vessels/details/605200072",
+    "name": "6052-72-82",
+    "type": "Unknown",
+    "imo": "605200072"
+  },
+  {
+    "url": "/vessels/details/605310051",
+    "name": "60531-51-31",
+    "type": "Unknown",
+    "imo": "605310051"
+  },
+  {
+    "url": "/vessels/details/605588009",
+    "name": "ZHECANGYU05588-9-99",
+    "type": "Unknown",
+    "imo": "605588009"
+  },
+  {
+    "url": "/vessels/details/7313418",
+    "name": "EL AMIR",
+    "type": "Fishing Vessel",
+    "imo": "7313418"
+  },
+  {
+    "url": "/vessels/details/605182574",
+    "name": "LUJIAOYU60518-74-99",
+    "type": "Unknown",
+    "imo": "605182574"
+  },
+  {
+    "url": "/vessels/details/605791011",
+    "name": "LURONGYU57910-11 50",
+    "type": "Unknown",
+    "imo": "605791011"
+  },
+  {
+    "url": "/vessels/details/605200063",
+    "name": "6052-63-73",
+    "type": "Unknown",
+    "imo": "605200063"
+  },
+  {
+    "url": "/vessels/details/605076410",
+    "name": "OUED SABOUNE 01",
+    "type": "Pilot",
+    "imo": "605076410"
+  },
+  {
+    "url": "/vessels/details/605662323",
+    "name": "LURONGYU60566-23 40",
+    "type": "Unknown",
+    "imo": "605662323"
+  },
+  {
+    "url": "/vessels/details/605660003",
+    "name": "MINPINGYU60566-3-26",
+    "type": "Unknown",
+    "imo": "605660003"
+  },
+  {
+    "url": "/vessels/details/605298006",
+    "name": "SUGANYU05298-068.1V",
+    "type": "Unknown",
+    "imo": "605298006"
+  },
+  {
+    "url": "/vessels/details/8130502",
+    "name": "ISSER 4",
+    "type": "Tug",
+    "imo": "8130502"
+  },
+  {
+    "url": "/vessels/details/605690014",
+    "name": "60569-14-97",
+    "type": "Unknown",
+    "imo": "605690014"
+  },
+  {
+    "url": "/vessels/details/605820001",
+    "name": "-60582-01-99",
+    "type": "Unknown",
+    "imo": "605820001"
+  },
+  {
+    "url": "/vessels/details/7363322",
+    "name": "ES SARI",
+    "type": "Fishing Vessel",
+    "imo": "7363322"
+  },
+  {
+    "url": "/vessels/details/605200015",
+    "name": "6052-15-99",
+    "type": "Unknown",
+    "imo": "605200015"
+  },
+  {
+    "url": "/vessels/details/605970023",
+    "name": "LUCHENGYU60597-2399",
+    "type": "Unknown",
+    "imo": "605970023"
+  },
+  {
+    "url": "/vessels/details/7313406",
+    "name": "EL KAMEL",
+    "type": "Fishing Vessel",
+    "imo": "7313406"
+  },
+  {
+    "url": "/vessels/details/605820005",
+    "name": "-60582-05",
+    "type": "Unknown",
+    "imo": "605820005"
+  },
+  {
+    "url": "/vessels/details/605532411",
+    "name": "60553-11-96",
+    "type": "Unknown",
+    "imo": "605532411"
+  },
+  {
+    "url": "/vessels/details/605916802",
+    "name": "59168-2-95",
+    "type": "Unknown",
+    "imo": "605916802"
+  },
+  {
+    "url": "/vessels/details/7302835",
+    "name": "TAFNA 2",
+    "type": "Tug",
+    "imo": "7302835"
+  },
+  {
+    "url": "/vessels/details/7218058",
+    "name": "ES SABAH",
+    "type": "Fishing Vessel",
+    "imo": "7218058"
+  },
+  {
+    "url": "/vessels/details/605983485",
+    "name": "00009",
+    "type": "Fishing vessel",
+    "imo": "605983485"
+  },
+  {
+    "url": "/vessels/details/605182581",
+    "name": "LUJIAOYU60518-81-35",
+    "type": "Unknown",
+    "imo": "605182581"
+  },
+  {
+    "url": "/vessels/details/605690015",
+    "name": "60569-15-41",
+    "type": "Unknown",
+    "imo": "605690015"
+  },
+  {
+    "url": "/vessels/details/605659916",
+    "name": "EZHEDAIYU04130W-14",
+    "type": "Unknown",
+    "imo": "605659916"
+  },
+  {
+    "url": "/vessels/details/605800006",
+    "name": "LIUHENG58-6-78",
+    "type": "Unknown",
+    "imo": "605800006"
+  },
+  {
+    "url": "/vessels/details/605996100",
+    "name": "05996-1007.9V",
+    "type": "Unknown",
+    "imo": "605996100"
+  },
+  {
+    "url": "/vessels/details/605489677",
+    "name": "54896-7-66",
+    "type": "Unknown",
+    "imo": "605489677"
+  },
+  {
+    "url": "/vessels/details/605996103",
+    "name": "05996-1038.1V",
+    "type": "Unknown",
+    "imo": "605996103"
+  },
+  {
+    "url": "/vessels/details/605200028",
+    "name": "6052-28-47",
+    "type": "Unknown",
+    "imo": "605200028"
+  },
+  {
+    "url": "/vessels/details/605826611",
+    "name": "LURONGYU58266-11 70",
+    "type": "Unknown",
+    "imo": "605826611"
+  },
+  {
+    "url": "/vessels/details/605299007",
+    "name": "05299-G-56",
+    "type": "Fishing vessel",
+    "imo": "605299007"
+  },
+  {
+    "url": "/vessels/details/605000001",
+    "name": "FISHING DRIFT NET 2",
+    "type": "Fishing vessel",
+    "imo": "605000001"
+  },
+  {
+    "url": "/vessels/details/605578801",
+    "name": "55788-01-58",
+    "type": "Unknown",
+    "imo": "605578801"
+  },
+  {
+    "url": "/vessels/details/605790003",
+    "name": "60579-03-93",
+    "type": "Unknown",
+    "imo": "605790003"
+  },
+  {
+    "url": "/vessels/details/605320072",
+    "name": "LUJIAOYU60532-72-",
+    "type": "Unknown",
+    "imo": "605320072"
+  },
+  {
+    "url": "/vessels/details/605182594",
+    "name": "LUJIAOYU60518-94-94",
+    "type": "Unknown",
+    "imo": "605182594"
+  },
+  {
+    "url": "/vessels/details/605827006",
+    "name": "05827-6-48",
+    "type": "Unknown",
+    "imo": "605827006"
+  },
+  {
+    "url": "/vessels/details/605200080",
+    "name": "6052-80-77",
+    "type": "Unknown",
+    "imo": "605200080"
+  },
+  {
+    "url": "/vessels/details/605200002",
+    "name": "6052-2-71",
+    "type": "Unknown",
+    "imo": "605200002"
+  },
+  {
+    "url": "/vessels/details/605077466",
+    "name": "AHMED",
+    "type": "Fishing vessel",
+    "imo": "605077466"
+  },
+  {
+    "url": "/vessels/details/7326439",
+    "name": "SEYBOUSE 5",
+    "type": "Tug",
+    "imo": "7326439"
+  },
+  {
+    "url": "/vessels/details/605660023",
+    "name": "SHUNHANG-23-34",
+    "type": "Unknown",
+    "imo": "605660023"
+  },
+  {
+    "url": "/vessels/details/605820003",
+    "name": "-60582-03",
+    "type": "Unknown",
+    "imo": "605820003"
+  },
+  {
+    "url": "/vessels/details/605200052",
+    "name": "6052-52-55",
+    "type": "Unknown",
+    "imo": "605200052"
+  },
+  {
+    "url": "/vessels/details/605550002",
+    "name": "555-2 90",
+    "type": "Unknown",
+    "imo": "605550002"
+  },
+  {
+    "url": "/vessels/details/8462993",
+    "name": "SLIMANE",
+    "type": "Fishing Vessel",
+    "imo": "8462993"
+  },
+  {
+    "url": "/vessels/details/605791016",
+    "name": "LURONGYU57910-16 90",
+    "type": "Unknown",
+    "imo": "605791016"
+  },
+  {
+    "url": "/vessels/details/605679688",
+    "name": "ZM6056796-99",
+    "type": "Unknown",
+    "imo": "605679688"
+  },
+  {
+    "url": "/vessels/details/605010016",
+    "name": "LUCHENGYU60501-1665",
+    "type": "Unknown",
+    "imo": "605010016"
+  },
+  {
+    "url": "/vessels/details/605550013",
+    "name": "ZHEDAIYU0190313",
+    "type": "Unknown",
+    "imo": "605550013"
+  },
+  {
+    "url": "/vessels/details/605970034",
+    "name": "LUCHENGYU60597-3472",
+    "type": "Unknown",
+    "imo": "605970034"
+  },
+  {
+    "url": "/vessels/details/605320075",
+    "name": "LUJIAOYU60532-75-",
+    "type": "Unknown",
+    "imo": "605320075"
+  },
+  {
+    "url": "/vessels/details/8439946",
+    "name": "OKACH ABDELHAFID",
+    "type": "Fishing Vessel",
+    "imo": "8439946"
+  },
+  {
+    "url": "/vessels/details/605996107",
+    "name": "05996-1078.1V",
+    "type": "Unknown",
+    "imo": "605996107"
+  },
+  {
+    "url": "/vessels/details/605770192",
+    "name": "ZHEDAIYU03592-16 50",
+    "type": "Unknown",
+    "imo": "605770192"
+  },
+  {
+    "url": "/vessels/details/9366770",
+    "name": "SIDI BRAHIM",
+    "type": "Tug",
+    "imo": "9366770"
+  },
+  {
+    "url": "/vessels/details/605885029",
+    "name": "MINFUDINGYU05885-29",
+    "type": "Unknown",
+    "imo": "605885029"
+  },
+  {
+    "url": "/vessels/details/605724184",
+    "name": "6052-16-83",
+    "type": "Unknown",
+    "imo": "605724184"
+  },
+  {
+    "url": "/vessels/details/605030008",
+    "name": "60503-8-99",
+    "type": "Unknown",
+    "imo": "605030008"
+  },
+  {
+    "url": "/vessels/details/605310053",
+    "name": "60531-53-63",
+    "type": "Unknown",
+    "imo": "605310053"
+  },
+  {
+    "url": "/vessels/details/605126921",
+    "name": "EL MOUNKID 15",
+    "type": "SAR",
+    "imo": "605126921"
+  },
+  {
+    "url": "/vessels/details/605402546",
+    "name": "SILVER SAILOR",
+    "type": "Towing vessel",
+    "imo": "605402546"
+  },
+  {
+    "url": "/vessels/details/605662331",
+    "name": "LURONGYU60566-31-75",
+    "type": "Unknown",
+    "imo": "605662331"
+  },
+  {
+    "url": "/vessels/details/605690038",
+    "name": "60569-38-83",
+    "type": "Unknown",
+    "imo": "605690038"
+  },
+  {
+    "url": "/vessels/details/605885005",
+    "name": "MINFUDINGYU05885-5",
+    "type": "Unknown",
+    "imo": "605885005"
+  },
+  {
+    "url": "/vessels/details/605016033",
+    "name": "60501633-95",
+    "type": "Unknown",
+    "imo": "605016033"
+  },
+  {
+    "url": "/vessels/details/605690041",
+    "name": "60569-41-64",
+    "type": "Unknown",
+    "imo": "605690041"
+  },
+  {
+    "url": "/vessels/details/605320074",
+    "name": "LUJIAOYU60532-74-",
+    "type": "Unknown",
+    "imo": "605320074"
+  },
+  {
+    "url": "/vessels/details/605992503",
+    "name": "59925-3-91",
+    "type": "Unknown",
+    "imo": "605992503"
+  },
+  {
+    "url": "/vessels/details/605662311",
+    "name": "LURONGYU60566-11 60",
+    "type": "Unknown",
+    "imo": "605662311"
+  },
+  {
+    "url": "/vessels/details/605916805",
+    "name": "59168-05-82",
+    "type": "Unknown",
+    "imo": "605916805"
+  },
+  {
+    "url": "/vessels/details/605200082",
+    "name": "6052-82-88",
+    "type": "Unknown",
+    "imo": "605200082"
+  },
+  {
+    "url": "/vessels/details/605885026",
+    "name": "FUDINGYU05885-26 10",
+    "type": "Unknown",
+    "imo": "605885026"
+  },
+  {
+    "url": "/vessels/details/605200014",
+    "name": "6052-14-56",
+    "type": "Unknown",
+    "imo": "605200014"
+  },
+  {
+    "url": "/vessels/details/605200076",
+    "name": "6052-76-87",
+    "type": "Unknown",
+    "imo": "605200076"
+  },
+  {
+    "url": "/vessels/details/605970026",
+    "name": "LUCHENGYU60597-2698",
+    "type": "Unknown",
+    "imo": "605970026"
+  },
+  {
+    "url": "/vessels/details/605044300",
+    "name": "MARWA 1",
+    "type": "Fishing vessel",
+    "imo": "605044300"
+  },
+  {
+    "url": "/vessels/details/605885028",
+    "name": "MINFUDING05885-28",
+    "type": "Unknown",
+    "imo": "605885028"
+  },
+  {
+    "url": "/vessels/details/9842839",
+    "name": "SIDI SLIMANE II",
+    "type": "Fishing Vessel",
+    "imo": "9842839"
+  },
+  {
+    "url": "/vessels/details/605885010",
+    "name": "MINFUDINGYU05885-10",
+    "type": "Unknown",
+    "imo": "605885010"
+  },
+  {
+    "url": "/vessels/details/605550003",
+    "name": "ZHEDAIYU01903-3 90",
+    "type": "Unknown",
+    "imo": "605550003"
+  },
+  {
+    "url": "/vessels/details/605659914",
+    "name": "EZHEDAIYU04130W-12",
+    "type": "Unknown",
+    "imo": "605659914"
+  },
+  {
+    "url": "/vessels/details/605310058",
+    "name": "60531-58-97",
+    "type": "Unknown",
+    "imo": "605310058"
+  },
+  {
+    "url": "/vessels/details/605182572",
+    "name": "LUJIAOYU60518-72-99",
+    "type": "Unknown",
+    "imo": "605182572"
+  },
+  {
+    "url": "/vessels/details/605650018",
+    "name": "60565-18-99",
+    "type": "Unknown",
+    "imo": "605650018"
+  },
+  {
+    "url": "/vessels/details/605200009",
+    "name": "6052-9-78",
+    "type": "Unknown",
+    "imo": "605200009"
+  },
+  {
+    "url": "/vessels/details/605101190",
+    "name": "CHAKI 1",
+    "type": "Passenger ship",
+    "imo": "605101190"
+  },
+  {
+    "url": "/vessels/details/9278325",
+    "name": "RIGHA1",
+    "type": "Tug",
+    "imo": "9278325"
+  },
+  {
+    "url": "/vessels/details/605830006",
+    "name": "TIELONG60583-006-89",
+    "type": "Unknown",
+    "imo": "605830006"
+  },
+  {
+    "url": "/vessels/details/605625022",
+    "name": "2054698-07",
+    "type": "Unknown",
+    "imo": "605625022"
+  },
+  {
+    "url": "/vessels/details/8537255",
+    "name": "DR BELKHEIR",
+    "type": "Fishing Vessel",
+    "imo": "8537255"
+  },
+  {
+    "url": "/vessels/details/605359038",
+    "name": "ZHEDAIYU05359-38 10",
+    "type": "Unknown",
+    "imo": "605359038"
+  },
+  {
+    "url": "/vessels/details/605650010",
+    "name": "60565-10-64",
+    "type": "Unknown",
+    "imo": "605650010"
+  },
+  {
+    "url": "/vessels/details/605650004",
+    "name": "60565-4-99",
+    "type": "Unknown",
+    "imo": "605650004"
+  },
+  {
+    "url": "/vessels/details/9819181",
+    "name": "REFES ZAHOUANE",
+    "type": "Tug",
+    "imo": "9819181"
+  },
+  {
+    "url": "/vessels/details/7218046",
+    "name": "EL AMEL",
+    "type": "Fishing Vessel",
+    "imo": "7218046"
+  },
+  {
+    "url": "/vessels/details/605660024",
+    "name": "SHUNHANG-24-34",
+    "type": "Unknown",
+    "imo": "605660024"
+  },
+  {
+    "url": "/vessels/details/605690028",
+    "name": "60569-28-82",
+    "type": "Unknown",
+    "imo": "605690028"
+  },
+  {
+    "url": "/vessels/details/605200027",
+    "name": "6052-27-95",
+    "type": "Unknown",
+    "imo": "605200027"
+  },
+  {
+    "url": "/vessels/details/605215884",
+    "name": "LIN21588-4-78",
+    "type": "Unknown",
+    "imo": "605215884"
+  },
+  {
+    "url": "/vessels/details/7363310",
+    "name": "EL HATIF",
+    "type": "Fishing Vessel",
+    "imo": "7363310"
+  },
+  {
+    "url": "/vessels/details/605690024",
+    "name": "60569-24-79",
+    "type": "Unknown",
+    "imo": "605690024"
+  },
+  {
+    "url": "/vessels/details/605200017",
+    "name": "6052-17-62",
+    "type": "Unknown",
+    "imo": "605200017"
+  },
+  {
+    "url": "/vessels/details/605310055",
+    "name": "60531-55-57",
+    "type": "Unknown",
+    "imo": "605310055"
+  },
+  {
+    "url": "/vessels/details/605880043",
+    "name": "FUWANG60588-43-01",
+    "type": "Unknown",
+    "imo": "605880043"
+  },
+  {
+    "url": "/vessels/details/605790001",
+    "name": "60579-1-90",
+    "type": "Unknown",
+    "imo": "605790001"
+  },
+  {
+    "url": "/vessels/details/605996106",
+    "name": "05996-1067.1V",
+    "type": "Unknown",
+    "imo": "605996106"
+  },
+  {
+    "url": "/vessels/details/605000000",
+    "name": "CROSS",
+    "type": "Unknown",
+    "imo": "605000000"
+  },
+  {
+    "url": "/vessels/details/605200061",
+    "name": "6052-61-93",
+    "type": "Unknown",
+    "imo": "605200061"
+  },
+  {
+    "url": "/vessels/details/605690029",
+    "name": "60569-29-79",
+    "type": "Unknown",
+    "imo": "605690029"
+  },
+  {
+    "url": "/vessels/details/605320073",
+    "name": "LUJIAOYU60532-73-",
+    "type": "Unknown",
+    "imo": "605320073"
+  },
+  {
+    "url": "/vessels/details/605820009",
+    "name": "-60582-09-99",
+    "type": "Unknown",
+    "imo": "605820009"
+  },
+  {
+    "url": "/vessels/details/605182579",
+    "name": "LUJIAOYU60518-79-88",
+    "type": "Unknown",
+    "imo": "605182579"
+  },
+  {
+    "url": "/vessels/details/605880051",
+    "name": "FUWANG60588-51-67",
+    "type": "Unknown",
+    "imo": "605880051"
+  },
+  {
+    "url": "/vessels/details/605200016",
+    "name": "6052-16-82",
+    "type": "Unknown",
+    "imo": "605200016"
+  },
+  {
+    "url": "/vessels/details/605126920",
+    "name": "EL-MOUNKID 14",
+    "type": "SAR",
+    "imo": "605126920"
+  },
+  {
+    "url": "/vessels/details/605659906",
+    "name": "LURONGYU56599-6 20",
+    "type": "Unknown",
+    "imo": "605659906"
+  },
+  {
+    "url": "/vessels/details/605880057",
+    "name": "FUWANG60588-57-83",
+    "type": "Unknown",
+    "imo": "605880057"
+  },
+  {
+    "url": "/vessels/details/605880029",
+    "name": "FUWANG60588-29-99",
+    "type": "Unknown",
+    "imo": "605880029"
+  },
+  {
+    "url": "/vessels/details/605298027",
+    "name": "SUGANYU05298-277.7V",
+    "type": "Unknown",
+    "imo": "605298027"
+  },
+  {
+    "url": "/vessels/details/605660028",
+    "name": "SHUNHANG-28-34",
+    "type": "Unknown",
+    "imo": "605660028"
+  },
+  {
+    "url": "/vessels/details/605126919",
+    "name": "KALAAT BENI ABBES",
+    "type": "Unknown",
+    "imo": "605126919"
+  },
+  {
+    "url": "/vessels/details/8130423",
+    "name": "MAZAFRAN 2",
+    "type": "Tug",
+    "imo": "8130423"
+  },
+  {
+    "url": "/vessels/details/605690002",
+    "name": "60569-2-99",
+    "type": "Unknown",
+    "imo": "605690002"
+  },
+  {
+    "url": "/vessels/details/605320071",
+    "name": "LUJIAOYU60532-71-",
+    "type": "Unknown",
+    "imo": "605320071"
+  },
+  {
+    "url": "/vessels/details/605885019",
+    "name": "MINFUDINGYU05885-19",
+    "type": "Unknown",
+    "imo": "605885019"
+  },
+  {
+    "url": "/vessels/details/605091220",
+    "name": "EL MASSEH",
+    "type": "Military ops",
+    "imo": "605091220"
+  },
+  {
+    "url": "/vessels/details/605076017",
+    "name": "LE DAUPHIN",
+    "type": "Passenger ship",
+    "imo": "605076017"
+  },
+  {
+    "url": "/vessels/details/605690003",
+    "name": "60569-3-87",
+    "type": "Unknown",
+    "imo": "605690003"
+  },
+  {
+    "url": "/vessels/details/605999884",
+    "name": "605999884-59",
+    "type": "Unknown",
+    "imo": "605999884"
+  },
+  {
+    "url": "/vessels/details/605825554",
+    "name": "01872-03-80",
+    "type": "Unknown",
+    "imo": "605825554"
+  },
+  {
+    "url": "/vessels/details/605200051",
+    "name": "6052-51-85",
+    "type": "Unknown",
+    "imo": "605200051"
+  },
+  {
+    "url": "/vessels/details/605970027",
+    "name": "LUCHENGYU60597-2796",
+    "type": "Unknown",
+    "imo": "605970027"
+  },
+  {
+    "url": "/vessels/details/605126922",
+    "name": "EL MOUNKID 16",
+    "type": "SAR",
+    "imo": "605126922"
+  },
+  {
+    "url": "/vessels/details/605199940",
+    "name": "SAN51999-40-73",
+    "type": "Unknown",
+    "imo": "605199940"
+  },
+  {
+    "url": "/vessels/details/605970033",
+    "name": "LUCHENGYU60597-3398",
+    "type": "Unknown",
+    "imo": "605970033"
+  },
+  {
+    "url": "/vessels/details/7303657",
+    "name": "EL ABED",
+    "type": "Fishing Vessel",
+    "imo": "7303657"
+  },
+  {
+    "url": "/vessels/details/605827007",
+    "name": "05827-7-82",
+    "type": "Unknown",
+    "imo": "605827007"
+  },
+  {
+    "url": "/vessels/details/605880050",
+    "name": "FUWANG60588-50-99",
+    "type": "Unknown",
+    "imo": "605880050"
+  },
+  {
+    "url": "/vessels/details/605820006",
+    "name": "-60582-06",
+    "type": "Unknown",
+    "imo": "605820006"
+  },
+  {
+    "url": "/vessels/details/605107985",
+    "name": "60852",
+    "type": "Fishing vessel",
+    "imo": "605107985"
+  },
+  {
+    "url": "/vessels/details/605200066",
+    "name": "6052-66-78",
+    "type": "Unknown",
+    "imo": "605200066"
+  },
+  {
+    "url": "/vessels/details/8561062",
+    "name": "SAFI",
+    "type": "Fishing Vessel",
+    "imo": "8561062"
+  },
+  {
+    "url": "/vessels/details/605660022",
+    "name": "SHUNHANG-22-30",
+    "type": "Unknown",
+    "imo": "605660022"
+  },
+  {
+    "url": "/vessels/details/605234501",
+    "name": "ZHE PU YU 34507-10",
+    "type": "Unknown",
+    "imo": "605234501"
+  },
+  {
+    "url": "/vessels/details/605650006",
+    "name": "60565-6-99",
+    "type": "Unknown",
+    "imo": "605650006"
+  },
+  {
+    "url": "/vessels/details/605066014",
+    "name": "SAINT AUGUSTIN",
+    "type": "Pilot",
+    "imo": "605066014"
+  },
+  {
+    "url": "/vessels/details/605940003",
+    "name": "60594-3-86",
+    "type": "Unknown",
+    "imo": "605940003"
+  },
+  {
+    "url": "/vessels/details/605532307",
+    "name": "LUCHENGYU60553-7-90",
+    "type": "Unknown",
+    "imo": "605532307"
+  },
+  {
+    "url": "/vessels/details/605400942",
+    "name": "POWER BIUE DA1",
+    "type": "Passenger ship",
+    "imo": "605400942"
+  },
+  {
+    "url": "/vessels/details/605508002",
+    "name": "05508-2-80",
+    "type": "Unknown",
+    "imo": "605508002"
+  },
+  {
+    "url": "/vessels/details/605320004",
+    "name": "LUJIAOYU60532-4-96",
+    "type": "Unknown",
+    "imo": "605320004"
+  },
+  {
+    "url": "/vessels/details/605532303",
+    "name": "LUCHENGYU60553-3- 0",
+    "type": "Unknown",
+    "imo": "605532303"
+  },
+  {
+    "url": "/vessels/details/605588005",
+    "name": "ZHECANGYU05588-5-99",
+    "type": "Unknown",
+    "imo": "605588005"
+  },
+  {
+    "url": "/vessels/details/605200079",
+    "name": "6052-79-90",
+    "type": "Unknown",
+    "imo": "605200079"
+  },
+  {
+    "url": "/vessels/details/605660029",
+    "name": "SHUNHANG-29-16",
+    "type": "Unknown",
+    "imo": "605660029"
+  },
+  {
+    "url": "/vessels/details/605690011",
+    "name": "60569-11-99",
+    "type": "Unknown",
+    "imo": "605690011"
+  },
+  {
+    "url": "/vessels/details/605690030",
+    "name": "60569-30-79",
+    "type": "Unknown",
+    "imo": "605690030"
+  },
+  {
+    "url": "/vessels/details/605690005",
+    "name": "60569-5-99",
+    "type": "Unknown",
+    "imo": "605690005"
+  },
+  {
+    "url": "/vessels/details/605200019",
+    "name": "6052-19-87",
+    "type": "Unknown",
+    "imo": "605200019"
+  },
+  {
+    "url": "/vessels/details/605940015",
+    "name": "60594-15-84",
+    "type": "Unknown",
+    "imo": "605940015"
+  },
+  {
+    "url": "/vessels/details/605200007",
+    "name": "6052-7-56",
+    "type": "Unknown",
+    "imo": "605200007"
+  },
+  {
+    "url": "/vessels/details/605970030",
+    "name": "LUCHENGYU60597-3096",
+    "type": "Unknown",
+    "imo": "605970030"
+  },
+  {
+    "url": "/vessels/details/605662316",
+    "name": "LURONGYU60566-16 90",
+    "type": "Unknown",
+    "imo": "605662316"
+  },
+  {
+    "url": "/vessels/details/605580001",
+    "name": "CHENGLI60558-1-44",
+    "type": "Unknown",
+    "imo": "605580001"
+  },
+  {
+    "url": "/vessels/details/7225908",
+    "name": "SEYBOUSE 4",
+    "type": "Tug",
+    "imo": "7225908"
+  },
+  {
+    "url": "/vessels/details/605508004",
+    "name": "05508-4-28",
+    "type": "Unknown",
+    "imo": "605508004"
+  },
+  {
+    "url": "/vessels/details/605298026",
+    "name": "SUGANYU05298-268.0V",
+    "type": "Unknown",
+    "imo": "605298026"
+  },
+  {
+    "url": "/vessels/details/605660006",
+    "name": "MINPINGYU60566-6-91",
+    "type": "Unknown",
+    "imo": "605660006"
+  },
+  {
+    "url": "/vessels/details/605880014",
+    "name": "FUWANG60588-14-99",
+    "type": "Unknown",
+    "imo": "605880014"
+  },
+  {
+    "url": "/vessels/details/605299005",
+    "name": "05299-E-06",
+    "type": "Fishing vessel",
+    "imo": "605299005"
+  },
+  {
+    "url": "/vessels/details/605200839",
+    "name": "PHORPHINO 15",
+    "type": "Passenger ship",
+    "imo": "605200839"
+  },
+  {
+    "url": "/vessels/details/605996104",
+    "name": "05996-1047.5V",
+    "type": "Unknown",
+    "imo": "605996104"
+  },
+  {
+    "url": "/vessels/details/605970040",
+    "name": "LUCHENGYU60597-4071",
+    "type": "Unknown",
+    "imo": "605970040"
+  },
+  {
+    "url": "/vessels/details/605662314",
+    "name": "LURONGYU60566-14 80",
+    "type": "Unknown",
+    "imo": "605662314"
+  },
+  {
+    "url": "/vessels/details/605106070",
+    "name": "EL-MOUNKID 26",
+    "type": "Other type",
+    "imo": "605106070"
+  },
+  {
+    "url": "/vessels/details/8538481",
+    "name": "LALLA MENNOUNE",
+    "type": "Fishing Vessel",
+    "imo": "8538481"
+  },
+  {
+    "url": "/vessels/details/605790009",
+    "name": "60579-09-93",
+    "type": "Unknown",
+    "imo": "605790009"
+  },
+  {
+    "url": "/vessels/details/605030006",
+    "name": "60503-6-99",
+    "type": "Unknown",
+    "imo": "605030006"
+  },
+  {
+    "url": "/vessels/details/605507002",
+    "name": "05507-2-55",
+    "type": "Unknown",
+    "imo": "605507002"
+  },
+  {
+    "url": "/vessels/details/605588012",
+    "name": "ZHECANGYU05588-12",
+    "type": "Unknown",
+    "imo": "605588012"
+  },
+  {
+    "url": "/vessels/details/8795027",
+    "name": "NEPTUNE V",
+    "type": "Fishing Vessel",
+    "imo": "8795027"
+  },
+  {
+    "url": "/vessels/details/605940006",
+    "name": "60594-6-98",
+    "type": "Unknown",
+    "imo": "605940006"
+  },
+  {
+    "url": "/vessels/details/605690023",
+    "name": "60569-23-76",
+    "type": "Unknown",
+    "imo": "605690023"
+  },
+  {
+    "url": "/vessels/details/605662329",
+    "name": "LURONGYU60566-298.1",
+    "type": "Unknown",
+    "imo": "605662329"
+  },
+  {
+    "url": "/vessels/details/605660004",
+    "name": "MINPINGYU60566-4-76",
+    "type": "Unknown",
+    "imo": "605660004"
+  },
+  {
+    "url": "/vessels/details/605532308",
+    "name": "LUCHENGYU60553-8-52",
+    "type": "Unknown",
+    "imo": "605532308"
+  },
+  {
+    "url": "/vessels/details/605000010",
+    "name": "NEPTUNE06",
+    "type": "Unknown",
+    "imo": "605000010"
+  },
+  {
+    "url": "/vessels/details/605320005",
+    "name": "LUJIAOYU60532-5-92",
+    "type": "Unknown",
+    "imo": "605320005"
+  },
+  {
+    "url": "/vessels/details/8536407",
+    "name": "CHAHID HASNI SAIDI",
+    "type": "Fishing Vessel",
+    "imo": "8536407"
+  }
+]

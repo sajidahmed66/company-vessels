@@ -1,0 +1,957 @@
+url,name,type,imo
+/vessels/details/9242120,TIANMA,Crude Oil Tanker,9242120
+/vessels/details/9346732,TK SCORPIO,Crude Oil Tanker,9346732
+/vessels/details/9238052,FREYA,Crude Oil Tanker,9238052
+/vessels/details/9392822,LOTUS,Crude Oil Tanker,9392822
+/vessels/details/9237412,HANSON,Crude Oil Tanker,9237412
+/vessels/details/9271406,MT LBS,Crude Oil Tanker,9271406
+/vessels/details/9275660,AEGIS,Crude Oil Tanker,9275660
+/vessels/details/9198290,MD MIRANDA,Oil Products Tanker,9198290
+/vessels/details/9570357,OTUANGAOFA,Passenger/Ro-Ro Cargo Ship,9570357
+/vessels/details/7805095,NIUVAKAI,Ro-Ro Cargo Ship,7805095
+/vessels/details/9190690,TAKA-I-POMANA,Passenger/Ro-Ro Cargo Ship,9190690
+/vessels/details/9178484,KOE KELESI PE,Passenger/General Cargo Ship,9178484
+/vessels/details/4734128,VOEA NGAHAU KOULA,Patrol Vessel,4734128
+/vessels/details/9771597,TONGIAKI,Passenger Ship,9771597
+/vessels/details/570121940,ALAF TIGA,Pilot,570121940
+/vessels/details/570456611,04566-11-99,Unknown,570456611
+/vessels/details/570581696,05816-96-97,Unknown,570581696
+/vessels/details/570498636,SUGANYU04986-36-74,Unknown,570498636
+/vessels/details/570935847,SUQIYU09358-47-87,Unknown,570935847
+/vessels/details/570935635,SUQIYU09356-35-54,Unknown,570935635
+/vessels/details/570941106,09411-6-83,Unknown,570941106
+/vessels/details/570443359,04433-59-99,Unknown,570443359
+/vessels/details/570498644,SUGANYU04986-44-81,Unknown,570498644
+/vessels/details/570463828,04638-28-81,Unknown,570463828
+/vessels/details/570448905,04489-5-98,Unknown,570448905
+/vessels/details/570449021,04490-21-86,Unknown,570449021
+/vessels/details/570300309,YU 03003-9-50,Unknown,570300309
+/vessels/details/570448663,04486-63-54,Unknown,570448663
+/vessels/details/570448175,04481-75-92,Unknown,570448175
+/vessels/details/570498622,SUGANYU04986-22-98,Unknown,570498622
+/vessels/details/570417720,YU 04177-20-88,Unknown,570417720
+/vessels/details/570941109,09411-9-94,Unknown,570941109
+/vessels/details/570463825,04638-25-97,Unknown,570463825
+/vessels/details/570273989,02739-89-99,Unknown,570273989
+/vessels/details/570442651,MAOWANG04426-51-96,Unknown,570442651
+/vessels/details/570425381,VINH PHUOC 168,Cargo ship,570425381
+/vessels/details/570945540,09455-40-81,Unknown,570945540
+/vessels/details/570417718,YU 04177-18-72,Unknown,570417718
+/vessels/details/570426827,04268-27-79,Unknown,570426827
+/vessels/details/570443339,04433-39-58,Unknown,570443339
+/vessels/details/570000506,35888-4 80,Unknown,570000506
+/vessels/details/570933719,SUGANYU09337-19-99,Unknown,570933719
+/vessels/details/570215729,02157-29-94,Unknown,570215729
+/vessels/details/570441818,04418-18-99,Unknown,570441818
+/vessels/details/570468928,04689-28-92,Unknown,570468928
+/vessels/details/570463811,04638-11-62,Unknown,570463811
+/vessels/details/570033324,YU 00333-24-52,Unknown,570033324
+/vessels/details/570401321,04013-21-98,Unknown,570401321
+/vessels/details/570933737,SUGANYU09337-37-80,Unknown,570933737
+/vessels/details/570463802,04638-2-75,Unknown,570463802
+/vessels/details/570570838,05708-38-73,Unknown,570570838
+/vessels/details/570499224,SUGANYU04992-24-99,Unknown,570499224
+/vessels/details/570566302,05663-2-61,Unknown,570566302
+/vessels/details/570468921,04689-21-65,Unknown,570468921
+/vessels/details/570006741,00067-41-97,Unknown,570006741
+/vessels/details/570498634,SUGANYU04986-34-83,Unknown,570498634
+/vessels/details/570496917,SUGANYU04969-17-74,Unknown,570496917
+/vessels/details/570496939,SUGANYU04969-39-96,Unknown,570496939
+/vessels/details/570496921,SUGANYU04969-21-82,Unknown,570496921
+/vessels/details/570562166,05621-66-43,Unknown,570562166
+/vessels/details/6514144,TAVAKE,Fishing Vessel,6514144
+/vessels/details/570566312,05663-12-70,Unknown,570566312
+/vessels/details/570496952,SUGANYU04969-52-99,Unknown,570496952
+/vessels/details/570449637,04496-37-65,Unknown,570449637
+/vessels/details/570807811,SUQIYU08078-11-61,Unknown,570807811
+/vessels/details/570562185,05621-85-02,Unknown,570562185
+/vessels/details/570960111,09601-11-72,Unknown,570960111
+/vessels/details/570443357,04433-57-33,Unknown,570443357
+/vessels/details/570441820,04418-20-99,Unknown,570441820
+/vessels/details/570421832,04218-32-99,Unknown,570421832
+/vessels/details/570421806,04218-6-22,Unknown,570421806
+/vessels/details/570449639,04496-39-90,Unknown,570449639
+/vessels/details/570519644,05196-44-85,Unknown,570519644
+/vessels/details/570006714,00067-14-88,Unknown,570006714
+/vessels/details/570566324,05663-24-69,Unknown,570566324
+/vessels/details/570456623,04566-23-60,Unknown,570456623
+/vessels/details/570468927,04689-27-82,Unknown,570468927
+/vessels/details/570562175,05621-75-39,Unknown,570562175
+/vessels/details/570471000,PALETUA 2,Law enforcment,570471000
+/vessels/details/570721381,LIN21381-19,Unknown,570721381
+/vessels/details/570468931,04689-31-86,Unknown,570468931
+/vessels/details/570496944,SUGANYU04969-44-99,Unknown,570496944
+/vessels/details/570960108,09601-8-92,Unknown,570960108
+/vessels/details/570496914,SUGANYU04969-14-99,Unknown,570496914
+/vessels/details/570566304,05663-4-68,Unknown,570566304
+/vessels/details/570401322,04013-22-30,Unknown,570401322
+/vessels/details/570566320,05663-20-61,Unknown,570566320
+/vessels/details/570448913,04489-13-97,Unknown,570448913
+/vessels/details/570498642,SUGANYU04986-42-75,Unknown,570498642
+/vessels/details/570273988,02739-88-99,Unknown,570273988
+/vessels/details/570933727,SUGANYU09337-27-99,Unknown,570933727
+/vessels/details/570006727,00067-27-86,Unknown,570006727
+/vessels/details/570498620,SUGANYU04986-20-99,Unknown,570498620
+/vessels/details/570960118,09601-18-50,Unknown,570960118
+/vessels/details/570425396,HAI CHAU 06,Tug,570425396
+/vessels/details/570077006,SHENGHAOYANGZHI0690,Unknown,570077006
+/vessels/details/570570845,05708-45-85,Unknown,570570845
+/vessels/details/570956935,09569-35-99,Unknown,570956935
+/vessels/details/570602457,J.S21959-01-63E,Unknown,570602457
+/vessels/details/570465825,04658-25-80,Unknown,570465825
+/vessels/details/8875750,VAOMAPA,Passenger/Ro-Ro Cargo Ship,8875750
+/vessels/details/570449640,04496-40-99,Unknown,570449640
+/vessels/details/570498646,SUGANYU04986-46-83,Unknown,570498646
+/vessels/details/8649711,MAUI,Passenger Ship,8649711
+/vessels/details/570960130,09601-30-99,Unknown,570960130
+/vessels/details/570960115,09601-15-88,Unknown,570960115
+/vessels/details/570945525,09455-25-76,Unknown,570945525
+/vessels/details/570066021,YU 00660-21-99,Unknown,570066021
+/vessels/details/570570841,05708-41-62,Unknown,570570841
+/vessels/details/570625751,AL KHAYR,Cargo ship,570625751
+/vessels/details/570956920,09569-20-99,Unknown,570956920
+/vessels/details/570566311,05663-11-68,Unknown,570566311
+/vessels/details/570895820,BIAO 08958-20-92,Unknown,570895820
+/vessels/details/570309611,GUNYUNYU03096-11-95,Unknown,570309611
+/vessels/details/570499203,SUGANYU04992-3-75,Unknown,570499203
+/vessels/details/570496933,SUGANYU04969-33-99,Unknown,570496933
+/vessels/details/570570849,05708-49-89,Unknown,570570849
+/vessels/details/570936123,SUQIYU09361-23-79,Unknown,570936123
+/vessels/details/570138921,SUSHEYU01389-21-65,Unknown,570138921
+/vessels/details/570960129,09601-29-95,Unknown,570960129
+/vessels/details/570421828,04218-28-99,Unknown,570421828
+/vessels/details/570456613,04566-13-70,Unknown,570456613
+/vessels/details/570956914,09569-14-90,Unknown,570956914
+/vessels/details/570441831,04418-31-69,Unknown,570441831
+/vessels/details/570426832,04268-32-60,Unknown,570426832
+/vessels/details/570935631,SUQIYU09356-31-87,Unknown,570935631
+/vessels/details/570499219,SUGANYU04992-19-73,Unknown,570499219
+/vessels/details/570427110,04271-10-86,Unknown,570427110
+/vessels/details/570309617,GUNYUNYU03096-17-99,Unknown,570309617
+/vessels/details/570189002,35888-2-34,Unknown,570189002
+/vessels/details/570427109,04271-9-99,Unknown,570427109
+/vessels/details/570427906,04679-6-69,Unknown,570427906
+/vessels/details/570215741,02157-41-75,Unknown,570215741
+/vessels/details/570566306,05663-6-66,Unknown,570566306
+/vessels/details/570449661,04496-61-58,Unknown,570449661
+/vessels/details/570443345,04433-45-87,Unknown,570443345
+/vessels/details/570498638,SUGANYU04986-38-37,Unknown,570498638
+/vessels/details/570499205,SUGANYU04992-5-99,Unknown,570499205
+/vessels/details/570215709,02157-9-09,Unknown,570215709
+/vessels/details/570978679,P2.27LUOI NOI C408V0,Unknown,570978679
+/vessels/details/570496909,SUGANYU04969-9-97,Unknown,570496909
+/vessels/details/570443352,04433-52-89,Unknown,570443352
+/vessels/details/570448187,04481-87-99,Unknown,570448187
+/vessels/details/570945526,09455-26-51,Unknown,570945526
+/vessels/details/570563628,05636-28-97,Unknown,570563628
+/vessels/details/570465823,04658-23-98,Unknown,570465823
+/vessels/details/570443351,04433-51-66,Unknown,570443351
+/vessels/details/570794971,P2-BQ-VY THU-A2-61,Unknown,570794971
+/vessels/details/570000136,36-LQUET-B10-P189,Unknown,570000136
+/vessels/details/570175473,L RUT,Fishing vessel,570175473
+/vessels/details/570960122,09601-22-92,Unknown,570960122
+/vessels/details/9198082,GLOBAL STAR,Crude Oil Tanker,9198082
+/vessels/details/570176627,01766-27-91,Unknown,570176627
+/vessels/details/570051567,SUGANYU05156-7-83,Unknown,570051567
+/vessels/details/570807806,SUQIYU08078-6-99,Unknown,570807806
+/vessels/details/570100001,5701-181,Unknown,570100001
+/vessels/details/570496936,SUGANYU04969-36-79,Unknown,570496936
+/vessels/details/570443337,04433-37-99,Unknown,570443337
+/vessels/details/570465829,04658-29-75,Unknown,570465829
+/vessels/details/570327000,YONG.RUN.06,Other type,570327000
+/vessels/details/570496928,SUGANYU04969-28-99,Unknown,570496928
+/vessels/details/570519654,05196-54-99,Unknown,570519654
+/vessels/details/570448919,04489-19-79,Unknown,570448919
+/vessels/details/570496937,SUGANYU04969-37-97,Unknown,570496937
+/vessels/details/570463808,04638-8-34,Unknown,570463808
+/vessels/details/570465828,04658-28-99,Unknown,570465828
+/vessels/details/570570846,05708-46-88,Unknown,570570846
+/vessels/details/570273981,02739-81-96,Unknown,570273981
+/vessels/details/570866803,BIAO 08668-3-99,Unknown,570866803
+/vessels/details/570273982,02739-82-86,Unknown,570273982
+/vessels/details/570956930,09569-30-99,Unknown,570956930
+/vessels/details/570426836,04268-36-54,Unknown,570426836
+/vessels/details/570935624,SUQIYU09356-24-95,Unknown,570935624
+/vessels/details/570215707,02157-7-88,Unknown,570215707
+/vessels/details/570570848,05708-48-77,Unknown,570570848
+/vessels/details/570999012,09990-12-77,Unknown,570999012
+/vessels/details/570368000,PALKIA,Fishing vessel,570368000
+/vessels/details/570443363,04433-63-83,Unknown,570443363
+/vessels/details/570222614,02226-14-99,Unknown,570222614
+/vessels/details/570138913,SUSHEYU01389-13-65,Unknown,570138913
+/vessels/details/570581691,05816-91-60,Unknown,570581691
+/vessels/details/570562165,05621-65-65,Unknown,570562165
+/vessels/details/570498625,SUGANYU04986-25-50,Unknown,570498625
+/vessels/details/570443341,04433-41-24,Unknown,570443341
+/vessels/details/570273991,02739-91-99,Unknown,570273991
+/vessels/details/570498607,SUGANYU04986-7-56,Unknown,570498607
+/vessels/details/570443332,04433-32-99,Unknown,570443332
+/vessels/details/570421837,04218-37-99,Unknown,570421837
+/vessels/details/570463817,04638-17-99,Unknown,570463817
+/vessels/details/570562187,05621-87-66,Unknown,570562187
+/vessels/details/570496954,SUGANYU04969-54-99,Unknown,570496954
+/vessels/details/570498601,SUGANYU04986-1-96,Unknown,570498601
+/vessels/details/570488612,YU 04886-12-90,Unknown,570488612
+/vessels/details/570595609,05956-9-66,Unknown,570595609
+/vessels/details/570425364,NAM PH,Cargo ship,570425364
+/vessels/details/570562163,05621-63-56,Unknown,570562163
+/vessels/details/570499222,SUGANYU04992-22-77,Unknown,570499222
+/vessels/details/570215706,02157-6-99,Unknown,570215706
+/vessels/details/570468937,04689-37-26,Unknown,570468937
+/vessels/details/570006715,00067-15-96,Unknown,570006715
+/vessels/details/570566315,05663-15-48,Unknown,570566315
+/vessels/details/570449026,04490-26-66,Unknown,570449026
+/vessels/details/570449660,04496-60-62,Unknown,570449660
+/vessels/details/570498655,SUGANYU04986-55-99,Unknown,570498655
+/vessels/details/570215734,02157-34-94,Unknown,570215734
+/vessels/details/570449033,04490-33-69,Unknown,570449033
+/vessels/details/570443344,04433-44-99,Unknown,570443344
+/vessels/details/570499213,SUGANYU04992-13-85,Unknown,570499213
+/vessels/details/570442653,MAOWANG04426-53-83,Unknown,570442653
+/vessels/details/570519648,05196-48-99,Unknown,570519648
+/vessels/details/570081815,YU 00818-1586,Unknown,570081815
+/vessels/details/570960116,09601-16-90,Unknown,570960116
+/vessels/details/570215719,02157-19-99,Unknown,570215719
+/vessels/details/570006719,00067-19-97,Unknown,570006719
+/vessels/details/570933734,SUGANYU09337-34-82,Unknown,570933734
+/vessels/details/570425368,CHA-THANHPHUONG,Fishing vessel,570425368
+/vessels/details/570448180,04481-80-99,Unknown,570448180
+/vessels/details/570389100,SOUFIA 1,Tanker,570389100
+/vessels/details/570426834,04268-34-85,Unknown,570426834
+/vessels/details/570215715,02157-15-99,Unknown,570215715
+/vessels/details/570456999,35 LINH PHUONG C 18,Fishing vessel,570456999
+/vessels/details/570960125,09601-25-84,Unknown,570960125
+/vessels/details/570430848,04308-48-99,Unknown,570430848
+/vessels/details/570215704,02157-4-99,Unknown,570215704
+/vessels/details/570427117,04271-17-99,Unknown,570427117
+/vessels/details/570956924,09569-24-99,Unknown,570956924
+/vessels/details/6602769,PAKIMOETO I,Fishing Vessel,6602769
+/vessels/details/570956928,09569-28-99,Unknown,570956928
+/vessels/details/570463801,04638-1-80,Unknown,570463801
+/vessels/details/570563640,05636-40-99,Unknown,570563640
+/vessels/details/570449655,04496-55-63,Unknown,570449655
+/vessels/details/570566307,05663-7-62,Unknown,570566307
+/vessels/details/570456619,04566-19-99,Unknown,570456619
+/vessels/details/570498645,SUGANYU04986-45-28,Unknown,570498645
+/vessels/details/570442659,MAOWANG04426-59-99,Unknown,570442659
+/vessels/details/570933721,SUGANYU09337-21-95,Unknown,570933721
+/vessels/details/570499216,SUGANYU04992-16-78,Unknown,570499216
+/vessels/details/570562174,05621-74-45,Unknown,570562174
+/vessels/details/570807807,SUQIYU08078-7-55,Unknown,570807807
+/vessels/details/570443361,04433-61-52,Unknown,570443361
+/vessels/details/570442654,MAOWANG04426-54-93,Unknown,570442654
+/vessels/details/570945532,09455-32-91,Unknown,570945532
+/vessels/details/570935627,SUQIYU09356-27-99,Unknown,570935627
+/vessels/details/570449014,04490-14-91,Unknown,570449014
+/vessels/details/570442657,MAOWANG04426-57-96,Unknown,570442657
+/vessels/details/570003340,THANANCHAI 5,Towing vessel,570003340
+/vessels/details/570562178,05621-78-45,Unknown,570562178
+/vessels/details/570498602,SUGANYU04986-2-55,Unknown,570498602
+/vessels/details/570427102,04271-2-24,Unknown,570427102
+/vessels/details/570570835,05708-35-94,Unknown,570570835
+/vessels/details/570456610,04566-10-66,Unknown,570456610
+/vessels/details/570562190,05621-90-99,Unknown,570562190
+/vessels/details/570599802,05998-02-99,Unknown,570599802
+/vessels/details/570006925,SAN 00069-25-57,Unknown,570006925
+/vessels/details/570498629,SUGANYU04986-29-98,Unknown,570498629
+/vessels/details/570935845,SUQIYU09358-45-98,Unknown,570935845
+/vessels/details/570956939,09569-39-99,Unknown,570956939
+/vessels/details/570588678,05886-78-93,Unknown,570588678
+/vessels/details/9256975,CLS,Crude Oil Tanker,9256975
+/vessels/details/570595604,05956-4-99,Unknown,570595604
+/vessels/details/570588673,05886-73-87,Unknown,570588673
+/vessels/details/570430855,04308-55-97,Unknown,570430855
+/vessels/details/570441826,04418-26-88,Unknown,570441826
+/vessels/details/570273986,02739-86-94,Unknown,570273986
+/vessels/details/570441801,04418-1-84,Unknown,570441801
+/vessels/details/570820219,82021-19-71,Unknown,570820219
+/vessels/details/570936127,SUQIYU09361-27-54,Unknown,570936127
+/vessels/details/570496941,SUGANYU04969-41-99,Unknown,570496941
+/vessels/details/570960103,09601-3-73,Unknown,570960103
+/vessels/details/570441827,04418-27-79,Unknown,570441827
+/vessels/details/570132616,01326-16-57,Unknown,570132616
+/vessels/details/9748148,VOEA LATE,Landing Craft,9748148
+/vessels/details/570570839,05708-39-87,Unknown,570570839
+/vessels/details/570496947,SUGANYU04969-47-97,Unknown,570496947
+/vessels/details/570519642,05196-42-50,Unknown,570519642
+/vessels/details/570176630,01766-30-24,Unknown,570176630
+/vessels/details/570472000,PALETUA 3,Law enforcment,570472000
+/vessels/details/570427107,04271-7-79,Unknown,570427107
+/vessels/details/570448170,04481-70-77,Unknown,570448170
+/vessels/details/570427103,04271-3-99,Unknown,570427103
+/vessels/details/570581692,05816-92-80,Unknown,570581692
+/vessels/details/570425344,P1 25 L.NOI C25-99,Unknown,570425344
+/vessels/details/570309620,GUNYUNYU03096-20-99,Unknown,570309620
+/vessels/details/570956938,09569-38-99,Unknown,570956938
+/vessels/details/570496946,SUGANYU04969-46-82,Unknown,570496946
+/vessels/details/570438204,04382-4-99,Unknown,570438204
+/vessels/details/570443358,04433-58-81,Unknown,570443358
+/vessels/details/570960114,09601-14-96,Unknown,570960114
+/vessels/details/570443348,04433-48-97,Unknown,570443348
+/vessels/details/570215733,02157-33-66,Unknown,570215733
+/vessels/details/570463813,04638-13-99,Unknown,570463813
+/vessels/details/570581695,05816-95-60,Unknown,570581695
+/vessels/details/570932911,09329-11-78,Unknown,570932911
+/vessels/details/570448171,04481-71-98,Unknown,570448171
+/vessels/details/570463827,04638-27-80,Unknown,570463827
+/vessels/details/570215714,02157-14-99,Unknown,570215714
+/vessels/details/570519650,05196-50-99,Unknown,570519650
+/vessels/details/570309621,GUNYUNYU03096-21-53,Unknown,570309621
+/vessels/details/570595605,05956-5-76,Unknown,570595605
+/vessels/details/570468939,04689-39-43,Unknown,570468939
+/vessels/details/570956915,09569-15-87,Unknown,570956915
+/vessels/details/570456621,04566-21-99,Unknown,570456621
+/vessels/details/570562168,05621-68-94,Unknown,570562168
+/vessels/details/570945535,09455-35-53,Unknown,570945535
+/vessels/details/570215702,02157-2-07,Unknown,570215702
+/vessels/details/570956919,09569-19-99,Unknown,570956919
+/vessels/details/570499201,SUGANYU04992-1-77,Unknown,570499201
+/vessels/details/570931774,Q6I1DFV,Unknown,570931774
+/vessels/details/570499204,SUGANYU04992-4-61,Unknown,570499204
+/vessels/details/570463803,04638-3-85,Unknown,570463803
+/vessels/details/570563624,05636-24-95,Unknown,570563624
+/vessels/details/570568009,05680-1-9-99,Unknown,570568009
+/vessels/details/570312001,HAPPINESS THUYA,Tug,570312001
+/vessels/details/570013178,NET-57-ZSY1317872,Unknown,570013178
+/vessels/details/570519637,05196-37-99,Unknown,570519637
+/vessels/details/570960101,09601-1-77,Unknown,570960101
+/vessels/details/570463814,04638-14-90,Unknown,570463814
+/vessels/details/570033307,YU 00333-7-71,Unknown,570033307
+/vessels/details/570956931,09569-31-82,Unknown,570956931
+/vessels/details/570215711,02157-11-68,Unknown,570215711
+/vessels/details/570499210,SUGANYU04992-10-81,Unknown,570499210
+/vessels/details/570496953,SUGANYU04969-53-76,Unknown,570496953
+/vessels/details/570468935,04689-35-72,Unknown,570468935
+/vessels/details/570309607,GUNYUNYU03096-7-49,Unknown,570309607
+/vessels/details/570321000,570321000,Tanker,570321000
+/vessels/details/570465824,04658-24-82,Unknown,570465824
+/vessels/details/570215713,02157-13-88,Unknown,570215713
+/vessels/details/570936115,SUQIYU09361-15-80,Unknown,570936115
+/vessels/details/570006720,00067-20-96,Unknown,570006720
+/vessels/details/570449633,04496-33-85,Unknown,570449633
+/vessels/details/570941104,09411-4-90,Unknown,570941104
+/vessels/details/570448661,04486-61-99,Unknown,570448661
+/vessels/details/570990200,ALASOUD 2018,Pleasure craft,570990200
+/vessels/details/570427100,04271-0-96,Unknown,570427100
+/vessels/details/570468941,04689-41-72,Unknown,570468941
+/vessels/details/570309604,GUNYUNYU03096-4-81,Unknown,570309604
+/vessels/details/570945522,09455-22-31,Unknown,570945522
+/vessels/details/570498619,SUGANYU04986-19-99,Unknown,570498619
+/vessels/details/570465830,04658-30-82,Unknown,570465830
+/vessels/details/570519652,05196-52-99,Unknown,570519652
+/vessels/details/570463818,04638-18-95,Unknown,570463818
+/vessels/details/570430857,04308-57-97,Unknown,570430857
+/vessels/details/570932914,09329-14-99,Unknown,570932914
+/vessels/details/570448917,04489-17-68,Unknown,570448917
+/vessels/details/570566316,05663-16-62,Unknown,570566316
+/vessels/details/570448183,04481-83-99,Unknown,570448183
+/vessels/details/570425349,BV 1158,Tug,570425349
+/vessels/details/570936107,SUQIYU09361-7-72,Unknown,570936107
+/vessels/details/570129251,LIN 12925-1-94,Unknown,570129251
+/vessels/details/570438205,04382-5-99,Unknown,570438205
+/vessels/details/570936104,SUQIYU09361-4-90,Unknown,570936104
+/vessels/details/570519633,05196-33-92,Unknown,570519633
+/vessels/details/570936132,SUQIYU09361-32-80,Unknown,570936132
+/vessels/details/570443353,04433-53-61,Unknown,570443353
+/vessels/details/570463824,04638-24-60,Unknown,570463824
+/vessels/details/570499202,SUGANYU04992-2-75,Unknown,570499202
+/vessels/details/570426826,04268-26-74,Unknown,570426826
+/vessels/details/570496929,SUGANYU04969-29-98,Unknown,570496929
+/vessels/details/570496902,SUGANYU04969-2-99,Unknown,570496902
+/vessels/details/570533827,05338-27-84,Unknown,570533827
+/vessels/details/570442650,MAOWANG04426-50-80,Unknown,570442650
+/vessels/details/570003152,ZHEYU06396-11-89,Unknown,570003152
+/vessels/details/570411000,TAKA I POMANA,Passenger ship,570411000
+/vessels/details/570498632,SUGANYU04986-32-87,Unknown,570498632
+/vessels/details/570563631,05636-31-82,Unknown,570563631
+/vessels/details/570273984,02739-84-98,Unknown,570273984
+/vessels/details/570066993,570066993,Fishing vessel,570066993
+/vessels/details/570425383,LAM 54 C 36,Fishing vessel,570425383
+/vessels/details/570488615,YU 04886-15-97,Unknown,570488615
+/vessels/details/570581690,05816-90-66,Unknown,570581690
+/vessels/details/570807813,SUQIYU08078-13-59,Unknown,570807813
+/vessels/details/570496955,SUGANYU04969-55-74,Unknown,570496955
+/vessels/details/570049004,BIAO 00490-4-57,Unknown,570049004
+/vessels/details/570448181,04481-81-99,Unknown,570448181
+/vessels/details/570651977,TAU65F12,Fishing vessel,570651977
+/vessels/details/570309608,GUNYUNYU03096-8-74,Unknown,570309608
+/vessels/details/570468944,04689-44-74,Unknown,570468944
+/vessels/details/570468923,04689-23-99,Unknown,570468923
+/vessels/details/570807812,SUQIYU08078-12-75,Unknown,570807812
+/vessels/details/570935849,SUQIYU09358-49-99,Unknown,570935849
+/vessels/details/570488603,YU 04886-3-50,Unknown,570488603
+/vessels/details/570498605,SUGANYU04986-5-51,Unknown,570498605
+/vessels/details/570256616,BIAO 02566-16-99,Unknown,570256616
+/vessels/details/570880357,08803-57-97,Unknown,570880357
+/vessels/details/570215737,02157-37-93,Unknown,570215737
+/vessels/details/570465831,04658-31-90,Unknown,570465831
+/vessels/details/570570842,05708-42-85,Unknown,570570842
+/vessels/details/570426831,04268-31-44,Unknown,570426831
+/vessels/details/570945527,09455-27-86,Unknown,570945527
+/vessels/details/570499936,04999-36-99,Unknown,570499936
+/vessels/details/570566323,05663-23-55,Unknown,570566323
+/vessels/details/570425369,29 E21,Fishing vessel,570425369
+/vessels/details/570468945,04689-45-92,Unknown,570468945
+/vessels/details/570499206,SUGANYU04992-6-59,Unknown,570499206
+/vessels/details/570499953,04999-53-99,Unknown,570499953
+/vessels/details/570562181,05621-81-85,Unknown,570562181
+/vessels/details/570430823,04308-23-92,Unknown,570430823
+/vessels/details/570498647,SUGANYU04986-47-50,Unknown,570498647
+/vessels/details/570430846,04308-46-56,Unknown,570430846
+/vessels/details/570496908,SUGANYU04969-8-98,Unknown,570496908
+/vessels/details/570427112,04271-12-24,Unknown,570427112
+/vessels/details/570443355,04433-55-84,Unknown,570443355
+/vessels/details/570465832,04658-32-83,Unknown,570465832
+/vessels/details/570533826,05338-26-98,Unknown,570533826
+/vessels/details/570498611,SUGANYU04986-11-51,Unknown,570498611
+/vessels/details/570448916,04489-16-85,Unknown,570448916
+/vessels/details/570468449,DATHOP01,Dredging or UW ops,570468449
+/vessels/details/570599829,05998-29-99,Unknown,570599829
+/vessels/details/570488617,YU 04886-8-59,Unknown,570488617
+/vessels/details/570960120,09601-20-99,Unknown,570960120
+/vessels/details/570499217,SUGANYU04992-17-78,Unknown,570499217
+/vessels/details/570006702,00067-2-87,Unknown,570006702
+/vessels/details/570425354,LGSU-PINB32B30,Fishing vessel,570425354
+/vessels/details/570700000,DUY A31,Fishing vessel,570700000
+/vessels/details/570309605,GUNYUNYU03096-5-72,Unknown,570309605
+/vessels/details/570935642,SUQIYU09356-42-23,Unknown,570935642
+/vessels/details/570448173,04481-73-46,Unknown,570448173
+/vessels/details/570498616,SUGANYU04986-16-53,Unknown,570498616
+/vessels/details/570496935,SUGANYU04969-35-80,Unknown,570496935
+/vessels/details/570563621,05636-21-99,Unknown,570563621
+/vessels/details/570496938,SUGANYU04969-38-98,Unknown,570496938
+/vessels/details/570519645,05196-45-99,Unknown,570519645
+/vessels/details/570661805,YU 06618-5-99,Unknown,570661805
+/vessels/details/570215723,02157-23-94,Unknown,570215723
+/vessels/details/570448666,04486-66-63,Unknown,570448666
+/vessels/details/570562191,05621-91-75,Unknown,570562191
+/vessels/details/570000001,CAODOI 28D3,Fishing vessel,570000001
+/vessels/details/570309603,GUNYUNYU03096-3-90,Unknown,570309603
+/vessels/details/570496911,SUGANYU04969-11-97,Unknown,570496911
+/vessels/details/570465826,04658-26-81,Unknown,570465826
+/vessels/details/570945536,09455-36-99,Unknown,570945536
+/vessels/details/570488602,YU 04886-2-97,Unknown,570488602
+/vessels/details/570448191,04481-91-99,Unknown,570448191
+/vessels/details/570443331,04433-31-80,Unknown,570443331
+/vessels/details/570511000,ASHLEE G,Fishing vessel,570511000
+/vessels/details/570324000,CHANG XIN GONG068,Dredging or UW ops,570324000
+/vessels/details/570960132,09601-32-97,Unknown,570960132
+/vessels/details/570443349,04433-49-48,Unknown,570443349
+/vessels/details/570562167,05621-67-67,Unknown,570562167
+/vessels/details/570498613,SUGANYU04986-13-57,Unknown,570498613
+/vessels/details/570449648,04496-48-75,Unknown,570449648
+/vessels/details/570595606,05956-6-71,Unknown,570595606
+/vessels/details/8526232,PACIFIC MOON,Fishing Vessel,8526232
+/vessels/details/570498653,SUGANYU04986-53-45,Unknown,570498653
+/vessels/details/570496910,SUGANYU04969-10-64,Unknown,570496910
+/vessels/details/570442655,MAOWANG04426-55-85,Unknown,570442655
+/vessels/details/570438206,04382-6-99,Unknown,570438206
+/vessels/details/570499935,04999-35-98,Unknown,570499935
+/vessels/details/570215716,02157-16-99,Unknown,570215716
+/vessels/details/570570851,05708-51-90,Unknown,570570851
+/vessels/details/570933736,SUGANYU09337-36-78,Unknown,570933736
+/vessels/details/570443334,04433-34-52,Unknown,570443334
+/vessels/details/570449657,04496-57-95,Unknown,570449657
+/vessels/details/570449646,04496-46-61,Unknown,570449646
+/vessels/details/570438202,04382-2-99,Unknown,570438202
+/vessels/details/570421805,04218-5-45,Unknown,570421805
+/vessels/details/570496950,SUGANYU04969-50-99,Unknown,570496950
+/vessels/details/570570852,05708-52-84,Unknown,570570852
+/vessels/details/570449659,04496-59-44,Unknown,570449659
+/vessels/details/570006731,00067-31-99,Unknown,570006731
+/vessels/details/570599850,05998-50-91,Unknown,570599850
+/vessels/details/570566305,05663-5-66,Unknown,570566305
+/vessels/details/570498637,SUGANYU04986-37-67,Unknown,570498637
+/vessels/details/570006723,00067-23-96,Unknown,570006723
+/vessels/details/570496919,SUGANYU04969-19-99,Unknown,570496919
+/vessels/details/570496942,SUGANYU04969-42-75,Unknown,570496942
+/vessels/details/570427918,04679-18-72,Unknown,570427918
+/vessels/details/570449658,LUCHENG666-32-99,Unknown,570449658
+/vessels/details/570449654,04496-54-93,Unknown,570449654
+/vessels/details/570448179,04481-79-99,Unknown,570448179
+/vessels/details/570570837,05708-37-61,Unknown,570570837
+/vessels/details/570309612,GUNYUNYU03096-12-55,Unknown,570309612
+/vessels/details/570448912,04489-12-85,Unknown,570448912
+/vessels/details/570443362,04433-62-79,Unknown,570443362
+/vessels/details/570123456,SH,Fishing vessel,570123456
+/vessels/details/570498615,SUGANYU04986-15-48,Unknown,570498615
+/vessels/details/570563623,05636-23-83,Unknown,570563623
+/vessels/details/570498630,SUGANYU04986-30-64,Unknown,570498630
+/vessels/details/570001328,3256,Pleasure craft,570001328
+/vessels/details/570570856,05708-56-60,Unknown,570570856
+/vessels/details/570945542,09455-42-91,Unknown,570945542
+/vessels/details/570935616,SUQIYU09356-16-54,Unknown,570935616
+/vessels/details/570401317,04013-17-91,Unknown,570401317
+/vessels/details/570438215,04382-15-99,Unknown,570438215
+/vessels/details/570895819,BIAO 08958-19-99,Unknown,570895819
+/vessels/details/570499921,04999-21-99,Unknown,570499921
+/vessels/details/570498614,SUGANYU04986-14-85,Unknown,570498614
+/vessels/details/570498621,SUGANYU04986-21-82,Unknown,570498621
+/vessels/details/570443333,04433-33-99,Unknown,570443333
+/vessels/details/570562164,05621-64-65,Unknown,570562164
+/vessels/details/570449029,04490-29-76,Unknown,570449029
+/vessels/details/570468922,04689-22-84,Unknown,570468922
+/vessels/details/570215712,02157-12-95,Unknown,570215712
+/vessels/details/570006717,00067-17-97,Unknown,570006717
+/vessels/details/570449647,04496-47-83,Unknown,570449647
+/vessels/details/570941110,09411-10-66,Unknown,570941110
+/vessels/details/570441809,04418-9-84,Unknown,570441809
+/vessels/details/570936130,SUQIYU09361-30-84,Unknown,570936130
+/vessels/details/570006721,00067-21-02,Unknown,570006721
+/vessels/details/570425407,BAC BIEN BINH -,Fishing vessel,570425407
+/vessels/details/570498603,SUGANYU04986-3-07,Unknown,570498603
+/vessels/details/570077005,SHENGHAOYANGZHI0588,Unknown,570077005
+/vessels/details/570588667,05886-67-97,Unknown,570588667
+/vessels/details/570426830,04268-30-68,Unknown,570426830
+/vessels/details/570658055,XYY58055-77.4V,Unknown,570658055
+/vessels/details/570563637,05636-37-93,Unknown,570563637
+/vessels/details/570426833,04268-33-78,Unknown,570426833
+/vessels/details/570496931,SUGANYU04969-31-79,Unknown,570496931
+/vessels/details/570566313,05663-13-73,Unknown,570566313
+/vessels/details/570448185,04481-85-57,Unknown,570448185
+/vessels/details/570887719,08877-19-04,Unknown,570887719
+/vessels/details/570496943,SUGANYU04969-43-98,Unknown,570496943
+/vessels/details/570661823,YU 06618-98,Unknown,570661823
+/vessels/details/570456601,04566-1-58,Unknown,570456601
+/vessels/details/570807818,SUQIYU08078-18-73,Unknown,570807818
+/vessels/details/570936119,SUQIYU09361-19-59,Unknown,570936119
+/vessels/details/570956922,09569-22-93,Unknown,570956922
+/vessels/details/570570855,05708-55-72,Unknown,570570855
+/vessels/details/570563638,05636-38-92,Unknown,570563638
+/vessels/details/570570850,05708-50-95,Unknown,570570850
+/vessels/details/570088201,BIAO 00882-1-96,Unknown,570088201
+/vessels/details/570900000,73 LC B29 P6 38,Unknown,570900000
+/vessels/details/570468936,04689-36-93,Unknown,570468936
+/vessels/details/570401323,04013-23-96,Unknown,570401323
+/vessels/details/570566317,05663-17-61,Unknown,570566317
+/vessels/details/570499963,04999-63-92,Unknown,570499963
+/vessels/details/570496920,SUGANYU04969-20-84,Unknown,570496920
+/vessels/details/570595603,05956-3-75,Unknown,570595603
+/vessels/details/570956936,09569-36-86,Unknown,570956936
+/vessels/details/570426829,04268-29-71,Unknown,570426829
+/vessels/details/570328000,SINCON,Tanker,570328000
+/vessels/details/570941103,09411-3-61,Unknown,570941103
+/vessels/details/570241669,HGZZ,Fishing vessel,570241669
+/vessels/details/570566321,05663-21-58,Unknown,570566321
+/vessels/details/570496925,SUGANYU04969-25-77,Unknown,570496925
+/vessels/details/570498631,SUGANYU04986-31-86,Unknown,570498631
+/vessels/details/570309619,GUNYUNYU03096-19-69,Unknown,570309619
+/vessels/details/570562189,05621-89-95,Unknown,570562189
+/vessels/details/570449643,04496-43-79,Unknown,570449643
+/vessels/details/570941101,09411-1-49,Unknown,570941101
+/vessels/details/570935638,SUQIYU09356-38-53,Unknown,570935638
+/vessels/details/570496930,SUGANYU04969-30-99,Unknown,570496930
+/vessels/details/570441804,04418-4-76,Unknown,570441804
+/vessels/details/570581697,05816-97-51,Unknown,570581697
+/vessels/details/570425395,TAU 88-C26,Fishing vessel,570425395
+/vessels/details/570599815,05998-15-99,Unknown,570599815
+/vessels/details/570498648,SUGANYU04986-48-90,Unknown,570498648
+/vessels/details/570448176,04481-76-85,Unknown,570448176
+/vessels/details/8526220,PACIFIC DAWN,Fishing Vessel,8526220
+/vessels/details/570449652,04496-52-99,Unknown,570449652
+/vessels/details/570562162,05621-62-42,Unknown,570562162
+/vessels/details/570309622,GUNYUNYU03096-22-99,Unknown,570309622
+/vessels/details/570442649,MAOWANG04426-49-96,Unknown,570442649
+/vessels/details/570448665,04486-65-77,Unknown,570448665
+/vessels/details/570498635,SUGANYU04986-35-34,Unknown,570498635
+/vessels/details/570498606,SUGANYU04986-6-88,Unknown,570498606
+/vessels/details/570499926,04999-26-99,Unknown,570499926
+/vessels/details/570563635,05636-35-96,Unknown,570563635
+/vessels/details/570566322,05663-22-62,Unknown,570566322
+/vessels/details/570449631,04496-31-90,Unknown,570449631
+/vessels/details/570498641,SUGANYU04986-41-57,Unknown,570498641
+/vessels/details/570215728,02157-28-90,Unknown,570215728
+/vessels/details/570499927,04999-27-99,Unknown,570499927
+/vessels/details/570588674,05886-74-99,Unknown,570588674
+/vessels/details/570499218,SUGANYU04992-18-63,Unknown,570499218
+/vessels/details/570441811,04418-11-99,Unknown,570441811
+/vessels/details/570001475,NET-57-ZSY0147558,Unknown,570001475
+/vessels/details/570448918,04489-18-84,Unknown,570448918
+/vessels/details/570449028,04490-28-92,Unknown,570449028
+/vessels/details/570498612,SUGANYU04986-12-60,Unknown,570498612
+/vessels/details/570933720,SUGANYU09337-20-69,Unknown,570933720
+/vessels/details/570935846,SUQIYU09358-46-97,Unknown,570935846
+/vessels/details/570595611,05956-11-77,Unknown,570595611
+/vessels/details/570719000,M.V OLOVAHA,Tug,570719000
+/vessels/details/570215721,02157-21-98,Unknown,570215721
+/vessels/details/570498604,SUGANYU04986-4-85,Unknown,570498604
+/vessels/details/570309606,GUNYUNYU03096-6-82,Unknown,570309606
+/vessels/details/570223861,02386-1-64,Unknown,570223861
+/vessels/details/570449011,04490-11-59,Unknown,570449011
+/vessels/details/570519640,05196-40-90,Unknown,570519640
+/vessels/details/570488117,04881-17-55,Unknown,570488117
+/vessels/details/570570836,05708-36-63,Unknown,570570836
+/vessels/details/570006712,00067-12-95,Unknown,570006712
+/vessels/details/570442652,MAOWANG04426-52-99,Unknown,570442652
+/vessels/details/570448662,04486-62-38,Unknown,570448662
+/vessels/details/570443356,04433-56-87,Unknown,570443356
+/vessels/details/570570844,05708-44-91,Unknown,570570844
+/vessels/details/570581699,05816-99-53,Unknown,570581699
+/vessels/details/570401319,04013-19-82,Unknown,570401319
+/vessels/details/570880347,08803-47-51,Unknown,570880347
+/vessels/details/570449022,04490-22-75,Unknown,570449022
+/vessels/details/570588677,05886-77-96,Unknown,570588677
+/vessels/details/570935843,SUQIYU09358-43-47,Unknown,570935843
+/vessels/details/570449645,04496-45-89,Unknown,570449645
+/vessels/details/570933725,SUGANYU09337-25-99,Unknown,570933725
+/vessels/details/570425405,08 D19,Fishing vessel,570425405
+/vessels/details/570215703,02157-3-11,Unknown,570215703
+/vessels/details/570438203,04382-3-98,Unknown,570438203
+/vessels/details/570496932,SUGANYU04969-32-74,Unknown,570496932
+/vessels/details/570449004,04490-4-88,Unknown,570449004
+/vessels/details/9265483,OTU TONGA,Landing Craft,9265483
+/vessels/details/570498623,SUGANYU04986-23-72,Unknown,570498623
+/vessels/details/570519647,05196-47-99,Unknown,570519647
+/vessels/details/570463829,04638-29-54,Unknown,570463829
+/vessels/details/570448914,04489-14-34,Unknown,570448914
+/vessels/details/570459000,MALAU,Passenger ship,570459000
+/vessels/details/570427907,04679-7-86,Unknown,570427907
+/vessels/details/570496924,SUGANYU04969-24-75,Unknown,570496924
+/vessels/details/570138911,SUSHEYU01389-11-78,Unknown,570138911
+/vessels/details/570215821,LIN21582-1-73,Unknown,570215821
+/vessels/details/570498609,SUGANYU04986-9-83,Unknown,570498609
+/vessels/details/570425372,21 A35,Fishing vessel,570425372
+/vessels/details/570309616,GUNYUNYU03096-16-86,Unknown,570309616
+/vessels/details/570098851,51 TIN A2,HSC,570098851
+/vessels/details/570498650,SUGANYU04986-50-72,Unknown,570498650
+/vessels/details/570562176,05621-76-99,Unknown,570562176
+/vessels/details/570033313,YU 00333-13 10,Unknown,570033313
+/vessels/details/570945529,09455-29-98,Unknown,570945529
+/vessels/details/570498633,SUGANYU04986-33-54,Unknown,570498633
+/vessels/details/570935603,SUQIYU09356-3-06,Unknown,570935603
+/vessels/details/570443346,04433-46-67,Unknown,570443346
+/vessels/details/9638575,OLOVAHA,Tug,9638575
+/vessels/details/570496927,SUGANYU04969-27-88,Unknown,570496927
+/vessels/details/570443360,04433-60-71,Unknown,570443360
+/vessels/details/570132945,01329-45-57,Unknown,570132945
+/vessels/details/570935604,SUQIYU09356-4-74,Unknown,570935604
+/vessels/details/570006713,00067-13-99,Unknown,570006713
+/vessels/details/570081803,YU 00818-3,Unknown,570081803
+/vessels/details/570936131,SUQIYU09361-31-82,Unknown,570936131
+/vessels/details/570935844,SUQIYU09358-44-83,Unknown,570935844
+/vessels/details/570421804,04218-4-46,Unknown,570421804
+/vessels/details/570449649,04496-49-95,Unknown,570449649
+/vessels/details/570496948,SUGANYU04969-48-99,Unknown,570496948
+/vessels/details/570499962,04999-62-99,Unknown,570499962
+/vessels/details/570215720,02157-20-99,Unknown,570215720
+/vessels/details/570092901,SAN 00929-1-78,Unknown,570092901
+/vessels/details/570427921,04679-21-84,Unknown,570427921
+/vessels/details/570499215,SUGANYU04992-15-75,Unknown,570499215
+/vessels/details/570401324,04013-24-77,Unknown,570401324
+/vessels/details/570960107,09601-7-96,Unknown,570960107
+/vessels/details/570519636,05196-36-95,Unknown,570519636
+/vessels/details/570468946,04689-46-52,Unknown,570468946
+/vessels/details/570895804,XIE LONG 08958-4-94,Unknown,570895804
+/vessels/details/570425398,QUAN NHAU 123,Fishing vessel,570425398
+/vessels/details/570309602,GUNYUNYU03096-2-77,Unknown,570309602
+/vessels/details/570581693,05816-93-61,Unknown,570581693
+/vessels/details/570933732,SUGANYU09337-32-67,Unknown,570933732
+/vessels/details/570448915,04489-15-84,Unknown,570448915
+/vessels/details/570449651,04496-51-52,Unknown,570449651
+/vessels/details/570519641,05196-41-99,Unknown,570519641
+/vessels/details/570066007,570066007,Fishing vessel,570066007
+/vessels/details/570498608,SUGANYU04986-8-72,Unknown,570498608
+/vessels/details/570519651,05196-51-93,Unknown,570519651
+/vessels/details/570309614,GUNYUNYU03096-14-97,Unknown,570309614
+/vessels/details/570935632,SUQIYU09356-32-99,Unknown,570935632
+/vessels/details/570263905,BIAO 02639-5-85,Unknown,570263905
+/vessels/details/570425384,888CAUA4 231,Fishing vessel,570425384
+/vessels/details/570468932,04689-32-92,Unknown,570468932
+/vessels/details/570416619,04166-1922,Unknown,570416619
+/vessels/details/570427113,04271-13-79,Unknown,570427113
+/vessels/details/570935622,SUQIYU09356-22-99,Unknown,570935622
+/vessels/details/570456602,04566-2-98,Unknown,570456602
+/vessels/details/570138912,SUSHEYU01389-12-40,Unknown,570138912
+/vessels/details/570448909,04489-9-83,Unknown,570448909
+/vessels/details/570933733,SUGANYU09337-33-99,Unknown,570933733
+/vessels/details/570960109,09601-9-78,Unknown,570960109
+/vessels/details/570595610,05956-10-79,Unknown,570595610
+/vessels/details/570215717,02157-17-98,Unknown,570215717
+/vessels/details/570441819,04418-19-89,Unknown,570441819
+/vessels/details/570463810,04638-10-93,Unknown,570463810
+/vessels/details/570563622,05636-22-99,Unknown,570563622
+/vessels/details/570425390,QUOC PHU F19,Unknown,570425390
+/vessels/details/570442656,MAOWANG04426-56-93,Unknown,570442656
+/vessels/details/570421829,04218-29-97,Unknown,570421829
+/vessels/details/570888722,MINXIAYU08887-22-99,Unknown,570888722
+/vessels/details/570496903,SUGANYU04969-3-99,Unknown,570496903
+/vessels/details/570935618,SUQIYU09356-18-49,Unknown,570935618
+/vessels/details/570498651,SUGANYU04986-51-84,Unknown,570498651
+/vessels/details/570426835,04268-35-71,Unknown,570426835
+/vessels/details/570421831,04218-31-85,Unknown,570421831
+/vessels/details/570519634,05196-34-95,Unknown,570519634
+/vessels/details/570216226,LIN21622-6-89,Unknown,570216226
+/vessels/details/570438207,04382-7-76,Unknown,570438207
+/vessels/details/570449644,04496-44-90,Unknown,570449644
+/vessels/details/570595608,05956-8-77,Unknown,570595608
+/vessels/details/570588676,05886-76-99,Unknown,570588676
+/vessels/details/570566308,05663-8-65,Unknown,570566308
+/vessels/details/1058353,FANGAILIFUKA,Tug,1058353
+/vessels/details/570562151,05621-51-78,Unknown,570562151
+/vessels/details/570092919,SAN 00929-19-68,Unknown,570092919
+/vessels/details/570945539,09455-39-62,Unknown,570945539
+/vessels/details/570101005,570101005,Fishing vessel,570101005
+/vessels/details/570960128,09601-28-98,Unknown,570960128
+/vessels/details/570895818,BIAO 08958-18-99,Unknown,570895818
+/vessels/details/570935607,SUQIYU09356-7-41,Unknown,570935607
+/vessels/details/570222628,02226-2-95,Unknown,570222628
+/vessels/details/570960136,09601-36-87,Unknown,570960136
+/vessels/details/570449632,04496-32-88,Unknown,570449632
+/vessels/details/570515612,SUGANYU05156-12-56,Unknown,570515612
+/vessels/details/570438212,04382-12-99,Unknown,570438212
+/vessels/details/570425382,RUA BIEN,Pleasure craft,570425382
+/vessels/details/570562156,05621-56-52,Unknown,570562156
+/vessels/details/570449642,04496-42-92,Unknown,570449642
+/vessels/details/570449662,04496-62-59,Unknown,570449662
+/vessels/details/570309610,GUNYUNYU03096-10-41,Unknown,570309610
+/vessels/details/570438213,04382-13-99,Unknown,570438213
+/vessels/details/570463807,04638-7-95,Unknown,570463807
+/vessels/details/570465810,04658-10-56,Unknown,570465810
+/vessels/details/570496905,SUGANYU04969-5-99,Unknown,570496905
+/vessels/details/570777777,95 P4 C12 C3390,Unknown,570777777
+/vessels/details/570498654,SUGANYU04986-54-99,Unknown,570498654
+/vessels/details/570499214,SUGANYU04992-14-78,Unknown,570499214
+/vessels/details/570096128,XIN BA CHO LOC 128,Fishing vessel,570096128
+/vessels/details/570960102,09601-2-75,Unknown,570960102
+/vessels/details/570895817,BIAO 08958-17-63,Unknown,570895817
+/vessels/details/570566319,05663-19-78,Unknown,570566319
+/vessels/details/570463820,04638-20-99,Unknown,570463820
+/vessels/details/570456616,04566-16-94,Unknown,570456616
+/vessels/details/570936108,SUQIYU09361-8-98,Unknown,570936108
+/vessels/details/570566310,05663-10-77,Unknown,570566310
+/vessels/details/570956917,09569-17-99,Unknown,570956917
+/vessels/details/570110191,79 THUAN HAI F40,Unknown,570110191
+/vessels/details/570499918,04999-18-98,Unknown,570499918
+/vessels/details/570298420,PAO XU NOI 95F2095,Unknown,570298420
+/vessels/details/570496907,SUGANYU04969-7-98,Unknown,570496907
+/vessels/details/570468938,04689-38-39,Unknown,570468938
+/vessels/details/570562173,05621-73-99,Unknown,570562173
+/vessels/details/570309613,GUNYUNYU03096-13-99,Unknown,570309613
+/vessels/details/570427115,04271-15-41,Unknown,570427115
+/vessels/details/570082245,38 D1,Fishing vessel,570082245
+/vessels/details/570960135,09601-35-82,Unknown,570960135
+/vessels/details/570463822,04638-22-74,Unknown,570463822
+/vessels/details/570498643,SUGANYU04986-43-60,Unknown,570498643
+/vessels/details/570945531,09455-31-52,Unknown,570945531
+/vessels/details/570100005,5701-580,Unknown,570100005
+/vessels/details/570176628,01766-28-90,Unknown,570176628
+/vessels/details/570498640,SUGANYU04986-40-99,Unknown,570498640
+/vessels/details/570468943,04689-43-68,Unknown,570468943
+/vessels/details/570519643,05196-43-99,Unknown,570519643
+/vessels/details/570138917,SUSHEYU01389-17-74,Unknown,570138917
+/vessels/details/570449007,04490-7-94,Unknown,570449007
+/vessels/details/570956926,09569-26-94,Unknown,570956926
+/vessels/details/570588679,05886-79-95,Unknown,570588679
+/vessels/details/570807802,SUQIYU08078-2-52,Unknown,570807802
+/vessels/details/570059910,SAN 00599-10-99,Unknown,570059910
+/vessels/details/570536962,BUOY35541-06 92,Unknown,570536962
+/vessels/details/570935611,SUQIYU09356-11-55,Unknown,570935611
+/vessels/details/570081801,YU 00818-1-80,Unknown,570081801
+/vessels/details/570499209,SUGANYU04992-9-57,Unknown,570499209
+/vessels/details/570427119,04271-19-98,Unknown,570427119
+/vessels/details/570215701,02157-1-99,Unknown,570215701
+/vessels/details/570562161,05621-61-57,Unknown,570562161
+/vessels/details/570463812,04638-12-53,Unknown,570463812
+/vessels/details/570496918,SUGANYU04969-18-96,Unknown,570496918
+/vessels/details/570563634,05636-34-89,Unknown,570563634
+/vessels/details/570425375,60B34,Fishing vessel,570425375
+/vessels/details/570588665,05886-65-93,Unknown,570588665
+/vessels/details/570456620,04566-20-99,Unknown,570456620
+/vessels/details/570498618,SUGANYU04986-18-25,Unknown,570498618
+/vessels/details/570426828,04268-28-55,Unknown,570426828
+/vessels/details/570562172,05621-72-76,Unknown,570562172
+/vessels/details/570519653,05196-53-97,Unknown,570519653
+/vessels/details/570427101,04271-1-54,Unknown,570427101
+/vessels/details/570960121,09601-21-90,Unknown,570960121
+/vessels/details/570566303,05663-3-64,Unknown,570566303
+/vessels/details/570889828,MING08898-28-80,Unknown,570889828
+/vessels/details/570909947,XIA09099-47-78,Unknown,570909947
+/vessels/details/570443343,04433-43-67,Unknown,570443343
+/vessels/details/570816051,XYY16051-78.6V,Unknown,570816051
+/vessels/details/570496904,SUGANYU04969-4-44,Unknown,570496904
+/vessels/details/570448920,04489-20-77,Unknown,570448920
+/vessels/details/570498649,SUGANYU04986-49-80,Unknown,570498649
+/vessels/details/4734180,VOEA NGAHAU SILIVA,Patrol Vessel,4734180
+/vessels/details/570427120,04271-20-96,Unknown,570427120
+/vessels/details/570499211,SUGANYU04992-11-58,Unknown,570499211
+/vessels/details/570463819,04638-19-48,Unknown,570463819
+/vessels/details/570788606,02333-10-87,Unknown,570788606
+/vessels/details/570498624,SUGANYU04986-24-60,Unknown,570498624
+/vessels/details/570425374,VINH PHUOC 2020,Cargo ship,570425374
+/vessels/details/1055272,LATE,Landing Craft,1055272
+/vessels/details/570935636,SUQIYU09356-36-03,Unknown,570935636
+/vessels/details/570449032,04490-32-99,Unknown,570449032
+/vessels/details/570443350,04433-50-87,Unknown,570443350
+/vessels/details/570498610,SUGANYU04986-10-91,Unknown,570498610
+/vessels/details/570661826,ZHECANGYU06618-87,Unknown,570661826
+/vessels/details/570788604,YU 07886-4-88,Unknown,570788604
+/vessels/details/570299909,02999-9-61,Unknown,570299909
+/vessels/details/570588675,05886-75-97,Unknown,570588675
+/vessels/details/570093638,38 D1,Fishing vessel,570093638
+/vessels/details/570566309,05663-9-59,Unknown,570566309
+/vessels/details/570496913,SUGANYU04969-13-95,Unknown,570496913
+/vessels/details/570935630,SUQIYU09356-30-61,Unknown,570935630
+/vessels/details/570960127,09601-27-96,Unknown,570960127
+/vessels/details/570273983,02739-83-99,Unknown,570273983
+/vessels/details/570449009,04490-9-37,Unknown,570449009
+/vessels/details/570995741,L4J1.,Medical,570995741
+/vessels/details/570933739,SUGANYU09337-39-83,Unknown,570933739
+/vessels/details/570960134,09601-34-82,Unknown,570960134
+/vessels/details/570215731,02157-31-34,Unknown,570215731
+/vessels/details/570935851,SUQIYU09358-51-99,Unknown,570935851
+/vessels/details/570563633,05636-33-89,Unknown,570563633
+/vessels/details/570563639,05636-39-85,Unknown,570563639
+/vessels/details/570468940,04689-40-75,Unknown,570468940
+/vessels/details/570427912,04679-12-83,Unknown,570427912
+/vessels/details/570425394,THANH L,Cargo ship,570425394
+/vessels/details/570449635,04496-35-79,Unknown,570449635
+/vessels/details/570215710,02157-10-06,Unknown,570215710
+/vessels/details/570000202,PHC MAI TRUNG-90,Unknown,570000202
+/vessels/details/570006739,00067-39-96,Unknown,570006739
+/vessels/details/570519638,05196-38-83,Unknown,570519638
+/vessels/details/570449019,04490-19-85,Unknown,570449019
+/vessels/details/570807803,SUQIYU08078-3-49,Unknown,570807803
+/vessels/details/570935606,SUQIYU09356-6-85,Unknown,570935606
+/vessels/details/570496912,SUGANYU04969-12-99,Unknown,570496912
+/vessels/details/570427118,04271-18-95,Unknown,570427118
+/vessels/details/570425389,HG,Fishing vessel,570425389
+/vessels/details/570595601,05956-1-99,Unknown,570595601
+/vessels/details/570933729,SUGANYU09337-29-87,Unknown,570933729
+/vessels/details/570443365,04433-65-68,Unknown,570443365
+/vessels/details/570438209,04382-9-99,Unknown,570438209
+/vessels/details/570438208,04382-8-99,Unknown,570438208
+/vessels/details/570960104,09601-4-91,Unknown,570960104
+/vessels/details/570570847,05708-47-73,Unknown,570570847
+/vessels/details/570570843,05708-43-82,Unknown,570570843
+/vessels/details/570215718,02157-18-99,Unknown,570215718
+/vessels/details/570936122,SUQIYU09361-22-85,Unknown,570936122
+/vessels/details/570570840,05708-40-76,Unknown,570570840
+/vessels/details/570498627,SUGANYU04986-27-42,Unknown,570498627
+/vessels/details/570176629,01766-29-82,Unknown,570176629
+/vessels/details/570935619,SUQIYU09356-19-81,Unknown,570935619
+/vessels/details/570496916,SUGANYU04969-16-67,Unknown,570496916
+/vessels/details/570425353,CAO-51B 13,Fishing vessel,570425353
+/vessels/details/570059920,SAN 00599-20-79,Unknown,570059920
+/vessels/details/570059902,SAN 00599-2-90,Unknown,570059902
+/vessels/details/570401320,04013-20-99,Unknown,570401320
+/vessels/details/570448190,04481-90-99,Unknown,570448190
+/vessels/details/570448177,04481-77-99,Unknown,570448177
+/vessels/details/570468934,04689-34-99,Unknown,570468934
+/vessels/details/570215708,02157-8-55,Unknown,570215708
+/vessels/details/570448182,04481-82-99,Unknown,570448182
+/vessels/details/570956933,09569-33-99,Unknown,570956933
+/vessels/details/570496901,SUGANYU04969-1-99,Unknown,570496901
+/vessels/details/570468926,04689-26-59,Unknown,570468926
+/vessels/details/570936116,SUQIYU09361-16-99,Unknown,570936116
+/vessels/details/570956925,09569-25-74,Unknown,570956925
+/vessels/details/570215724,02157-24-95,Unknown,570215724
+/vessels/details/570945533,09455-33-60,Unknown,570945533
+/vessels/details/570960126,09601-26-79,Unknown,570960126
+/vessels/details/570417719,YU 04177-19-98,Unknown,570417719
+/vessels/details/570519646,05196-46-99,Unknown,570519646
+/vessels/details/570132910,01329-10-99,Unknown,570132910
+/vessels/details/570498617,SUGANYU04986-17-36,Unknown,570498617
+/vessels/details/570496906,SUGANYU04969-6-98,Unknown,570496906
+/vessels/details/570498628,SUGANYU04986-28-57,Unknown,570498628
+/vessels/details/570941111,09411-11-49,Unknown,570941111
+/vessels/details/570448178,04481-78-97,Unknown,570448178
+/vessels/details/570945537,09455-37-84,Unknown,570945537
+/vessels/details/570189001,35888-1-99,Unknown,570189001
+/vessels/details/570496940,SUGANYU04969-40-75,Unknown,570496940
+/vessels/details/570933738,SUGANYU09337-38-65,Unknown,570933738
+/vessels/details/570425388,CHUP MUC B27,Military ops,570425388
+/vessels/details/570463823,04638-23-99,Unknown,570463823
+/vessels/details/570570854,05708-54-51,Unknown,570570854
+/vessels/details/570932912,09329-12-80,Unknown,570932912
+/vessels/details/570581694,05816-94-89,Unknown,570581694
+/vessels/details/570425397,TUONG HANG L CHAE 20,Fishing vessel,570425397
+/vessels/details/570449630,04496-30-85,Unknown,570449630
+/vessels/details/570496949,SUGANYU04969-49-99,Unknown,570496949
+/vessels/details/570463826,04638-26-96,Unknown,570463826
+/vessels/details/570449024,04490-24-28,Unknown,570449024
+/vessels/details/570499207,SUGANYU04992-7-97,Unknown,570499207
+/vessels/details/570468929,04689-29-95,Unknown,570468929
+/vessels/details/570499221,SUGANYU04992-21-96,Unknown,570499221
+/vessels/details/570499208,SUGANYU04992-8-55,Unknown,570499208
+/vessels/details/570427116,04271-16-99,Unknown,570427116
+/vessels/details/570496922,SUGANYU04969-22-99,Unknown,570496922
+/vessels/details/570488613,YU 04886-13-78,Unknown,570488613
+/vessels/details/570562152,05621-52-95,Unknown,570562152
+/vessels/details/570498652,SUGANYU04986-52-73,Unknown,570498652
+/vessels/details/570960117,09601-17-77,Unknown,570960117
+/vessels/details/570425380,97 33A,Fishing vessel,570425380
+/vessels/details/570078111,THANHTRONG2 C40 9,Unknown,570078111
+/vessels/details/570443354,04433-54-79,Unknown,570443354
+/vessels/details/570562183,05621-83-59,Unknown,570562183
+/vessels/details/570425370,HUNG HEN B18,Unknown,570425370
+/vessels/details/570960110,09601-10-71,Unknown,570960110
+/vessels/details/570094559,UT 959 LRUT 8559U,Fishing vessel,570094559
+/vessels/details/570463805,04638-5-95,Unknown,570463805
+/vessels/details/570138916,SUSHEYU01389-16-99,Unknown,570138916
+/vessels/details/570562612,SA KE,Fishing vessel,570562612
+/vessels/details/9109213,HIFOFUA,Tug,9109213
+/vessels/details/570309615,GUNYUNYU03096-15-29,Unknown,570309615
+/vessels/details/9775048,BP 28-19-01,Patrol Vessel,9775048
+/vessels/details/570427108,04271-8-99,Unknown,570427108
+/vessels/details/570421827,04218-27-75,Unknown,570421827
+/vessels/details/570449020,04490-20-90,Unknown,570449020
+/vessels/details/570496934,SUGANYU04969-34-30,Unknown,570496934
+/vessels/details/570960105,09601-5-65,Unknown,570960105
+/vessels/details/570468942,04689-42-60,Unknown,570468942
+/vessels/details/570443335,04433-35-56,Unknown,570443335
+/vessels/details/570562193,05621-93-96,Unknown,570562193
+/vessels/details/570956934,09569-34-99,Unknown,570956934
+/vessels/details/570496926,SUGANYU04969-26-80,Unknown,570496926
+/vessels/details/570215722,02157-22-92,Unknown,570215722
+/vessels/details/570607209,BIAO 86072-9-99,Unknown,570607209
+/vessels/details/570138918,SUSHEYU01389-18-78,Unknown,570138918
+/vessels/details/570449636,04496-36-98,Unknown,570449636
+/vessels/details/570442658,MAOWANG04426-58-81,Unknown,570442658
+/vessels/details/570121047,TRAN DAC TA LO 1-90,Unknown,570121047
+/vessels/details/570443338,04433-38-99,Unknown,570443338
+/vessels/details/570956929,09569-29-89,Unknown,570956929
+/vessels/details/570588664,05886-64-98,Unknown,570588664
+/vessels/details/570933724,SUGANYU09337-24-82,Unknown,570933724
+/vessels/details/570009999,GHECAU19D16,Military ops,570009999
+/vessels/details/570461000,PL MONUIA,Pleasure craft,570461000
+/vessels/details/570456612,04566-12-95,Unknown,570456612
+/vessels/details/570721550,XYY21550-167.5V,Unknown,570721550
+/vessels/details/570309609,GUNYUNYU03096-9-99,Unknown,570309609
+/vessels/details/570449025,04490-25-77,Unknown,570449025
+/vessels/details/570562159,05621-59-81,Unknown,570562159
+/vessels/details/570463815,04638-15-93,Unknown,570463815
+/vessels/details/570498626,SUGANYU04986-26-88,Unknown,570498626
+/vessels/details/570519649,05196-49-99,Unknown,570519649
+/vessels/details/570309618,GUNYUNYU03096-18-26,Unknown,570309618
+/vessels/details/570496923,SUGANYU04969-23-96,Unknown,570496923
+/vessels/details/570889837,08898-37-34,Unknown,570889837
+/vessels/details/570441821,04418-21-99,Unknown,570441821
+/vessels/details/570468930,04689-30-62,Unknown,570468930
+/vessels/details/570463809,04638-9-76,Unknown,570463809
+/vessels/details/570088206,BIAO 00882-6-99,Unknown,570088206
+/vessels/details/570438210,04382-10-99,Unknown,570438210
+/vessels/details/570449656,04496-56-79,Unknown,570449656
+/vessels/details/570933731,SUGANYU09337-31-99,Unknown,570933731
+/vessels/details/570519639,05196-39-96,Unknown,570519639
+/vessels/details/570122156,RE LU 34 D 23,Fishing vessel,570122156
+/vessels/details/570468933,04689-33-68,Unknown,570468933
+/vessels/details/570128791,83091-29-99,Unknown,570128791
+/vessels/details/8536328,YONG RUN 5508,Dredger,8536328
+/vessels/details/570443342,04433-42-99,Unknown,570443342
+/vessels/details/570498639,SUGANYU04986-39-55,Unknown,570498639
+/vessels/details/570448174,04481-74-72,Unknown,570448174
+/vessels/details/570449001,04490-1-99,Unknown,570449001
+/vessels/details/570176626,01766-26-98,Unknown,570176626
+/vessels/details/570947132,LINH PHUONG67419,Towing vessel (tow>200),570947132
+/vessels/details/570945541,09455-41-99,Unknown,570945541
+/vessels/details/570519635,05196-35-20,Unknown,570519635
+/vessels/details/570945524,09455-24-65,Unknown,570945524
+/vessels/details/570581698,05816-98-58,Unknown,570581698
+/vessels/details/570595602,05956-2-99,Unknown,570595602
+/vessels/details/570496915,SUGANYU04969-15-73,Unknown,570496915
+/vessels/details/570935840,SUQIYU09358-40-50,Unknown,570935840
+/vessels/details/570496951,SUGANYU04969-51-94,Unknown,570496951
+/vessels/details/570562177,05621-77-50,Unknown,570562177
+/vessels/details/570945534,09455-34-55,Unknown,570945534
+/vessels/details/570933718,SUGANYU09337-18-85,Unknown,570933718
+/vessels/details/570960106,09601-6-54,Unknown,570960106

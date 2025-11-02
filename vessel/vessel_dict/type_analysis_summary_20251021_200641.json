@@ -1,0 +1,398 @@
+[
+  {
+    "country": "Australia",
+    "flag_code": "au",
+    "vessels_to_scrape": 7880,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 16,
+    "other_types_count": 6,
+    "scraping_plan_items": 22
+  },
+  {
+    "country": "Bahrain",
+    "flag_code": "bh",
+    "vessels_to_scrape": 5140,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 9,
+    "other_types_count": 6,
+    "scraping_plan_items": 15
+  },
+  {
+    "country": "Belgium",
+    "flag_code": "be",
+    "vessels_to_scrape": 5960,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 17,
+    "other_types_count": 6,
+    "scraping_plan_items": 23
+  },
+  {
+    "country": "Brazil",
+    "flag_code": "br",
+    "vessels_to_scrape": 5080,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 13,
+    "other_types_count": 6,
+    "scraping_plan_items": 19
+  },
+  {
+    "country": "Canada",
+    "flag_code": "ca",
+    "vessels_to_scrape": 10060,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 18,
+    "other_types_count": 6,
+    "scraping_plan_items": 24
+  },
+  {
+    "country": "China",
+    "flag_code": "cn",
+    "vessels_to_scrape": 13940,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 25,
+    "other_types_count": 6,
+    "scraping_plan_items": 31
+  },
+  {
+    "country": "Cyprus",
+    "flag_code": "cy",
+    "vessels_to_scrape": 6820,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 24,
+    "other_types_count": 6,
+    "scraping_plan_items": 30
+  },
+  {
+    "country": "Denmark",
+    "flag_code": "dk",
+    "vessels_to_scrape": 10840,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 19,
+    "other_types_count": 6,
+    "scraping_plan_items": 25
+  },
+  {
+    "country": "Finland",
+    "flag_code": "fi",
+    "vessels_to_scrape": 6200,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 14,
+    "other_types_count": 6,
+    "scraping_plan_items": 20
+  },
+  {
+    "country": "France",
+    "flag_code": "fr",
+    "vessels_to_scrape": 11220,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 20,
+    "other_types_count": 6,
+    "scraping_plan_items": 26
+  },
+  {
+    "country": "Germany",
+    "flag_code": "de",
+    "vessels_to_scrape": 12360,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 19,
+    "other_types_count": 6,
+    "scraping_plan_items": 25
+  },
+  {
+    "country": "Greece",
+    "flag_code": "gr",
+    "vessels_to_scrape": 8880,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 23,
+    "other_types_count": 6,
+    "scraping_plan_items": 29
+  },
+  {
+    "country": "Hungary",
+    "flag_code": "hu",
+    "vessels_to_scrape": 4340,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 3,
+    "other_types_count": 6,
+    "scraping_plan_items": 9
+  },
+  {
+    "country": "Iceland",
+    "flag_code": "is",
+    "vessels_to_scrape": 5700,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 8,
+    "other_types_count": 6,
+    "scraping_plan_items": 14
+  },
+  {
+    "country": "India",
+    "flag_code": "in",
+    "vessels_to_scrape": 13440,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 21,
+    "other_types_count": 6,
+    "scraping_plan_items": 27
+  },
+  {
+    "country": "Indonesia",
+    "flag_code": "id",
+    "vessels_to_scrape": 26360,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 29,
+    "other_types_count": 6,
+    "scraping_plan_items": 35
+  },
+  {
+    "country": "Iran",
+    "flag_code": "ir",
+    "vessels_to_scrape": 8460,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 18,
+    "other_types_count": 6,
+    "scraping_plan_items": 24
+  },
+  {
+    "country": "Ireland",
+    "flag_code": "ie",
+    "vessels_to_scrape": 5900,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 9,
+    "other_types_count": 6,
+    "scraping_plan_items": 15
+  },
+  {
+    "country": "Italy",
+    "flag_code": "it",
+    "vessels_to_scrape": 9680,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 22,
+    "other_types_count": 6,
+    "scraping_plan_items": 28
+  },
+  {
+    "country": "Japan",
+    "flag_code": "jp",
+    "vessels_to_scrape": 18640,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 26,
+    "other_types_count": 6,
+    "scraping_plan_items": 32
+  },
+  {
+    "country": "Korea",
+    "flag_code": "kr",
+    "vessels_to_scrape": 14840,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 24,
+    "other_types_count": 6,
+    "scraping_plan_items": 30
+  },
+  {
+    "country": "Kuwait",
+    "flag_code": "kw",
+    "vessels_to_scrape": 6840,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 12,
+    "other_types_count": 6,
+    "scraping_plan_items": 18
+  },
+  {
+    "country": "Liberia",
+    "flag_code": "lr",
+    "vessels_to_scrape": 12300,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 27,
+    "other_types_count": 5,
+    "scraping_plan_items": 32
+  },
+  {
+    "country": "Malaysia",
+    "flag_code": "my",
+    "vessels_to_scrape": 6520,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 23,
+    "other_types_count": 6,
+    "scraping_plan_items": 29
+  },
+  {
+    "country": "Malta",
+    "flag_code": "mt",
+    "vessels_to_scrape": 9720,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 21,
+    "other_types_count": 6,
+    "scraping_plan_items": 27
+  },
+  {
+    "country": "Marshall Islands",
+    "flag_code": "mh",
+    "vessels_to_scrape": 10100,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 24,
+    "other_types_count": 6,
+    "scraping_plan_items": 30
+  },
+  {
+    "country": "Morocco",
+    "flag_code": "ma",
+    "vessels_to_scrape": 4920,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 9,
+    "other_types_count": 6,
+    "scraping_plan_items": 15
+  },
+  {
+    "country": "Netherlands",
+    "flag_code": "nl",
+    "vessels_to_scrape": 18620,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 22,
+    "other_types_count": 6,
+    "scraping_plan_items": 28
+  },
+  {
+    "country": "Norway",
+    "flag_code": "no",
+    "vessels_to_scrape": 15620,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 25,
+    "other_types_count": 6,
+    "scraping_plan_items": 31
+  },
+  {
+    "country": "Panama",
+    "flag_code": "pa",
+    "vessels_to_scrape": 19640,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 29,
+    "other_types_count": 6,
+    "scraping_plan_items": 35
+  },
+  {
+    "country": "Poland",
+    "flag_code": "pl",
+    "vessels_to_scrape": 4760,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 8,
+    "other_types_count": 6,
+    "scraping_plan_items": 14
+  },
+  {
+    "country": "Qatar",
+    "flag_code": "qa",
+    "vessels_to_scrape": 5260,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 10,
+    "other_types_count": 6,
+    "scraping_plan_items": 16
+  },
+  {
+    "country": "Russia",
+    "flag_code": "ru",
+    "vessels_to_scrape": 12120,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 24,
+    "other_types_count": 6,
+    "scraping_plan_items": 30
+  },
+  {
+    "country": "Saudi Arabia",
+    "flag_code": "sa",
+    "vessels_to_scrape": 5500,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 15,
+    "other_types_count": 6,
+    "scraping_plan_items": 21
+  },
+  {
+    "country": "Singapore",
+    "flag_code": "sg",
+    "vessels_to_scrape": 10460,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 26,
+    "other_types_count": 6,
+    "scraping_plan_items": 32
+  },
+  {
+    "country": "Spain",
+    "flag_code": "es",
+    "vessels_to_scrape": 10520,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 17,
+    "other_types_count": 6,
+    "scraping_plan_items": 23
+  },
+  {
+    "country": "Sri Lanka",
+    "flag_code": "lk",
+    "vessels_to_scrape": 4900,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 13,
+    "other_types_count": 6,
+    "scraping_plan_items": 19
+  },
+  {
+    "country": "Sweden",
+    "flag_code": "se",
+    "vessels_to_scrape": 7280,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 19,
+    "other_types_count": 6,
+    "scraping_plan_items": 25
+  },
+  {
+    "country": "Taiwan",
+    "flag_code": "tw",
+    "vessels_to_scrape": 8680,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 18,
+    "other_types_count": 6,
+    "scraping_plan_items": 24
+  },
+  {
+    "country": "Turkey",
+    "flag_code": "tr",
+    "vessels_to_scrape": 10060,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 24,
+    "other_types_count": 6,
+    "scraping_plan_items": 30
+  },
+  {
+    "country": "United Kingdom (UK)",
+    "flag_code": "gb",
+    "vessels_to_scrape": 11260,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 23,
+    "other_types_count": 5,
+    "scraping_plan_items": 28
+  },
+  {
+    "country": "United States (USA)",
+    "flag_code": "us",
+    "vessels_to_scrape": 19920,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 21,
+    "other_types_count": 5,
+    "scraping_plan_items": 26
+  },
+  {
+    "country": "Unknown",
+    "flag_code": "zz",
+    "vessels_to_scrape": 18500,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 27,
+    "other_types_count": 6,
+    "scraping_plan_items": 33
+  },
+  {
+    "country": "Vietnam",
+    "flag_code": "vn",
+    "vessels_to_scrape": 11520,
+    "coverage_estimate": "100.0%",
+    "commercial_types_count": 21,
+    "other_types_count": 4,
+    "scraping_plan_items": 25
+  }
+]

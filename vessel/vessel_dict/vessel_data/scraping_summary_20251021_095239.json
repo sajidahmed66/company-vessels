@@ -1,0 +1,1749 @@
+{
+  "scraping_session": {
+    "start_time": "2025-10-21T09:52:39.293242",
+    "total_countries": 193,
+    "successful_countries": 193,
+    "failed_countries": 0,
+    "total_vessels_scraped": 131150,
+    "total_pages_scraped": 6657
+  },
+  "country_results": [
+    {
+      "country": "Algeria",
+      "flag_code": "dz",
+      "status": "success",
+      "vessel_count": 736,
+      "pages_scraped": 37,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_DZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_DZ.csv"
+    },
+    {
+      "country": "American Samoa",
+      "flag_code": "as",
+      "status": "success",
+      "vessel_count": 120,
+      "pages_scraped": 6,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AS.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AS.csv"
+    },
+    {
+      "country": "Andorra",
+      "flag_code": "ad",
+      "status": "success",
+      "vessel_count": 2160,
+      "pages_scraped": 108,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AD.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AD.csv"
+    },
+    {
+      "country": "Angola",
+      "flag_code": "ao",
+      "status": "success",
+      "vessel_count": 610,
+      "pages_scraped": 31,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AO.csv"
+    },
+    {
+      "country": "Anguilla",
+      "flag_code": "ai",
+      "status": "success",
+      "vessel_count": 1093,
+      "pages_scraped": 55,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AI.csv"
+    },
+    {
+      "country": "Antarctica",
+      "flag_code": "aq",
+      "status": "success",
+      "vessel_count": 1,
+      "pages_scraped": 1,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AQ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AQ.csv"
+    },
+    {
+      "country": "Antigua & Barbuda",
+      "flag_code": "ag",
+      "status": "success",
+      "vessel_count": 1395,
+      "pages_scraped": 70,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AG.csv"
+    },
+    {
+      "country": "Argentina",
+      "flag_code": "ar",
+      "status": "success",
+      "vessel_count": 1725,
+      "pages_scraped": 87,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AR.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AR.csv"
+    },
+    {
+      "country": "Armenia",
+      "flag_code": "am",
+      "status": "success",
+      "vessel_count": 627,
+      "pages_scraped": 32,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AM.csv"
+    },
+    {
+      "country": "Aruba",
+      "flag_code": "aw",
+      "status": "success",
+      "vessel_count": 135,
+      "pages_scraped": 7,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AW.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AW.csv"
+    },
+    {
+      "country": "Ascension Island",
+      "flag_code": "xe",
+      "status": "success",
+      "vessel_count": 834,
+      "pages_scraped": 42,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XE.csv"
+    },
+    {
+      "country": "Austria",
+      "flag_code": "at",
+      "status": "success",
+      "vessel_count": 1412,
+      "pages_scraped": 71,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AT.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AT.csv"
+    },
+    {
+      "country": "Azerbaijan",
+      "flag_code": "az",
+      "status": "success",
+      "vessel_count": 494,
+      "pages_scraped": 25,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AZ.csv"
+    },
+    {
+      "country": "Azores",
+      "flag_code": "xa",
+      "status": "success",
+      "vessel_count": 339,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XA.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XA.csv"
+    },
+    {
+      "country": "Bahamas",
+      "flag_code": "bs",
+      "status": "success",
+      "vessel_count": 2541,
+      "pages_scraped": 128,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BS.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BS.csv"
+    },
+    {
+      "country": "Bangladesh",
+      "flag_code": "bd",
+      "status": "success",
+      "vessel_count": 1006,
+      "pages_scraped": 51,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BD.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BD.csv"
+    },
+    {
+      "country": "Barbados",
+      "flag_code": "bb",
+      "status": "success",
+      "vessel_count": 601,
+      "pages_scraped": 31,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BB.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BB.csv"
+    },
+    {
+      "country": "Belarus",
+      "flag_code": "by",
+      "status": "success",
+      "vessel_count": 297,
+      "pages_scraped": 15,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BY.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BY.csv"
+    },
+    {
+      "country": "Belize",
+      "flag_code": "bz",
+      "status": "success",
+      "vessel_count": 1364,
+      "pages_scraped": 69,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BZ.csv"
+    },
+    {
+      "country": "Benin",
+      "flag_code": "bj",
+      "status": "success",
+      "vessel_count": 333,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BJ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BJ.csv"
+    },
+    {
+      "country": "Bermuda",
+      "flag_code": "bm",
+      "status": "success",
+      "vessel_count": 655,
+      "pages_scraped": 33,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BM.csv"
+    },
+    {
+      "country": "Bhutan",
+      "flag_code": "bt",
+      "status": "success",
+      "vessel_count": 1967,
+      "pages_scraped": 99,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BT.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BT.csv"
+    },
+    {
+      "country": "Bolivia",
+      "flag_code": "bo",
+      "status": "success",
+      "vessel_count": 151,
+      "pages_scraped": 8,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BO.csv"
+    },
+    {
+      "country": "Bosnia & Herzegovina",
+      "flag_code": "ba",
+      "status": "success",
+      "vessel_count": 44,
+      "pages_scraped": 3,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BA.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BA.csv"
+    },
+    {
+      "country": "Botswana",
+      "flag_code": "bw",
+      "status": "success",
+      "vessel_count": 554,
+      "pages_scraped": 28,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BW.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BW.csv"
+    },
+    {
+      "country": "British Virgin Islands",
+      "flag_code": "vg",
+      "status": "success",
+      "vessel_count": 885,
+      "pages_scraped": 45,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VG.csv"
+    },
+    {
+      "country": "Brunei",
+      "flag_code": "bn",
+      "status": "success",
+      "vessel_count": 437,
+      "pages_scraped": 22,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BN.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BN.csv"
+    },
+    {
+      "country": "Bulgaria",
+      "flag_code": "bg",
+      "status": "success",
+      "vessel_count": 790,
+      "pages_scraped": 40,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BG.csv"
+    },
+    {
+      "country": "Burkina Faso",
+      "flag_code": "bf",
+      "status": "success",
+      "vessel_count": 76,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BF.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BF.csv"
+    },
+    {
+      "country": "Burundi",
+      "flag_code": "bi",
+      "status": "success",
+      "vessel_count": 209,
+      "pages_scraped": 11,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_BI.csv"
+    },
+    {
+      "country": "Cambodia",
+      "flag_code": "kh",
+      "status": "success",
+      "vessel_count": 338,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KH.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KH.csv"
+    },
+    {
+      "country": "Cameroon",
+      "flag_code": "cm",
+      "status": "success",
+      "vessel_count": 554,
+      "pages_scraped": 28,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CM.csv"
+    },
+    {
+      "country": "Cape Verde",
+      "flag_code": "cv",
+      "status": "success",
+      "vessel_count": 331,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CV.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CV.csv"
+    },
+    {
+      "country": "Cayman Islands",
+      "flag_code": "ky",
+      "status": "success",
+      "vessel_count": 2547,
+      "pages_scraped": 128,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KY.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KY.csv"
+    },
+    {
+      "country": "Central Africa Rep (CAR)",
+      "flag_code": "cf",
+      "status": "success",
+      "vessel_count": 657,
+      "pages_scraped": 33,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CF.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CF.csv"
+    },
+    {
+      "country": "Chad",
+      "flag_code": "td",
+      "status": "success",
+      "vessel_count": 121,
+      "pages_scraped": 7,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TD.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TD.csv"
+    },
+    {
+      "country": "Chile",
+      "flag_code": "cl",
+      "status": "success",
+      "vessel_count": 1048,
+      "pages_scraped": 53,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CL.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CL.csv"
+    },
+    {
+      "country": "Christmas Island",
+      "flag_code": "cx",
+      "status": "success",
+      "vessel_count": 240,
+      "pages_scraped": 12,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CX.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CX.csv"
+    },
+    {
+      "country": "Cocos Islands",
+      "flag_code": "cc",
+      "status": "success",
+      "vessel_count": 80,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CC.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CC.csv"
+    },
+    {
+      "country": "Colombia",
+      "flag_code": "co",
+      "status": "success",
+      "vessel_count": 713,
+      "pages_scraped": 36,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CO.csv"
+    },
+    {
+      "country": "Comoros",
+      "flag_code": "km",
+      "status": "success",
+      "vessel_count": 1037,
+      "pages_scraped": 52,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KM.csv"
+    },
+    {
+      "country": "Congo",
+      "flag_code": "cg",
+      "status": "success",
+      "vessel_count": 449,
+      "pages_scraped": 23,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CG.csv"
+    },
+    {
+      "country": "Cook Islands",
+      "flag_code": "ck",
+      "status": "success",
+      "vessel_count": 1440,
+      "pages_scraped": 72,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CK.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CK.csv"
+    },
+    {
+      "country": "Costa Rica",
+      "flag_code": "cr",
+      "status": "success",
+      "vessel_count": 832,
+      "pages_scraped": 42,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CR.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CR.csv"
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "flag_code": "ci",
+      "status": "success",
+      "vessel_count": 230,
+      "pages_scraped": 12,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CI.csv"
+    },
+    {
+      "country": "Croatia",
+      "flag_code": "hr",
+      "status": "success",
+      "vessel_count": 2328,
+      "pages_scraped": 117,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_HR.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_HR.csv"
+    },
+    {
+      "country": "Crozet Archipelago",
+      "flag_code": "xf",
+      "status": "success",
+      "vessel_count": 312,
+      "pages_scraped": 16,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XF.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XF.csv"
+    },
+    {
+      "country": "Cuba",
+      "flag_code": "cu",
+      "status": "success",
+      "vessel_count": 489,
+      "pages_scraped": 25,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CU.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CU.csv"
+    },
+    {
+      "country": "Curacao",
+      "flag_code": "cw",
+      "status": "success",
+      "vessel_count": 692,
+      "pages_scraped": 35,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CW.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CW.csv"
+    },
+    {
+      "country": "Czech Rep",
+      "flag_code": "cz",
+      "status": "success",
+      "vessel_count": 543,
+      "pages_scraped": 28,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CZ.csv"
+    },
+    {
+      "country": "DPR Korea",
+      "flag_code": "kp",
+      "status": "success",
+      "vessel_count": 557,
+      "pages_scraped": 28,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KP.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KP.csv"
+    },
+    {
+      "country": "DR Congo",
+      "flag_code": "cd",
+      "status": "success",
+      "vessel_count": 117,
+      "pages_scraped": 6,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CD.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CD.csv"
+    },
+    {
+      "country": "Djibouti",
+      "flag_code": "dj",
+      "status": "success",
+      "vessel_count": 370,
+      "pages_scraped": 19,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_DJ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_DJ.csv"
+    },
+    {
+      "country": "Dominica",
+      "flag_code": "dm",
+      "status": "success",
+      "vessel_count": 333,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_DM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_DM.csv"
+    },
+    {
+      "country": "Dominican Rep",
+      "flag_code": "do",
+      "status": "success",
+      "vessel_count": 185,
+      "pages_scraped": 10,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_DO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_DO.csv"
+    },
+    {
+      "country": "East Timor",
+      "flag_code": "tl",
+      "status": "success",
+      "vessel_count": 1036,
+      "pages_scraped": 52,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TL.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TL.csv"
+    },
+    {
+      "country": "Ecuador",
+      "flag_code": "ec",
+      "status": "success",
+      "vessel_count": 1032,
+      "pages_scraped": 52,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_EC.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_EC.csv"
+    },
+    {
+      "country": "Egypt",
+      "flag_code": "eg",
+      "status": "success",
+      "vessel_count": 1622,
+      "pages_scraped": 82,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_EG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_EG.csv"
+    },
+    {
+      "country": "El Salvador",
+      "flag_code": "sv",
+      "status": "success",
+      "vessel_count": 159,
+      "pages_scraped": 8,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SV.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SV.csv"
+    },
+    {
+      "country": "Equatorial Guinea",
+      "flag_code": "gq",
+      "status": "success",
+      "vessel_count": 212,
+      "pages_scraped": 11,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GQ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GQ.csv"
+    },
+    {
+      "country": "Eritrea",
+      "flag_code": "er",
+      "status": "success",
+      "vessel_count": 176,
+      "pages_scraped": 9,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ER.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ER.csv"
+    },
+    {
+      "country": "Estonia",
+      "flag_code": "ee",
+      "status": "success",
+      "vessel_count": 718,
+      "pages_scraped": 36,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_EE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_EE.csv"
+    },
+    {
+      "country": "Ethiopia",
+      "flag_code": "et",
+      "status": "success",
+      "vessel_count": 98,
+      "pages_scraped": 5,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ET.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ET.csv"
+    },
+    {
+      "country": "Faeroe Islands",
+      "flag_code": "fo",
+      "status": "success",
+      "vessel_count": 3897,
+      "pages_scraped": 195,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_FO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_FO.csv"
+    },
+    {
+      "country": "Falkland Islands",
+      "flag_code": "fk",
+      "status": "success",
+      "vessel_count": 70,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_FK.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_FK.csv"
+    },
+    {
+      "country": "Fiji",
+      "flag_code": "fj",
+      "status": "success",
+      "vessel_count": 496,
+      "pages_scraped": 25,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_FJ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_FJ.csv"
+    },
+    {
+      "country": "French Polynesia",
+      "flag_code": "pf",
+      "status": "success",
+      "vessel_count": 249,
+      "pages_scraped": 13,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PF.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PF.csv"
+    },
+    {
+      "country": "Gabon",
+      "flag_code": "ga",
+      "status": "success",
+      "vessel_count": 227,
+      "pages_scraped": 12,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GA.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GA.csv"
+    },
+    {
+      "country": "Gambia",
+      "flag_code": "gm",
+      "status": "success",
+      "vessel_count": 266,
+      "pages_scraped": 14,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GM.csv"
+    },
+    {
+      "country": "Georgia",
+      "flag_code": "ge",
+      "status": "success",
+      "vessel_count": 695,
+      "pages_scraped": 35,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GE.csv"
+    },
+    {
+      "country": "Ghana",
+      "flag_code": "gh",
+      "status": "success",
+      "vessel_count": 247,
+      "pages_scraped": 13,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GH.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GH.csv"
+    },
+    {
+      "country": "Gibraltar",
+      "flag_code": "gi",
+      "status": "success",
+      "vessel_count": 1418,
+      "pages_scraped": 71,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GI.csv"
+    },
+    {
+      "country": "Greenland",
+      "flag_code": "gl",
+      "status": "success",
+      "vessel_count": 1024,
+      "pages_scraped": 52,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GL.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GL.csv"
+    },
+    {
+      "country": "Grenada",
+      "flag_code": "gd",
+      "status": "success",
+      "vessel_count": 951,
+      "pages_scraped": 48,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GD.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GD.csv"
+    },
+    {
+      "country": "Guadeloupe",
+      "flag_code": "gp",
+      "status": "success",
+      "vessel_count": 331,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GP.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GP.csv"
+    },
+    {
+      "country": "Guatemala",
+      "flag_code": "gt",
+      "status": "success",
+      "vessel_count": 375,
+      "pages_scraped": 19,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GT.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GT.csv"
+    },
+    {
+      "country": "Guernsey",
+      "flag_code": "gg",
+      "status": "success",
+      "vessel_count": 5,
+      "pages_scraped": 1,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GG.csv"
+    },
+    {
+      "country": "Guiana",
+      "flag_code": "gf",
+      "status": "success",
+      "vessel_count": 49,
+      "pages_scraped": 3,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GF.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GF.csv"
+    },
+    {
+      "country": "Guinea",
+      "flag_code": "gn",
+      "status": "success",
+      "vessel_count": 355,
+      "pages_scraped": 18,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GN.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GN.csv"
+    },
+    {
+      "country": "Guinea-Bissau",
+      "flag_code": "gw",
+      "status": "success",
+      "vessel_count": 253,
+      "pages_scraped": 13,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GW.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GW.csv"
+    },
+    {
+      "country": "Guyana",
+      "flag_code": "gy",
+      "status": "success",
+      "vessel_count": 362,
+      "pages_scraped": 19,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GY.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_GY.csv"
+    },
+    {
+      "country": "Haiti",
+      "flag_code": "ht",
+      "status": "success",
+      "vessel_count": 340,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_HT.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_HT.csv"
+    },
+    {
+      "country": "Honduras",
+      "flag_code": "hn",
+      "status": "success",
+      "vessel_count": 630,
+      "pages_scraped": 32,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_HN.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_HN.csv"
+    },
+    {
+      "country": "Hong Kong",
+      "flag_code": "hk",
+      "status": "success",
+      "vessel_count": 3545,
+      "pages_scraped": 178,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_HK.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_HK.csv"
+    },
+    {
+      "country": "Iraq",
+      "flag_code": "iq",
+      "status": "success",
+      "vessel_count": 273,
+      "pages_scraped": 14,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_IQ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_IQ.csv"
+    },
+    {
+      "country": "Isle of Man",
+      "flag_code": "im",
+      "status": "success",
+      "vessel_count": 10,
+      "pages_scraped": 1,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_IM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_IM.csv"
+    },
+    {
+      "country": "Israel",
+      "flag_code": "il",
+      "status": "success",
+      "vessel_count": 541,
+      "pages_scraped": 28,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_IL.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_IL.csv"
+    },
+    {
+      "country": "Jamaica",
+      "flag_code": "jm",
+      "status": "success",
+      "vessel_count": 546,
+      "pages_scraped": 28,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_JM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_JM.csv"
+    },
+    {
+      "country": "Jersey",
+      "flag_code": "je",
+      "status": "success",
+      "vessel_count": 9,
+      "pages_scraped": 1,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_JE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_JE.csv"
+    },
+    {
+      "country": "Jordan",
+      "flag_code": "jo",
+      "status": "success",
+      "vessel_count": 176,
+      "pages_scraped": 9,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_JO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_JO.csv"
+    },
+    {
+      "country": "Kazakhstan",
+      "flag_code": "kz",
+      "status": "success",
+      "vessel_count": 223,
+      "pages_scraped": 12,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KZ.csv"
+    },
+    {
+      "country": "Kenya",
+      "flag_code": "ke",
+      "status": "success",
+      "vessel_count": 97,
+      "pages_scraped": 5,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KE.csv"
+    },
+    {
+      "country": "Kerguelen Islands",
+      "flag_code": "xg",
+      "status": "success",
+      "vessel_count": 124,
+      "pages_scraped": 7,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XG.csv"
+    },
+    {
+      "country": "Kiribati",
+      "flag_code": "ki",
+      "status": "success",
+      "vessel_count": 260,
+      "pages_scraped": 13,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KI.csv"
+    },
+    {
+      "country": "Kyrgyz Rep",
+      "flag_code": "kg",
+      "status": "success",
+      "vessel_count": 96,
+      "pages_scraped": 5,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KG.csv"
+    },
+    {
+      "country": "Laos",
+      "flag_code": "la",
+      "status": "success",
+      "vessel_count": 155,
+      "pages_scraped": 8,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LA.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LA.csv"
+    },
+    {
+      "country": "Latvia",
+      "flag_code": "lv",
+      "status": "success",
+      "vessel_count": 480,
+      "pages_scraped": 24,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LV.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LV.csv"
+    },
+    {
+      "country": "Lebanon",
+      "flag_code": "lb",
+      "status": "success",
+      "vessel_count": 177,
+      "pages_scraped": 9,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LB.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LB.csv"
+    },
+    {
+      "country": "Lesotho",
+      "flag_code": "ls",
+      "status": "success",
+      "vessel_count": 56,
+      "pages_scraped": 3,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LS.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LS.csv"
+    },
+    {
+      "country": "Libya",
+      "flag_code": "ly",
+      "status": "success",
+      "vessel_count": 380,
+      "pages_scraped": 19,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LY.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LY.csv"
+    },
+    {
+      "country": "Liechtenstein",
+      "flag_code": "li",
+      "status": "success",
+      "vessel_count": 3088,
+      "pages_scraped": 155,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LI.csv"
+    },
+    {
+      "country": "Lithuania",
+      "flag_code": "lt",
+      "status": "success",
+      "vessel_count": 336,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LT.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LT.csv"
+    },
+    {
+      "country": "Luxembourg",
+      "flag_code": "lu",
+      "status": "success",
+      "vessel_count": 2893,
+      "pages_scraped": 145,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LU.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LU.csv"
+    },
+    {
+      "country": "Macao",
+      "flag_code": "mo",
+      "status": "success",
+      "vessel_count": 138,
+      "pages_scraped": 7,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MO.csv"
+    },
+    {
+      "country": "Macedonia",
+      "flag_code": "mk",
+      "status": "success",
+      "vessel_count": 94,
+      "pages_scraped": 5,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MK.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MK.csv"
+    },
+    {
+      "country": "Madagascar",
+      "flag_code": "mg",
+      "status": "success",
+      "vessel_count": 141,
+      "pages_scraped": 8,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MG.csv"
+    },
+    {
+      "country": "Malawi",
+      "flag_code": "mw",
+      "status": "success",
+      "vessel_count": 188,
+      "pages_scraped": 10,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MW.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MW.csv"
+    },
+    {
+      "country": "Maldives",
+      "flag_code": "mv",
+      "status": "success",
+      "vessel_count": 184,
+      "pages_scraped": 10,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MV.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MV.csv"
+    },
+    {
+      "country": "Mali",
+      "flag_code": "ml",
+      "status": "success",
+      "vessel_count": 40,
+      "pages_scraped": 2,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ML.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ML.csv"
+    },
+    {
+      "country": "Martinique",
+      "flag_code": "mq",
+      "status": "success",
+      "vessel_count": 338,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MQ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MQ.csv"
+    },
+    {
+      "country": "Mauritania",
+      "flag_code": "mr",
+      "status": "success",
+      "vessel_count": 410,
+      "pages_scraped": 21,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MR.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MR.csv"
+    },
+    {
+      "country": "Mauritius",
+      "flag_code": "mu",
+      "status": "success",
+      "vessel_count": 323,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MU.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MU.csv"
+    },
+    {
+      "country": "Mexico",
+      "flag_code": "mx",
+      "status": "success",
+      "vessel_count": 1218,
+      "pages_scraped": 61,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MX.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MX.csv"
+    },
+    {
+      "country": "Micronesia",
+      "flag_code": "fm",
+      "status": "success",
+      "vessel_count": 1018,
+      "pages_scraped": 51,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_FM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_FM.csv"
+    },
+    {
+      "country": "Moldova",
+      "flag_code": "md",
+      "status": "success",
+      "vessel_count": 301,
+      "pages_scraped": 16,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MD.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MD.csv"
+    },
+    {
+      "country": "Monaco",
+      "flag_code": "mc",
+      "status": "success",
+      "vessel_count": 366,
+      "pages_scraped": 19,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MC.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MC.csv"
+    },
+    {
+      "country": "Mongolia",
+      "flag_code": "mn",
+      "status": "success",
+      "vessel_count": 532,
+      "pages_scraped": 27,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MN.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MN.csv"
+    },
+    {
+      "country": "Montenegro",
+      "flag_code": "me",
+      "status": "success",
+      "vessel_count": 724,
+      "pages_scraped": 37,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ME.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ME.csv"
+    },
+    {
+      "country": "Montserrat",
+      "flag_code": "ms",
+      "status": "success",
+      "vessel_count": 82,
+      "pages_scraped": 5,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MS.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MS.csv"
+    },
+    {
+      "country": "Mozambique",
+      "flag_code": "mz",
+      "status": "success",
+      "vessel_count": 363,
+      "pages_scraped": 19,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MZ.csv"
+    },
+    {
+      "country": "Myanmar",
+      "flag_code": "mm",
+      "status": "success",
+      "vessel_count": 2548,
+      "pages_scraped": 128,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MM.csv"
+    },
+    {
+      "country": "N. Mariana Isl",
+      "flag_code": "mp",
+      "status": "success",
+      "vessel_count": 87,
+      "pages_scraped": 5,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MP.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_MP.csv"
+    },
+    {
+      "country": "Namibia",
+      "flag_code": "na",
+      "status": "success",
+      "vessel_count": 319,
+      "pages_scraped": 16,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NA.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NA.csv"
+    },
+    {
+      "country": "Nauru",
+      "flag_code": "nr",
+      "status": "success",
+      "vessel_count": 90,
+      "pages_scraped": 5,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NR.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NR.csv"
+    },
+    {
+      "country": "Nepal",
+      "flag_code": "np",
+      "status": "success",
+      "vessel_count": 71,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NP.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NP.csv"
+    },
+    {
+      "country": "New Caledonia",
+      "flag_code": "nc",
+      "status": "success",
+      "vessel_count": 614,
+      "pages_scraped": 31,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NC.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NC.csv"
+    },
+    {
+      "country": "New Zealand",
+      "flag_code": "nz",
+      "status": "success",
+      "vessel_count": 3343,
+      "pages_scraped": 168,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NZ.csv"
+    },
+    {
+      "country": "Nicaragua",
+      "flag_code": "ni",
+      "status": "success",
+      "vessel_count": 671,
+      "pages_scraped": 34,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NI.csv"
+    },
+    {
+      "country": "Niger",
+      "flag_code": "ne",
+      "status": "success",
+      "vessel_count": 216,
+      "pages_scraped": 11,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NE.csv"
+    },
+    {
+      "country": "Nigeria",
+      "flag_code": "ng",
+      "status": "success",
+      "vessel_count": 2295,
+      "pages_scraped": 115,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NG.csv"
+    },
+    {
+      "country": "Niue",
+      "flag_code": "nu",
+      "status": "success",
+      "vessel_count": 323,
+      "pages_scraped": 17,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NU.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_NU.csv"
+    },
+    {
+      "country": "Oman",
+      "flag_code": "om",
+      "status": "success",
+      "vessel_count": 402,
+      "pages_scraped": 21,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_OM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_OM.csv"
+    },
+    {
+      "country": "Pakistan",
+      "flag_code": "pk",
+      "status": "success",
+      "vessel_count": 1149,
+      "pages_scraped": 58,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PK.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PK.csv"
+    },
+    {
+      "country": "Palau",
+      "flag_code": "pw",
+      "status": "success",
+      "vessel_count": 969,
+      "pages_scraped": 49,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PW.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PW.csv"
+    },
+    {
+      "country": "Palestine",
+      "flag_code": "ps",
+      "status": "success",
+      "vessel_count": 68,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PS.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PS.csv"
+    },
+    {
+      "country": "Papua New Guinea",
+      "flag_code": "pg",
+      "status": "success",
+      "vessel_count": 461,
+      "pages_scraped": 24,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PG.csv"
+    },
+    {
+      "country": "Paraguay",
+      "flag_code": "py",
+      "status": "success",
+      "vessel_count": 277,
+      "pages_scraped": 14,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PY.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PY.csv"
+    },
+    {
+      "country": "Peru",
+      "flag_code": "pe",
+      "status": "success",
+      "vessel_count": 1001,
+      "pages_scraped": 51,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PE.csv"
+    },
+    {
+      "country": "Philippines",
+      "flag_code": "ph",
+      "status": "success",
+      "vessel_count": 3671,
+      "pages_scraped": 184,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PH.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PH.csv"
+    },
+    {
+      "country": "Pitcairn Island",
+      "flag_code": "pn",
+      "status": "success",
+      "vessel_count": 532,
+      "pages_scraped": 27,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PN.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PN.csv"
+    },
+    {
+      "country": "Portugal",
+      "flag_code": "pt",
+      "status": "success",
+      "vessel_count": 1769,
+      "pages_scraped": 89,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PT.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PT.csv"
+    },
+    {
+      "country": "Portugal (Madeira)",
+      "flag_code": "xb",
+      "status": "success",
+      "vessel_count": 1805,
+      "pages_scraped": 91,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XB.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XB.csv"
+    },
+    {
+      "country": "Puerto Rico",
+      "flag_code": "pr",
+      "status": "success",
+      "vessel_count": 439,
+      "pages_scraped": 22,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PR.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PR.csv"
+    },
+    {
+      "country": "Reunion",
+      "flag_code": "re",
+      "status": "success",
+      "vessel_count": 1043,
+      "pages_scraped": 53,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_RE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_RE.csv"
+    },
+    {
+      "country": "Romania",
+      "flag_code": "ro",
+      "status": "success",
+      "vessel_count": 830,
+      "pages_scraped": 42,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_RO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_RO.csv"
+    },
+    {
+      "country": "Rwanda",
+      "flag_code": "rw",
+      "status": "success",
+      "vessel_count": 881,
+      "pages_scraped": 45,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_RW.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_RW.csv"
+    },
+    {
+      "country": "Saint Helena",
+      "flag_code": "sh",
+      "status": "success",
+      "vessel_count": 204,
+      "pages_scraped": 11,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SH.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SH.csv"
+    },
+    {
+      "country": "Samoa",
+      "flag_code": "ws",
+      "status": "success",
+      "vessel_count": 218,
+      "pages_scraped": 11,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_WS.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_WS.csv"
+    },
+    {
+      "country": "San Marino",
+      "flag_code": "sm",
+      "status": "success",
+      "vessel_count": 556,
+      "pages_scraped": 28,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SM.csv"
+    },
+    {
+      "country": "Sao Tome & Principe",
+      "flag_code": "st",
+      "status": "success",
+      "vessel_count": 474,
+      "pages_scraped": 24,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ST.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ST.csv"
+    },
+    {
+      "country": "Senegal",
+      "flag_code": "sn",
+      "status": "success",
+      "vessel_count": 506,
+      "pages_scraped": 26,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SN.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SN.csv"
+    },
+    {
+      "country": "Serbia",
+      "flag_code": "rs",
+      "status": "success",
+      "vessel_count": 296,
+      "pages_scraped": 15,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_RS.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_RS.csv"
+    },
+    {
+      "country": "Seychelles",
+      "flag_code": "sc",
+      "status": "success",
+      "vessel_count": 782,
+      "pages_scraped": 40,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SC.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SC.csv"
+    },
+    {
+      "country": "Sierra Leone",
+      "flag_code": "sl",
+      "status": "success",
+      "vessel_count": 875,
+      "pages_scraped": 44,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SL.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SL.csv"
+    },
+    {
+      "country": "Slovakia",
+      "flag_code": "sk",
+      "status": "success",
+      "vessel_count": 403,
+      "pages_scraped": 21,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SK.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SK.csv"
+    },
+    {
+      "country": "Slovenia",
+      "flag_code": "si",
+      "status": "success",
+      "vessel_count": 375,
+      "pages_scraped": 19,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SI.csv"
+    },
+    {
+      "country": "Solomon Islands",
+      "flag_code": "sb",
+      "status": "success",
+      "vessel_count": 406,
+      "pages_scraped": 21,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SB.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SB.csv"
+    },
+    {
+      "country": "Somalia",
+      "flag_code": "so",
+      "status": "success",
+      "vessel_count": 946,
+      "pages_scraped": 48,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SO.csv"
+    },
+    {
+      "country": "South Africa",
+      "flag_code": "za",
+      "status": "success",
+      "vessel_count": 1808,
+      "pages_scraped": 91,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ZA.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ZA.csv"
+    },
+    {
+      "country": "South Sudan",
+      "flag_code": "ss",
+      "status": "success",
+      "vessel_count": 112,
+      "pages_scraped": 6,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SS.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SS.csv"
+    },
+    {
+      "country": "St Kitts & Nevis",
+      "flag_code": "kn",
+      "status": "success",
+      "vessel_count": 1078,
+      "pages_scraped": 54,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KN.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_KN.csv"
+    },
+    {
+      "country": "St Lucia",
+      "flag_code": "lc",
+      "status": "success",
+      "vessel_count": 149,
+      "pages_scraped": 8,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LC.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_LC.csv"
+    },
+    {
+      "country": "St Paul & Amsterdam Isl",
+      "flag_code": "xi",
+      "status": "success",
+      "vessel_count": 58,
+      "pages_scraped": 3,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XI.csv"
+    },
+    {
+      "country": "St Pierre & Miquelon",
+      "flag_code": "pm",
+      "status": "success",
+      "vessel_count": 254,
+      "pages_scraped": 13,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_PM.csv"
+    },
+    {
+      "country": "St Vincent & Grenadines",
+      "flag_code": "vc",
+      "status": "success",
+      "vessel_count": 1372,
+      "pages_scraped": 69,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VC.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VC.csv"
+    },
+    {
+      "country": "Sudan",
+      "flag_code": "sd",
+      "status": "success",
+      "vessel_count": 342,
+      "pages_scraped": 18,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SD.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SD.csv"
+    },
+    {
+      "country": "Suriname",
+      "flag_code": "sr",
+      "status": "success",
+      "vessel_count": 134,
+      "pages_scraped": 7,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SR.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SR.csv"
+    },
+    {
+      "country": "Swaziland",
+      "flag_code": "sz",
+      "status": "success",
+      "vessel_count": 205,
+      "pages_scraped": 11,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SZ.csv"
+    },
+    {
+      "country": "Switzerland",
+      "flag_code": "ch",
+      "status": "success",
+      "vessel_count": 1476,
+      "pages_scraped": 83,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CH.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_CH.csv"
+    },
+    {
+      "country": "Syria",
+      "flag_code": "sy",
+      "status": "success",
+      "vessel_count": 66,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SY.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_SY.csv"
+    },
+    {
+      "country": "Tajikistan",
+      "flag_code": "tj",
+      "status": "success",
+      "vessel_count": 63,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TJ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TJ.csv"
+    },
+    {
+      "country": "Tanzania",
+      "flag_code": "tz",
+      "status": "success",
+      "vessel_count": 886,
+      "pages_scraped": 45,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TZ.csv"
+    },
+    {
+      "country": "Thailand",
+      "flag_code": "th",
+      "status": "success",
+      "vessel_count": 3039,
+      "pages_scraped": 152,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TH.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TH.csv"
+    },
+    {
+      "country": "Togolese Rep",
+      "flag_code": "tg",
+      "status": "success",
+      "vessel_count": 403,
+      "pages_scraped": 21,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TG.csv"
+    },
+    {
+      "country": "Tonga",
+      "flag_code": "to",
+      "status": "success",
+      "vessel_count": 956,
+      "pages_scraped": 48,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TO.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TO.csv"
+    },
+    {
+      "country": "Trinidad & Tobago",
+      "flag_code": "tt",
+      "status": "success",
+      "vessel_count": 509,
+      "pages_scraped": 26,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TT.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TT.csv"
+    },
+    {
+      "country": "Tunisia",
+      "flag_code": "tn",
+      "status": "success",
+      "vessel_count": 542,
+      "pages_scraped": 28,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TN.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TN.csv"
+    },
+    {
+      "country": "Turkmenistan",
+      "flag_code": "tm",
+      "status": "success",
+      "vessel_count": 114,
+      "pages_scraped": 6,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TM.csv"
+    },
+    {
+      "country": "Turks & Caicos Isl",
+      "flag_code": "tc",
+      "status": "success",
+      "vessel_count": 63,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TC.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TC.csv"
+    },
+    {
+      "country": "Tuvalu",
+      "flag_code": "tv",
+      "status": "success",
+      "vessel_count": 622,
+      "pages_scraped": 32,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TV.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_TV.csv"
+    },
+    {
+      "country": "US Virgin Islands",
+      "flag_code": "vi",
+      "status": "success",
+      "vessel_count": 72,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VI.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VI.csv"
+    },
+    {
+      "country": "Uganda",
+      "flag_code": "ug",
+      "status": "success",
+      "vessel_count": 75,
+      "pages_scraped": 4,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_UG.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_UG.csv"
+    },
+    {
+      "country": "Ukraine",
+      "flag_code": "ua",
+      "status": "success",
+      "vessel_count": 862,
+      "pages_scraped": 44,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_UA.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_UA.csv"
+    },
+    {
+      "country": "United Arab Emirates (UAE)",
+      "flag_code": "ae",
+      "status": "success",
+      "vessel_count": 1850,
+      "pages_scraped": 93,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AE.csv"
+    },
+    {
+      "country": "Uruguay",
+      "flag_code": "uy",
+      "status": "success",
+      "vessel_count": 571,
+      "pages_scraped": 29,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_UY.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_UY.csv"
+    },
+    {
+      "country": "Uzbekistan",
+      "flag_code": "uz",
+      "status": "success",
+      "vessel_count": 17,
+      "pages_scraped": 1,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_UZ.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_UZ.csv"
+    },
+    {
+      "country": "Vanuatu",
+      "flag_code": "vu",
+      "status": "success",
+      "vessel_count": 923,
+      "pages_scraped": 47,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VU.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VU.csv"
+    },
+    {
+      "country": "Vatican",
+      "flag_code": "va",
+      "status": "success",
+      "vessel_count": 341,
+      "pages_scraped": 18,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VA.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VA.csv"
+    },
+    {
+      "country": "Venezuela",
+      "flag_code": "ve",
+      "status": "success",
+      "vessel_count": 2414,
+      "pages_scraped": 121,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_VE.csv"
+    },
+    {
+      "country": "Wallis and Futuna",
+      "flag_code": "wf",
+      "status": "success",
+      "vessel_count": 123,
+      "pages_scraped": 7,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_WF.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_WF.csv"
+    },
+    {
+      "country": "Yemen",
+      "flag_code": "ye",
+      "status": "success",
+      "vessel_count": 147,
+      "pages_scraped": 8,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_YE.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_YE.csv"
+    },
+    {
+      "country": "Zambia",
+      "flag_code": "zm",
+      "status": "success",
+      "vessel_count": 192,
+      "pages_scraped": 10,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ZM.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ZM.csv"
+    },
+    {
+      "country": "Zimbabwe",
+      "flag_code": "zw",
+      "status": "success",
+      "vessel_count": 45,
+      "pages_scraped": 3,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ZW.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_ZW.csv"
+    }
+  ]
+}

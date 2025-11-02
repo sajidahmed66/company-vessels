@@ -1,0 +1,737 @@
+url,name,type,imo
+/vessels/details/9761243,TESSALA,LNG Tanker,9761243
+/vessels/details/9761267,OUGARTA,LNG Tanker,9761267
+/vessels/details/9827889,BADJI MOKHTAR III,Passenger/Ro-Ro Cargo Ship,9827889
+/vessels/details/9432361,AZAO,Bulk Carrier,9432361
+/vessels/details/9861483,IN ECKER,Chemical/Oil Products Tanker,9861483
+/vessels/details/9537044,RHOURD EL FARES,LPG Tanker,9537044
+/vessels/details/9537032,BERGA II,LPG Tanker,9537032
+/vessels/details/9109768,TARIQ IBN ZIYAD,Passenger/Ro-Ro Cargo Ship,9109768
+/vessels/details/9265419,TASSILI II,Passenger/Ro-Ro Cargo Ship,9265419
+/vessels/details/9265421,EL DJAZAIR II,Passenger/Ro-Ro Cargo Ship,9265421
+/vessels/details/9760615,TAMANRASSET,Container Ship,9760615
+/vessels/details/9845063,DJANET,Container Ship,9845063
+/vessels/details/9845051,CIRTA,Container Ship,9845051
+/vessels/details/9320855,RHOURD EL ADRA,LPG Tanker,9320855
+/vessels/details/9337793,RHOURD EL HAMRA,LPG Tanker,9337793
+/vessels/details/9853577,HASSI TOUAREG,LPG Tanker,9853577
+/vessels/details/9809045,HASSI BERKINE,LPG Tanker,9809045
+/vessels/details/9697325,TIN ZIREN,General Cargo Ship,9697325
+/vessels/details/9697337,TIMGAD,General Cargo Ship,9697337
+/vessels/details/9459125,TAHAT,Container Ship,9459125
+/vessels/details/9685085,TITTERI,General Cargo Ship,9685085
+/vessels/details/9626716,CONSTANTINE,General Cargo Ship,9626716
+/vessels/details/9646455,KHERRATA,General Cargo Ship,9646455
+/vessels/details/9557795,SEDRATA,General Cargo Ship,9557795
+/vessels/details/9557783,STIDIA,General Cargo Ship,9557783
+/vessels/details/9557800,SAOURA,General Cargo Ship,9557800
+/vessels/details/9393230,GOURAYA,General Cargo Ship,9393230
+/vessels/details/9265380,AIN ZEFT,Bitumen Tanker,9265380
+/vessels/details/9265392,RAS TOMB,Bitumen Tanker,9265392
+/vessels/details/9883912,MT TOLGA,Oil Products Tanker,9883912
+/vessels/details/9587568,EL-MOUSSANID,Salvage Ship,9587568
+/vessels/details/9587556,EL MOUSIF,Salvage Ship,9587556
+/vessels/details/9587491,EL MOUNDJID,Salvage Ship,9587491
+/vessels/details/9912127,KENADSA,Oil Products Tanker,9912127
+/vessels/details/9912115,EL GOUFI,Oil Products Tanker,9912115
+/vessels/details/9775907,EL-MELLAH,Training Ship,9775907
+/vessels/details/7606267,EL KENNAR,Oil Products Tanker,7606267
+/vessels/details/7606279,EL KOUACHI,Oil Products Tanker,7606279
+/vessels/details/9811488,SOUK AHRAS,Crane Ship,9811488
+/vessels/details/7815856,BELGHIMOUS,Bunkering Tanker,7815856
+/vessels/details/7647429,BERRICHE,Bunkering Tanker,7647429
+/vessels/details/7647431,BORDJ MENAIEL,Bunkering Tanker,7647431
+/vessels/details/9827102,IGILGILI II,Tug,9827102
+/vessels/details/9559999,BELKACEM GRINE,Training Ship,9559999
+/vessels/details/9829239,IGILGILI I,Tug,9829239
+/vessels/details/9615705,EL DJEDID 2,Tug,9615705
+/vessels/details/9615690,OUED EL KEBIR,Tug,9615690
+/vessels/details/9622071,EL DJEDID 1,Tug,9622071
+/vessels/details/9615717,SI EL-HAOUES,Tug,9615717
+/vessels/details/8130461,MAZAFRAN 6,Tug,8130461
+/vessels/details/8130459,MAZAFRAN 5,Tug,8130459
+/vessels/details/8130447,MAZAFRAN4,Tug,8130447
+/vessels/details/1112018,ECHAHID ABANE RAMDAN,Fishing Vessel,1112018
+/vessels/details/9833462,BABOR 1,Tug,9833462
+/vessels/details/1054838,ZMALET AL EMIR ABK,Fishing Vessel,1054838
+/vessels/details/8434984,HADJ SOUFI MOHAMED,Fishing Vessel,8434984
+/vessels/details/9593373,ZABANA AHMED I,Tug,9593373
+/vessels/details/9593385,ZABANA AHMED II,Tug,9593385
+/vessels/details/9819193,CAP BOUGAROUN,Tug,9819193
+/vessels/details/9817858,MEZGHRANE,Tug,9817858
+/vessels/details/9817872,REZI OMAR,Tug,9817872
+/vessels/details/9817860,RAS TENES,Tug,9817860
+/vessels/details/9332365,CAP SIGLI,Tug,9332365
+/vessels/details/7230587,TAFNA 1,Tug,7230587
+/vessels/details/9907598,AHMED SALIM,Fishing Vessel,9907598
+/vessels/details/7921526,EL IDRISSI,Research Vessel,7921526
+/vessels/details/9934785,EL BACHIR,Fishing Vessel,9934785
+/vessels/details/9829605,CAP DE FER,Tug,9829605
+/vessels/details/1053482,RAIAMARI,Fishing Vessel,1053482
+/vessels/details/1055961,OUM ELKHEIR 27,Fishing Vessel,1055961
+/vessels/details/9278363,SIDI ABDERRAHMANE,Tug,9278363
+/vessels/details/9278399,RIGHA 2,Tug,9278399
+/vessels/details/9366782,SKIKDA,Tug,9366782
+/vessels/details/9907079,AHMED ROBAINE II,Fishing Vessel,9907079
+/vessels/details/9971185,WAFID ZINE EDDINE,Fishing Vessel,9971185
+/vessels/details/9969637,LES FRERES BENAMANE,Fishing Vessel,9969637
+/vessels/details/9964807,EL HADJ OMAR,Fishing Vessel,9964807
+/vessels/details/9280316,CHOULOU,Tug,9280316
+/vessels/details/9276846,CAP CARBON,Tug,9276846
+/vessels/details/9280299,MUSTAPHA BEN BOULAID 2,Tug,9280299
+/vessels/details/1104853,EL ATI ALLAH II,Fishing Vessel,1104853
+/vessels/details/8402553,TOUFIK,Fishing Support Vessel,8402553
+/vessels/details/8688573,YOUNES1,Fishing Vessel,8688573
+/vessels/details/8688585,YOUNES II,Fishing Vessel,8688585
+/vessels/details/8465787,OUALD EL KHECHAI,Fishing Vessel,8465787
+/vessels/details/9623037,BADJI MOKHTAR II,Passenger Ship,9623037
+/vessels/details/9623049,SERAIDI,Passenger Ship,9623049
+/vessels/details/8584296,RIADH,Fishing Vessel,8584296
+/vessels/details/8130497,ISSER 3,Tug,8130497
+/vessels/details/8130473,ISSER 1,Tug,8130473
+/vessels/details/9865594,AHMED ROBAINE,Fishing Vessel,9865594
+/vessels/details/9907603,SERAJ,Fishing Vessel,9907603
+/vessels/details/9393838,LALA KHEDIDJA,Water Tanker,9393838
+/vessels/details/8687892,ELMAJDE,Fishing Vessel,8687892
+/vessels/details/9380544,ALICIA BEY,Fishing Vessel,9380544
+/vessels/details/8211083,M. S. BENYAHIA,Fishing Support Vessel,8211083
+/vessels/details/8687787,E.MOSTEFA BENBOULAID,Fishing Vessel,8687787
+/vessels/details/8783804,AL MAJED,Fishing Vessel,8783804
+/vessels/details/7110531,CHELIFF 4,Tug,7110531
+/vessels/details/9805233,BORHANE,Fishing Vessel,9805233
+/vessels/details/9432816,MECTA,Tug,9432816
+/vessels/details/8940335,HADJ SAID,Fishing Vessel,8940335
+/vessels/details/8799176,FEL ABDELKADER,Fishing Vessel,8799176
+/vessels/details/7106152,RHUMMEL 4,Tug,7106152
+/vessels/details/605126911,EL MOUNKID 11,SAR,605126911
+/vessels/details/605086015,AL MAHROUSSA,Unknown,605086015
+/vessels/details/605076411,OUED SABOUNE 02,Pilot,605076411
+/vessels/details/605076000,LA SOUMMAM,Other type,605076000
+/vessels/details/605066142,FEL ABDELKADER,Fishing vessel,605066142
+/vessels/details/605066435,TAGHEST,Dredging or UW ops,605066435
+/vessels/details/605066563,EL MARSA EL KABIR,Fishing vessel,605066563
+/vessels/details/605026426,TASMANIT1,Pilot,605026426
+/vessels/details/605066391,MOHAMMED II,Fishing vessel,605066391
+/vessels/details/4908511,NAVY922,Other type,4908511
+/vessels/details/605086016,MAZEGHANNA,Unknown,605086016
+/vessels/details/605126440,MILITARY.,Unknown,605126440
+/vessels/details/605066601,SERAJ,Fishing vessel,605066601
+/vessels/details/605022809,SIDI SLIMANE II,Fishing vessel,605022809
+/vessels/details/605200049,6052-49-48,Unknown,605200049
+/vessels/details/605010003,LUCHENGYU60501-3-99,Unknown,605010003
+/vessels/details/605200045,6052-45-62,Unknown,605200045
+/vessels/details/605690017,60569-17-92,Unknown,605690017
+/vessels/details/605182576,LUJIAOYU60518-76-80,Unknown,605182576
+/vessels/details/7205465,TESSALA II,Tug,7205465
+/vessels/details/605060014,LULONGYU60506-14-91,Unknown,605060014
+/vessels/details/8130411,MAZAFRAN 1,Tug,8130411
+/vessels/details/605200018,6052-18-69,Unknown,605200018
+/vessels/details/605690037,60569-37-95,Unknown,605690037
+/vessels/details/605182587,LUJIAOYU60518-87-99,Unknown,605182587
+/vessels/details/605880025,FUWANG60588-25-01,Unknown,605880025
+/vessels/details/605791015,LURONGYU57910-15 90,Unknown,605791015
+/vessels/details/605200073,6052-73-86,Unknown,605200073
+/vessels/details/8130435,MAZAFRAN 3,Tug,8130435
+/vessels/details/605060016,LULONGYU60506-16-95,Unknown,605060016
+/vessels/details/605010012,LUCHENGYU60501-1273,Unknown,605010012
+/vessels/details/605507001,05507-1-59,Unknown,605507001
+/vessels/details/605230051,60523-51-98,Unknown,605230051
+/vessels/details/605826602,LURONGYU58266-2 50,Unknown,605826602
+/vessels/details/605261818,60526-18-50,Unknown,605261818
+/vessels/details/7046728,CHELIFF 6,Tug,7046728
+/vessels/details/605996119,05996-1197.1V,Unknown,605996119
+/vessels/details/605790002,60579-2-91,Unknown,605790002
+/vessels/details/605310057,60531-57-63,Unknown,605310057
+/vessels/details/605880058,FUWANG60588-58-15,Unknown,605880058
+/vessels/details/605880055,FUWANG60588-55-98,Unknown,605880055
+/vessels/details/605287301,52873-01-70,Unknown,605287301
+/vessels/details/605940007,60594-7-96,Unknown,605940007
+/vessels/details/605885027,FUDINGYU05885-27 90,Unknown,605885027
+/vessels/details/9278313,TASSINA 1,Tug,9278313
+/vessels/details/605182588,LUJIAOYU60518-88-85,Unknown,605182588
+/vessels/details/605359035,ZHEDAIYU05359-35 10,Unknown,605359035
+/vessels/details/605066410,DAHRA,Pilot,605066410
+/vessels/details/605200026,6052-26-43,Unknown,605200026
+/vessels/details/605200031,6052-31-34,Unknown,605200031
+/vessels/details/605298022,SUGANYU05298-228.1V,Unknown,605298022
+/vessels/details/605532301,LUCHENGYU60553-1-81,Unknown,605532301
+/vessels/details/605126913,EL MOUNKID 13,SAR,605126913
+/vessels/details/4509169,EL MOUDERRIB 5,Training Ship,4509169
+/vessels/details/605690040,60569-40-99,Unknown,605690040
+/vessels/details/605116715,TIDJELABINE,Dredging or UW ops,605116715
+/vessels/details/7108813,CHELIFF 7,Tug,7108813
+/vessels/details/605086017,AL BAHDJA,Pilot,605086017
+/vessels/details/605299006,05299-F-46,Fishing vessel,605299006
+/vessels/details/605828130,05828-130-96,Unknown,605828130
+/vessels/details/605182589,LUJIAOYU60518-89-97,Unknown,605182589
+/vessels/details/8535829,AFTIS II,Fishing Vessel,8535829
+/vessels/details/7331850,ECH CHIHEB,Fishing Vessel,7331850
+/vessels/details/605690022,60569-22-76,Unknown,605690022
+/vessels/details/605299008,05299-H-48,Fishing vessel,605299008
+/vessels/details/605261919,60526-19-93,Unknown,605261919
+/vessels/details/605996118,05996-1187.6V,Unknown,605996118
+/vessels/details/605010011,LUCHENGYU60501-1186,Unknown,605010011
+/vessels/details/605182582,LUJIAOYU60518-82-99,Unknown,605182582
+/vessels/details/605916801,59168-01-58,Unknown,605916801
+/vessels/details/4509183,EL MOUDERRIB 7,Training Ship,4509183
+/vessels/details/605584299,LULONGYU60506-11-97,Unknown,605584299
+/vessels/details/7111327,CHELIFF 1,Tug,7111327
+/vessels/details/605578803,55788-03-96,Unknown,605578803
+/vessels/details/605182596,LUJIAOYU60518-96-99,Unknown,605182596
+/vessels/details/605650020,60565-20-99,Unknown,605650020
+/vessels/details/605287304,52873-04-80,Unknown,605287304
+/vessels/details/605940012,60594-12-82,Unknown,605940012
+/vessels/details/605662307,LURONGYU60566-7 80,Unknown,605662307
+/vessels/details/605036118,BRAHAM,Other type,605036118
+/vessels/details/605662302,LURONGYU60566-2 80,Unknown,605662302
+/vessels/details/605820004,-60582-04-99,Unknown,605820004
+/vessels/details/8130526,ISSER 6,Tug,8130526
+/vessels/details/8308202,KRISTEL,Motor Hopper,8308202
+/vessels/details/7237133,EL JABBAR,Fishing Vessel,7237133
+/vessels/details/605880054,FUWANG60588-54-82,Unknown,605880054
+/vessels/details/605880001,FUWANG60588-01-84,Unknown,605880001
+/vessels/details/9098799,ADEL,Fishing Vessel,9098799
+/vessels/details/605532412,60553-12-75,Unknown,605532412
+/vessels/details/605532310,LUCHENGYU60553-10-,Unknown,605532310
+/vessels/details/9278375,TASSINA 2,Tug,9278375
+/vessels/details/605690016,60569-16-95,Unknown,605690016
+/vessels/details/605970028,LUCHENGYU60597-2899,Unknown,605970028
+/vessels/details/605550033,555-33-55,Unknown,605550033
+/vessels/details/605182573,LUJIAOYU60518-73-89,Unknown,605182573
+/vessels/details/605182591,LUJIAOYU60518-91-99,Unknown,605182591
+/vessels/details/605016031,60501631-69,Unknown,605016031
+/vessels/details/605200070,6052-70-86,Unknown,605200070
+/vessels/details/605800003,LIUHENG58-3-49,Unknown,605800003
+/vessels/details/7325928,EL BADR,Fishing Vessel,7325928
+/vessels/details/605126927,EL-MOUNKID 21,SAR,605126927
+/vessels/details/8537671,HABIB ALLAH I,Fishing Vessel,8537671
+/vessels/details/605790004,60579-04-94,Unknown,605790004
+/vessels/details/605298005,SUGANYU05298-058.2V,Unknown,605298005
+/vessels/details/7046833,RHUMMEL 1,Tug,7046833
+/vessels/details/4509157,EL MOUDERRIB 4,Training Ship,4509157
+/vessels/details/605200041,6052-41-44,Unknown,605200041
+/vessels/details/605200021,6052-21-60,Unknown,605200021
+/vessels/details/605826621,ZHEDAIYU58266-21 90,Unknown,605826621
+/vessels/details/605091260,ELMOUNKID25,SAR,605091260
+/vessels/details/605885014,MINFUDINGYU05885-14,Unknown,605885014
+/vessels/details/605880049,FUWANG60588-49-92,Unknown,605880049
+/vessels/details/605182599,LUJIAOYU60518-99-63,Unknown,605182599
+/vessels/details/605690010,60569-10-82,Unknown,605690010
+/vessels/details/605970038,LUCHENGYU60597-3899,Unknown,605970038
+/vessels/details/605790011,60579-11-99,Unknown,605790011
+/vessels/details/605866777,0,Other type,605866777
+/vessels/details/605996117,05996-1177.9V,Unknown,605996117
+/vessels/details/8542509,SIDI SLIMANE,Fishing Vessel,8542509
+/vessels/details/605532305,LUCHENGYU60553-5-53,Unknown,605532305
+/vessels/details/605820002,-60582-02-99,Unknown,605820002
+/vessels/details/605200013,6052-13-79,Unknown,605200013
+/vessels/details/605923657,4059-22-71,Unknown,605923657
+/vessels/details/605650013,60565-13-82,Unknown,605650013
+/vessels/details/605880053,FUWANG60588-53-81,Unknown,605880053
+/vessels/details/605660016,SHUNHANG-24-37,Unknown,605660016
+/vessels/details/605662303,LURONGYU60566-3 80,Unknown,605662303
+/vessels/details/605880023,FUWANG60588-23-96,Unknown,605880023
+/vessels/details/8130485,ISSER 2,Tug,8130485
+/vessels/details/605662321,LURONGYU60566-21 40,Unknown,605662321
+/vessels/details/605662337,LURONGYU60566-37-7V7,Unknown,605662337
+/vessels/details/605790008,60579-08-99,Unknown,605790008
+/vessels/details/605690031,60569-31-76,Unknown,605690031
+/vessels/details/605880027,FUWANG60588-27-99,Unknown,605880027
+/vessels/details/605650015,60565-15-77,Unknown,605650015
+/vessels/details/605298011,SUGANYU05298-117.4V,Unknown,605298011
+/vessels/details/605773908,13976057739-8-98,Unknown,605773908
+/vessels/details/605200074,6052-74-81,Unknown,605200074
+/vessels/details/605111113,60511111113-92,Unknown,605111113
+/vessels/details/605182583,LUJIAOYU60518-83-99,Unknown,605182583
+/vessels/details/605060011,LULONGYU60506-11-94,Unknown,605060011
+/vessels/details/9168714,NIL I,Tug,9168714
+/vessels/details/605970039,LUCHENGYU60597-3999,Unknown,605970039
+/vessels/details/605880047,FUWANG60588-47-80,Unknown,605880047
+/vessels/details/605690033,60569-33-82,Unknown,605690033
+/vessels/details/605077227,CHAHID HASNI SAIDI,Fishing vessel,605077227
+/vessels/details/605126926,EL MOUNKID 20,SAR,605126926
+/vessels/details/605200050,6052-50-97,Unknown,605200050
+/vessels/details/605310052,60531-52-01,Unknown,605310052
+/vessels/details/605790010,60579-10-93,Unknown,605790010
+/vessels/details/605552001,55520-01-48,Unknown,605552001
+/vessels/details/7235616,EL BATAL,Fishing Vessel,7235616
+/vessels/details/605690008,60569-8-90,Unknown,605690008
+/vessels/details/605022591,EL KADER,Fishing vessel,605022591
+/vessels/details/7218060,EN NAJAH,Fishing Vessel,7218060
+/vessels/details/605077353,EL CHOROUK,Fishing vessel,605077353
+/vessels/details/605200047,6052-47-99,Unknown,605200047
+/vessels/details/605066497,FISHING BOY A,Unknown,605066497
+/vessels/details/9822530,TIDJELABINE,Motor Hopper,9822530
+/vessels/details/605200003,6052-3-56,Unknown,605200003
+/vessels/details/9098804,RANIA,Fishing Vessel,9098804
+/vessels/details/605126910,EL MOUNKID 10,SAR,605126910
+/vessels/details/605200075,6052-75-78,Unknown,605200075
+/vessels/details/605200001,6052-1-73,Unknown,605200001
+/vessels/details/605532414,60553-14-76,Unknown,605532414
+/vessels/details/605200056,6052-56-68,Unknown,605200056
+/vessels/details/605880003,FUWANG60588-03-86,Unknown,605880003
+/vessels/details/4509121,EL MOUDERRIB 1,Training Ship,4509121
+/vessels/details/605182575,LUJIAOYU60518-75-99,Unknown,605182575
+/vessels/details/605790012,60579-12-98,Unknown,605790012
+/vessels/details/605880046,FUWANG60588-46-64,Unknown,605880046
+/vessels/details/605970032,LUCHENGYU60597-3277,Unknown,605970032
+/vessels/details/7206782,SEYBOUSE 1,Tug,7206782
+/vessels/details/4509133,EL MOUDERRIB 2,Training Ship,4509133
+/vessels/details/605662325,LURONGYU60566-25 30,Unknown,605662325
+/vessels/details/605298009,SUGANYU05298-098.3V,Unknown,605298009
+/vessels/details/605182578,LUJIAOYU60518-78-98,Unknown,605182578
+/vessels/details/605200022,6052-22-53,Unknown,605200022
+/vessels/details/605202772,SURI YANMARINE 55,Passenger ship,605202772
+/vessels/details/605773905,13976057739-5-07,Unknown,605773905
+/vessels/details/605200020,6052-20-79,Unknown,605200020
+/vessels/details/605400895,J.Q.H,Passenger ship,605400895
+/vessels/details/605200054,6052-54-59,Unknown,605200054
+/vessels/details/605125100,LUJIAOYU60518-100,Unknown,605125100
+/vessels/details/605940010,60594-10-88,Unknown,605940010
+/vessels/details/605790007,60579-07-95,Unknown,605790007
+/vessels/details/605588004,ZHECANGYU05588-4-92,Unknown,605588004
+/vessels/details/1082304,ECRN MERS EL KEBIR B503-01,Work/Repair Vessel,1082304
+/vessels/details/605662336,LURONGYU60566-36-,Unknown,605662336
+/vessels/details/605041500,EL MOUNKID 8,Other type,605041500
+/vessels/details/605821379,ZHELIN21379-6-64,Unknown,605821379
+/vessels/details/9407639,RAS EL-MA,Tug,9407639
+/vessels/details/605826623,ZHEDAIYU58266-23 30,Unknown,605826623
+/vessels/details/605200030,6052-30 30,Unknown,605200030
+/vessels/details/605182595,LUJIAOYU60518-95-95,Unknown,605182595
+/vessels/details/605690012,60569-12-81,Unknown,605690012
+/vessels/details/605182571,LUJIAOYU60518-71-43,Unknown,605182571
+/vessels/details/8687804,BENI LOUMA,Fishing Vessel,8687804
+/vessels/details/8130514,ISSER 5,Tug,8130514
+/vessels/details/605690036,60569-36-76,Unknown,605690036
+/vessels/details/605295108,SUGANYU02951-08,Unknown,605295108
+/vessels/details/605806668,1UEHAOYU51211,Fishing vessel,605806668
+/vessels/details/7046510,RHUMMEL 2,Tug,7046510
+/vessels/details/605970022,LUCHENGYU60597-2295,Unknown,605970022
+/vessels/details/9280328,CHIBA 2,Tug,9280328
+/vessels/details/605662327,LURONGYU60566-27-,Unknown,605662327
+/vessels/details/605200078,6052-78-95,Unknown,605200078
+/vessels/details/605650011,60565-11-99,Unknown,605650011
+/vessels/details/7331862,EL KAOUKEB,Fishing Vessel,7331862
+/vessels/details/605880004,FUWANG60588-4-48,Unknown,605880004
+/vessels/details/605996108,05996-1087.4V,Unknown,605996108
+/vessels/details/605359034,ZHEDAIYU05359-34 60,Unknown,605359034
+/vessels/details/605060015,LULONGYU60506-15-97,Unknown,605060015
+/vessels/details/605588015,ZHECANGYU05588-15,Unknown,605588015
+/vessels/details/605880056,FUWANG60588-56-84,Unknown,605880056
+/vessels/details/605508003,05508-3-60,Unknown,605508003
+/vessels/details/605234586,ZHE PU YU 34583-6,Unknown,605234586
+/vessels/details/9822528,TAGHEST,Motor Hopper,9822528
+/vessels/details/605200042,6052-42-83,Unknown,605200042
+/vessels/details/8463416,MADINET BENI-SAF,Fishing Vessel,8463416
+/vessels/details/605320006,LUJIAOYU60532-6-73,Unknown,605320006
+/vessels/details/605690019,60569-19-87,Unknown,605690019
+/vessels/details/605996109,05996-1097.5V,Unknown,605996109
+/vessels/details/605690032,60569-32-99,Unknown,605690032
+/vessels/details/7219052,SEYBOUSE 3,Tug,7219052
+/vessels/details/605552003,55520-0396,Unknown,605552003
+/vessels/details/605588007,ZHECANGYU05588-7-99,Unknown,605588007
+/vessels/details/605880045,FUWANG60588-45-73,Unknown,605880045
+/vessels/details/605660002,MINPINGYU60566-2-99,Unknown,605660002
+/vessels/details/605880044,FUWANG60588-44-97,Unknown,605880044
+/vessels/details/605820007,-60582-07,Unknown,605820007
+/vessels/details/605996116,05996-1168.1V,Unknown,605996116
+/vessels/details/605662332,LURONGYU60566-32-71,Unknown,605662332
+/vessels/details/605182590,LUJIAOYU60518-90-99,Unknown,605182590
+/vessels/details/605147006,NET05147-6 40,Unknown,605147006
+/vessels/details/605091230,EL-MOUNKID 22,Unknown,605091230
+/vessels/details/9280304,CHIBA 1,Tug,9280304
+/vessels/details/605588010,ZHECANGYU05588-10,Unknown,605588010
+/vessels/details/605208005,ZHEXIANGYU05208-526,Unknown,605208005
+/vessels/details/605970029,LUCHENGYU60597-2980,Unknown,605970029
+/vessels/details/605182597,LUJIAOYU60518-97-83,Unknown,605182597
+/vessels/details/605330009,TIELONG60533-09-38,Unknown,605330009
+/vessels/details/605820012,-60582-12-86,Unknown,605820012
+/vessels/details/605588001,ZHECANGYU05588-1-86,Unknown,605588001
+/vessels/details/605690025,60569-25-82,Unknown,605690025
+/vessels/details/605532315,LUCHENGYU60553-15-,Unknown,605532315
+/vessels/details/605662305,LURONGYU60566-5 70,Unknown,605662305
+/vessels/details/605662322,LURONGYU60566-22 50,Unknown,605662322
+/vessels/details/605298013,SUGANYU05298-137.7V,Unknown,605298013
+/vessels/details/605996101,05996-1018.1V,Unknown,605996101
+/vessels/details/605126924,EL-MOUNKID 18,SAR,605126924
+/vessels/details/7218034,EN NASR,Fishing Vessel,7218034
+/vessels/details/605770112,LURONGYU57701-12 50,Unknown,605770112
+/vessels/details/605650002,60565-2-92,Unknown,605650002
+/vessels/details/605790006,60579-06-96,Unknown,605790006
+/vessels/details/605330008,TIELONG60533-08-82,Unknown,605330008
+/vessels/details/605690001,60569-01-99,Unknown,605690001
+/vessels/details/605690039,60569-39-98,Unknown,605690039
+/vessels/details/605690004,60569-4-93,Unknown,605690004
+/vessels/details/605200006,6052-6-81,Unknown,605200006
+/vessels/details/605650008,60565-8-95,Unknown,605650008
+/vessels/details/605690009,60569-9-98,Unknown,605690009
+/vessels/details/605791010,LURONGYU57910-10 60,Unknown,605791010
+/vessels/details/7363308,ER RAAD,Fishing Vessel,7363308
+/vessels/details/9168726,NIL II,Tug,9168726
+/vessels/details/8532671,EL AHBAB,Fishing Vessel,8532671
+/vessels/details/605106080,EL MOUNKID 27,Unknown,605106080
+/vessels/details/605830007,TIELONG60583-007-23,Unknown,605830007
+/vessels/details/1082316,ECRN MERS EL KEBIR B503-02,Work/Repair Vessel,1082316
+/vessels/details/605200008,6052-8-77,Unknown,605200008
+/vessels/details/605060013,LULONGYU60506-13-95,Unknown,605060013
+/vessels/details/605773906,13976057739-6-59,Unknown,605773906
+/vessels/details/605182593,LUJIAOYU60518-93-85,Unknown,605182593
+/vessels/details/605126912,EL M0UNKID 12,SAR,605126912
+/vessels/details/9817286,OUED MEKERRA,Utility Vessel,9817286
+/vessels/details/605660025,SHUNHANG-25-02,Unknown,605660025
+/vessels/details/605532309,LUCHENGYU60553-9-87,Unknown,605532309
+/vessels/details/605650016,60565-16-99,Unknown,605650016
+/vessels/details/605200033,6052-33-64,Unknown,605200033
+/vessels/details/7111339,CHELIFF 2,Tug,7111339
+/vessels/details/605200005,6052-5-46,Unknown,605200005
+/vessels/details/605016032,60501632-79,Unknown,605016032
+/vessels/details/605970024,LUCHENGYU60597-2476,Unknown,605970024
+/vessels/details/605880013,FUWANG60588-13-64,Unknown,605880013
+/vessels/details/605298020,SUGANYU05298-208.1V,Unknown,605298020
+/vessels/details/7237121,EL AMINE,Fishing Vessel,7237121
+/vessels/details/605820008,-60582-08-99,Unknown,605820008
+/vessels/details/8589674,MEFTAHI,Fishing Vessel,8589674
+/vessels/details/605126925,EL MOUNKID 19,Pilot,605126925
+/vessels/details/605101742,WOR.CHONNATHI 555,Passenger ship,605101742
+/vessels/details/605200048,6052-48-58,Unknown,605200048
+/vessels/details/605650017,60565-17-99,Unknown,605650017
+/vessels/details/605298015,SUGANYU05298-158.1V,Unknown,605298015
+/vessels/details/7363293,EL ASSIFA,Fishing Vessel,7363293
+/vessels/details/605091240,EL-MOUNKID 23,Unknown,605091240
+/vessels/details/605690027,60569-27-76,Unknown,605690027
+/vessels/details/605532413,60553-13-99,Unknown,605532413
+/vessels/details/7046429,CHELIFF 5,Tug,7046429
+/vessels/details/605650012,60565-12-99,Unknown,605650012
+/vessels/details/605287302,52873-02-95,Unknown,605287302
+/vessels/details/605200053,6052-53-79,Unknown,605200053
+/vessels/details/605310056,60531-56-64,Unknown,605310056
+/vessels/details/605041400,EL MOUNKID 7,SAR,605041400
+/vessels/details/605200043,6052-43-75,Unknown,605200043
+/vessels/details/605147001,NET05147-1-69,Unknown,605147001
+/vessels/details/605200037,6052-37-86,Unknown,605200037
+/vessels/details/605010015,LUCHENGYU60501-1525,Unknown,605010015
+/vessels/details/605588008,ZHECANGYU05588-8-98,Unknown,605588008
+/vessels/details/605970036,LUCHENGYU60597-3699,Unknown,605970036
+/vessels/details/605880052,FUWANG60588-52-82,Unknown,605880052
+/vessels/details/605200071,6052-71-84,Unknown,605200071
+/vessels/details/605650003,60565-3-99,Unknown,605650003
+/vessels/details/605310059,60531-59-58,Unknown,605310059
+/vessels/details/605662334,LURONGYU60566-34-26,Unknown,605662334
+/vessels/details/605650009,60565-9-79,Unknown,605650009
+/vessels/details/605659913,EZHEDAIYU04130W-11,Unknown,605659913
+/vessels/details/605945607,59456-07-78,Unknown,605945607
+/vessels/details/605298025,SUGANYU05298-257.5V,Unknown,605298025
+/vessels/details/605773903,13976057739-3-30,Unknown,605773903
+/vessels/details/605916808,59168-8-02,Unknown,605916808
+/vessels/details/9278404,TASSINA 4,Tug,9278404
+/vessels/details/605662335,LURONGYU60566-35-61,Unknown,605662335
+/vessels/details/605662317,LURONGYU60566-17 90,Unknown,605662317
+/vessels/details/605200065,6052-65-07,Unknown,605200065
+/vessels/details/605662310,LURONGYU60566-10 90,Unknown,605662310
+/vessels/details/8332631,KADI MILIANI,Motor Hopper,8332631
+/vessels/details/605690021,60569-21-77,Unknown,605690021
+/vessels/details/605200055,6052-55-57,Unknown,605200055
+/vessels/details/4509171,EL MOUDERRIB 6,Training Ship,4509171
+/vessels/details/605790005,60579-05-95,Unknown,605790005
+/vessels/details/605200011,6052-11-45,Unknown,605200011
+/vessels/details/1082328,ECRN MERS EL KEBIR B503-03,Work/Repair Vessel,1082328
+/vessels/details/605200032,6052-32-33,Unknown,605200032
+/vessels/details/8693279,EL KADER,Fishing Vessel,8693279
+/vessels/details/9278387,TASSINA 3,Tug,9278387
+/vessels/details/605690034,60569-34-70,Unknown,605690034
+/vessels/details/605970031,LUCHENGYU60597-3199,Unknown,605970031
+/vessels/details/605660030,SHUNHANG-30-41,Unknown,605660030
+/vessels/details/605033288,EL MOUDJAHID TIZAAMA,Unknown,605033288
+/vessels/details/9379832,HAMBOUN,Fishing Vessel,9379832
+/vessels/details/605826624,ZHEDAIYU58266-24 10,Unknown,605826624
+/vessels/details/605532304,LUCHENGYU60553-4-91,Unknown,605532304
+/vessels/details/605690018,60569-18-87,Unknown,605690018
+/vessels/details/7211414,SEYBOUSE 2,Tug,7211414
+/vessels/details/605880059,FUWANG60588-59-28,Unknown,605880059
+/vessels/details/605200044,6052-44-73,Unknown,605200044
+/vessels/details/4509145,EL MOUDERRIB 3,Training Ship,4509145
+/vessels/details/605182586,LUJIAOYU60518-86-94,Unknown,605182586
+/vessels/details/605970037,LUCHENGYU60597-3774,Unknown,605970037
+/vessels/details/605200004,6052-4-99,Unknown,605200004
+/vessels/details/605287303,52873-03-73,Unknown,605287303
+/vessels/details/605091250,EL-MOUNKID 24,HSC,605091250
+/vessels/details/605690007,60569-7-96,Unknown,605690007
+/vessels/details/605200083,6052-83-92,Unknown,605200083
+/vessels/details/605690026,60569-26-82,Unknown,605690026
+/vessels/details/605532306,LUCHENGYU60553-6-77,Unknown,605532306
+/vessels/details/8698683,NEPTUNE VI,Fishing Vessel,8698683
+/vessels/details/605885023,FUDINGYU05885-23 70,Unknown,605885023
+/vessels/details/605640006,SQY5640-6 94,Unknown,605640006
+/vessels/details/605298028,SUGANYU05298-288.1V,Unknown,605298028
+/vessels/details/605321716,SUQIYU03217-16,Unknown,605321716
+/vessels/details/605507003,05507-3-66,Unknown,605507003
+/vessels/details/7721017,MORDJANE,Offshore Support Vessel,7721017
+/vessels/details/605770114,LURONGYU57701-14 40,Unknown,605770114
+/vessels/details/605690006,60569-6-75,Unknown,605690006
+/vessels/details/605662333,LURONGYU60566-33-81,Unknown,605662333
+/vessels/details/605820011,-60582-11-99,Unknown,605820011
+/vessels/details/605970021,LUCHENGYU60597-2197,Unknown,605970021
+/vessels/details/605690013,60569-13-94,Unknown,605690013
+/vessels/details/605690020,60569-20-81,Unknown,605690020
+/vessels/details/7110373,SOUMMAM-2,Tug,7110373
+/vessels/details/605820010,-60582-10-99,Unknown,605820010
+/vessels/details/605970025,LUCHENGYU60597-2542,Unknown,605970025
+/vessels/details/605298021,SUGANYU05298-217.7V,Unknown,605298021
+/vessels/details/605126915,NAVY921,Resolution 18 ship,605126915
+/vessels/details/7031993,FILLAOUCENE I,Fishing Vessel,7031993
+/vessels/details/605880011,FUWANG60588-11-74,Unknown,605880011
+/vessels/details/605999885,605999884-49,Unknown,605999885
+/vessels/details/605298003,SUGANYU05298-037.9V,Unknown,605298003
+/vessels/details/605880007,FUWANG60588-7-44,Unknown,605880007
+/vessels/details/605588013,ZHECANGYU05588-13,Unknown,605588013
+/vessels/details/605880042,FUWANG60588-42-99,Unknown,605880042
+/vessels/details/605885018,MINFUDINGYU05885-18,Unknown,605885018
+/vessels/details/605066265,BENI LOUMA,Fishing vessel,605066265
+/vessels/details/605298004,SUGANYU05298-048.2V,Unknown,605298004
+/vessels/details/605200012,6052-12-75,Unknown,605200012
+/vessels/details/8463648,OKBA,Fishing Vessel,8463648
+/vessels/details/605401419,BLULABEL,Pleasure craft,605401419
+/vessels/details/7325916,EL KOUTB,Fishing Vessel,7325916
+/vessels/details/605880041,FUWANG60588-41-84,Unknown,605880041
+/vessels/details/605182598,LUJIAOYU60518-98-88,Unknown,605182598
+/vessels/details/605010013,LUCHENGYU60501-1382,Unknown,605010013
+/vessels/details/605121563,LG21563-60-99,Unknown,605121563
+/vessels/details/605940011,60594-11-85,Unknown,605940011
+/vessels/details/605160002,60516-2-84,Unknown,605160002
+/vessels/details/605200010,6052-10-60,Unknown,605200010
+/vessels/details/605885020,MINFUDINGYU05885-20,Unknown,605885020
+/vessels/details/605550001,555-1 90,Unknown,605550001
+/vessels/details/605940005,60594-5-83,Unknown,605940005
+/vessels/details/605200046,6052-46-55,Unknown,605200046
+/vessels/details/605520008,60552-08-01,Unknown,605520008
+/vessels/details/605532302,LUCHENGYU60553-2-90,Unknown,605532302
+/vessels/details/605359031,ZHEDAIYU05359-31 90,Unknown,605359031
+/vessels/details/605880048,FUWANG60588-48-44,Unknown,605880048
+/vessels/details/605826620,ZHEDAIYU06068W-1 30,Unknown,605826620
+/vessels/details/605380004,MINZHAOYU60538-4 30,Unknown,605380004
+/vessels/details/605200025,6052-2570,Unknown,605200025
+/vessels/details/605970035,LUCHENGYU60597-3594,Unknown,605970035
+/vessels/details/605200023,6052-23-13,Unknown,605200023
+/vessels/details/7235604,EL JALIL,Fishing Vessel,7235604
+/vessels/details/605996105,05996-1057.8V,Unknown,605996105
+/vessels/details/605770111,LURONGYU57701-11 90,Unknown,605770111
+/vessels/details/605126923,ELMOUNKID 17,SAR,605126923
+/vessels/details/605200062,6052-62-71,Unknown,605200062
+/vessels/details/605200081,6052-81-86,Unknown,605200081
+/vessels/details/605210002,ZHEXIANGYU05210-299,Unknown,605210002
+/vessels/details/9098816,HAJ ABDULLAH,Fishing Vessel,9098816
+/vessels/details/7106140,RHUMMEL 3,Tug,7106140
+/vessels/details/605359033,ZHEDAIYU05359-33 90,Unknown,605359033
+/vessels/details/605690035,60569-35-79,Unknown,605690035
+/vessels/details/605310060,60531-60-67,Unknown,605310060
+/vessels/details/605650005,60565-5-65,Unknown,605650005
+/vessels/details/605320008,LUJIAOYU60532-8-97,Unknown,605320008
+/vessels/details/1103407,EL MOUDJAHID TIZA AMAR,Fishing Vessel,1103407
+/vessels/details/605532416,60553-16-73,Unknown,605532416
+/vessels/details/605662306,LURONGYU60566-6 90,Unknown,605662306
+/vessels/details/7111341,CHELIFF 3,Tug,7111341
+/vessels/details/605660005,MINPINGYU60566-5-71,Unknown,605660005
+/vessels/details/605041200,EL MOUNKID 5,Unknown,605041200
+/vessels/details/605662315,LURONGYU60566-15 60,Unknown,605662315
+/vessels/details/605660001,MINPINGYU60566-1-99,Unknown,605660001
+/vessels/details/605200077,6052-77-78,Unknown,605200077
+/vessels/details/605507004,05507-4-62,Unknown,605507004
+/vessels/details/605662309,LURONGYU60566-9 80,Unknown,605662309
+/vessels/details/605289478,82693-01-95,Unknown,605289478
+/vessels/details/605200064,6052-64-95,Unknown,605200064
+/vessels/details/605693330,00056-04-33,Unknown,605693330
+/vessels/details/7313420,EL JAMIL,Fishing Vessel,7313420
+/vessels/details/605662330,LURONGYU60566-307.5,Unknown,605662330
+/vessels/details/605200072,6052-72-82,Unknown,605200072
+/vessels/details/605310051,60531-51-31,Unknown,605310051
+/vessels/details/605588009,ZHECANGYU05588-9-99,Unknown,605588009
+/vessels/details/7313418,EL AMIR,Fishing Vessel,7313418
+/vessels/details/605182574,LUJIAOYU60518-74-99,Unknown,605182574
+/vessels/details/605791011,LURONGYU57910-11 50,Unknown,605791011
+/vessels/details/605200063,6052-63-73,Unknown,605200063
+/vessels/details/605076410,OUED SABOUNE 01,Pilot,605076410
+/vessels/details/605662323,LURONGYU60566-23 40,Unknown,605662323
+/vessels/details/605660003,MINPINGYU60566-3-26,Unknown,605660003
+/vessels/details/605298006,SUGANYU05298-068.1V,Unknown,605298006
+/vessels/details/8130502,ISSER 4,Tug,8130502
+/vessels/details/605690014,60569-14-97,Unknown,605690014
+/vessels/details/605820001,-60582-01-99,Unknown,605820001
+/vessels/details/7363322,ES SARI,Fishing Vessel,7363322
+/vessels/details/605200015,6052-15-99,Unknown,605200015
+/vessels/details/605970023,LUCHENGYU60597-2399,Unknown,605970023
+/vessels/details/7313406,EL KAMEL,Fishing Vessel,7313406
+/vessels/details/605820005,-60582-05,Unknown,605820005
+/vessels/details/605532411,60553-11-96,Unknown,605532411
+/vessels/details/605916802,59168-2-95,Unknown,605916802
+/vessels/details/7302835,TAFNA 2,Tug,7302835
+/vessels/details/7218058,ES SABAH,Fishing Vessel,7218058
+/vessels/details/605983485,00009,Fishing vessel,605983485
+/vessels/details/605182581,LUJIAOYU60518-81-35,Unknown,605182581
+/vessels/details/605690015,60569-15-41,Unknown,605690015
+/vessels/details/605659916,EZHEDAIYU04130W-14,Unknown,605659916
+/vessels/details/605800006,LIUHENG58-6-78,Unknown,605800006
+/vessels/details/605996100,05996-1007.9V,Unknown,605996100
+/vessels/details/605489677,54896-7-66,Unknown,605489677
+/vessels/details/605996103,05996-1038.1V,Unknown,605996103
+/vessels/details/605200028,6052-28-47,Unknown,605200028
+/vessels/details/605826611,LURONGYU58266-11 70,Unknown,605826611
+/vessels/details/605299007,05299-G-56,Fishing vessel,605299007
+/vessels/details/605000001,FISHING DRIFT NET 2,Fishing vessel,605000001
+/vessels/details/605578801,55788-01-58,Unknown,605578801
+/vessels/details/605790003,60579-03-93,Unknown,605790003
+/vessels/details/605320072,LUJIAOYU60532-72-,Unknown,605320072
+/vessels/details/605182594,LUJIAOYU60518-94-94,Unknown,605182594
+/vessels/details/605827006,05827-6-48,Unknown,605827006
+/vessels/details/605200080,6052-80-77,Unknown,605200080
+/vessels/details/605200002,6052-2-71,Unknown,605200002
+/vessels/details/605077466,AHMED,Fishing vessel,605077466
+/vessels/details/7326439,SEYBOUSE 5,Tug,7326439
+/vessels/details/605660023,SHUNHANG-23-34,Unknown,605660023
+/vessels/details/605820003,-60582-03,Unknown,605820003
+/vessels/details/605200052,6052-52-55,Unknown,605200052
+/vessels/details/605550002,555-2 90,Unknown,605550002
+/vessels/details/8462993,SLIMANE,Fishing Vessel,8462993
+/vessels/details/605791016,LURONGYU57910-16 90,Unknown,605791016
+/vessels/details/605679688,ZM6056796-99,Unknown,605679688
+/vessels/details/605010016,LUCHENGYU60501-1665,Unknown,605010016
+/vessels/details/605550013,ZHEDAIYU0190313,Unknown,605550013
+/vessels/details/605970034,LUCHENGYU60597-3472,Unknown,605970034
+/vessels/details/605320075,LUJIAOYU60532-75-,Unknown,605320075
+/vessels/details/8439946,OKACH ABDELHAFID,Fishing Vessel,8439946
+/vessels/details/605996107,05996-1078.1V,Unknown,605996107
+/vessels/details/605770192,ZHEDAIYU03592-16 50,Unknown,605770192
+/vessels/details/9366770,SIDI BRAHIM,Tug,9366770
+/vessels/details/605885029,MINFUDINGYU05885-29,Unknown,605885029
+/vessels/details/605724184,6052-16-83,Unknown,605724184
+/vessels/details/605030008,60503-8-99,Unknown,605030008
+/vessels/details/605310053,60531-53-63,Unknown,605310053
+/vessels/details/605126921,EL MOUNKID 15,SAR,605126921
+/vessels/details/605402546,SILVER SAILOR,Towing vessel,605402546
+/vessels/details/605662331,LURONGYU60566-31-75,Unknown,605662331
+/vessels/details/605690038,60569-38-83,Unknown,605690038
+/vessels/details/605885005,MINFUDINGYU05885-5,Unknown,605885005
+/vessels/details/605016033,60501633-95,Unknown,605016033
+/vessels/details/605690041,60569-41-64,Unknown,605690041
+/vessels/details/605320074,LUJIAOYU60532-74-,Unknown,605320074
+/vessels/details/605992503,59925-3-91,Unknown,605992503
+/vessels/details/605662311,LURONGYU60566-11 60,Unknown,605662311
+/vessels/details/605916805,59168-05-82,Unknown,605916805
+/vessels/details/605200082,6052-82-88,Unknown,605200082
+/vessels/details/605885026,FUDINGYU05885-26 10,Unknown,605885026
+/vessels/details/605200014,6052-14-56,Unknown,605200014
+/vessels/details/605200076,6052-76-87,Unknown,605200076
+/vessels/details/605970026,LUCHENGYU60597-2698,Unknown,605970026
+/vessels/details/605044300,MARWA 1,Fishing vessel,605044300
+/vessels/details/605885028,MINFUDING05885-28,Unknown,605885028
+/vessels/details/9842839,SIDI SLIMANE II,Fishing Vessel,9842839
+/vessels/details/605885010,MINFUDINGYU05885-10,Unknown,605885010
+/vessels/details/605550003,ZHEDAIYU01903-3 90,Unknown,605550003
+/vessels/details/605659914,EZHEDAIYU04130W-12,Unknown,605659914
+/vessels/details/605310058,60531-58-97,Unknown,605310058
+/vessels/details/605182572,LUJIAOYU60518-72-99,Unknown,605182572
+/vessels/details/605650018,60565-18-99,Unknown,605650018
+/vessels/details/605200009,6052-9-78,Unknown,605200009
+/vessels/details/605101190,CHAKI 1,Passenger ship,605101190
+/vessels/details/9278325,RIGHA1,Tug,9278325
+/vessels/details/605830006,TIELONG60583-006-89,Unknown,605830006
+/vessels/details/605625022,2054698-07,Unknown,605625022
+/vessels/details/8537255,DR BELKHEIR,Fishing Vessel,8537255
+/vessels/details/605359038,ZHEDAIYU05359-38 10,Unknown,605359038
+/vessels/details/605650010,60565-10-64,Unknown,605650010
+/vessels/details/605650004,60565-4-99,Unknown,605650004
+/vessels/details/9819181,REFES ZAHOUANE,Tug,9819181
+/vessels/details/7218046,EL AMEL,Fishing Vessel,7218046
+/vessels/details/605660024,SHUNHANG-24-34,Unknown,605660024
+/vessels/details/605690028,60569-28-82,Unknown,605690028
+/vessels/details/605200027,6052-27-95,Unknown,605200027
+/vessels/details/605215884,LIN21588-4-78,Unknown,605215884
+/vessels/details/7363310,EL HATIF,Fishing Vessel,7363310
+/vessels/details/605690024,60569-24-79,Unknown,605690024
+/vessels/details/605200017,6052-17-62,Unknown,605200017
+/vessels/details/605310055,60531-55-57,Unknown,605310055
+/vessels/details/605880043,FUWANG60588-43-01,Unknown,605880043
+/vessels/details/605790001,60579-1-90,Unknown,605790001
+/vessels/details/605996106,05996-1067.1V,Unknown,605996106
+/vessels/details/605000000,CROSS,Unknown,605000000
+/vessels/details/605200061,6052-61-93,Unknown,605200061
+/vessels/details/605690029,60569-29-79,Unknown,605690029
+/vessels/details/605320073,LUJIAOYU60532-73-,Unknown,605320073
+/vessels/details/605820009,-60582-09-99,Unknown,605820009
+/vessels/details/605182579,LUJIAOYU60518-79-88,Unknown,605182579
+/vessels/details/605880051,FUWANG60588-51-67,Unknown,605880051
+/vessels/details/605200016,6052-16-82,Unknown,605200016
+/vessels/details/605126920,EL-MOUNKID 14,SAR,605126920
+/vessels/details/605659906,LURONGYU56599-6 20,Unknown,605659906
+/vessels/details/605880057,FUWANG60588-57-83,Unknown,605880057
+/vessels/details/605880029,FUWANG60588-29-99,Unknown,605880029
+/vessels/details/605298027,SUGANYU05298-277.7V,Unknown,605298027
+/vessels/details/605660028,SHUNHANG-28-34,Unknown,605660028
+/vessels/details/605126919,KALAAT BENI ABBES,Unknown,605126919
+/vessels/details/8130423,MAZAFRAN 2,Tug,8130423
+/vessels/details/605690002,60569-2-99,Unknown,605690002
+/vessels/details/605320071,LUJIAOYU60532-71-,Unknown,605320071
+/vessels/details/605885019,MINFUDINGYU05885-19,Unknown,605885019
+/vessels/details/605091220,EL MASSEH,Military ops,605091220
+/vessels/details/605076017,LE DAUPHIN,Passenger ship,605076017
+/vessels/details/605690003,60569-3-87,Unknown,605690003
+/vessels/details/605999884,605999884-59,Unknown,605999884
+/vessels/details/605825554,01872-03-80,Unknown,605825554
+/vessels/details/605200051,6052-51-85,Unknown,605200051
+/vessels/details/605970027,LUCHENGYU60597-2796,Unknown,605970027
+/vessels/details/605126922,EL MOUNKID 16,SAR,605126922
+/vessels/details/605199940,SAN51999-40-73,Unknown,605199940
+/vessels/details/605970033,LUCHENGYU60597-3398,Unknown,605970033
+/vessels/details/7303657,EL ABED,Fishing Vessel,7303657
+/vessels/details/605827007,05827-7-82,Unknown,605827007
+/vessels/details/605880050,FUWANG60588-50-99,Unknown,605880050
+/vessels/details/605820006,-60582-06,Unknown,605820006
+/vessels/details/605107985,60852,Fishing vessel,605107985
+/vessels/details/605200066,6052-66-78,Unknown,605200066
+/vessels/details/8561062,SAFI,Fishing Vessel,8561062
+/vessels/details/605660022,SHUNHANG-22-30,Unknown,605660022
+/vessels/details/605234501,ZHE PU YU 34507-10,Unknown,605234501
+/vessels/details/605650006,60565-6-99,Unknown,605650006
+/vessels/details/605066014,SAINT AUGUSTIN,Pilot,605066014
+/vessels/details/605940003,60594-3-86,Unknown,605940003
+/vessels/details/605532307,LUCHENGYU60553-7-90,Unknown,605532307
+/vessels/details/605400942,POWER BIUE DA1,Passenger ship,605400942
+/vessels/details/605508002,05508-2-80,Unknown,605508002
+/vessels/details/605320004,LUJIAOYU60532-4-96,Unknown,605320004
+/vessels/details/605532303,LUCHENGYU60553-3- 0,Unknown,605532303
+/vessels/details/605588005,ZHECANGYU05588-5-99,Unknown,605588005
+/vessels/details/605200079,6052-79-90,Unknown,605200079
+/vessels/details/605660029,SHUNHANG-29-16,Unknown,605660029
+/vessels/details/605690011,60569-11-99,Unknown,605690011
+/vessels/details/605690030,60569-30-79,Unknown,605690030
+/vessels/details/605690005,60569-5-99,Unknown,605690005
+/vessels/details/605200019,6052-19-87,Unknown,605200019
+/vessels/details/605940015,60594-15-84,Unknown,605940015
+/vessels/details/605200007,6052-7-56,Unknown,605200007
+/vessels/details/605970030,LUCHENGYU60597-3096,Unknown,605970030
+/vessels/details/605662316,LURONGYU60566-16 90,Unknown,605662316
+/vessels/details/605580001,CHENGLI60558-1-44,Unknown,605580001
+/vessels/details/7225908,SEYBOUSE 4,Tug,7225908
+/vessels/details/605508004,05508-4-28,Unknown,605508004
+/vessels/details/605298026,SUGANYU05298-268.0V,Unknown,605298026
+/vessels/details/605660006,MINPINGYU60566-6-91,Unknown,605660006
+/vessels/details/605880014,FUWANG60588-14-99,Unknown,605880014
+/vessels/details/605299005,05299-E-06,Fishing vessel,605299005
+/vessels/details/605200839,PHORPHINO 15,Passenger ship,605200839
+/vessels/details/605996104,05996-1047.5V,Unknown,605996104
+/vessels/details/605970040,LUCHENGYU60597-4071,Unknown,605970040
+/vessels/details/605662314,LURONGYU60566-14 80,Unknown,605662314
+/vessels/details/605106070,EL-MOUNKID 26,Other type,605106070
+/vessels/details/8538481,LALLA MENNOUNE,Fishing Vessel,8538481
+/vessels/details/605790009,60579-09-93,Unknown,605790009
+/vessels/details/605030006,60503-6-99,Unknown,605030006
+/vessels/details/605507002,05507-2-55,Unknown,605507002
+/vessels/details/605588012,ZHECANGYU05588-12,Unknown,605588012
+/vessels/details/8795027,NEPTUNE V,Fishing Vessel,8795027
+/vessels/details/605940006,60594-6-98,Unknown,605940006
+/vessels/details/605690023,60569-23-76,Unknown,605690023
+/vessels/details/605662329,LURONGYU60566-298.1,Unknown,605662329
+/vessels/details/605660004,MINPINGYU60566-4-76,Unknown,605660004
+/vessels/details/605532308,LUCHENGYU60553-8-52,Unknown,605532308
+/vessels/details/605000010,NEPTUNE06,Unknown,605000010
+/vessels/details/605320005,LUJIAOYU60532-5-92,Unknown,605320005
+/vessels/details/8536407,CHAHID HASNI SAIDI,Fishing Vessel,8536407

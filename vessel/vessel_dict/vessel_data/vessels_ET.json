@@ -1,0 +1,590 @@
+[
+  {
+    "url": "/vessels/details/9743239",
+    "name": "ABBAY II",
+    "type": "Bulk Carrier",
+    "imo": "9743239"
+  },
+  {
+    "url": "/vessels/details/9617387",
+    "name": "ASSOSA",
+    "type": "General Cargo Ship",
+    "imo": "9617387"
+  },
+  {
+    "url": "/vessels/details/9617399",
+    "name": "HARAR",
+    "type": "General Cargo Ship",
+    "imo": "9617399"
+  },
+  {
+    "url": "/vessels/details/9617404",
+    "name": "JIGJIGA",
+    "type": "General Cargo Ship",
+    "imo": "9617404"
+  },
+  {
+    "url": "/vessels/details/9617416",
+    "name": "MEKELE",
+    "type": "General Cargo Ship",
+    "imo": "9617416"
+  },
+  {
+    "url": "/vessels/details/9617363",
+    "name": "GAMBELLA",
+    "type": "General Cargo Ship",
+    "imo": "9617363"
+  },
+  {
+    "url": "/vessels/details/9617375",
+    "name": "FINFINE",
+    "type": "General Cargo Ship",
+    "imo": "9617375"
+  },
+  {
+    "url": "/vessels/details/9617428",
+    "name": "SEMERA",
+    "type": "General Cargo Ship",
+    "imo": "9617428"
+  },
+  {
+    "url": "/vessels/details/9385609",
+    "name": "GIBE",
+    "type": "General Cargo Ship",
+    "imo": "9385609"
+  },
+  {
+    "url": "/vessels/details/9385594",
+    "name": "SHEBELLE",
+    "type": "General Cargo Ship",
+    "imo": "9385594"
+  },
+  {
+    "url": "/vessels/details/624520020",
+    "name": "LULONGYU62452-20-88",
+    "type": "Unknown",
+    "imo": "624520020"
+  },
+  {
+    "url": "/vessels/details/624040818",
+    "name": "56069-18-06",
+    "type": "Unknown",
+    "imo": "624040818"
+  },
+  {
+    "url": "/vessels/details/624172356",
+    "name": "SUBHAN",
+    "type": "Fishing vessel",
+    "imo": "624172356"
+  },
+  {
+    "url": "/vessels/details/624031228",
+    "name": "64095-28-67",
+    "type": "Unknown",
+    "imo": "624031228"
+  },
+  {
+    "url": "/vessels/details/624100215",
+    "name": "606-15-51",
+    "type": "Unknown",
+    "imo": "624100215"
+  },
+  {
+    "url": "/vessels/details/624827013",
+    "name": "YUELEIYU27-13-91",
+    "type": "Fishing vessel",
+    "imo": "624827013"
+  },
+  {
+    "url": "/vessels/details/624215883",
+    "name": "LIN21588-3-62",
+    "type": "Unknown",
+    "imo": "624215883"
+  },
+  {
+    "url": "/vessels/details/624827009",
+    "name": "YUELEIYU27-9-74",
+    "type": "Fishing vessel",
+    "imo": "624827009"
+  },
+  {
+    "url": "/vessels/details/624925822",
+    "name": "XIANG49258-22-76",
+    "type": "Unknown",
+    "imo": "624925822"
+  },
+  {
+    "url": "/vessels/details/624520007",
+    "name": "LULONGYU62452-7-99",
+    "type": "Unknown",
+    "imo": "624520007"
+  },
+  {
+    "url": "/vessels/details/624520017",
+    "name": "LULONGYU62452-17-67",
+    "type": "Unknown",
+    "imo": "624520017"
+  },
+  {
+    "url": "/vessels/details/624110002",
+    "name": "YUWANGQU002",
+    "type": "Unknown",
+    "imo": "624110002"
+  },
+  {
+    "url": "/vessels/details/624041008",
+    "name": "FUHAI-08-99",
+    "type": "Unknown",
+    "imo": "624041008"
+  },
+  {
+    "url": "/vessels/details/624010607",
+    "name": "LIAOYINGYU5HAO-7 90",
+    "type": "Unknown",
+    "imo": "624010607"
+  },
+  {
+    "url": "/vessels/details/624100207",
+    "name": "606-7",
+    "type": "Unknown",
+    "imo": "624100207"
+  },
+  {
+    "url": "/vessels/details/624022510",
+    "name": "71167-10-82",
+    "type": "Unknown",
+    "imo": "624022510"
+  },
+  {
+    "url": "/vessels/details/624041810",
+    "name": "64696-10-70",
+    "type": "Unknown",
+    "imo": "624041810"
+  },
+  {
+    "url": "/vessels/details/624993446",
+    "name": "CCHA46C22",
+    "type": "Other type",
+    "imo": "624993446"
+  },
+  {
+    "url": "/vessels/details/624031238",
+    "name": "64095-38",
+    "type": "Unknown",
+    "imo": "624031238"
+  },
+  {
+    "url": "/vessels/details/624216384",
+    "name": "LIN21638-4-64",
+    "type": "Unknown",
+    "imo": "624216384"
+  },
+  {
+    "url": "/vessels/details/624102112",
+    "name": "35028-12-98",
+    "type": "Unknown",
+    "imo": "624102112"
+  },
+  {
+    "url": "/vessels/details/624827008",
+    "name": "YUELEIYU27-8-45",
+    "type": "Fishing vessel",
+    "imo": "624827008"
+  },
+  {
+    "url": "/vessels/details/624040811",
+    "name": "56069-11-43",
+    "type": "Unknown",
+    "imo": "624040811"
+  },
+  {
+    "url": "/vessels/details/624520023",
+    "name": "LULONGYU62452-23-99",
+    "type": "Unknown",
+    "imo": "624520023"
+  },
+  {
+    "url": "/vessels/details/624827012",
+    "name": "YUELEIYU27-12-43",
+    "type": "Fishing vessel",
+    "imo": "624827012"
+  },
+  {
+    "url": "/vessels/details/624010602",
+    "name": "LIAOYINGYU5HAO-2 50",
+    "type": "Unknown",
+    "imo": "624010602"
+  },
+  {
+    "url": "/vessels/details/624100202",
+    "name": "64916-17-53",
+    "type": "Unknown",
+    "imo": "624100202"
+  },
+  {
+    "url": "/vessels/details/624520001",
+    "name": "LULONGYU62452-01-81",
+    "type": "Unknown",
+    "imo": "624520001"
+  },
+  {
+    "url": "/vessels/details/624218912",
+    "name": "LIN 21891-2-90",
+    "type": "Unknown",
+    "imo": "624218912"
+  },
+  {
+    "url": "/vessels/details/624520021",
+    "name": "LULONGYU62452-21-79",
+    "type": "Unknown",
+    "imo": "624520021"
+  },
+  {
+    "url": "/vessels/details/624520009",
+    "name": "LULONGYU62452-9-94",
+    "type": "Unknown",
+    "imo": "624520009"
+  },
+  {
+    "url": "/vessels/details/624100211",
+    "name": "606-11-76",
+    "type": "Unknown",
+    "imo": "624100211"
+  },
+  {
+    "url": "/vessels/details/624827026",
+    "name": "YUELEIYU27-26-99",
+    "type": "Fishing vessel",
+    "imo": "624827026"
+  },
+  {
+    "url": "/vessels/details/624827014",
+    "name": "YUELEIYU27-14-28",
+    "type": "Fishing vessel",
+    "imo": "624827014"
+  },
+  {
+    "url": "/vessels/details/624102115",
+    "name": "35028-15-58",
+    "type": "Unknown",
+    "imo": "624102115"
+  },
+  {
+    "url": "/vessels/details/624071622",
+    "name": "51199-22-86",
+    "type": "Unknown",
+    "imo": "624071622"
+  },
+  {
+    "url": "/vessels/details/624031924",
+    "name": "04268-24-95",
+    "type": "Unknown",
+    "imo": "624031924"
+  },
+  {
+    "url": "/vessels/details/624827007",
+    "name": "YUELEIYU27-7-45",
+    "type": "Fishing vessel",
+    "imo": "624827007"
+  },
+  {
+    "url": "/vessels/details/624827005",
+    "name": "YUELEIYU27-5-99",
+    "type": "Fishing vessel",
+    "imo": "624827005"
+  },
+  {
+    "url": "/vessels/details/624520016",
+    "name": "LULONGYU62452-16-66",
+    "type": "Unknown",
+    "imo": "624520016"
+  },
+  {
+    "url": "/vessels/details/624520022",
+    "name": "LULONGYU62452-22-97",
+    "type": "Unknown",
+    "imo": "624520022"
+  },
+  {
+    "url": "/vessels/details/624071635",
+    "name": "51199-35-87",
+    "type": "Unknown",
+    "imo": "624071635"
+  },
+  {
+    "url": "/vessels/details/624219912",
+    "name": "LIN 21991-2-99",
+    "type": "Unknown",
+    "imo": "624219912"
+  },
+  {
+    "url": "/vessels/details/624520018",
+    "name": "LULONGYU62452-18-96",
+    "type": "Unknown",
+    "imo": "624520018"
+  },
+  {
+    "url": "/vessels/details/624031239",
+    "name": "64095-39-34",
+    "type": "Unknown",
+    "imo": "624031239"
+  },
+  {
+    "url": "/vessels/details/624827006",
+    "name": "YUELEIYU27-6-55",
+    "type": "Fishing vessel",
+    "imo": "624827006"
+  },
+  {
+    "url": "/vessels/details/624720820",
+    "name": "07",
+    "type": "Unknown (HAZ-D)",
+    "imo": "624720820"
+  },
+  {
+    "url": "/vessels/details/624031923",
+    "name": "04268-23-63",
+    "type": "Unknown",
+    "imo": "624031923"
+  },
+  {
+    "url": "/vessels/details/624561234",
+    "name": "00466",
+    "type": "Fishing vessel",
+    "imo": "624561234"
+  },
+  {
+    "url": "/vessels/details/624213397",
+    "name": "LIN 21339-7-77",
+    "type": "Unknown",
+    "imo": "624213397"
+  },
+  {
+    "url": "/vessels/details/624071632",
+    "name": "51199-32-84",
+    "type": "Unknown",
+    "imo": "624071632"
+  },
+  {
+    "url": "/vessels/details/624101205",
+    "name": "66885-5 60",
+    "type": "Unknown",
+    "imo": "624101205"
+  },
+  {
+    "url": "/vessels/details/624520008",
+    "name": "LULONGYU62452-08-87",
+    "type": "Unknown",
+    "imo": "624520008"
+  },
+  {
+    "url": "/vessels/details/624031233",
+    "name": "64095-33-57",
+    "type": "Unknown",
+    "imo": "624031233"
+  },
+  {
+    "url": "/vessels/details/624031222",
+    "name": "64095-22-77",
+    "type": "Unknown",
+    "imo": "624031222"
+  },
+  {
+    "url": "/vessels/details/624215972",
+    "name": "LIN 21597-2-99",
+    "type": "Unknown",
+    "imo": "624215972"
+  },
+  {
+    "url": "/vessels/details/624827021",
+    "name": "YUELEIYU27-21-87",
+    "type": "Fishing vessel",
+    "imo": "624827021"
+  },
+  {
+    "url": "/vessels/details/624827010",
+    "name": "YUELEIYU27-10-34",
+    "type": "Fishing vessel",
+    "imo": "624827010"
+  },
+  {
+    "url": "/vessels/details/624105291",
+    "name": "GLE 1052 MAX 1",
+    "type": "Tanker",
+    "imo": "624105291"
+  },
+  {
+    "url": "/vessels/details/624010606",
+    "name": "LIAOYINGYU5HAO-6 90",
+    "type": "Unknown",
+    "imo": "624010606"
+  },
+  {
+    "url": "/vessels/details/624100205",
+    "name": "606-5 80",
+    "type": "Unknown",
+    "imo": "624100205"
+  },
+  {
+    "url": "/vessels/details/624827011",
+    "name": "YUELEIYU27-11-48",
+    "type": "Fishing vessel",
+    "imo": "624827011"
+  },
+  {
+    "url": "/vessels/details/624101203",
+    "name": "66885-3-73",
+    "type": "Unknown",
+    "imo": "624101203"
+  },
+  {
+    "url": "/vessels/details/624031227",
+    "name": "64095-27-94",
+    "type": "Unknown",
+    "imo": "624031227"
+  },
+  {
+    "url": "/vessels/details/624031229",
+    "name": "64095-29-37",
+    "type": "Unknown",
+    "imo": "624031229"
+  },
+  {
+    "url": "/vessels/details/624031331",
+    "name": "35028-25-59",
+    "type": "Unknown",
+    "imo": "624031331"
+  },
+  {
+    "url": "/vessels/details/624520019",
+    "name": "LULONGYU62452-19-99",
+    "type": "Unknown",
+    "imo": "624520019"
+  },
+  {
+    "url": "/vessels/details/624827015",
+    "name": "YUELEIYU27-15-53",
+    "type": "Fishing vessel",
+    "imo": "624827015"
+  },
+  {
+    "url": "/vessels/details/624021212",
+    "name": "ALSAAMI ZH",
+    "type": "Fishing vessel",
+    "imo": "624021212"
+  },
+  {
+    "url": "/vessels/details/624827019",
+    "name": "YUELEIYU27-19-76",
+    "type": "Fishing vessel",
+    "imo": "624827019"
+  },
+  {
+    "url": "/vessels/details/624215922",
+    "name": "LIN 21592-2-76",
+    "type": "Unknown",
+    "imo": "624215922"
+  },
+  {
+    "url": "/vessels/details/624022509",
+    "name": "71167-9-47",
+    "type": "Unknown",
+    "imo": "624022509"
+  },
+  {
+    "url": "/vessels/details/624827001",
+    "name": "YUELEIYU27-1-96",
+    "type": "Fishing vessel",
+    "imo": "624827001"
+  },
+  {
+    "url": "/vessels/details/624040825",
+    "name": "56069-25-58",
+    "type": "Unknown",
+    "imo": "624040825"
+  },
+  {
+    "url": "/vessels/details/624031241",
+    "name": "64095-41 50",
+    "type": "Unknown",
+    "imo": "624031241"
+  },
+  {
+    "url": "/vessels/details/624218592",
+    "name": "LIN21859-2-71",
+    "type": "Unknown",
+    "imo": "624218592"
+  },
+  {
+    "url": "/vessels/details/624010900",
+    "name": "LURONGYU57979-2-47",
+    "type": "Unknown",
+    "imo": "624010900"
+  },
+  {
+    "url": "/vessels/details/624100214",
+    "name": "606-14 30",
+    "type": "Unknown",
+    "imo": "624100214"
+  },
+  {
+    "url": "/vessels/details/624827018",
+    "name": "YUELEIYU27-18-70",
+    "type": "Fishing vessel",
+    "imo": "624827018"
+  },
+  {
+    "url": "/vessels/details/624100210",
+    "name": "606-10-66",
+    "type": "Unknown",
+    "imo": "624100210"
+  },
+  {
+    "url": "/vessels/details/624520002",
+    "name": "LULONGYU62452-2-98",
+    "type": "Unknown",
+    "imo": "624520002"
+  },
+  {
+    "url": "/vessels/details/624189041",
+    "name": "1890 MTR THUSHARA 02",
+    "type": "Fishing vessel",
+    "imo": "624189041"
+  },
+  {
+    "url": "/vessels/details/624010603",
+    "name": "LIAOYINGYU5HAO-3 90",
+    "type": "Unknown",
+    "imo": "624010603"
+  },
+  {
+    "url": "/vessels/details/624040832",
+    "name": "56069-32-66",
+    "type": "Unknown",
+    "imo": "624040832"
+  },
+  {
+    "url": "/vessels/details/624520005",
+    "name": "LULONGYU62452-5",
+    "type": "Pleasure craft",
+    "imo": "624520005"
+  },
+  {
+    "url": "/vessels/details/624827002",
+    "name": "YUELEIYU27-2-79",
+    "type": "Fishing vessel",
+    "imo": "624827002"
+  },
+  {
+    "url": "/vessels/details/624071624",
+    "name": "51199-24-46",
+    "type": "Unknown",
+    "imo": "624071624"
+  },
+  {
+    "url": "/vessels/details/624218963",
+    "name": "LIN 21896-3-71",
+    "type": "Unknown",
+    "imo": "624218963"
+  }
+]

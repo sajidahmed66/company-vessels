@@ -1,0 +1,2966 @@
+[
+  {
+    "url": "/vessels/details/9810513",
+    "name": "KARABAKH",
+    "type": "Crude Oil Tanker",
+    "imo": "9810513"
+  },
+  {
+    "url": "/vessels/details/9867621",
+    "name": "KHANKENDI",
+    "type": "Crude Oil Tanker",
+    "imo": "9867621"
+  },
+  {
+    "url": "/vessels/details/9779941",
+    "name": "SHUSHA",
+    "type": "Crude Oil Tanker",
+    "imo": "9779941"
+  },
+  {
+    "url": "/vessels/details/9420617",
+    "name": "ZANGAZUR",
+    "type": "Crude Oil Tanker",
+    "imo": "9420617"
+  },
+  {
+    "url": "/vessels/details/9757369",
+    "name": "KHANKENDI",
+    "type": "Offshore Support Vessel",
+    "imo": "9757369"
+  },
+  {
+    "url": "/vessels/details/8410172",
+    "name": "GURBAN ABASOV",
+    "type": "Crane Ship",
+    "imo": "8410172"
+  },
+  {
+    "url": "/vessels/details/8765565",
+    "name": "GARABAGH",
+    "type": "Platform",
+    "imo": "8765565"
+  },
+  {
+    "url": "/vessels/details/7604374",
+    "name": "AZERBAIJAN",
+    "type": "Crane Ship",
+    "imo": "7604374"
+  },
+  {
+    "url": "/vessels/details/8212582",
+    "name": "SHAKI",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "8212582"
+  },
+  {
+    "url": "/vessels/details/8212594",
+    "name": "AKADEMIK HESEN ALIEV",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "8212594"
+  },
+  {
+    "url": "/vessels/details/8212568",
+    "name": "MERKURY 1",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "8212568"
+  },
+  {
+    "url": "/vessels/details/9297802",
+    "name": "SHAHDAG",
+    "type": "Ro-Ro Cargo Ship",
+    "imo": "9297802"
+  },
+  {
+    "url": "/vessels/details/9843106",
+    "name": "AZERBAIJAN",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "9843106"
+  },
+  {
+    "url": "/vessels/details/9632351",
+    "name": "BARDA",
+    "type": "Ro-Ro Cargo Ship",
+    "imo": "9632351"
+  },
+  {
+    "url": "/vessels/details/9632363",
+    "name": "BALAKEN",
+    "type": "Ro-Ro Cargo Ship",
+    "imo": "9632363"
+  },
+  {
+    "url": "/vessels/details/9564633",
+    "name": "JULFA",
+    "type": "Oil Products Tanker",
+    "imo": "9564633"
+  },
+  {
+    "url": "/vessels/details/9284128",
+    "name": "PR.HEYDAR ALIYEV",
+    "type": "Oil Products Tanker",
+    "imo": "9284128"
+  },
+  {
+    "url": "/vessels/details/9397676",
+    "name": "NASIMI",
+    "type": "Oil Products Tanker",
+    "imo": "9397676"
+  },
+  {
+    "url": "/vessels/details/9284130",
+    "name": "BABEK",
+    "type": "Oil Products Tanker",
+    "imo": "9284130"
+  },
+  {
+    "url": "/vessels/details/9394064",
+    "name": "JABBAR HASHIMOV",
+    "type": "Oil Products Tanker",
+    "imo": "9394064"
+  },
+  {
+    "url": "/vessels/details/8316041",
+    "name": "BESTEKAR GARA GARAYEV",
+    "type": "Ro-Ro Cargo Ship",
+    "imo": "8316041"
+  },
+  {
+    "url": "/vessels/details/9821471",
+    "name": "KALBAJAR",
+    "type": "Oil Products Tanker",
+    "imo": "9821471"
+  },
+  {
+    "url": "/vessels/details/9821469",
+    "name": "LACHIN",
+    "type": "Oil Products Tanker",
+    "imo": "9821469"
+  },
+  {
+    "url": "/vessels/details/9269295",
+    "name": "MAESTRO NIYAZI",
+    "type": "General Cargo Ship",
+    "imo": "9269295"
+  },
+  {
+    "url": "/vessels/details/9745720",
+    "name": "BAKU",
+    "type": "Chemical/Oil Products Tanker",
+    "imo": "9745720"
+  },
+  {
+    "url": "/vessels/details/9729594",
+    "name": "AZERBAIJAN",
+    "type": "Chemical/Oil Products Tanker",
+    "imo": "9729594"
+  },
+  {
+    "url": "/vessels/details/9340855",
+    "name": "GAFUR MAMMADOV",
+    "type": "General Cargo Ship",
+    "imo": "9340855"
+  },
+  {
+    "url": "/vessels/details/9459618",
+    "name": "NATAVAN",
+    "type": "General Cargo Ship",
+    "imo": "9459618"
+  },
+  {
+    "url": "/vessels/details/9528146",
+    "name": "UZEYIR HAJIBEYLI",
+    "type": "General Cargo Ship",
+    "imo": "9528146"
+  },
+  {
+    "url": "/vessels/details/9370721",
+    "name": "SHAIR VAGIF",
+    "type": "General Cargo Ship",
+    "imo": "9370721"
+  },
+  {
+    "url": "/vessels/details/9396658",
+    "name": "HUSEYN JAVID",
+    "type": "General Cargo Ship",
+    "imo": "9396658"
+  },
+  {
+    "url": "/vessels/details/9294460",
+    "name": "GENERAL ASLANOV",
+    "type": "General Cargo Ship",
+    "imo": "9294460"
+  },
+  {
+    "url": "/vessels/details/9348326",
+    "name": "SHAIR SABIR",
+    "type": "General Cargo Ship",
+    "imo": "9348326"
+  },
+  {
+    "url": "/vessels/details/9294458",
+    "name": "RASUL RZA",
+    "type": "General Cargo Ship",
+    "imo": "9294458"
+  },
+  {
+    "url": "/vessels/details/9114816",
+    "name": "MAHMUD REHIMOV",
+    "type": "General Cargo Ship",
+    "imo": "9114816"
+  },
+  {
+    "url": "/vessels/details/7646669",
+    "name": "MIKAYIL MUSHFIG",
+    "type": "General Cargo Ship",
+    "imo": "7646669"
+  },
+  {
+    "url": "/vessels/details/8857045",
+    "name": "SILVER STAR",
+    "type": "General Cargo Ship",
+    "imo": "8857045"
+  },
+  {
+    "url": "/vessels/details/8702226",
+    "name": "TEYMUR EHMEDOV",
+    "type": "General Cargo Ship",
+    "imo": "8702226"
+  },
+  {
+    "url": "/vessels/details/8702238",
+    "name": "GARADAGH",
+    "type": "General Cargo Ship",
+    "imo": "8702238"
+  },
+  {
+    "url": "/vessels/details/9658111",
+    "name": "CASPIAN VOYAGER",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9658111"
+  },
+  {
+    "url": "/vessels/details/9534224",
+    "name": "CASPIAN SUPPORTER",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9534224"
+  },
+  {
+    "url": "/vessels/details/8422230",
+    "name": "VADIM SEYIDOV",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8422230"
+  },
+  {
+    "url": "/vessels/details/9451666",
+    "name": "LANKARAN",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9451666"
+  },
+  {
+    "url": "/vessels/details/8418540",
+    "name": "NEFTEGAZ 64",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8418540"
+  },
+  {
+    "url": "/vessels/details/7912161",
+    "name": "ZULFI HACIYEV",
+    "type": "Crane Ship",
+    "imo": "7912161"
+  },
+  {
+    "url": "/vessels/details/8128171",
+    "name": "SABIT ORUJOV",
+    "type": "Passenger Ship",
+    "imo": "8128171"
+  },
+  {
+    "url": "/vessels/details/9246073",
+    "name": "ISLAY",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9246073"
+  },
+  {
+    "url": "/vessels/details/9240275",
+    "name": "JURA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9240275"
+  },
+  {
+    "url": "/vessels/details/9636266",
+    "name": "KHOJALY",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9636266"
+  },
+  {
+    "url": "/vessels/details/9636254",
+    "name": "GUBA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9636254"
+  },
+  {
+    "url": "/vessels/details/9418690",
+    "name": "CASPIAN QALA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9418690"
+  },
+  {
+    "url": "/vessels/details/9499694",
+    "name": "SUGOVUSHAN",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9499694"
+  },
+  {
+    "url": "/vessels/details/9369540",
+    "name": "CITADEL",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9369540"
+  },
+  {
+    "url": "/vessels/details/8601769",
+    "name": "TABRIZ KHALILBAYLI",
+    "type": "Fire Fighting Vessel",
+    "imo": "8601769"
+  },
+  {
+    "url": "/vessels/details/8228579",
+    "name": "BUNKEROVSHIK-4",
+    "type": "Oil Products Tanker",
+    "imo": "8228579"
+  },
+  {
+    "url": "/vessels/details/9416460",
+    "name": "TURKAN",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9416460"
+  },
+  {
+    "url": "/vessels/details/9655676",
+    "name": "SEA BASS",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9655676"
+  },
+  {
+    "url": "/vessels/details/9518127",
+    "name": "CASPIAN RELIANCE",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9518127"
+  },
+  {
+    "url": "/vessels/details/8119053",
+    "name": "YARENGA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8119053"
+  },
+  {
+    "url": "/vessels/details/8119077",
+    "name": "OM",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8119077"
+  },
+  {
+    "url": "/vessels/details/8119118",
+    "name": "ANDOGA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8119118"
+  },
+  {
+    "url": "/vessels/details/9780720",
+    "name": "RASHID BEHBUDOV",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9780720"
+  },
+  {
+    "url": "/vessels/details/9732292",
+    "name": "MUSLIM MAGOMAYEV",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9732292"
+  },
+  {
+    "url": "/vessels/details/8613774",
+    "name": "AYDIN MAMEDOV.",
+    "type": "Crane Ship",
+    "imo": "8613774"
+  },
+  {
+    "url": "/vessels/details/8511457",
+    "name": "ATLET8",
+    "type": "Crane Ship",
+    "imo": "8511457"
+  },
+  {
+    "url": "/vessels/details/7116169",
+    "name": "PUTA",
+    "type": "Pollution Control Vessel",
+    "imo": "7116169"
+  },
+  {
+    "url": "/vessels/details/6802462",
+    "name": "VETEN",
+    "type": "Yacht",
+    "imo": "6802462"
+  },
+  {
+    "url": "/vessels/details/8218861",
+    "name": "FIRAT",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8218861"
+  },
+  {
+    "url": "/vessels/details/9782065",
+    "name": "GARA GARAYEV",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9782065"
+  },
+  {
+    "url": "/vessels/details/8423260",
+    "name": "IRGIZ",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8423260"
+  },
+  {
+    "url": "/vessels/details/8728517",
+    "name": "MAMMAD SULEYMANOV",
+    "type": "Research Vessel",
+    "imo": "8728517"
+  },
+  {
+    "url": "/vessels/details/8520965",
+    "name": "MPK 474",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8520965"
+  },
+  {
+    "url": "/vessels/details/7811109",
+    "name": "SEA STAR-1",
+    "type": "Fishing Vessel",
+    "imo": "7811109"
+  },
+  {
+    "url": "/vessels/details/7807316",
+    "name": "BLUE SHARK",
+    "type": "Standby Safety Vessel",
+    "imo": "7807316"
+  },
+  {
+    "url": "/vessels/details/9768502",
+    "name": "TURAN",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9768502"
+  },
+  {
+    "url": "/vessels/details/9741217",
+    "name": "AZERTRANS",
+    "type": "Tug",
+    "imo": "9741217"
+  },
+  {
+    "url": "/vessels/details/7643851",
+    "name": "GEOFIZIC",
+    "type": "Offshore Support Vessel",
+    "imo": "7643851"
+  },
+  {
+    "url": "/vessels/details/6709971",
+    "name": "LAGUNA",
+    "type": "Fishing Vessel",
+    "imo": "6709971"
+  },
+  {
+    "url": "/vessels/details/8207173",
+    "name": "MPK-459",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8207173"
+  },
+  {
+    "url": "/vessels/details/9356983",
+    "name": "LET IT BE M",
+    "type": "Yacht",
+    "imo": "9356983"
+  },
+  {
+    "url": "/vessels/details/6721101",
+    "name": "VINGASAND",
+    "type": "Fishing Vessel",
+    "imo": "6721101"
+  },
+  {
+    "url": "/vessels/details/8841292",
+    "name": "PSK-51",
+    "type": "Passenger Ship",
+    "imo": "8841292"
+  },
+  {
+    "url": "/vessels/details/8841278",
+    "name": "PSK-48",
+    "type": "Passenger Ship",
+    "imo": "8841278"
+  },
+  {
+    "url": "/vessels/details/8841242",
+    "name": "PSK-45",
+    "type": "Passenger Ship",
+    "imo": "8841242"
+  },
+  {
+    "url": "/vessels/details/7037480",
+    "name": "PSK-28",
+    "type": "Passenger Ship",
+    "imo": "7037480"
+  },
+  {
+    "url": "/vessels/details/7037533",
+    "name": "PSK-40",
+    "type": "Passenger Ship",
+    "imo": "7037533"
+  },
+  {
+    "url": "/vessels/details/7052492",
+    "name": "PS-173",
+    "type": "Passenger Ship",
+    "imo": "7052492"
+  },
+  {
+    "url": "/vessels/details/9581552",
+    "name": "GIZ GALASI",
+    "type": "Crew Boat",
+    "imo": "9581552"
+  },
+  {
+    "url": "/vessels/details/8846280",
+    "name": "HAZAR-12",
+    "type": "Fish Carrier",
+    "imo": "8846280"
+  },
+  {
+    "url": "/vessels/details/8926470",
+    "name": "ELKHAN KAZIMOV",
+    "type": "Tug",
+    "imo": "8926470"
+  },
+  {
+    "url": "/vessels/details/8661537",
+    "name": "CDC GOODWAY",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8661537"
+  },
+  {
+    "url": "/vessels/details/423283100",
+    "name": "ORION 25",
+    "type": "Towing vessel",
+    "imo": "423283100"
+  },
+  {
+    "url": "/vessels/details/423547100",
+    "name": "SARSANG",
+    "type": "Tug",
+    "imo": "423547100"
+  },
+  {
+    "url": "/vessels/details/423479100",
+    "name": "ALAT",
+    "type": "Tug",
+    "imo": "423479100"
+  },
+  {
+    "url": "/vessels/details/423195100",
+    "name": "MPK-460",
+    "type": "Passenger ship",
+    "imo": "423195100"
+  },
+  {
+    "url": "/vessels/details/423255100",
+    "name": "GARADAG-7",
+    "type": "Other type (HAZ-C)",
+    "imo": "423255100"
+  },
+  {
+    "url": "/vessels/details/423480100",
+    "name": "SILKWAY",
+    "type": "Towing vessel",
+    "imo": "423480100"
+  },
+  {
+    "url": "/vessels/details/423533100",
+    "name": "HAKARICHAY",
+    "type": "Tug",
+    "imo": "423533100"
+  },
+  {
+    "url": "/vessels/details/423244100",
+    "name": "MPK452",
+    "type": "Passenger ship",
+    "imo": "423244100"
+  },
+  {
+    "url": "/vessels/details/9638032",
+    "name": "KHAZRI",
+    "type": "Passenger Ship",
+    "imo": "9638032"
+  },
+  {
+    "url": "/vessels/details/8500381",
+    "name": "BARRA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8500381"
+  },
+  {
+    "url": "/vessels/details/8884581",
+    "name": "USUKHCHAY",
+    "type": "Crane Ship",
+    "imo": "8884581"
+  },
+  {
+    "url": "/vessels/details/423264100",
+    "name": "ORION 27",
+    "type": "Unknown",
+    "imo": "423264100"
+  },
+  {
+    "url": "/vessels/details/423222000",
+    "name": "VENTA",
+    "type": "Unknown",
+    "imo": "423222000"
+  },
+  {
+    "url": "/vessels/details/423013969",
+    "name": "12238-04-51",
+    "type": "Unknown",
+    "imo": "423013969"
+  },
+  {
+    "url": "/vessels/details/9297814",
+    "name": "MINGACHEVIR",
+    "type": "Ro-Ro Cargo Ship",
+    "imo": "9297814"
+  },
+  {
+    "url": "/vessels/details/423433100",
+    "name": "G0MRUK1.",
+    "type": "Unknown",
+    "imo": "423433100"
+  },
+  {
+    "url": "/vessels/details/423393112",
+    "name": "H Q 112",
+    "type": "Towing vessel",
+    "imo": "423393112"
+  },
+  {
+    "url": "/vessels/details/9650195",
+    "name": "CASPIAN STAR",
+    "type": "Passenger Ship",
+    "imo": "9650195"
+  },
+  {
+    "url": "/vessels/details/8865183",
+    "name": "SUNRISE 1",
+    "type": "General Cargo Ship",
+    "imo": "8865183"
+  },
+  {
+    "url": "/vessels/details/8728610",
+    "name": "A 672",
+    "type": "Research Vessel",
+    "imo": "8728610"
+  },
+  {
+    "url": "/vessels/details/423721292",
+    "name": "LG21292-427.2V",
+    "type": "Unknown",
+    "imo": "423721292"
+  },
+  {
+    "url": "/vessels/details/8507418",
+    "name": "ATLET-5",
+    "type": "Crane Ship",
+    "imo": "8507418"
+  },
+  {
+    "url": "/vessels/details/423199100",
+    "name": "STVOR",
+    "type": "Other type",
+    "imo": "423199100"
+  },
+  {
+    "url": "/vessels/details/423661200",
+    "name": "DAIWEI668",
+    "type": "Fishing vessel",
+    "imo": "423661200"
+  },
+  {
+    "url": "/vessels/details/9133501",
+    "name": "MAGIC-1",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9133501"
+  },
+  {
+    "url": "/vessels/details/9702168",
+    "name": "CMS IGID",
+    "type": "Tug",
+    "imo": "9702168"
+  },
+  {
+    "url": "/vessels/details/9654995",
+    "name": "TOPAZ TRIUMPH",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9654995"
+  },
+  {
+    "url": "/vessels/details/423521365",
+    "name": "HAIZHONG25",
+    "type": "Fishing vessel",
+    "imo": "423521365"
+  },
+  {
+    "url": "/vessels/details/8727551",
+    "name": "CHIRAKHCHAY",
+    "type": "Crane Ship",
+    "imo": "8727551"
+  },
+  {
+    "url": "/vessels/details/423417100",
+    "name": "ABSHERON 16",
+    "type": "Unknown",
+    "imo": "423417100"
+  },
+  {
+    "url": "/vessels/details/7741160",
+    "name": "CASPIAN LEGEND",
+    "type": "Ore/Oil Carrier",
+    "imo": "7741160"
+  },
+  {
+    "url": "/vessels/details/9495284",
+    "name": "CASPIAN PROVIDER",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9495284"
+  },
+  {
+    "url": "/vessels/details/423289100",
+    "name": "JAMIL NIFTALIYEV",
+    "type": "Unknown",
+    "imo": "423289100"
+  },
+  {
+    "url": "/vessels/details/4513835",
+    "name": "P 216",
+    "type": "Patrol Vessel",
+    "imo": "4513835"
+  },
+  {
+    "url": "/vessels/details/8652146",
+    "name": "ILHAM ALLAHVERDIYEV",
+    "type": "Passenger Ship",
+    "imo": "8652146"
+  },
+  {
+    "url": "/vessels/details/9416472",
+    "name": "SHUVALAN",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9416472"
+  },
+  {
+    "url": "/vessels/details/8416918",
+    "name": "ATLET-2",
+    "type": "Crane Ship",
+    "imo": "8416918"
+  },
+  {
+    "url": "/vessels/details/423248100",
+    "name": "GARADAGH-11",
+    "type": "Tug",
+    "imo": "423248100"
+  },
+  {
+    "url": "/vessels/details/8228000",
+    "name": "BAKU 357",
+    "type": "Ore/Oil Carrier",
+    "imo": "8228000"
+  },
+  {
+    "url": "/vessels/details/423345270",
+    "name": "QONG HUA 788",
+    "type": "Cargo ship",
+    "imo": "423345270"
+  },
+  {
+    "url": "/vessels/details/423000908",
+    "name": "239RGE E26 P3-77",
+    "type": "Unknown",
+    "imo": "423000908"
+  },
+  {
+    "url": "/vessels/details/423008522",
+    "name": "SH00518",
+    "type": "Fishing vessel",
+    "imo": "423008522"
+  },
+  {
+    "url": "/vessels/details/8313934",
+    "name": "G 130",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8313934"
+  },
+  {
+    "url": "/vessels/details/423686857",
+    "name": "JIRENYU00776",
+    "type": "Fishing vessel",
+    "imo": "423686857"
+  },
+  {
+    "url": "/vessels/details/423852103",
+    "name": "05012-371",
+    "type": "Unknown",
+    "imo": "423852103"
+  },
+  {
+    "url": "/vessels/details/423042906",
+    "name": "12445-16-16",
+    "type": "Unknown",
+    "imo": "423042906"
+  },
+  {
+    "url": "/vessels/details/8884191",
+    "name": "HOVSAN",
+    "type": "Tug",
+    "imo": "8884191"
+  },
+  {
+    "url": "/vessels/details/9673707",
+    "name": "KAPITAN AGASIYEV",
+    "type": "Tug",
+    "imo": "9673707"
+  },
+  {
+    "url": "/vessels/details/423566773",
+    "name": "RAHIMI NET BOYA-3",
+    "type": "Unknown",
+    "imo": "423566773"
+  },
+  {
+    "url": "/vessels/details/423421100",
+    "name": "ABSHERON-20",
+    "type": "Towing vessel",
+    "imo": "423421100"
+  },
+  {
+    "url": "/vessels/details/423287100",
+    "name": "CALGAN 6",
+    "type": "Unknown",
+    "imo": "423287100"
+  },
+  {
+    "url": "/vessels/details/423659874",
+    "name": "YUE NAN AO 30212",
+    "type": "Fishing vessel",
+    "imo": "423659874"
+  },
+  {
+    "url": "/vessels/details/8887600",
+    "name": "ULDUZ",
+    "type": "Utility Vessel",
+    "imo": "8887600"
+  },
+  {
+    "url": "/vessels/details/8128183",
+    "name": "GENERAL ASADOV",
+    "type": "Passenger Ship",
+    "imo": "8128183"
+  },
+  {
+    "url": "/vessels/details/9565027",
+    "name": "CASPIAN-PROTECTOR",
+    "type": "Standby Safety Vessel",
+    "imo": "9565027"
+  },
+  {
+    "url": "/vessels/details/423018026",
+    "name": "AOEN64G67",
+    "type": "Fishing vessel",
+    "imo": "423018026"
+  },
+  {
+    "url": "/vessels/details/423331111",
+    "name": "32001-5-88",
+    "type": "Unknown",
+    "imo": "423331111"
+  },
+  {
+    "url": "/vessels/details/8422204",
+    "name": "VIKHR- 8",
+    "type": "Fire Fighting Vessel",
+    "imo": "8422204"
+  },
+  {
+    "url": "/vessels/details/423458170",
+    "name": "HAIHANG348.0V",
+    "type": "Unknown",
+    "imo": "423458170"
+  },
+  {
+    "url": "/vessels/details/423021008",
+    "name": "31-8",
+    "type": "Unknown",
+    "imo": "423021008"
+  },
+  {
+    "url": "/vessels/details/423561601",
+    "name": "35616-1-75",
+    "type": "Unknown",
+    "imo": "423561601"
+  },
+  {
+    "url": "/vessels/details/9753789",
+    "name": "CMS PAHLAVAN",
+    "type": "Tug",
+    "imo": "9753789"
+  },
+  {
+    "url": "/vessels/details/423465100",
+    "name": "CMS 2",
+    "type": "Other type",
+    "imo": "423465100"
+  },
+  {
+    "url": "/vessels/details/423999000",
+    "name": "SPF-001",
+    "type": "Unknown",
+    "imo": "423999000"
+  },
+  {
+    "url": "/vessels/details/423111116",
+    "name": "32199-1674",
+    "type": "Fishing vessel",
+    "imo": "423111116"
+  },
+  {
+    "url": "/vessels/details/423105999",
+    "name": "ZHECANG05999-428.1V",
+    "type": "Unknown",
+    "imo": "423105999"
+  },
+  {
+    "url": "/vessels/details/423517100",
+    "name": "PORT PATROL",
+    "type": "Pilot",
+    "imo": "423517100"
+  },
+  {
+    "url": "/vessels/details/423280100",
+    "name": "ORION 17",
+    "type": "WIG",
+    "imo": "423280100"
+  },
+  {
+    "url": "/vessels/details/8926353",
+    "name": "SUNRISE 2",
+    "type": "General Cargo Ship",
+    "imo": "8926353"
+  },
+  {
+    "url": "/vessels/details/8854172",
+    "name": "AZPETROL",
+    "type": "Tug",
+    "imo": "8854172"
+  },
+  {
+    "url": "/vessels/details/423241469",
+    "name": "HABIBI 2",
+    "type": "Fishing vessel",
+    "imo": "423241469"
+  },
+  {
+    "url": "/vessels/details/423000013",
+    "name": "HAZAR-4",
+    "type": "Unknown",
+    "imo": "423000013"
+  },
+  {
+    "url": "/vessels/details/423330449",
+    "name": "ZI HANG 2 HAO 7.1V",
+    "type": "Unknown",
+    "imo": "423330449"
+  },
+  {
+    "url": "/vessels/details/9395422",
+    "name": "GUBADLI",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9395422"
+  },
+  {
+    "url": "/vessels/details/423458168",
+    "name": "SUQIYU0440565",
+    "type": "Unknown",
+    "imo": "423458168"
+  },
+  {
+    "url": "/vessels/details/423273100",
+    "name": "CALGAN 10",
+    "type": "Other type",
+    "imo": "423273100"
+  },
+  {
+    "url": "/vessels/details/423121371",
+    "name": "ZHELIYU 21371-29-99",
+    "type": "Unknown",
+    "imo": "423121371"
+  },
+  {
+    "url": "/vessels/details/7711397",
+    "name": "ECOPRIDE",
+    "type": "Oil Products Tanker",
+    "imo": "7711397"
+  },
+  {
+    "url": "/vessels/details/423652365",
+    "name": "06832",
+    "type": "Fishing vessel",
+    "imo": "423652365"
+  },
+  {
+    "url": "/vessels/details/8884206",
+    "name": "HOVSAN2",
+    "type": "Tug",
+    "imo": "8884206"
+  },
+  {
+    "url": "/vessels/details/8207197",
+    "name": "SHIRVAN-2",
+    "type": "Crane Ship",
+    "imo": "8207197"
+  },
+  {
+    "url": "/vessels/details/423561602",
+    "name": "35616-278",
+    "type": "Unknown",
+    "imo": "423561602"
+  },
+  {
+    "url": "/vessels/details/423128988",
+    "name": "MORWENA",
+    "type": "Sailing vessel",
+    "imo": "423128988"
+  },
+  {
+    "url": "/vessels/details/423665611",
+    "name": "36656-A11 60",
+    "type": "Unknown",
+    "imo": "423665611"
+  },
+  {
+    "url": "/vessels/details/8884593",
+    "name": "ULLUCHAY",
+    "type": "Crane Ship",
+    "imo": "8884593"
+  },
+  {
+    "url": "/vessels/details/423541100",
+    "name": "AKVANAVT",
+    "type": "Fishing vessel",
+    "imo": "423541100"
+  },
+  {
+    "url": "/vessels/details/423008740",
+    "name": "HAITOUYANG0095",
+    "type": "Fishing vessel",
+    "imo": "423008740"
+  },
+  {
+    "url": "/vessels/details/423232835",
+    "name": "DEDGDA",
+    "type": "Fishing vessel",
+    "imo": "423232835"
+  },
+  {
+    "url": "/vessels/details/423444488",
+    "name": "34668",
+    "type": "Fishing vessel",
+    "imo": "423444488"
+  },
+  {
+    "url": "/vessels/details/423638512",
+    "name": "423698512-B3-49",
+    "type": "Unknown",
+    "imo": "423638512"
+  },
+  {
+    "url": "/vessels/details/8887650",
+    "name": "VASIF HUSEYNOV",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8887650"
+  },
+  {
+    "url": "/vessels/details/9513866",
+    "name": "STINGRAY",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9513866"
+  },
+  {
+    "url": "/vessels/details/423123234",
+    "name": "LUDONGYU61167",
+    "type": "Fishing vessel",
+    "imo": "423123234"
+  },
+  {
+    "url": "/vessels/details/9768485",
+    "name": "UFUQ",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9768485"
+  },
+  {
+    "url": "/vessels/details/423000012",
+    "name": "KRISTAL",
+    "type": "Other type (HAZ-C)",
+    "imo": "423000012"
+  },
+  {
+    "url": "/vessels/details/423586541",
+    "name": "0014-6 10",
+    "type": "Unknown",
+    "imo": "423586541"
+  },
+  {
+    "url": "/vessels/details/423254100",
+    "name": "GARADAG 4",
+    "type": "Other type",
+    "imo": "423254100"
+  },
+  {
+    "url": "/vessels/details/423418100",
+    "name": "ABSHERON-21",
+    "type": "Tug",
+    "imo": "423418100"
+  },
+  {
+    "url": "/vessels/details/423429100",
+    "name": "CENUB-19",
+    "type": "Unknown (HAZ-C)",
+    "imo": "423429100"
+  },
+  {
+    "url": "/vessels/details/423678128",
+    "name": "LUQINGXINYU78128",
+    "type": "Fishing vessel",
+    "imo": "423678128"
+  },
+  {
+    "url": "/vessels/details/8724781",
+    "name": "BUNKEROVSHIK-6",
+    "type": "Oil Products Tanker",
+    "imo": "8724781"
+  },
+  {
+    "url": "/vessels/details/423424100",
+    "name": "ZARDAB 3",
+    "type": "Unknown",
+    "imo": "423424100"
+  },
+  {
+    "url": "/vessels/details/423112120",
+    "name": "31121-20",
+    "type": "Unknown",
+    "imo": "423112120"
+  },
+  {
+    "url": "/vessels/details/1088138",
+    "name": "BAKU H119",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "1088138"
+  },
+  {
+    "url": "/vessels/details/423999999",
+    "name": "132THUAN TIEN C14",
+    "type": "Fishing vessel",
+    "imo": "423999999"
+  },
+  {
+    "url": "/vessels/details/8226416",
+    "name": "SLV-363",
+    "type": "Pollution Control Vessel",
+    "imo": "8226416"
+  },
+  {
+    "url": "/vessels/details/423669933",
+    "name": "96993",
+    "type": "Fishing vessel",
+    "imo": "423669933"
+  },
+  {
+    "url": "/vessels/details/8511469",
+    "name": "RAMIZ.HAJIYEV",
+    "type": "Crane Ship",
+    "imo": "8511469"
+  },
+  {
+    "url": "/vessels/details/423371100",
+    "name": "YG 2",
+    "type": "Tug",
+    "imo": "423371100"
+  },
+  {
+    "url": "/vessels/details/8418497",
+    "name": "OKTAY VELIYEV",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8418497"
+  },
+  {
+    "url": "/vessels/details/423652658",
+    "name": "SHUNFENG11",
+    "type": "Fishing vessel",
+    "imo": "423652658"
+  },
+  {
+    "url": "/vessels/details/423500000",
+    "name": "GUM GANG",
+    "type": "Unknown",
+    "imo": "423500000"
+  },
+  {
+    "url": "/vessels/details/423298100",
+    "name": "KESSON",
+    "type": "Unknown",
+    "imo": "423298100"
+  },
+  {
+    "url": "/vessels/details/6521848",
+    "name": "NARVA",
+    "type": "Hopper Dredger",
+    "imo": "6521848"
+  },
+  {
+    "url": "/vessels/details/9408839",
+    "name": "CASPIAN ENDEAVOUR",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9408839"
+  },
+  {
+    "url": "/vessels/details/423215325",
+    "name": "TAIFENG56",
+    "type": "Cargo ship",
+    "imo": "423215325"
+  },
+  {
+    "url": "/vessels/details/423226588",
+    "name": "22658",
+    "type": "Fishing vessel",
+    "imo": "423226588"
+  },
+  {
+    "url": "/vessels/details/423000014",
+    "name": "HAZAR-7",
+    "type": "Unknown",
+    "imo": "423000014"
+  },
+  {
+    "url": "/vessels/details/8207135",
+    "name": "MPK-455",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8207135"
+  },
+  {
+    "url": "/vessels/details/9768497",
+    "name": "ZAFAR",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9768497"
+  },
+  {
+    "url": "/vessels/details/8119065",
+    "name": "NERCHA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8119065"
+  },
+  {
+    "url": "/vessels/details/1024651",
+    "name": "MIRSAFA RZAYEV",
+    "type": "Tug",
+    "imo": "1024651"
+  },
+  {
+    "url": "/vessels/details/8826228",
+    "name": "KHAZAR-3",
+    "type": "Pollution Control Vessel",
+    "imo": "8826228"
+  },
+  {
+    "url": "/vessels/details/8841230",
+    "name": "PSK-38",
+    "type": "Passenger Ship",
+    "imo": "8841230"
+  },
+  {
+    "url": "/vessels/details/423566771",
+    "name": "RAHIMI NET BOYA-1",
+    "type": "Unknown",
+    "imo": "423566771"
+  },
+  {
+    "url": "/vessels/details/423203213",
+    "name": "15407-4-67",
+    "type": "Fishing vessel",
+    "imo": "423203213"
+  },
+  {
+    "url": "/vessels/details/1088152",
+    "name": "BAKU H120",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "1088152"
+  },
+  {
+    "url": "/vessels/details/423553693",
+    "name": "66093",
+    "type": "Fishing vessel",
+    "imo": "423553693"
+  },
+  {
+    "url": "/vessels/details/8302325",
+    "name": "PSKR-705",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8302325"
+  },
+  {
+    "url": "/vessels/details/423841327",
+    "name": "01659",
+    "type": "Unknown",
+    "imo": "423841327"
+  },
+  {
+    "url": "/vessels/details/9573347",
+    "name": "KHUDAFERIN",
+    "type": "Crew Boat",
+    "imo": "9573347"
+  },
+  {
+    "url": "/vessels/details/7620328",
+    "name": "RS-300 NO. 80",
+    "type": "Research Vessel",
+    "imo": "7620328"
+  },
+  {
+    "url": "/vessels/details/423478100",
+    "name": "PILOT-2",
+    "type": "Pilot",
+    "imo": "423478100"
+  },
+  {
+    "url": "/vessels/details/8325652",
+    "name": "M.B.MAMMADOB",
+    "type": "Dredger",
+    "imo": "8325652"
+  },
+  {
+    "url": "/vessels/details/423628512",
+    "name": "423698512-B2-37",
+    "type": "Unknown",
+    "imo": "423628512"
+  },
+  {
+    "url": "/vessels/details/423393979",
+    "name": "H Q 112",
+    "type": "Towing vessel",
+    "imo": "423393979"
+  },
+  {
+    "url": "/vessels/details/423412100",
+    "name": "ZARDAB 4",
+    "type": "Other type",
+    "imo": "423412100"
+  },
+  {
+    "url": "/vessels/details/8860494",
+    "name": "ALI MUSTAFAYEV",
+    "type": "Pollution Control Vessel",
+    "imo": "8860494"
+  },
+  {
+    "url": "/vessels/details/423276100",
+    "name": "ABSHERON 19",
+    "type": "Unknown",
+    "imo": "423276100"
+  },
+  {
+    "url": "/vessels/details/423658888",
+    "name": "ZHIJUN3565-9-98",
+    "type": "Unknown",
+    "imo": "423658888"
+  },
+  {
+    "url": "/vessels/details/8225383",
+    "name": "ORDUBAD",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "8225383"
+  },
+  {
+    "url": "/vessels/details/423331100",
+    "name": "TELIMMERKEZI",
+    "type": "Unknown",
+    "imo": "423331100"
+  },
+  {
+    "url": "/vessels/details/423428100",
+    "name": "ABSHERON-15",
+    "type": "Tug",
+    "imo": "423428100"
+  },
+  {
+    "url": "/vessels/details/423277100",
+    "name": "ORION 3",
+    "type": "Passenger ship",
+    "imo": "423277100"
+  },
+  {
+    "url": "/vessels/details/9284104",
+    "name": "KHODJAVAND",
+    "type": "Oil Products Tanker",
+    "imo": "9284104"
+  },
+  {
+    "url": "/vessels/details/9587908",
+    "name": "BOSSAN",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9587908"
+  },
+  {
+    "url": "/vessels/details/423321322",
+    "name": "8",
+    "type": "Fishing vessel",
+    "imo": "423321322"
+  },
+  {
+    "url": "/vessels/details/7406332",
+    "name": "KAPITAN A. RADZHABOV",
+    "type": "Icebreaker",
+    "imo": "7406332"
+  },
+  {
+    "url": "/vessels/details/7312270",
+    "name": "MSB-3",
+    "type": "General Cargo Ship",
+    "imo": "7312270"
+  },
+  {
+    "url": "/vessels/details/8521048",
+    "name": "AK.TOFIK ISMAYILOV",
+    "type": "Offshore Support Vessel",
+    "imo": "8521048"
+  },
+  {
+    "url": "/vessels/details/423516100",
+    "name": "TARTARCHAY",
+    "type": "Towing vessel",
+    "imo": "423516100"
+  },
+  {
+    "url": "/vessels/details/8728787",
+    "name": "SALYUT",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8728787"
+  },
+  {
+    "url": "/vessels/details/423880218",
+    "name": "1JA56828",
+    "type": "Other type",
+    "imo": "423880218"
+  },
+  {
+    "url": "/vessels/details/8885171",
+    "name": "BULAG",
+    "type": "Water Tanker",
+    "imo": "8885171"
+  },
+  {
+    "url": "/vessels/details/9581540",
+    "name": "GOBUSTAN",
+    "type": "Crew Boat",
+    "imo": "9581540"
+  },
+  {
+    "url": "/vessels/details/8228555",
+    "name": "SLV-370",
+    "type": "Pollution Control Vessel",
+    "imo": "8228555"
+  },
+  {
+    "url": "/vessels/details/423115100",
+    "name": "STB-1",
+    "type": "Other type",
+    "imo": "423115100"
+  },
+  {
+    "url": "/vessels/details/423519315",
+    "name": "ALUZAIR786",
+    "type": "Fishing vessel",
+    "imo": "423519315"
+  },
+  {
+    "url": "/vessels/details/9030321",
+    "name": "CASPIAN SPIRIT",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9030321"
+  },
+  {
+    "url": "/vessels/details/423698685",
+    "name": "04817",
+    "type": "Fishing vessel",
+    "imo": "423698685"
+  },
+  {
+    "url": "/vessels/details/8404604",
+    "name": "VIKHR-5",
+    "type": "Fire Fighting Vessel",
+    "imo": "8404604"
+  },
+  {
+    "url": "/vessels/details/423333888",
+    "name": "99888",
+    "type": "Fishing vessel",
+    "imo": "423333888"
+  },
+  {
+    "url": "/vessels/details/8723438",
+    "name": "MARINUS",
+    "type": "Tug",
+    "imo": "8723438"
+  },
+  {
+    "url": "/vessels/details/6876281",
+    "name": "BAKINSKAYA-5",
+    "type": "Passenger Ship",
+    "imo": "6876281"
+  },
+  {
+    "url": "/vessels/details/423111111",
+    "name": "DABC",
+    "type": "Unknown",
+    "imo": "423111111"
+  },
+  {
+    "url": "/vessels/details/9297723",
+    "name": "JALIL MAMEDGULUZADE",
+    "type": "Oil Products Tanker",
+    "imo": "9297723"
+  },
+  {
+    "url": "/vessels/details/8887571",
+    "name": "GUNASHLI",
+    "type": "Tug",
+    "imo": "8887571"
+  },
+  {
+    "url": "/vessels/details/8008539",
+    "name": "GILAVAR",
+    "type": "Research Vessel",
+    "imo": "8008539"
+  },
+  {
+    "url": "/vessels/details/7037519",
+    "name": "PSK-33",
+    "type": "Passenger Ship",
+    "imo": "7037519"
+  },
+  {
+    "url": "/vessels/details/8138621",
+    "name": "MIKAYIL.ALIYEV",
+    "type": "Tug",
+    "imo": "8138621"
+  },
+  {
+    "url": "/vessels/details/1037361",
+    "name": "BAKU H115",
+    "type": "Chemical/Oil Products Tanker",
+    "imo": "1037361"
+  },
+  {
+    "url": "/vessels/details/423284100",
+    "name": "ORION 26",
+    "type": "Diving ops",
+    "imo": "423284100"
+  },
+  {
+    "url": "/vessels/details/9297826",
+    "name": "AGDAM",
+    "type": "Ro-Ro Cargo Ship",
+    "imo": "9297826"
+  },
+  {
+    "url": "/vessels/details/8227678",
+    "name": "LANKARAN BALIGCHISI",
+    "type": "Fishing Vessel",
+    "imo": "8227678"
+  },
+  {
+    "url": "/vessels/details/9705794",
+    "name": "MIRVARI",
+    "type": "Passenger Ship",
+    "imo": "9705794"
+  },
+  {
+    "url": "/vessels/details/4513811",
+    "name": "P 214",
+    "type": "Patrol Vessel",
+    "imo": "4513811"
+  },
+  {
+    "url": "/vessels/details/423050602",
+    "name": "64795-6 10",
+    "type": "Unknown",
+    "imo": "423050602"
+  },
+  {
+    "url": "/vessels/details/8606472",
+    "name": "SVETLOMOR-2",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8606472"
+  },
+  {
+    "url": "/vessels/details/423518969",
+    "name": "LINGHANG199",
+    "type": "Fishing vessel",
+    "imo": "423518969"
+  },
+  {
+    "url": "/vessels/details/423212205",
+    "name": "05",
+    "type": "Unknown",
+    "imo": "423212205"
+  },
+  {
+    "url": "/vessels/details/8872899",
+    "name": "BAKINSKAYA-3",
+    "type": "Motor Hopper",
+    "imo": "8872899"
+  },
+  {
+    "url": "/vessels/details/9284116",
+    "name": "SHAH ISMAYIL KHATAI",
+    "type": "Oil Products Tanker",
+    "imo": "9284116"
+  },
+  {
+    "url": "/vessels/details/8227915",
+    "name": "PTR ARAZ",
+    "type": "Refrigerated Cargo Ship",
+    "imo": "8227915"
+  },
+  {
+    "url": "/vessels/details/8862026",
+    "name": "KHAZAR-1",
+    "type": "Bunkering Tanker",
+    "imo": "8862026"
+  },
+  {
+    "url": "/vessels/details/8212570",
+    "name": "AKADEMIK M. TOPCHUBASHOV",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "8212570"
+  },
+  {
+    "url": "/vessels/details/8325377",
+    "name": "GYULTAKIN ASKER0VA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8325377"
+  },
+  {
+    "url": "/vessels/details/8727616",
+    "name": "ZOHRAB VELIYEV",
+    "type": "Research Vessel",
+    "imo": "8727616"
+  },
+  {
+    "url": "/vessels/details/423365268",
+    "name": "SUGANYU",
+    "type": "Fishing vessel",
+    "imo": "423365268"
+  },
+  {
+    "url": "/vessels/details/8725307",
+    "name": "HAZAR-10",
+    "type": "Fish Carrier",
+    "imo": "8725307"
+  },
+  {
+    "url": "/vessels/details/423457806",
+    "name": "ZHEPUYU34578-06-",
+    "type": "Unknown",
+    "imo": "423457806"
+  },
+  {
+    "url": "/vessels/details/8102074",
+    "name": "CASPIAN ENERGY",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8102074"
+  },
+  {
+    "url": "/vessels/details/423323688",
+    "name": "23688",
+    "type": "Unknown",
+    "imo": "423323688"
+  },
+  {
+    "url": "/vessels/details/8207202",
+    "name": "SHIRVAN-3",
+    "type": "Crane Ship",
+    "imo": "8207202"
+  },
+  {
+    "url": "/vessels/details/8422228",
+    "name": "SAMIR GULIYEV",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8422228"
+  },
+  {
+    "url": "/vessels/details/423211113",
+    "name": "11313-3-28",
+    "type": "Unknown",
+    "imo": "423211113"
+  },
+  {
+    "url": "/vessels/details/8507274",
+    "name": "GEHREMAN.KHELILBEYLI",
+    "type": "Crude Oil Tanker",
+    "imo": "8507274"
+  },
+  {
+    "url": "/vessels/details/423464100",
+    "name": "CMS 1",
+    "type": "Other type",
+    "imo": "423464100"
+  },
+  {
+    "url": "/vessels/details/8422462",
+    "name": "ALIF HAJIYEV",
+    "type": "Research Vessel",
+    "imo": "8422462"
+  },
+  {
+    "url": "/vessels/details/423413288",
+    "name": "CCTV",
+    "type": "Pleasure craft",
+    "imo": "423413288"
+  },
+  {
+    "url": "/vessels/details/423566666",
+    "name": "LURUYU56166",
+    "type": "Fishing vessel",
+    "imo": "423566666"
+  },
+  {
+    "url": "/vessels/details/7114903",
+    "name": "YAKUB KYAZIMOV",
+    "type": "Crane Ship",
+    "imo": "7114903"
+  },
+  {
+    "url": "/vessels/details/423616052",
+    "name": "LKK16052-128.5V",
+    "type": "Unknown",
+    "imo": "423616052"
+  },
+  {
+    "url": "/vessels/details/8884610",
+    "name": "NEFTYANIK DAGESTANA",
+    "type": "Crane Ship",
+    "imo": "8884610"
+  },
+  {
+    "url": "/vessels/details/8216344",
+    "name": "CASPIAN DREAM",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8216344"
+  },
+  {
+    "url": "/vessels/details/8963143",
+    "name": "BULAQ-2",
+    "type": "Water Tanker",
+    "imo": "8963143"
+  },
+  {
+    "url": "/vessels/details/423002100",
+    "name": "KRISTAL1",
+    "type": "Other type (HAZ-C)",
+    "imo": "423002100"
+  },
+  {
+    "url": "/vessels/details/8711801",
+    "name": "BUNKEROVSHIK-7",
+    "type": "Oil Products Tanker",
+    "imo": "8711801"
+  },
+  {
+    "url": "/vessels/details/423534100",
+    "name": "BARGUSHADCHAY",
+    "type": "Tug",
+    "imo": "423534100"
+  },
+  {
+    "url": "/vessels/details/8507248",
+    "name": "GEHREMAN HAGIYEV",
+    "type": "Crude Oil Tanker",
+    "imo": "8507248"
+  },
+  {
+    "url": "/vessels/details/8404563",
+    "name": "PSKR-702",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8404563"
+  },
+  {
+    "url": "/vessels/details/423558659",
+    "name": "HEFENG82",
+    "type": "Cargo ship",
+    "imo": "423558659"
+  },
+  {
+    "url": "/vessels/details/8872930",
+    "name": "KRAB-2",
+    "type": "Offshore Support Vessel",
+    "imo": "8872930"
+  },
+  {
+    "url": "/vessels/details/8897473",
+    "name": "ELSHAN ABBASOV",
+    "type": "Fish Carrier",
+    "imo": "8897473"
+  },
+  {
+    "url": "/vessels/details/8515946",
+    "name": "EHRAM KHALIGOV",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8515946"
+  },
+  {
+    "url": "/vessels/details/8729705",
+    "name": "BAKINSKAYA-6",
+    "type": "Motor Hopper",
+    "imo": "8729705"
+  },
+  {
+    "url": "/vessels/details/8422216",
+    "name": "VIKHR-9",
+    "type": "Fire Fighting Vessel",
+    "imo": "8422216"
+  },
+  {
+    "url": "/vessels/details/7912173",
+    "name": "SHIRVAN",
+    "type": "Crane Ship",
+    "imo": "7912173"
+  },
+  {
+    "url": "/vessels/details/423659855",
+    "name": "SHUNFENG182",
+    "type": "Fishing vessel",
+    "imo": "423659855"
+  },
+  {
+    "url": "/vessels/details/423042725",
+    "name": "12445-5-14",
+    "type": "Unknown",
+    "imo": "423042725"
+  },
+  {
+    "url": "/vessels/details/423201208",
+    "name": "SUQIYU01208",
+    "type": "Fishing vessel",
+    "imo": "423201208"
+  },
+  {
+    "url": "/vessels/details/423589778",
+    "name": "MINGYANG08",
+    "type": "Pleasure craft",
+    "imo": "423589778"
+  },
+  {
+    "url": "/vessels/details/423011022",
+    "name": "ALMANSOORI",
+    "type": "Unknown",
+    "imo": "423011022"
+  },
+  {
+    "url": "/vessels/details/423435100",
+    "name": "GOMRUK-3",
+    "type": "Unknown",
+    "imo": "423435100"
+  },
+  {
+    "url": "/vessels/details/8613750",
+    "name": "ATAMOQLAN KERIMOV",
+    "type": "Crane Ship",
+    "imo": "8613750"
+  },
+  {
+    "url": "/vessels/details/6876231",
+    "name": "PS-153",
+    "type": "Passenger Ship",
+    "imo": "6876231"
+  },
+  {
+    "url": "/vessels/details/423422100",
+    "name": "ORION 4",
+    "type": "Unknown",
+    "imo": "423422100"
+  },
+  {
+    "url": "/vessels/details/8138906",
+    "name": "NAFTALAN",
+    "type": "Oil Products Tanker",
+    "imo": "8138906"
+  },
+  {
+    "url": "/vessels/details/423123512",
+    "name": "8",
+    "type": "Fishing vessel",
+    "imo": "423123512"
+  },
+  {
+    "url": "/vessels/details/9101326",
+    "name": "MORION",
+    "type": "Fish Carrier",
+    "imo": "9101326"
+  },
+  {
+    "url": "/vessels/details/423456789",
+    "name": "LUHAIYU67167",
+    "type": "Fishing vessel",
+    "imo": "423456789"
+  },
+  {
+    "url": "/vessels/details/8986004",
+    "name": "HAYAT",
+    "type": "Yacht",
+    "imo": "8986004"
+  },
+  {
+    "url": "/vessels/details/4513823",
+    "name": "P 215",
+    "type": "Patrol Vessel",
+    "imo": "4513823"
+  },
+  {
+    "url": "/vessels/details/8228426",
+    "name": "GEOFIZIK-3",
+    "type": "Research Vessel",
+    "imo": "8228426"
+  },
+  {
+    "url": "/vessels/details/9661209",
+    "name": "SOCAR-1",
+    "type": "Tug",
+    "imo": "9661209"
+  },
+  {
+    "url": "/vessels/details/423021272",
+    "name": "AL AMEER HUSSAINALI",
+    "type": "Fishing vessel",
+    "imo": "423021272"
+  },
+  {
+    "url": "/vessels/details/9684639",
+    "name": "CMS 3",
+    "type": "Utility Vessel",
+    "imo": "9684639"
+  },
+  {
+    "url": "/vessels/details/8010049",
+    "name": "YAGUAR",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8010049"
+  },
+  {
+    "url": "/vessels/details/423568137",
+    "name": "2322135",
+    "type": "Unknown",
+    "imo": "423568137"
+  },
+  {
+    "url": "/vessels/details/8726985",
+    "name": "SABIR BABAYEV",
+    "type": "Tug",
+    "imo": "8726985"
+  },
+  {
+    "url": "/vessels/details/423552612",
+    "name": "SHENGYUAN11",
+    "type": "Cargo ship",
+    "imo": "423552612"
+  },
+  {
+    "url": "/vessels/details/9560302",
+    "name": "TOPAZ LEGEND",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9560302"
+  },
+  {
+    "url": "/vessels/details/423000023",
+    "name": "EUREKA",
+    "type": "Dredging or UW ops",
+    "imo": "423000023"
+  },
+  {
+    "url": "/vessels/details/8119132",
+    "name": "AURA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8119132"
+  },
+  {
+    "url": "/vessels/details/423456781",
+    "name": "CHINACOASTGUARD2503",
+    "type": "Unknown",
+    "imo": "423456781"
+  },
+  {
+    "url": "/vessels/details/423986866",
+    "name": "06321",
+    "type": "Fishing vessel",
+    "imo": "423986866"
+  },
+  {
+    "url": "/vessels/details/8887583",
+    "name": "BAKINSKAYA-5",
+    "type": "Motor Hopper",
+    "imo": "8887583"
+  },
+  {
+    "url": "/vessels/details/423000201",
+    "name": "S201",
+    "type": "Unknown",
+    "imo": "423000201"
+  },
+  {
+    "url": "/vessels/details/7645079",
+    "name": "CEFER GABBARLY",
+    "type": "General Cargo Ship",
+    "imo": "7645079"
+  },
+  {
+    "url": "/vessels/details/8857435",
+    "name": "HOVSAN-5",
+    "type": "Tug",
+    "imo": "8857435"
+  },
+  {
+    "url": "/vessels/details/8404587",
+    "name": "VIKHR- 3",
+    "type": "Fire Fighting Vessel",
+    "imo": "8404587"
+  },
+  {
+    "url": "/vessels/details/9843118",
+    "name": "ZARIFA ALIYEVA",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "9843118"
+  },
+  {
+    "url": "/vessels/details/8887557",
+    "name": "NUSRAT SHIRINOV",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8887557"
+  },
+  {
+    "url": "/vessels/details/8017097",
+    "name": "LYUTOGA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8017097"
+  },
+  {
+    "url": "/vessels/details/7731866",
+    "name": "ARAZ 357",
+    "type": "Fishing Vessel",
+    "imo": "7731866"
+  },
+  {
+    "url": "/vessels/details/8520927",
+    "name": "MPK 470",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8520927"
+  },
+  {
+    "url": "/vessels/details/9396593",
+    "name": "CASPIAN CHALLENGER",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9396593"
+  },
+  {
+    "url": "/vessels/details/9499670",
+    "name": "SAVALAN",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9499670"
+  },
+  {
+    "url": "/vessels/details/7509093",
+    "name": "ALI AMIROV",
+    "type": "Offshore Support Vessel",
+    "imo": "7509093"
+  },
+  {
+    "url": "/vessels/details/423521831",
+    "name": "LKJ21831-427.9V",
+    "type": "Unknown",
+    "imo": "423521831"
+  },
+  {
+    "url": "/vessels/details/8325365",
+    "name": "NEFTEGAZ-10",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8325365"
+  },
+  {
+    "url": "/vessels/details/423187100",
+    "name": "S.VEZIROV",
+    "type": "Port tender",
+    "imo": "423187100"
+  },
+  {
+    "url": "/vessels/details/8838570",
+    "name": "SLV-411",
+    "type": "Pollution Control Vessel",
+    "imo": "8838570"
+  },
+  {
+    "url": "/vessels/details/423506100",
+    "name": "CSD-650",
+    "type": "Other type",
+    "imo": "423506100"
+  },
+  {
+    "url": "/vessels/details/9581538",
+    "name": "GULUSTAN",
+    "type": "Crew Boat",
+    "imo": "9581538"
+  },
+  {
+    "url": "/vessels/details/9397274",
+    "name": "CASPIAN SUPPLIER",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9397274"
+  },
+  {
+    "url": "/vessels/details/423618512",
+    "name": "423698512-B1-98",
+    "type": "Unknown",
+    "imo": "423618512"
+  },
+  {
+    "url": "/vessels/details/9201047",
+    "name": "SUMGAYIT",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9201047"
+  },
+  {
+    "url": "/vessels/details/423108986",
+    "name": "08986986",
+    "type": "Fishing vessel",
+    "imo": "423108986"
+  },
+  {
+    "url": "/vessels/details/423419100",
+    "name": "ORION 23",
+    "type": "Unknown",
+    "imo": "423419100"
+  },
+  {
+    "url": "/vessels/details/423016857",
+    "name": "183 40",
+    "type": "Unknown",
+    "imo": "423016857"
+  },
+  {
+    "url": "/vessels/details/423789666",
+    "name": "LUWEIJINGYU51085",
+    "type": "Fishing vessel",
+    "imo": "423789666"
+  },
+  {
+    "url": "/vessels/details/9347231",
+    "name": "KOROGLU",
+    "type": "Oil Products Tanker",
+    "imo": "9347231"
+  },
+  {
+    "url": "/vessels/details/423880555",
+    "name": "ZHESANYUYUN80555",
+    "type": "Fishing vessel",
+    "imo": "423880555"
+  },
+  {
+    "url": "/vessels/details/423202033",
+    "name": "MINXIAYU0068",
+    "type": "Fishing vessel",
+    "imo": "423202033"
+  },
+  {
+    "url": "/vessels/details/423412345",
+    "name": "CHANGFA-04-94",
+    "type": "Unknown",
+    "imo": "423412345"
+  },
+  {
+    "url": "/vessels/details/8207185",
+    "name": "MPK-460",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8207185"
+  },
+  {
+    "url": "/vessels/details/8207109",
+    "name": "MPK-452",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8207109"
+  },
+  {
+    "url": "/vessels/details/423721550",
+    "name": "LEG21550-427.8V",
+    "type": "Unknown",
+    "imo": "423721550"
+  },
+  {
+    "url": "/vessels/details/423286100",
+    "name": "CALGAN 4",
+    "type": "Unknown",
+    "imo": "423286100"
+  },
+  {
+    "url": "/vessels/details/423898988",
+    "name": "08955",
+    "type": "Unknown",
+    "imo": "423898988"
+  },
+  {
+    "url": "/vessels/details/9698109",
+    "name": "HEYDAR ALIYEV",
+    "type": "Platform",
+    "imo": "9698109"
+  },
+  {
+    "url": "/vessels/details/423567890",
+    "name": "JIHUANGGANG05967",
+    "type": "Towing vessel",
+    "imo": "423567890"
+  },
+  {
+    "url": "/vessels/details/9208318",
+    "name": "DMS 2000",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9208318"
+  },
+  {
+    "url": "/vessels/details/8418485",
+    "name": "NEFTEGAZ-58",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8418485"
+  },
+  {
+    "url": "/vessels/details/423398100",
+    "name": "PILOT",
+    "type": "Pilot",
+    "imo": "423398100"
+  },
+  {
+    "url": "/vessels/details/7807378",
+    "name": "EMBA",
+    "type": "Cable Layer",
+    "imo": "7807378"
+  },
+  {
+    "url": "/vessels/details/423587898",
+    "name": "05366",
+    "type": "Fishing vessel",
+    "imo": "423587898"
+  },
+  {
+    "url": "/vessels/details/8504911",
+    "name": "GEOPHYZIK-1",
+    "type": "Research Vessel",
+    "imo": "8504911"
+  },
+  {
+    "url": "/vessels/details/423191151",
+    "name": "51RGE E26F40 P1-63",
+    "type": "Unknown",
+    "imo": "423191151"
+  },
+  {
+    "url": "/vessels/details/8418526",
+    "name": "NEFTEGAZ-62",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8418526"
+  },
+  {
+    "url": "/vessels/details/423000000",
+    "name": "ZHONGGUO",
+    "type": "Unknown",
+    "imo": "423000000"
+  },
+  {
+    "url": "/vessels/details/423416100",
+    "name": "ABSHERON-14",
+    "type": "Tug",
+    "imo": "423416100"
+  },
+  {
+    "url": "/vessels/details/423156766",
+    "name": "GANYUYU14064-67.4V",
+    "type": "Unknown",
+    "imo": "423156766"
+  },
+  {
+    "url": "/vessels/details/8129668",
+    "name": "GEN.A.SHIKHLINSKY",
+    "type": "Crane Ship",
+    "imo": "8129668"
+  },
+  {
+    "url": "/vessels/details/423238100",
+    "name": "GARADAG 15",
+    "type": "Unknown (HAZ-B)",
+    "imo": "423238100"
+  },
+  {
+    "url": "/vessels/details/423532100",
+    "name": "GUNESHLI",
+    "type": "Tug",
+    "imo": "423532100"
+  },
+  {
+    "url": "/vessels/details/423425645",
+    "name": "ACE3359",
+    "type": "Cargo ship",
+    "imo": "423425645"
+  },
+  {
+    "url": "/vessels/details/9207015",
+    "name": "TOPAZ ARROW",
+    "type": "Offshore Support Vessel",
+    "imo": "9207015"
+  },
+  {
+    "url": "/vessels/details/423111100",
+    "name": "SSS10",
+    "type": "Other type (HAZ-C)",
+    "imo": "423111100"
+  },
+  {
+    "url": "/vessels/details/423568985",
+    "name": "HAI55",
+    "type": "Fishing vessel",
+    "imo": "423568985"
+  },
+  {
+    "url": "/vessels/details/9101235",
+    "name": "VIKTORIYA",
+    "type": "Oil Products Tanker",
+    "imo": "9101235"
+  },
+  {
+    "url": "/vessels/details/8884622",
+    "name": "TAMAN",
+    "type": "Crane Ship",
+    "imo": "8884622"
+  },
+  {
+    "url": "/vessels/details/423296100",
+    "name": "AGDARA 4",
+    "type": "Passenger ship",
+    "imo": "423296100"
+  },
+  {
+    "url": "/vessels/details/1051018",
+    "name": "BAKU H117",
+    "type": "Chemical/Oil Products Tanker",
+    "imo": "1051018"
+  },
+  {
+    "url": "/vessels/details/8887741",
+    "name": "BAKI 1",
+    "type": "Oil Products Tanker",
+    "imo": "8887741"
+  },
+  {
+    "url": "/vessels/details/423457809",
+    "name": "ZHEPUYU34578-09-10",
+    "type": "Unknown",
+    "imo": "423457809"
+  },
+  {
+    "url": "/vessels/details/9645322",
+    "name": "SHAFAG",
+    "type": "Passenger Ship",
+    "imo": "9645322"
+  },
+  {
+    "url": "/vessels/details/423575892",
+    "name": "LPTW88",
+    "type": "Fishing vessel",
+    "imo": "423575892"
+  },
+  {
+    "url": "/vessels/details/8212544",
+    "name": "DAGISTAN",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "8212544"
+  },
+  {
+    "url": "/vessels/details/8227666",
+    "name": "KUR BALIGCHISI",
+    "type": "Fishing Vessel",
+    "imo": "8227666"
+  },
+  {
+    "url": "/vessels/details/9881471",
+    "name": "ZANGILAN",
+    "type": "Chemical/Oil Products Tanker",
+    "imo": "9881471"
+  },
+  {
+    "url": "/vessels/details/8613786",
+    "name": "ATLET 24",
+    "type": "Crane Ship",
+    "imo": "8613786"
+  },
+  {
+    "url": "/vessels/details/423040313",
+    "name": "04031-0355",
+    "type": "Unknown",
+    "imo": "423040313"
+  },
+  {
+    "url": "/vessels/details/423156843",
+    "name": "2103",
+    "type": "Cargo ship",
+    "imo": "423156843"
+  },
+  {
+    "url": "/vessels/details/423478512",
+    "name": "DATONG3",
+    "type": "Cargo ship",
+    "imo": "423478512"
+  },
+  {
+    "url": "/vessels/details/423493100",
+    "name": "LEYLA",
+    "type": "Unknown",
+    "imo": "423493100"
+  },
+  {
+    "url": "/vessels/details/9058103",
+    "name": "SUGOVUSHAN",
+    "type": "Oil Products Tanker",
+    "imo": "9058103"
+  },
+  {
+    "url": "/vessels/details/423128945",
+    "name": "BDMJGM1",
+    "type": "Fishing vessel",
+    "imo": "423128945"
+  },
+  {
+    "url": "/vessels/details/423548100",
+    "name": "MORION",
+    "type": "Unknown",
+    "imo": "423548100"
+  },
+  {
+    "url": "/vessels/details/423457801",
+    "name": "ZHEPUYU34578-01-49",
+    "type": "Unknown",
+    "imo": "423457801"
+  },
+  {
+    "url": "/vessels/details/9498171",
+    "name": "ZAGATALA",
+    "type": "Oil Products Tanker",
+    "imo": "9498171"
+  },
+  {
+    "url": "/vessels/details/8884294",
+    "name": "KUNARCHAY",
+    "type": "Crane Ship",
+    "imo": "8884294"
+  },
+  {
+    "url": "/vessels/details/8887662",
+    "name": "MB-6082",
+    "type": "Tug",
+    "imo": "8887662"
+  },
+  {
+    "url": "/vessels/details/9416484",
+    "name": "MARDAKAN",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9416484"
+  },
+  {
+    "url": "/vessels/details/9379284",
+    "name": "BAKI",
+    "type": "Standby Safety Vessel",
+    "imo": "9379284"
+  },
+  {
+    "url": "/vessels/details/7218620",
+    "name": "GENERAL ISMET GAYIBOV",
+    "type": "Water Tanker",
+    "imo": "7218620"
+  },
+  {
+    "url": "/vessels/details/423216100",
+    "name": "ZARDAB 6",
+    "type": "Unknown",
+    "imo": "423216100"
+  },
+  {
+    "url": "/vessels/details/8705125",
+    "name": "ISRAFIL HUSEYNOV",
+    "type": "Pipe Layer",
+    "imo": "8705125"
+  },
+  {
+    "url": "/vessels/details/423578369",
+    "name": "1997",
+    "type": "Fishing vessel",
+    "imo": "423578369"
+  },
+  {
+    "url": "/vessels/details/9347243",
+    "name": "DEDE GORGUD",
+    "type": "Oil Products Tanker",
+    "imo": "9347243"
+  },
+  {
+    "url": "/vessels/details/8883214",
+    "name": "DELFIN-1",
+    "type": "General Cargo Ship",
+    "imo": "8883214"
+  },
+  {
+    "url": "/vessels/details/8884608",
+    "name": "TEPLOKHOD NO. 5",
+    "type": "Water Tanker",
+    "imo": "8884608"
+  },
+  {
+    "url": "/vessels/details/423391100",
+    "name": "CASPIAN VOYAGER",
+    "type": "Cargo ship",
+    "imo": "423391100"
+  },
+  {
+    "url": "/vessels/details/6914148",
+    "name": "VICHEGDA",
+    "type": "Fishing Vessel",
+    "imo": "6914148"
+  },
+  {
+    "url": "/vessels/details/8225371",
+    "name": "PROFESSOR GUL",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "8225371"
+  },
+  {
+    "url": "/vessels/details/423987565",
+    "name": "HENGTONG88",
+    "type": "Other type",
+    "imo": "423987565"
+  },
+  {
+    "url": "/vessels/details/423333303",
+    "name": "88118-1-90",
+    "type": "Fishing vessel",
+    "imo": "423333303"
+  },
+  {
+    "url": "/vessels/details/423522100",
+    "name": "BAKU",
+    "type": "Tanker (HAZ-A)",
+    "imo": "423522100"
+  },
+  {
+    "url": "/vessels/details/423888999",
+    "name": "LUHAIYU61740",
+    "type": "Other type",
+    "imo": "423888999"
+  },
+  {
+    "url": "/vessels/details/423698512",
+    "name": "UIBDBH 39",
+    "type": "Unknown",
+    "imo": "423698512"
+  },
+  {
+    "url": "/vessels/details/9573335",
+    "name": "ARAZ",
+    "type": "Crew Boat",
+    "imo": "9573335"
+  },
+  {
+    "url": "/vessels/details/423761955",
+    "name": "630568",
+    "type": "Fishing vessel",
+    "imo": "423761955"
+  },
+  {
+    "url": "/vessels/details/423943072",
+    "name": "BOHAI1",
+    "type": "Pleasure craft",
+    "imo": "423943072"
+  },
+  {
+    "url": "/vessels/details/8728268",
+    "name": "NERIMAN NERIMANOV",
+    "type": "Oil Products Tanker",
+    "imo": "8728268"
+  },
+  {
+    "url": "/vessels/details/9499668",
+    "name": "MUROVDAG",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9499668"
+  },
+  {
+    "url": "/vessels/details/9333864",
+    "name": "CASPIAN PRIDE",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9333864"
+  },
+  {
+    "url": "/vessels/details/8832930",
+    "name": "SARINSKIY RYBAK",
+    "type": "Fishing Vessel",
+    "imo": "8832930"
+  },
+  {
+    "url": "/vessels/details/423276121",
+    "name": "23276-21-96",
+    "type": "Unknown",
+    "imo": "423276121"
+  },
+  {
+    "url": "/vessels/details/423589652",
+    "name": "JINYU168",
+    "type": "Fishing vessel",
+    "imo": "423589652"
+  },
+  {
+    "url": "/vessels/details/8727460",
+    "name": "NAMIG HAFIS OGLU",
+    "type": "Fishing Vessel",
+    "imo": "8727460"
+  },
+  {
+    "url": "/vessels/details/8724066",
+    "name": "KUR",
+    "type": "Pollution Control Vessel",
+    "imo": "8724066"
+  },
+  {
+    "url": "/vessels/details/423351653",
+    "name": "ANGANG39",
+    "type": "Cargo ship",
+    "imo": "423351653"
+  },
+  {
+    "url": "/vessels/details/423011104",
+    "name": "12339-48-93",
+    "type": "Unknown",
+    "imo": "423011104"
+  },
+  {
+    "url": "/vessels/details/9416496",
+    "name": "ZIRA",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9416496"
+  },
+  {
+    "url": "/vessels/details/8721789",
+    "name": "HOVSAN BALIGCHISI",
+    "type": "Fishing Vessel",
+    "imo": "8721789"
+  },
+  {
+    "url": "/vessels/details/423652655",
+    "name": "HAIFENGDA18",
+    "type": "Other type",
+    "imo": "423652655"
+  },
+  {
+    "url": "/vessels/details/423544100",
+    "name": "AZIX",
+    "type": "Passenger ship",
+    "imo": "423544100"
+  },
+  {
+    "url": "/vessels/details/423457814",
+    "name": "ZHEPUYU34578-14",
+    "type": "Unknown",
+    "imo": "423457814"
+  },
+  {
+    "url": "/vessels/details/423215787",
+    "name": "81003",
+    "type": "Other type",
+    "imo": "423215787"
+  },
+  {
+    "url": "/vessels/details/9654983",
+    "name": "TOPAZ DIGNITY",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9654983"
+  },
+  {
+    "url": "/vessels/details/423457804",
+    "name": "ZHEPUYU34578-04-",
+    "type": "Unknown",
+    "imo": "423457804"
+  },
+  {
+    "url": "/vessels/details/423566889",
+    "name": "DT",
+    "type": "Unknown",
+    "imo": "423566889"
+  },
+  {
+    "url": "/vessels/details/8313946",
+    "name": "PSKR-704",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "8313946"
+  },
+  {
+    "url": "/vessels/details/423400785",
+    "name": "00785-1",
+    "type": "Unknown",
+    "imo": "423400785"
+  },
+  {
+    "url": "/vessels/details/8507420",
+    "name": "ISLAM KERIMOV",
+    "type": "Crane Ship",
+    "imo": "8507420"
+  },
+  {
+    "url": "/vessels/details/423427100",
+    "name": "ABSHERON18",
+    "type": "Passenger ship",
+    "imo": "423427100"
+  },
+  {
+    "url": "/vessels/details/9395434",
+    "name": "JABRAYIL",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9395434"
+  },
+  {
+    "url": "/vessels/details/9881469",
+    "name": "KHOSHBAKHTYUSIFZADEH",
+    "type": "Chemical/Oil Products Tanker",
+    "imo": "9881469"
+  },
+  {
+    "url": "/vessels/details/423434100",
+    "name": "GOMRUK 2",
+    "type": "Unknown",
+    "imo": "423434100"
+  },
+  {
+    "url": "/vessels/details/8857502",
+    "name": "ADALYAT GYULMAMEDOV",
+    "type": "Tug",
+    "imo": "8857502"
+  },
+  {
+    "url": "/vessels/details/423444444",
+    "name": "KRISTAL",
+    "type": "Unknown",
+    "imo": "423444444"
+  },
+  {
+    "url": "/vessels/details/423808889",
+    "name": "MINDONGYU69538",
+    "type": "Fishing vessel",
+    "imo": "423808889"
+  },
+  {
+    "url": "/vessels/details/8963117",
+    "name": "VOLTAR",
+    "type": "Crane Ship",
+    "imo": "8963117"
+  },
+  {
+    "url": "/vessels/details/8730091",
+    "name": "MUHENDIS MUSTAFA ALI",
+    "type": "Oil Products Tanker",
+    "imo": "8730091"
+  },
+  {
+    "url": "/vessels/details/8501012",
+    "name": "BESTEKAR FIKRET EMIROV",
+    "type": "Passenger/Ro-Ro Cargo Ship",
+    "imo": "8501012"
+  },
+  {
+    "url": "/vessels/details/7045932",
+    "name": "MB-7026",
+    "type": "Tug",
+    "imo": "7045932"
+  },
+  {
+    "url": "/vessels/details/423567899",
+    "name": "RUIXIANG",
+    "type": "Unknown",
+    "imo": "423567899"
+  },
+  {
+    "url": "/vessels/details/423053979",
+    "name": "HUONG HA",
+    "type": "Towing vessel",
+    "imo": "423053979"
+  },
+  {
+    "url": "/vessels/details/423895768",
+    "name": "LURONGYU51773",
+    "type": "Fishing vessel",
+    "imo": "423895768"
+  },
+  {
+    "url": "/vessels/details/423514759",
+    "name": "LUHAIYU60611",
+    "type": "Fishing vessel",
+    "imo": "423514759"
+  },
+  {
+    "url": "/vessels/details/8953332",
+    "name": "KHAZAR-2",
+    "type": "Pollution Control Vessel",
+    "imo": "8953332"
+  },
+  {
+    "url": "/vessels/details/423384100",
+    "name": "ORION 15",
+    "type": "Other type",
+    "imo": "423384100"
+  },
+  {
+    "url": "/vessels/details/8228646",
+    "name": "ISLAM SEFERLI",
+    "type": "Crude Oil Tanker",
+    "imo": "8228646"
+  },
+  {
+    "url": "/vessels/details/423652313",
+    "name": "ZHEPUYU05403",
+    "type": "Fishing vessel",
+    "imo": "423652313"
+  },
+  {
+    "url": "/vessels/details/423659999",
+    "name": "HAIFENG68",
+    "type": "Fishing vessel",
+    "imo": "423659999"
+  },
+  {
+    "url": "/vessels/details/423651114",
+    "name": "ZHIJUN3565-4-13",
+    "type": "Unknown",
+    "imo": "423651114"
+  },
+  {
+    "url": "/vessels/details/8207214",
+    "name": "VAQIF CAFAROV",
+    "type": "Crane Ship",
+    "imo": "8207214"
+  },
+  {
+    "url": "/vessels/details/8725668",
+    "name": "SHAMAKHY",
+    "type": "Oil Products Tanker",
+    "imo": "8725668"
+  },
+  {
+    "url": "/vessels/details/9297838",
+    "name": "NAKHCHYVAN",
+    "type": "Ro-Ro Cargo Ship",
+    "imo": "9297838"
+  },
+  {
+    "url": "/vessels/details/7037507",
+    "name": "PSK-31",
+    "type": "Passenger Ship",
+    "imo": "7037507"
+  },
+  {
+    "url": "/vessels/details/423352100",
+    "name": "ABSHERNSKAYA5",
+    "type": "Unknown",
+    "imo": "423352100"
+  },
+  {
+    "url": "/vessels/details/423335556",
+    "name": "60065",
+    "type": "Fishing vessel",
+    "imo": "423335556"
+  },
+  {
+    "url": "/vessels/details/423132916",
+    "name": "WANG423132916-66",
+    "type": "Unknown",
+    "imo": "423132916"
+  },
+  {
+    "url": "/vessels/details/423457802",
+    "name": "ZHEPUYU34578-02-49",
+    "type": "Unknown",
+    "imo": "423457802"
+  },
+  {
+    "url": "/vessels/details/423515100",
+    "name": "ASCO-1",
+    "type": "Towing vessel",
+    "imo": "423515100"
+  },
+  {
+    "url": "/vessels/details/9334129",
+    "name": "FORTRESS",
+    "type": "Offshore Tug/Supply Ship",
+    "imo": "9334129"
+  },
+  {
+    "url": "/vessels/details/423383093",
+    "name": "19052",
+    "type": "Fishing vessel",
+    "imo": "423383093"
+  },
+  {
+    "url": "/vessels/details/423475100",
+    "name": "UGUR",
+    "type": "SAR",
+    "imo": "423475100"
+  },
+  {
+    "url": "/vessels/details/423256847",
+    "name": "LU",
+    "type": "HSC (HAZ-D)",
+    "imo": "423256847"
+  },
+  {
+    "url": "/vessels/details/423355512",
+    "name": "MINXIAYU01457",
+    "type": "Fishing vessel",
+    "imo": "423355512"
+  },
+  {
+    "url": "/vessels/details/423499100",
+    "name": "SPK4725",
+    "type": "Unknown",
+    "imo": "423499100"
+  },
+  {
+    "url": "/vessels/details/423651111",
+    "name": "ZHIJUN3565-7-65",
+    "type": "Unknown",
+    "imo": "423651111"
+  },
+  {
+    "url": "/vessels/details/8755340",
+    "name": "ISTIGLAL",
+    "type": "Platform",
+    "imo": "8755340"
+  }
+]

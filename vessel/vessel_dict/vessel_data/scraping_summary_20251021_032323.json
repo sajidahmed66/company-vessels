@@ -1,0 +1,48 @@
+{
+  "scraping_session": {
+    "start_time": "2025-10-21T03:23:23.329852",
+    "total_countries": 4,
+    "successful_countries": 4,
+    "failed_countries": 0,
+    "total_vessels_scraped": 3583,
+    "total_pages_scraped": 181
+  },
+  "country_results": [
+    {
+      "country": "Adelie Land",
+      "flag_code": "xd",
+      "status": "success",
+      "vessel_count": 511,
+      "pages_scraped": 26,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XD.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XD.csv"
+    },
+    {
+      "country": "Afghanistan",
+      "flag_code": "af",
+      "status": "success",
+      "vessel_count": 537,
+      "pages_scraped": 27,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AF.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AF.csv"
+    },
+    {
+      "country": "Alaska",
+      "flag_code": "xc",
+      "status": "success",
+      "vessel_count": 727,
+      "pages_scraped": 37,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XC.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_XC.csv"
+    },
+    {
+      "country": "Albania",
+      "flag_code": "al",
+      "status": "success",
+      "vessel_count": 1808,
+      "pages_scraped": 91,
+      "json_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AL.json",
+      "csv_file": "/home/zrax/dev/factory_next/magiport-sc/vessel/vessel_dict/vessel_data/vessels_AL.csv"
+    }
+  ]
+}

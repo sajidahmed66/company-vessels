@@ -1,0 +1,719 @@
+url,name,type,imo
+/vessels/details/8919805,SILJA EUROPA,Passenger/Ro-Ro Cargo Ship,8919805
+/vessels/details/9892690,MYSTAR,Passenger/Ro-Ro Cargo Ship,9892690
+/vessels/details/9773064,MEGASTAR,Passenger/Ro-Ro Cargo Ship,9773064
+/vessels/details/9443255,BALTIC QUEEN,Passenger/Ro-Ro Cargo Ship,9443255
+/vessels/details/9281281,VICTORIA 1,Passenger/Ro-Ro Cargo Ship,9281281
+/vessels/details/9211509,SUPERFAST IX,Passenger/Ro-Ro Cargo Ship,9211509
+/vessels/details/8401444,SAILOR,Passenger/Ro-Ro Cargo Ship,8401444
+/vessels/details/9083043,NANTO,Container Ship,9083043
+/vessels/details/9165877,BOTNICA,Icebreaker,9165877
+/vessels/details/9762651,TOLL,Passenger/Ro-Ro Cargo Ship,9762651
+/vessels/details/9762675,LEIGER,Passenger/Ro-Ro Cargo Ship,9762675
+/vessels/details/9762663,PIRET,Passenger/Ro-Ro Cargo Ship,9762663
+/vessels/details/9762687,TIIU,Passenger/Ro-Ro Cargo Ship,9762687
+/vessels/details/7924059,SILUR,Non Propelled Barge,7924059
+/vessels/details/5352886,TARMO,Icebreaker,5352886
+/vessels/details/7051058,REGULA,Passenger/Ro-Ro Cargo Ship,7051058
+/vessels/details/9343766,GEOQUIP SILVRETTA,Offshore Tug/Supply Ship,9343766
+/vessels/details/9227534,MERIKE,Fishing Vessel,9227534
+/vessels/details/9268174,ATLANTIS,Chemical/Oil Products Tanker,9268174
+/vessels/details/9211030,REVAL VIKING,Fish Factory Ship,9211030
+/vessels/details/9180346,STEFFANO,Fishing Vessel,9180346
+/vessels/details/9031624,ATLANTIS 2,Oil Products Tanker,9031624
+/vessels/details/7004342,SKORPION,Oil Products Tanker,7004342
+/vessels/details/8215053,MADRUS,Fishing Vessel,8215053
+/vessels/details/7700594,AGOT,Refrigerated Cargo Ship,7700594
+/vessels/details/9588770,KINDRAL KURVITS,Pollution Control Vessel,9588770
+/vessels/details/8619699,LENNUK,Fishing Vessel,8619699
+/vessels/details/9744441,ORMSO,Passenger/Ro-Ro Cargo Ship,9744441
+/vessels/details/9753129,KIHNU VIRVE,Passenger/Ro-Ro Cargo Ship,9753129
+/vessels/details/9776494,SOELA,Passenger/Ro-Ro Cargo Ship,9776494
+/vessels/details/7917977,EVA 316,Icebreaker,7917977
+/vessels/details/8853946,NAFTA,Bunkering Tanker,8853946
+/vessels/details/8228244,VIIKING,Crane Ship,8228244
+/vessels/details/9875886,HELIOS,Tug,9875886
+/vessels/details/9875874,SELENE,Tug,9875874
+/vessels/details/7120811,REET,Passenger/Ro-Ro Cargo Ship,7120811
+/vessels/details/9817987,WARSHIP P6732,Patrol Vessel,9817987
+/vessels/details/9277199,H.KANTER,Tug,9277199
+/vessels/details/9444584,CASTOR,Tug,9444584
+/vessels/details/9222417,MARS,Tug,9222417
+/vessels/details/6504228,PROTECTOR,Tug,6504228
+/vessels/details/9183099,DAGO,Fishing Vessel,9183099
+/vessels/details/7330337,ATLAS,Tug,7330337
+/vessels/details/9826299,PALLAS,Tug,9826299
+/vessels/details/7607869,VEGA,Tug,7607869
+/vessels/details/8400074,STRANDE,Passenger Ship,8400074
+/vessels/details/9580431,JAKOB PREI,Research Vessel,9580431
+/vessels/details/7431337,SALME,Research Vessel,7431337
+/vessels/details/8410158,SEKTORI,Buoy/Lighthouse Vessel,8410158
+/vessels/details/9111711,VEGTIND,Passenger Ship,9111711
+/vessels/details/8956700,RANDAL,Pollution Control Vessel,8956700
+/vessels/details/8929109,IKLA,Bunkering Tanker,8929109
+/vessels/details/9823089,AGAR,Tug,9823089
+/vessels/details/7637292,MILTON,Fishing Vessel,7637292
+/vessels/details/8846682,MONTU,Tug,8846682
+/vessels/details/7734789,MOCNY,Tug,7734789
+/vessels/details/9643336,RUNO,Passenger Ship,9643336
+/vessels/details/9375331,ARKTURUS,Tug,9375331
+/vessels/details/9690690,WRANGO,Passenger/Ro-Ro Cargo Ship,9690690
+/vessels/details/1068023,BURGERMEISTER NMANN,Patrol Vessel,1068023
+/vessels/details/8897447,KAIRE,Fishing Vessel,8897447
+/vessels/details/8863379,BALTIK,Fishing Vessel,8863379
+/vessels/details/8854213,RYTAS,Fishing Vessel,8854213
+/vessels/details/8722551,KOTKAS,Fishing Vessel,8722551
+/vessels/details/8989953,MAMMUT,Tug,8989953
+/vessels/details/276009900,MELISSA,Pleasure craft,276009900
+/vessels/details/276001380,SYLVIA,Sailing vessel,276001380
+/vessels/details/276011420,R40,Pleasure craft,276011420
+/vessels/details/276015290,TAIKA,Pleasure craft,276015290
+/vessels/details/276014420,ELISABETH FIRST,Sailing vessel,276014420
+/vessels/details/276005080,INGEBORG,Pleasure craft,276005080
+/vessels/details/276005320,JENNY 8,Pleasure craft,276005320
+/vessels/details/276013130,NAOMA,Sailing vessel,276013130
+/vessels/details/276016530,KENA REINA,Pleasure craft,276016530
+/vessels/details/276005380,TUULELIND,Sailing vessel,276005380
+/vessels/details/276005760,KATARIINAII,Pleasure craft,276005760
+/vessels/details/276003370,REVAL CAFE,Sailing vessel,276003370
+/vessels/details/276003440,HEIDI 567,Sailing vessel,276003440
+/vessels/details/276013720,DYRHAMN,Passenger ship,276013720
+/vessels/details/276787000,VIRU,Fishing vessel,276787000
+/vessels/details/276014240,LEON,Sailing vessel,276014240
+/vessels/details/276731000,OLYMPIC,Sailing vessel,276731000
+/vessels/details/276594000,NICO,Tug,276594000
+/vessels/details/276002780,MARIBEL II,Pleasure craft,276002780
+/vessels/details/276425000,WARSHIP A433,Military ops,276425000
+/vessels/details/276010040,SAR TALLINN,Pleasure craft,276010040
+/vessels/details/276843000,MOJITO,Pleasure craft,276843000
+/vessels/details/276011780,MARLEEN,Pleasure craft,276011780
+/vessels/details/276014100,SINILIND,Pleasure craft,276014100
+/vessels/details/276014910,M-06 TUULE,Law enforcment,276014910
+/vessels/details/276005650,SUGAR,Sailing vessel,276005650
+/vessels/details/276002160,RAHU,SAR,276002160
+/vessels/details/276799000,AHTO-02,Other type,276799000
+/vessels/details/276001960,MASU,Sailing vessel,276001960
+/vessels/details/276700000,WARSHIP M6731,Military ops,276700000
+/vessels/details/276018070,BLUETONIUM,Pleasure craft,276018070
+/vessels/details/276012650,ASTRID,Pleasure craft,276012650
+/vessels/details/276010230,SAR ALEV STROM,SAR,276010230
+/vessels/details/276272000,AHTI -11,Other type,276272000
+/vessels/details/276013520,SAR KAKUMAE,SAR,276013520
+/vessels/details/276012120,FIJI,Sailing vessel,276012120
+/vessels/details/276016160,ELGEA,Pleasure craft,276016160
+/vessels/details/276015030,LIISBET,Pleasure craft,276015030
+/vessels/details/276009960,AXOPAR 37 VLV-496,Pleasure craft,276009960
+/vessels/details/276465000,MONICA,Passenger ship,276465000
+/vessels/details/276014280,MERYLIN,Pleasure craft,276014280
+/vessels/details/276012050,MERI-SIGA,Pleasure craft,276012050
+/vessels/details/276003650,HELENE,Sailing vessel,276003650
+/vessels/details/276784000,AHTO-01,Pilot,276784000
+/vessels/details/276573000,BREEZE,Sailing vessel,276573000
+/vessels/details/276014360,REBECCA,Pleasure craft,276014360
+/vessels/details/276017260,CHRISTELLA,Sailing vessel,276017260
+/vessels/details/276008150,SAGA,Sailing vessel,276008150
+/vessels/details/276011730,SIROCCO,Sailing vessel,276011730
+/vessels/details/276007600,EST-557 SIIRIUS,Pleasure craft,276007600
+/vessels/details/276009030,RUHNU SAR,SAR,276009030
+/vessels/details/276012150,HAMBURG PILOT 4,Other type,276012150
+/vessels/details/276743000,WARSHIP M6733,Military ops,276743000
+/vessels/details/276548000,AHTO-20,Pilot,276548000
+/vessels/details/276010950,KUNO,Pleasure craft,276010950
+/vessels/details/276011740,CEKRITITO,Sailing vessel,276011740
+/vessels/details/276014770,MERIBEL,Sailing vessel,276014770
+/vessels/details/276007870,HIIUINGEL,Sailing vessel,276007870
+/vessels/details/276014670,NARGO,Passenger ship,276014670
+/vessels/details/276017190,LARA,Pleasure craft,276017190
+/vessels/details/276007480,BLACK OAK I,Pleasure craft,276007480
+/vessels/details/276005340,AHTO-15,Pilot,276005340
+/vessels/details/276009560,VLV394,Pleasure craft,276009560
+/vessels/details/276007810,MARTA III,Unknown,276007810
+/vessels/details/276010880,SY PICASSO,Sailing vessel,276010880
+/vessels/details/276009800,LUNA,Sailing vessel,276009800
+/vessels/details/276522000,AHTO 19,Pilot,276522000
+/vessels/details/276012100,SIRET,Pleasure craft,276012100
+/vessels/details/276006950,KUNGLA SAR,SAR,276006950
+/vessels/details/276014900,TERJE,Law enforcment,276014900
+/vessels/details/276011810,SANNE-MARIE,Pleasure craft,276011810
+/vessels/details/276011940,SERENADA,Pleasure craft,276011940
+/vessels/details/276006650,GALATEIA,Sailing vessel,276006650
+/vessels/details/276003580,AHTO- 07,Pilot,276003580
+/vessels/details/276675000,AHTO-25,Pilot,276675000
+/vessels/details/276330000,HABE-3,Pilot,276330000
+/vessels/details/276752000,AHTO-27,Pilot,276752000
+/vessels/details/1049120,SAR-08,Other type,1049120
+/vessels/details/276008860,KIRBU,SAR,276008860
+/vessels/details/276012710,OCEAN QUEEN,Sailing vessel,276012710
+/vessels/details/276009320,AIOLOS,Pleasure craft,276009320
+/vessels/details/276835000,TORVIK,Tug,276835000
+/vessels/details/276013960,TUULI,Pleasure craft,276013960
+/vessels/details/276002810,RUNBJARN,Sailing vessel,276002810
+/vessels/details/276012230,ZELDA,Pleasure craft,276012230
+/vessels/details/276017270,MARTA,Sailing vessel,276017270
+/vessels/details/276552000,AMALIE,Passenger ship,276552000
+/vessels/details/276002240,M 40,SAR,276002240
+/vessels/details/276010130,HABE-1,SAR,276010130
+/vessels/details/1025722,RASA,Tanker,1025722
+/vessels/details/276850000,BELLINGSHAUSEN,Sailing vessel,276850000
+/vessels/details/276007170,PIKNE,Law enforcment,276007170
+/vessels/details/276009860,GALENE,Pleasure craft,276009860
+/vessels/details/276742000,WARSHIP M314,Military ops,276742000
+/vessels/details/276846000,POSEIDON,Tug,276846000
+/vessels/details/276714000,SY ELINA,Sailing vessel,276714000
+/vessels/details/276013890,LA BOHEME,Sailing vessel,276013890
+/vessels/details/276017800,SUMMER WIND,Sailing vessel,276017800
+/vessels/details/276808000,ABRO,Passenger ship,276808000
+/vessels/details/276010750,VKA-901,Pleasure craft,276010750
+/vessels/details/276009120,BELLA VITA IX,Pleasure craft,276009120
+/vessels/details/276001590,THANDI,Pleasure craft,276001590
+/vessels/details/276013480,ALMA,Pleasure craft,276013480
+/vessels/details/276002220,M-41,Law enforcment,276002220
+/vessels/details/276582000,AHTO 23,Pilot,276582000
+/vessels/details/276014330,RIVER,Sailing vessel,276014330
+/vessels/details/276005280,AHTO-14,Pilot,276005280
+/vessels/details/276011710,ULTREYA,Pleasure craft,276011710
+/vessels/details/276003380,HOPPET,Sailing vessel,276003380
+/vessels/details/276016820,SIROCCO PLUS,Sailing vessel,276016820
+/vessels/details/276001430,EMERALD,Sailing vessel,276001430
+/vessels/details/276804000,PANDA,Tug,276804000
+/vessels/details/276013260,YLENNA,Pleasure craft,276013260
+/vessels/details/276011260,JENNY,Pleasure craft,276011260
+/vessels/details/276010060,LAZY BLUE,Pleasure craft,276010060
+/vessels/details/276004800,ITI,Sailing vessel,276004800
+/vessels/details/276010820,NASHIRA,Sailing vessel,276010820
+/vessels/details/276756000,AHTO-28,Pilot,276756000
+/vessels/details/276012720,MARELLE,Pleasure craft,276012720
+/vessels/details/276014590,LARIMAR,Sailing vessel,276014590
+/vessels/details/276197000,EVA-320,HSC,276197000
+/vessels/details/276011230,MAGIC,Pleasure craft,276011230
+/vessels/details/276008060,INANNA SOLO SAILOR,Sailing vessel,276008060
+/vessels/details/5047687,VEGAS,Fishing Vessel,5047687
+/vessels/details/276222615,62226-15-51,Unknown,276222615
+/vessels/details/276012180,SOELA SAR,SAR,276012180
+/vessels/details/276002030,THALEIA,Sailing vessel,276002030
+/vessels/details/276013570,JOLANTHE,Pleasure craft,276013570
+/vessels/details/6871499,VELISE,Fishing Vessel,6871499
+/vessels/details/8911437,RANDI,Fishing Vessel,8911437
+/vessels/details/5295155,HANNA,Fishing Vessel,5295155
+/vessels/details/276012090,LAMARR,Pleasure craft,276012090
+/vessels/details/276008940,VIKTORIA VLU-554,Pleasure craft,276008940
+/vessels/details/276017440,UMBERTO,Pleasure craft,276017440
+/vessels/details/276013503,60135-3 90,Unknown,276013503
+/vessels/details/8033716,CHARLIE,Tug,8033716
+/vessels/details/8725943,RIDALA,Fishing Vessel,8725943
+/vessels/details/276617000,SANDRA II,Pleasure craft,276617000
+/vessels/details/276003990,KURESSAARE SAR,SAR,276003990
+/vessels/details/276012240,MARU,Pleasure craft,276012240
+/vessels/details/276058111,60581-11 60,Unknown,276058111
+/vessels/details/276013300,SAR PAATSALU,SAR,276013300
+/vessels/details/9100932,PIIRISAARE,Fishing Vessel,9100932
+/vessels/details/276013970,TUULEROOS,Pleasure craft,276013970
+/vessels/details/276357000,KAKE,Unknown,276357000
+/vessels/details/276015080,SUSANNA 2,Sailing vessel,276015080
+/vessels/details/276058104,60581-4 90,Unknown,276058104
+/vessels/details/276017370,MARI LIIS,Pleasure craft,276017370
+/vessels/details/276013880,LAUREL,Sailing vessel,276013880
+/vessels/details/276702000,AHTO-26,Other type,276702000
+/vessels/details/276014780,AURA,Sailing vessel,276014780
+/vessels/details/276012250,NORA,Sailing vessel,276012250
+/vessels/details/276058110,60581-10 90,Unknown,276058110
+/vessels/details/276015050,VILLU VLU-598,Dredging or UW ops,276015050
+/vessels/details/276014550,ADALMINA,Sailing vessel,276014550
+/vessels/details/276013505,60135-5 80,Unknown,276013505
+/vessels/details/276089598,VELDA,Tanker,276089598
+/vessels/details/276004450,SIGRID,Pleasure craft,276004450
+/vessels/details/276017460,SUMM-SUMM,Pleasure craft,276017460
+/vessels/details/276011960,LUMI,Sailing vessel,276011960
+/vessels/details/276009570,VLV432,Pleasure craft,276009570
+/vessels/details/276222611,62226-11-27,Unknown,276222611
+/vessels/details/276010200,MERIONX,Sailing vessel,276010200
+/vessels/details/276013730,MIKI,Sailing vessel,276013730
+/vessels/details/276007180,UDRIA,Other type,276007180
+/vessels/details/276011400,SIRENA,Pleasure craft,276011400
+/vessels/details/276650000,TORMILIND,Sailing vessel,276650000
+/vessels/details/276009820,THE OFFICE,Pleasure craft,276009820
+/vessels/details/8730510,JARVE,Fish Carrier,8730510
+/vessels/details/276009410,CALENA EST381,Sailing vessel,276009410
+/vessels/details/276013980,SAINT JUST,Unknown,276013980
+/vessels/details/276013910,TAEVAS,Pleasure craft,276013910
+/vessels/details/276013930,GHOST,Local type,276013930
+/vessels/details/276011470,AXOPAR VKB-544,Pleasure craft,276011470
+/vessels/details/276014310,LA VITESSE,Sailing vessel,276014310
+/vessels/details/276569000,FORTUUNA,Pleasure craft,276569000
+/vessels/details/276008100,ELUILU,Pleasure craft,276008100
+/vessels/details/276006310,ALTAIR,Pleasure craft,276006310
+/vessels/details/276730000,DOMINA,Sailing vessel,276730000
+/vessels/details/276653000,SILVA EST-407,Sailing vessel,276653000
+/vessels/details/276001910,CHERIE,Sailing vessel,276001910
+/vessels/details/276531000,POHJAKONN,Sailing vessel,276531000
+/vessels/details/276007070,LAHEMAA SAR,SAR,276007070
+/vessels/details/276013700,CHARLIE MOANA,Unknown,276013700
+/vessels/details/8878348,HIIESAARE,Fishing Vessel,8878348
+/vessels/details/276222613,62226-13-50,Unknown,276222613
+/vessels/details/276005570,JANTINE,Sailing vessel,276005570
+/vessels/details/8869505,VIGRI,Pollution Control Vessel,8869505
+/vessels/details/276015360,ISABEL X2,Sailing vessel,276015360
+/vessels/details/276007200,MARIETTA,Pleasure craft,276007200
+/vessels/details/276017920,LONNI,Unknown,276017920
+/vessels/details/276013504,60135-4 90,Unknown,276013504
+/vessels/details/276013790,LE MAMA,Pleasure craft,276013790
+/vessels/details/276536000,APOLLONIA,Sailing vessel,276536000
+/vessels/details/276013750,VLU-550 AURORA,Pleasure craft,276013750
+/vessels/details/276011370,LEONA,Pleasure craft,276011370
+/vessels/details/8730261,PRINGI,Fishing Vessel,8730261
+/vessels/details/276008540,AUGUST,Pleasure craft,276008540
+/vessels/details/276005050,ST. IV,Pleasure craft,276005050
+/vessels/details/276006530,HEIDI,Sailing vessel,276006530
+/vessels/details/276008470,ARCADIA,Pleasure craft,276008470
+/vessels/details/276007740,MY STORY,Unknown,276007740
+/vessels/details/276017320,MARIA,Pleasure craft,276017320
+/vessels/details/276007010,JANVANGENT,Sailing vessel,276007010
+/vessels/details/276061105,LXK60611-58.0V,Unknown,276061105
+/vessels/details/276012490,MERE750,Pleasure craft,276012490
+/vessels/details/6876712,PINGVIN,Fish Carrier,6876712
+/vessels/details/276013110,SUUR SIIM,Sailing vessel,276013110
+/vessels/details/276007380,QUEEN ANN,Sailing vessel,276007380
+/vessels/details/276014130,TWIN JOY,Pleasure craft,276014130
+/vessels/details/276866815,BIAO 08668-15-98,Unknown,276866815
+/vessels/details/276014370,SALLY,Pleasure craft,276014370
+/vessels/details/276002980,WIND ROSE EST-694,Sailing vessel,276002980
+/vessels/details/276007410,SY BETTY,Sailing vessel,276007410
+/vessels/details/276058105,60581-5 90,Unknown,276058105
+/vessels/details/276007980,KALK,Pleasure craft,276007980
+/vessels/details/276008710,ASTRA,Sailing vessel,276008710
+/vessels/details/276015020,COCO,Pleasure craft,276015020
+/vessels/details/5344712,ANN-MARI,Fishing Vessel,5344712
+/vessels/details/276007420,KIRSTI,Pleasure craft,276007420
+/vessels/details/276700006,LIUSHA6-99,Unknown,276700006
+/vessels/details/276017050,MUHU SAR,SAR,276017050
+/vessels/details/276010670,MUSA,Pleasure craft,276010670
+/vessels/details/276003360,AHTO-09,Pilot,276003360
+/vessels/details/276197501,MINDONGYU61975-1-65,Unknown,276197501
+/vessels/details/276011930,FARO,Sailing vessel,276011930
+/vessels/details/5062716,SOLVEIG,Fishing Vessel,5062716
+/vessels/details/276013950,HELI,Resolution 18 ship,276013950
+/vessels/details/276010380,JAZZ EST935,Pleasure craft,276010380
+/vessels/details/276010860,ANGEL ROSE VKB-122,Pleasure craft,276010860
+/vessels/details/276128007,LIN12800-7-98,Unknown,276128007
+/vessels/details/276010310,M-80,Unknown,276010310
+/vessels/details/276551000,AHTO 21,Pilot,276551000
+/vessels/details/276008690,KIKI,Sailing vessel,276008690
+/vessels/details/276006460,RAPUNZEL - VLJ669,Sailing vessel,276006460
+/vessels/details/276513000,AHTO-17,Pilot,276513000
+/vessels/details/276009700,TRITON,Pleasure craft,276009700
+/vessels/details/276004370,KRASU,Sailing vessel,276004370
+/vessels/details/276003330,NUKE,Sailing vessel,276003330
+/vessels/details/276014800,SHADOW900,Pleasure craft,276014800
+/vessels/details/276058106,60581-6 90,Unknown,276058106
+/vessels/details/276003960,VLL209,Pleasure craft,276003960
+/vessels/details/276222608,62226-8-56,Unknown,276222608
+/vessels/details/276713000,EVELYN III,Pleasure craft,276713000
+/vessels/details/276011900,MY DREAM,Sailing vessel,276011900
+/vessels/details/276012060,SOFIA,Sailing vessel,276012060
+/vessels/details/276012020,KOTKAPESA,Pleasure craft,276012020
+/vessels/details/276867812,68946-1294,Unknown,276867812
+/vessels/details/276778000,VALVE,Military ops,276778000
+/vessels/details/276017910,JASMINE II,Pleasure craft,276017910
+/vessels/details/276015400,MOONLAND,Sailing vessel,276015400
+/vessels/details/276710000,KATARIINA JEE,Pleasure craft,276710000
+/vessels/details/276016590,NASVA SAR,SAR,276016590
+/vessels/details/276017480,SIURU,Sailing vessel,276017480
+/vessels/details/276009690,TAKE OFF,Sailing vessel,276009690
+/vessels/details/276004250,UMAMI,Pleasure craft,276004250
+/vessels/details/276018010,HAKAY,Pleasure craft,276018010
+/vessels/details/276706276,QDY06276-B7-50,Unknown,276706276
+/vessels/details/276015840,VKF-722,Pleasure craft,276015840
+/vessels/details/276008920,DON QUIJOTE,Sailing vessel,276008920
+/vessels/details/276016660,BLUE PIGGY,Pleasure craft,276016660
+/vessels/details/276013240,CASSANDRA X,Sailing vessel,276013240
+/vessels/details/276015100,CARRY,Pleasure craft,276015100
+/vessels/details/276017590,KUSMU2,Pleasure craft,276017590
+/vessels/details/276002710,BANANA MOON,Pleasure craft,276002710
+/vessels/details/8928193,VEERE,Fishing Vessel,8928193
+/vessels/details/276222619,62226-19-80,Unknown,276222619
+/vessels/details/276016810,TUGNACIOUS,Pleasure craft,276016810
+/vessels/details/8725321,SILVER,Fish Carrier,8725321
+/vessels/details/276011970,ARIA,Pleasure craft,276011970
+/vessels/details/276012530,HAKUNA MATATA,Sailing vessel,276012530
+/vessels/details/276120811,LIN12081-1-05,Unknown,276120811
+/vessels/details/276017550,AURORA,Pleasure craft,276017550
+/vessels/details/276009710,MARELLA II,Pleasure craft,276009710
+/vessels/details/276041603,YU60416-93,Fishing vessel,276041603
+/vessels/details/276009620,ADELANTE,Pleasure craft,276009620
+/vessels/details/276012680,VLA-024,Pleasure craft,276012680
+/vessels/details/276006130,VLN-316,SAR,276006130
+/vessels/details/276016290,DAMOS,Pleasure craft,276016290
+/vessels/details/276013610,SALOME,Sailing vessel,276013610
+/vessels/details/8722563,KURESSAARE,Fishing Vessel,8722563
+/vessels/details/276017310,MERU,Port tender,276017310
+/vessels/details/276006940,PIANO,Pleasure craft,276006940
+/vessels/details/276008560,MIREILLE,Sailing vessel,276008560
+/vessels/details/8846711,LOTOS,Pollution Control Vessel,8846711
+/vessels/details/276011330,WIZARD,Sailing vessel,276011330
+/vessels/details/276011180,AQUILA,Sailing vessel,276011180
+/vessels/details/276010240,ATHENA,Sailing vessel,276010240
+/vessels/details/276014830,HAPPINEZZ,Pleasure craft,276014830
+/vessels/details/276004650,RIIN,Sailing vessel,276004650
+/vessels/details/276013640,VKB 483 HANNA,Pleasure craft,276013640
+/vessels/details/276007370,AMIA,Sailing vessel,276007370
+/vessels/details/276001920,TECHNONICOL,Pleasure craft,276001920
+/vessels/details/276016090,STELLA,Pleasure craft,276016090
+/vessels/details/276844000,TEBRA,Local type,276844000
+/vessels/details/276014860,HORIZON,Sailing vessel,276014860
+/vessels/details/276763000,VLA-882,Pleasure craft,276763000
+/vessels/details/276007520,DEJA VU,Sailing vessel,276007520
+/vessels/details/276005420,KAJA,Dredging or UW ops,276005420
+/vessels/details/276006360,KESSU,Sailing vessel,276006360
+/vessels/details/276013460,VESPER,Pleasure craft,276013460
+/vessels/details/276010300,STELLA MARIS AMA-967,Pleasure craft,276010300
+/vessels/details/276017040,M 207,SAR,276017040
+/vessels/details/276222614,62226-14-62,Unknown,276222614
+/vessels/details/9596131,VIRU,Fishing Vessel,9596131
+/vessels/details/276002350,ELIZABETH,Pleasure craft,276002350
+/vessels/details/276006600,VLO-880,Pleasure craft,276006600
+/vessels/details/276013310,AXOPAR 37 VKB-591,Pleasure craft,276013310
+/vessels/details/276017530,JENNY,Pleasure craft,276017530
+/vessels/details/276013430,ECLIPSE,Pleasure craft,276013430
+/vessels/details/276013040,LAUREN VKC-831,Pleasure craft,276013040
+/vessels/details/276004470,AURELIA,Sailing vessel,276004470
+/vessels/details/8928181,TOOLSE,Fishing Vessel,8928181
+/vessels/details/276017570,VKH509,Pleasure craft,276017570
+/vessels/details/276016650,NIKA,Pleasure craft,276016650
+/vessels/details/276218876,LIN21887-6-60,Unknown,276218876
+/vessels/details/8858623,LAVASSAARE,Fishing Vessel,8858623
+/vessels/details/276010410,SPACE JOCKEY,Sailing vessel,276010410
+/vessels/details/276008550,VLU-357 JULIA,Sailing vessel,276008550
+/vessels/details/276011520,VKA8 8,Pleasure craft,276011520
+/vessels/details/276002750,MY FIRST,Sailing vessel,276002750
+/vessels/details/276013350,MARJU VKD-461,Pleasure craft,276013350
+/vessels/details/276015010,ANTARES,Pleasure craft,276015010
+/vessels/details/276014820,CATARINA,Pleasure craft,276014820
+/vessels/details/276001180,SY IN THE MOOD,Sailing vessel,276001180
+/vessels/details/276016940,M 204,SAR,276016940
+/vessels/details/276016110,EPP,Pleasure craft,276016110
+/vessels/details/276006890,MARIANNE,Pleasure craft,276006890
+/vessels/details/276006220,KRYYSEL,Pleasure craft,276006220
+/vessels/details/276089822,ELLIA,Tanker,276089822
+/vessels/details/276010280,ARMASTUS,Pleasure craft,276010280
+/vessels/details/276004170,NORA LII,Sailing vessel,276004170
+/vessels/details/276001440,MAIBI,Pleasure craft,276001440
+/vessels/details/276058112,60581-12 90,Unknown,276058112
+/vessels/details/276006970,VLS-269 JEANNEAU NC,Pleasure craft,276006970
+/vessels/details/276003870,VESILEENU EST157,Sailing vessel,276003870
+/vessels/details/276438000,SY GEETE,Sailing vessel,276438000
+/vessels/details/276010080,VKA-139,Pleasure craft,276010080
+/vessels/details/276013400,MOANA,Sailing vessel,276013400
+/vessels/details/276008870,ISABELLA,Fishing vessel,276008870
+/vessels/details/276016330,NOLA,Pleasure craft,276016330
+/vessels/details/276009990,PRINGEL,Pleasure craft,276009990
+/vessels/details/276003320,MERILEE,Pleasure craft,276003320
+/vessels/details/276061127,LXK60611-277.5V,Unknown,276061127
+/vessels/details/276013508,60135-8 80,Unknown,276013508
+/vessels/details/276014200,KABERNEEME SAR 2,SAR,276014200
+/vessels/details/276010340,MAREMEL,Pleasure craft,276010340
+/vessels/details/276017080,M 208,SAR,276017080
+/vessels/details/276010780,AXOPAR ANDRESA,Pleasure craft,276010780
+/vessels/details/276017020,ALUNAUT LC-20,Unknown,276017020
+/vessels/details/276007920,MANANA,Sailing vessel,276007920
+/vessels/details/276008320,JENNY 9,Pleasure craft,276008320
+/vessels/details/276061115,LXK60611-158.1V,Unknown,276061115
+/vessels/details/276674000,LULU,Sailing vessel,276674000
+/vessels/details/276009140,VLP-899,Pleasure craft,276009140
+/vessels/details/276013940,HABE-2,Pilot,276013940
+/vessels/details/276003570,XO270,Pleasure craft,276003570
+/vessels/details/276058102,60581-2 90,Unknown,276058102
+/vessels/details/276013900,MARI,Pleasure craft,276013900
+/vessels/details/276012630,STELLA,Pleasure craft,276012630
+/vessels/details/276041610,YU60416-95,Fishing vessel,276041610
+/vessels/details/276013320,MOI,Sailing vessel,276013320
+/vessels/details/276013500,NOLA X,Sailing vessel,276013500
+/vessels/details/276009260,PAIKE,Sailing vessel,276009260
+/vessels/details/8741260,INGEL,Fishing Vessel,8741260
+/vessels/details/276011990,CLEAN ENERGY,Pleasure craft,276011990
+/vessels/details/6856554,SULEV,Tug,6856554
+/vessels/details/8725967,RAMSI,Fishing Vessel,8725967
+/vessels/details/276016320,GALADRIEL,Sailing vessel,276016320
+/vessels/details/276007950,INFINITY,Sailing vessel,276007950
+/vessels/details/8702757,MARIE,Fishing Vessel,8702757
+/vessels/details/276015910,BELLATRIX,Sailing vessel,276015910
+/vessels/details/276012440,GAUCHA,Sailing vessel,276012440
+/vessels/details/276002330,V.K.N.G.,Pleasure craft,276002330
+/vessels/details/276568964,MINPUYU03666-5-82,Unknown,276568964
+/vessels/details/7438086,REET,Research Vessel,7438086
+/vessels/details/276003640,HARMONY II,Sailing vessel,276003640
+/vessels/details/276010740,GLLAMM,Pleasure craft,276010740
+/vessels/details/8722379,VIKTORY,Fishing Vessel,8722379
+/vessels/details/276017760,ENELI EST353,Pleasure craft,276017760
+/vessels/details/276008620,VESTA,Sailing vessel,276008620
+/vessels/details/276013380,LAINE,Pleasure craft,276013380
+/vessels/details/276013760,K2BI,Pleasure craft,276013760
+/vessels/details/6620539,KATI,Pollution Control Vessel,6620539
+/vessels/details/276431000,EVA 317,Other type,276431000
+/vessels/details/276007570,TIRLITTAN,Sailing vessel,276007570
+/vessels/details/276016440,PURA VIDA,Sailing vessel,276016440
+/vessels/details/276010830,ETTA,Pleasure craft,276010830
+/vessels/details/8846656,LEIGER,Tug,8846656
+/vessels/details/276002390,TUULEKAJA,Sailing vessel,276002390
+/vessels/details/276013990,LINDA,Pleasure craft,276013990
+/vessels/details/276008200,VITA BREVIS,Pleasure craft,276008200
+/vessels/details/276700001,LIUSHA1-01,Unknown,276700001
+/vessels/details/276058107,60581-7 90,Unknown,276058107
+/vessels/details/276010070,TT GRAND CRU,Pleasure craft,276010070
+/vessels/details/276012770,KULGUR,Sailing vessel,276012770
+/vessels/details/276866807,BIAO 08668-7-99,Unknown,276866807
+/vessels/details/276001840,SUNRAY,Other type,276001840
+/vessels/details/276014560,OLIVIA-THERESA,Pleasure craft,276014560
+/vessels/details/276700010,LIUSHA10-99,Unknown,276700010
+/vessels/details/276009870,KAMA,Pleasure craft,276009870
+/vessels/details/276014940,MAREX VKF 034,Unknown,276014940
+/vessels/details/276010500,ELENY,Sailing vessel,276010500
+/vessels/details/276015700,HESTIA,Pleasure craft,276015700
+/vessels/details/276012370,SILEGNA,Pleasure craft,276012370
+/vessels/details/276006080,PLANEER,Sailing vessel,276006080
+/vessels/details/276001790,BERTA,Sailing vessel,276001790
+/vessels/details/276012500,VLE-192,Pleasure craft,276012500
+/vessels/details/276015940,MAI,Sailing vessel,276015940
+/vessels/details/276120813,LIN 12081-3-59,Unknown,276120813
+/vessels/details/276611000,CENTAUR,Sailing vessel,276611000
+/vessels/details/8870889,KASTNA,Fishing Vessel,8870889
+/vessels/details/276004980,MAI,Sailing vessel,276004980
+/vessels/details/276012010,ANNI II,Pleasure craft,276012010
+/vessels/details/276012470,AXOPAR 28 VKB-810,Pleasure craft,276012470
+/vessels/details/276005470,CASSANDRA,Pleasure craft,276005470
+/vessels/details/7945895,EMMA,Fishing Vessel,7945895
+/vessels/details/276009980,VAIANA,Sailing vessel,276009980
+/vessels/details/276010580,SALME AUGUSTE,Pleasure craft,276010580
+/vessels/details/276006260,DIRECTO,Sailing vessel,276006260
+/vessels/details/276003710,HISIONE,Sailing vessel,276003710
+/vessels/details/276008410,VLU-274,Law enforcment,276008410
+/vessels/details/276011380,SY SOFIA,Sailing vessel,276011380
+/vessels/details/276002550,TEAKITA,Sailing vessel,276002550
+/vessels/details/276017710,SANUK,Pleasure craft,276017710
+/vessels/details/7393042,HERRY,Fishing Vessel,7393042
+/vessels/details/276017510,AZZURRA,Sailing vessel,276017510
+/vessels/details/276012410,VLS-301 MIA,Pleasure craft,276012410
+/vessels/details/276017070,HETI,Pleasure craft,276017070
+/vessels/details/276015850,AURITA,Sailing vessel,276015850
+/vessels/details/276459821,276459821-86,Unknown,276459821
+/vessels/details/276014040,PARNU PAASTE SAR,Pleasure craft,276014040
+/vessels/details/276002450,CHRISTINA,Sailing vessel,276002450
+/vessels/details/276222603,62226-3-53,Unknown,276222603
+/vessels/details/276008230,ROOSI VLO-458,Pleasure craft,276008230
+/vessels/details/8870853,VENE,Tug,8870853
+/vessels/details/276001160,VIVABENE,Sailing vessel,276001160
+/vessels/details/276004550,SKINNY BITCH,Pleasure craft,276004550
+/vessels/details/276010840,HIPPOCAMP,Pleasure craft,276010840
+/vessels/details/276111810,MINDONGYU61118-1024,Unknown,276111810
+/vessels/details/276012340,HOPPER,Sailing vessel,276012340
+/vessels/details/276006590,SIIRI,Pleasure craft,276006590
+/vessels/details/276017980,SUSANNA III,Sailing vessel,276017980
+/vessels/details/276006900,JUULA,Sailing vessel,276006900
+/vessels/details/276008340,PANTU,Tug,276008340
+/vessels/details/276010330,POSSAN,Sailing vessel,276010330
+/vessels/details/276016830,FAT CAT,Pleasure craft,276016830
+/vessels/details/276014140,LADY LJU,Sailing vessel,276014140
+/vessels/details/276007050,TESTSHIP-2,Port tender,276007050
+/vessels/details/276011300,ELEANOR,Pleasure craft,276011300
+/vessels/details/276010760,VKA-136,Pleasure craft,276010760
+/vessels/details/276013010,PAULIINE,Sailing vessel,276013010
+/vessels/details/8027212,ROSSVIK,Fishing Vessel,8027212
+/vessels/details/276014340,FANATIC 2,Pleasure craft,276014340
+/vessels/details/276432000,EVA-318,Other type,276432000
+/vessels/details/276001150,SOPHIA,Sailing vessel,276001150
+/vessels/details/276055596,SHENG05559-6-88,Unknown,276055596
+/vessels/details/276219235,LIN21923-5-29,Unknown,276219235
+/vessels/details/276015440,OILI,Anti-polution,276015440
+/vessels/details/276017100,SUMMER SYMPHONY,Sailing vessel,276017100
+/vessels/details/6818887,KUNDA,Tug,6818887
+/vessels/details/276016080,VLP-398,Pleasure craft,276016080
+/vessels/details/276009250,REBELLA,Sailing vessel,276009250
+/vessels/details/276012920,VKD-167,Pleasure craft,276012920
+/vessels/details/276122776,ZHELINYU12277-6-80,Unknown,276122776
+/vessels/details/276012840,VKB-039 MAYAS,Pleasure craft,276012840
+/vessels/details/276012200,EST-373 SADE,Sailing vessel,276012200
+/vessels/details/276017640,AURORA,Sailing vessel,276017640
+/vessels/details/276012310,EHE,Pleasure craft,276012310
+/vessels/details/276003980,LITTLE SISTER,Sailing vessel,276003980
+/vessels/details/276017150,BARBAROSSA,Sailing vessel,276017150
+/vessels/details/276016420,SANNEMARIE 2,Pleasure craft,276016420
+/vessels/details/276013180,GINGER,Pleasure craft,276013180
+/vessels/details/276001200,ADVENTURE,Pleasure craft,276001200
+/vessels/details/276008700,STRIX,Pleasure craft,276008700
+/vessels/details/276612000,ANNA-KLARA,Sailing vessel,276612000
+/vessels/details/276006320,FAR AWAY,Sailing vessel,276006320
+/vessels/details/276001930,NORDEA,Sailing vessel,276001930
+/vessels/details/276004040,LAURA,Pleasure craft,276004040
+/vessels/details/276013440,MARIA EST925,Sailing vessel,276013440
+/vessels/details/276018050,WAILANA,Pleasure craft,276018050
+/vessels/details/276011120,SLEEPER,Sailing vessel,276011120
+/vessels/details/276016230,UMAMI,Pleasure craft,276016230
+/vessels/details/276005660,LIIVA VLK234,Pleasure craft,276005660
+/vessels/details/276010530,CHRISTELLA,Sailing vessel,276010530
+/vessels/details/276018190,ODD,Pleasure craft,276018190
+/vessels/details/276017450,ZEITGEIST,Sailing vessel,276017450
+/vessels/details/276439000,VESTA,Pleasure craft,276439000
+/vessels/details/276017700,LOVISE,Sailing vessel,276017700
+/vessels/details/276721000,FORTE,Sailing vessel,276721000
+/vessels/details/276222617,62226-17-54,Unknown,276222617
+/vessels/details/276009880,GRANMA,Pleasure craft,276009880
+/vessels/details/276012460,MS MARLENE,Pleasure craft,276012460
+/vessels/details/276212597,LIN21259-7-51,Unknown,276212597
+/vessels/details/276434000,GRETEL,Sailing vessel,276434000
+/vessels/details/276017330,VKG-209,Pleasure craft,276017330
+/vessels/details/276013501,60135-1 90,Unknown,276013501
+/vessels/details/276008360,VLT-595,SAR,276008360
+/vessels/details/276700002,LIUSHA2-99,Unknown,276700002
+/vessels/details/276016960,M205,SAR,276016960
+/vessels/details/276002340,LOTTE,Sailing vessel,276002340
+/vessels/details/276006380,ROHUKYLA SAR,SAR,276006380
+/vessels/details/276006670,ESTELLA,Sailing vessel,276006670
+/vessels/details/276015690,VKF-806,Pleasure craft,276015690
+/vessels/details/276015750,SOLEIL,Pleasure craft,276015750
+/vessels/details/276061121,LXK60611-217.9V,Unknown,276061121
+/vessels/details/276219056,LIN21905-6-93,Unknown,276219056
+/vessels/details/276009430,AURORA,Pleasure craft,276009430
+/vessels/details/276008610,MESECINA,Sailing vessel,276008610
+/vessels/details/276013506,60135-6 90,Unknown,276013506
+/vessels/details/276007160,RASID12,Law enforcment,276007160
+/vessels/details/276014320,FREYJA,SAR,276014320
+/vessels/details/8922955,ARNO,Tug,8922955
+/vessels/details/276010810,SAARE DAAM,Sailing vessel,276010810
+/vessels/details/276015880,MIREEN,Pleasure craft,276015880
+/vessels/details/276015060,KYNE,Pleasure craft,276015060
+/vessels/details/276602000,BOSSA NOVA,Sailing vessel,276602000
+/vessels/details/276746000,MARI III,Unknown,276746000
+/vessels/details/276058101,60581-1 60,Unknown,276058101
+/vessels/details/276009210,HIRMUR 020,Unknown,276009210
+/vessels/details/276001110,GALENE,Sailing vessel,276001110
+/vessels/details/6905264,KALURI,Fishing Vessel,6905264
+/vessels/details/276005240,MILDA,Sailing vessel,276005240
+/vessels/details/276017380,SAGA 17,Pleasure craft,276017380
+/vessels/details/276016460,WELLCRAFT 355,Pleasure craft,276016460
+/vessels/details/276013507,60135-7 90,Unknown,276013507
+/vessels/details/276011880,RTS BALTIC,Sailing vessel,276011880
+/vessels/details/6519132,AMALIE,Passenger/Ro-Ro Cargo Ship,6519132
+/vessels/details/276007040,M44,Law enforcment,276007040
+/vessels/details/276016250,PILAR,Pleasure craft,276016250
+/vessels/details/276001640,GERDA,Pleasure craft,276001640
+/vessels/details/276003300,FELICA,Fishing vessel,276003300
+/vessels/details/8820872,TENACIOUS,Fishing Vessel,8820872
+/vessels/details/276058108,60581-8 90,Unknown,276058108
+/vessels/details/276004880,ABIGAIL,Sailing vessel,276004880
+/vessels/details/276009080,SOFIA II,Sailing vessel,276009080
+/vessels/details/276010180,AXOPAR ANNIE VLV-011,Pleasure craft,276010180
+/vessels/details/276013509,60135-9 90,Unknown,276013509
+/vessels/details/276006740,DOLPHI,Sailing vessel,276006740
+/vessels/details/276004630,CHRISTLYN,Sailing vessel,276004630
+/vessels/details/276009290,BREMEN,SAR,276009290
+/vessels/details/276012880,TALLINN SAR,SAR,276012880
+/vessels/details/276015640,NOLITA SOLO SAILOR,Sailing vessel,276015640
+/vessels/details/276016550,VKG-507,Pleasure craft,276016550
+/vessels/details/8887686,KAUNISPEA,Fishing Vessel,8887686
+/vessels/details/276008810,276008810,Pleasure craft,276008810
+/vessels/details/276058103,60581-3 90,Unknown,276058103
+/vessels/details/276005580,SY RIIGEL,Sailing vessel,276005580
+/vessels/details/276002820,CATARINA,Pleasure craft,276002820
+/vessels/details/276016500,SOFI,Pleasure craft,276016500
+/vessels/details/276012330,ATHOS,Other type,276012330
+/vessels/details/276011840,BRIGITTA,Sailing vessel,276011840
+/vessels/details/276017540,KATLIN,Pleasure craft,276017540
+/vessels/details/276003450,VLH 681,Pleasure craft,276003450
+/vessels/details/276888888,T388888T6,Cargo ship,276888888
+/vessels/details/276770000,LIKA,Pleasure craft,276770000
+/vessels/details/276010590,KLAARA,Pleasure craft,276010590
+/vessels/details/276009790,SY LINDA,Sailing vessel,276009790
+/vessels/details/276008520,SY MERILIN,Sailing vessel,276008520
+/vessels/details/276013510,60135-10 90,Pleasure craft,276013510
+/vessels/details/276015990,BIRGITTA,Pleasure craft,276015990
+/vessels/details/276017030,ANGEL ROSE IV,Pleasure craft,276017030
+/vessels/details/276013250,MERILY 3,Pleasure craft,276013250
+/vessels/details/276128857,LIN12885-7-99,Unknown,276128857
+/vessels/details/276004310,NEMRAC,Pleasure craft,276004310
+/vessels/details/276012830,BLACK MOUSE,Pleasure craft,276012830
+/vessels/details/276618628,HY HUNG,Fishing vessel,276618628
+/vessels/details/276014390,CHARLOTTA,Pleasure craft,276014390
+/vessels/details/276015590,COMPU,Sailing vessel,276015590
+/vessels/details/276004860,CREMEFRAES - VLM-582,Sailing vessel,276004860
+/vessels/details/276015230,SELINA,Pleasure craft,276015230
+/vessels/details/276708000,ADELE,Pleasure craft,276708000
+/vessels/details/276001690,SY RAMONA,Sailing vessel,276001690
+/vessels/details/276013450,HELIN,Pleasure craft,276013450
+/vessels/details/276010800,ADELINA 2,Sailing vessel,276010800
+/vessels/details/276222606,62226-6-42,Unknown,276222606
+/vessels/details/276004750,EVEMAI,Pleasure craft,276004750
+/vessels/details/276004560,MINNI,Unknown,276004560
+/vessels/details/276012550,GURGI,Sailing vessel,276012550
+/vessels/details/276002890,LOOD,Other type,276002890
+/vessels/details/276008650,KLARINA,Pleasure craft,276008650
+/vessels/details/276218883,LIN21888-3-97,Unknown,276218883
+/vessels/details/7524495,KIRRE,Fishing Vessel,7524495
+/vessels/details/276219804,LIN21980-4-51,Unknown,276219804
+/vessels/details/276002720,SY MARITA,Sailing vessel,276002720
+/vessels/details/276015930,HETI,Pleasure craft,276015930
+/vessels/details/6502074,ISBJORN,Tug,6502074
+/vessels/details/276017560,MISS MICHELLE,Pleasure craft,276017560
+/vessels/details/276499000,KARMEN,Pleasure craft,276499000
+/vessels/details/276005100,DEBORAH,Pleasure craft,276005100
+/vessels/details/276003430,OOSORR,Sailing vessel,276003430
+/vessels/details/276006090,TETINA,Sailing vessel,276006090
+/vessels/details/276010020,AXOPAR 37 METEOR2,Pleasure craft,276010020
+/vessels/details/276016430,JAAGUP VKG-368,Other type,276016430
+/vessels/details/8877916,VAANA,Fishing Vessel,8877916
+/vessels/details/276003280,ARABELLA,Pleasure craft,276003280
+/vessels/details/8858465,NARVIA,Fishing Vessel,8858465
+/vessels/details/276004110,ELLI,Sailing vessel,276004110
+/vessels/details/276222609,62226-9-90,Unknown,276222609
+/vessels/details/276001990,SY KRISTEL,Sailing vessel,276001990
+/vessels/details/276041607,YU60416-96,Fishing vessel,276041607
+/vessels/details/276012600,SINILIND,Sailing vessel,276012600
+/vessels/details/276007850,CIBELLE,Sailing vessel,276007850
+/vessels/details/276222610,62226-10-53,Unknown,276222610
+/vessels/details/276013230,SAR SLAVA KAESI,SAR,276013230
+/vessels/details/276014580,HANNEGER,Sailing vessel,276014580
+/vessels/details/276041608,YU60416-97,Fishing vessel,276041608
+/vessels/details/276700014,LIUSHA14-09,Unknown,276700014
+/vessels/details/276102397,SHENG10239-7-99,Unknown,276102397
+/vessels/details/276058109,60581-9 90,Unknown,276058109
+/vessels/details/276016800,M 202,SAR,276016800
+/vessels/details/276016170,ROYS ROLLS,Sailing vessel,276016170
+/vessels/details/276013540,FOONIKS,Pleasure craft,276013540
+/vessels/details/276014500,GAIA,Sailing vessel,276014500
+/vessels/details/276010450,HUSKY,Pleasure craft,276010450
+/vessels/details/7028491,LIPTON,Fishing Vessel,7028491
+/vessels/details/276017400,CORVINO,Sailing vessel,276017400
+/vessels/details/276606276,QDY06276-B6-40,Unknown,276606276
+/vessels/details/276017180,GUNILLA,Sailing vessel,276017180
+/vessels/details/276013370,JOSEPHINE,Pleasure craft,276013370
+/vessels/details/276013810,SERPA,Sailing vessel,276013810
+/vessels/details/276016690,BLACK PEARL,Pleasure craft,276016690
+/vessels/details/276018060,ANDRESA2,Pleasure craft,276018060
+/vessels/details/276218976,LIN21897-6-85,Unknown,276218976
+/vessels/details/276008420,SUGAR 3,Sailing vessel,276008420
+/vessels/details/276017010,WELLE,Pleasure craft,276017010
+/vessels/details/8228505,TOPU,Fishing Vessel,8228505
+/vessels/details/276008380,HILJA,Sailing vessel,276008380
+/vessels/details/276004910,SY ANETTE,Sailing vessel,276004910
+/vessels/details/276015730,MIRJAM,Pleasure craft,276015730
+/vessels/details/276568989,40086-A14-99,Unknown,276568989
+/vessels/details/276001060,EST535 MY CAR,Sailing vessel,276001060
+/vessels/details/276006710,MARGARITHA,Pleasure craft,276006710
+/vessels/details/276016730,CORAL,Sailing vessel,276016730
+/vessels/details/276010520,AMILDE,Sailing vessel,276010520
+/vessels/details/276008170,SEAGULL,Pleasure craft,276008170
+/vessels/details/276016480,VKNG II,Pleasure craft,276016480
+/vessels/details/276690000,ANN-MARI 1,Fishing vessel,276690000
+/vessels/details/276016540,JAALIND,Sailing vessel,276016540
+/vessels/details/276698000,LISETTE,Sailing vessel,276698000
+/vessels/details/276012540,VALENTINA,Sailing vessel,276012540
+/vessels/details/276017870,STORMHUNTER,Pleasure craft,276017870
+/vessels/details/276002680,VLH-924,Pleasure craft,276002680
+/vessels/details/8922761,JURKO,Fishing Vessel,8922761
+/vessels/details/8870891,ERMISTU,Fishing Vessel,8870891
+/vessels/details/276016350,NAMAR,Sailing vessel,276016350
+/vessels/details/276222605,62226-5-76,Unknown,276222605
+/vessels/details/276014720,ROCINANTE,Pleasure craft,276014720
+/vessels/details/276002020,KATARIINA II,Sailing vessel,276002020
+/vessels/details/276479000,AHTO-06,Pilot,276479000
+/vessels/details/276005880,ELIZA,Sailing vessel,276005880
+/vessels/details/276218116,LIN21811-6-97,Unknown,276218116
+/vessels/details/276009200,LA PALOMA,Pleasure craft,276009200
